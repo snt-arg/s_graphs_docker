@@ -42,7 +42,9 @@ RUN rosdep update
 WORKDIR /root/s_graphs_ws
 RUN rosdep install --from-paths src --ignore-src -r -y
 
-RUN catkin config --install && catkin build
+RUN catkin config --extend /opt/ros/noetic/
+RUN catkin config --install
+RUN catkin build
 
 # Remove SSH keys
 RUN rm -rf /root/.ssh/
