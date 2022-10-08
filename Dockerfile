@@ -11,11 +11,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 python3-pip python3-vcstool git \
     openssh-server libmysqlclient-dev libtool
 
-# RUN apt-get update && apt-get install -y --no-install-recommends \
-#     wget build-essential clang lld libtool\
-#     ros-noetic-tf-conversions ros-noetic-libg2o \
-#     python3 python3-pip python3-vcstool git
-
 RUN pip3 install -U catkin_tools
 
 # Authorize SSH Host (only temporary)
