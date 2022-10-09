@@ -2,7 +2,7 @@
 
 This docker image contains the the s_graphs ROS workspace installed for the ease of use of the software.
 
-## - Getting started
+## Getting started
 
 1. Pull the docker image from DockerHub
 
