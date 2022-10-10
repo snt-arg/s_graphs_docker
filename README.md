@@ -7,10 +7,10 @@ This docker image contains the the s_graphs ROS workspace installed for the ease
 1. Pull the docker image from DockerHub
 
 ```sh
-docker pull s_graphs
+docker pull pedros235/s_graphs:latest
 ```
 
-1. Create a container for the s_graphs image.
+2. Create a container for the s_graphs image.
 
 ```sh
 docker run -dit --net host --name s_graphs_container s_graphs
@@ -18,13 +18,13 @@ docker run -dit --net host --name s_graphs_container s_graphs
 
 This command also incorporates the flags `d`, which makes the container run in the detached mode and `net`, which gives the container the access of the host interfaces.
 
-1. Execute the container
+3. Execute the container
 
 ```sh
 docker exec -ti s_graphs_container bash
 ```
 
-1. Source the s_graphs worspace
+4. Source the s_graphs worspace
 
 ```sh
 source devel/setup.bash
