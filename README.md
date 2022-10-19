@@ -75,12 +75,30 @@ source devel/setup.bash
 
 **Note:** For each command below, please execute them in separate terminal windows!
 
+### Download Datasets
+
+_Each dataset will be downloaded to the current directory_
+
+**For a real dataset**
+
+```bash
+./download_real_dataset.sh
+```
+
+**For a virtual dataset**
+
+```bash
+./download_virtual_dataset.sh
+```
+
 ### Real Dataset
 
 ```bash
 roscd s_graphs && rviz -d rviz/s_graphs.rviz
 ```
+
 **The next command run it inside the docker container!**
+
 ```bash
 roslaunch s_graphs s_graphs.launch use_free_space_graph:=true 2>/dev/null
 ```
@@ -94,7 +112,9 @@ rosbag PATH_TO_ROSBAG_DATASET --clock
 ```bash
 roscd s_graphs && rviz -d rviz/s_graphs.rviz
 ```
+
 **The next command run it inside the docker container!**
+
 ```bash
 roslaunch s_graphs s_graphs.launch use_free_space_graph:=true env:=virtual 2>/dev/null
 ```
