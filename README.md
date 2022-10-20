@@ -79,18 +79,16 @@ source devel/setup.bash
 
 ### Download Datasets
 
-_Each dataset will be downloaded to the current directory_
-
 **For a real dataset**
 
 ```bash
-./download_real_dataset.sh
+https://uniluxembourg-my.sharepoint.com/:u:/g/personal/hriday_bavle_uni_lu/EQN2qUn1P1dKuzcZqan8o3UBrBMa8b5Pcspupm_CBFHTgA?e=JxYnAJ
 ```
 
 **For a virtual dataset**
 
 ```bash
-./download_virtual_dataset.sh
+https://uniluxembourg-my.sharepoint.com/:u:/g/personal/hriday_bavle_uni_lu/EWy7dyDnGzFLh3LMR0VXYQABne9B_NZ0YCM-o_PF8PPY5g?e=xoThE1
 ```
 
 ### Real Dataset
