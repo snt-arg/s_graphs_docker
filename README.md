@@ -177,7 +177,7 @@ rosbag play PATH_TO_THIS_REPO/virtual_dataset --clock
 
   - Subscribed Topics
 
-    - `/s_graphs/all_map_planes` ([visualization_msgs/MarkerArray](http://docs.ros.org/en/noetic/api/visualization_msgs/html/msg/MarkerArray.html))
+    - `/s_graphs/all_map_planes` (s_graphs/PlanesData)
       - All the planes that were seen by the robot.
 
   - Published Topics
