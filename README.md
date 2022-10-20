@@ -206,7 +206,7 @@ All the configurable parameters are listed in _launch/s_graphs.launch_ as ros pa
   ...
 ```
 
-3. If you have an odometry source convert it to base ENU frame, then remove the scanmatching nodelet from line #37 to #50 in `s_graphs.launch` and then remap odom topic in **_SGraphsNodelet_** like 
+3. If you have an odometry source convert it to base ENU frame, then remove the **_ScanMatchingNodelet_** from line #37 to #50 in `s_graphs.launch` and then remap odom topic in **_SGraphsNodelet_** like 
 
 ```xml
   <node pkg="nodelet" type="nodelet" name="s_graphs" args="load s_graphs/SGraphsNodelet s_graphs_nodelet_manager" output="screen"> 
