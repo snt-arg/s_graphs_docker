@@ -39,13 +39,15 @@
 
 ## Getting started
 
-1. Pull the docker image from DockerHub
+1. Clone this repository
+
+2. Pull the docker image from DockerHub
 
 ```sh
 docker pull sntarg/s_graphs:latest
 ```
 
-2. Create a container for the s_graphs image.
+3. Create a container for the s_graphs image.
 
 ```sh
 docker run -dit --net host --name s_graphs_container sntarg/s_graphs
@@ -53,13 +55,13 @@ docker run -dit --net host --name s_graphs_container sntarg/s_graphs
 
 This command also incorporates the flags `d`, which makes the container run in the detached mode and `net`, which gives the container the access of the host interfaces.
 
-3. Execute the container
+4. Execute the container
 
 ```sh
 docker exec -ti s_graphs_container bash
 ```
 
-4. Source the s_graphs worspace
+5. Source the s_graphs workspace
 
 ```sh
 source devel/setup.bash
@@ -94,7 +96,7 @@ _Each dataset will be downloaded to the current directory_
 ### Real Dataset
 
 ```bash
-roscd s_graphs && rviz -d rviz/s_graphs.rviz
+cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 ```
 
 **The next command run it inside the docker container!**
@@ -104,13 +106,13 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
-rosbag PATH_TO_ROSBAG_DATASET --clock
+rosbag PATH_TO_THIS_REPO/real_dataset --clock
 ```
 
 ### Virtual Dataset
 
 ```bash
-roscd s_graphs && rviz -d rviz/s_graphs.rviz
+cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 ```
 
 **The next command run it inside the docker container!**
@@ -120,7 +122,7 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true env:=virtual 2>/de
 ```
 
 ```bash
-rosbag play PATH_TO_ROSBAG_DATASET --clock
+rosbag play PATH_TO_THIS_REPO/virtual_dataset --clock
 ```
 
 ## ROS Related
