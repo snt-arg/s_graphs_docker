@@ -92,7 +92,7 @@ cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 **The next command run it inside the docker container!**
 
 ```bash
-roslaunch s_graphs s_graphs.launch use_free_space_graph:=true 2>/dev/null
+roslaunch s_graphs s_graphs.launch env:=real use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
@@ -108,7 +108,7 @@ cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 **The next command run it inside the docker container!**
 
 ```bash
-roslaunch s_graphs s_graphs.launch use_free_space_graph:=true env:=virtual 2>/dev/null
+roslaunch s_graphs s_graphs.launch env:=virtual use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
