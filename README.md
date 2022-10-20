@@ -96,7 +96,7 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
-rosbag PATH_TO_REAL_DATASET --clock
+rosbag PATH_TO_THIS_REPO/real_dataset --clock
 ```
 
 ### Virtual Dataset
@@ -112,7 +112,7 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true env:=virtual 2>/de
 ```
 
 ```bash
-rosbag play PATH_TO_VIRTUAL_DATASET --clock
+rosbag play PATH_TO_THIS_REPO/virtual_dataset --clock
 ```
 
 ## ROS Related
@@ -193,6 +193,27 @@ All the configurable parameters are listed in _launch/s_graphs.launch_ as ros pa
 - `map2odom`: The transform published between the map frame and the odom frame after the corrections have been applied.
 
 ![Tf Tree](./imgs/Tf-tree.png)
+
+## Instructions To Use S-Graphs
+
+1. Define the transformation between your sensors (LIDAR, IMU, GPS) and base_link of your system using static_transform_publisher (see line #94, s_graphs.launch). All the sensor data will be transformed into the common `base_link` frame, and then fed to the SLAM algorithm. Note: `base_link` frame in virtual dataset is set to `base_footprint` and in real dataset is set to `body` 
+
+2. Remap the point cloud topic of **_PrefilteringNodelet_**. Like:
+
+```xml
+  <node pkg="nodelet" type="nodelet" name="hdl_prefilter" args="load s_graphs/PrefilteringNodelet hdl_prefilter_nodelet_manager">
+    <remap from="/velodyne_points" to="/rslidar_points"/>
+  ...
+```
+
+3. If you have an odometry source convert it to base ENU frame, then remove the scanmatching nodelet from line #37 to #50 in `s_graphs.launch` and then remap odom topic in **_SGraphsNodelet_** like 
+
+```xml
+  <node pkg="nodelet" type="nodelet" name="s_graphs" args="load s_graphs/SGraphsNodelet s_graphs_nodelet_manager" output="screen"> 
+    <remap if="$(eval arg('env') == 'real')" from="/odom" to="/platform/odometry" />
+  ...
+```
+Note: If you want to visualize the tfs correctly then your odom source must provide a tf from the `odom` to `base_link` frame.  
 
 ## License
 
