@@ -96,7 +96,7 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
-rosbag PATH_TO_THIS_REPO/real_dataset --clock
+rosbag PATH_TO_REAL_DATASET --clock
 ```
 
 ### Virtual Dataset
@@ -112,7 +112,7 @@ roslaunch s_graphs s_graphs.launch use_free_space_graph:=true env:=virtual 2>/de
 ```
 
 ```bash
-rosbag play PATH_TO_THIS_REPO/virtual_dataset --clock
+rosbag play PATH_TO_VIRTUAL_DATASET --clock
 ```
 
 ## ROS Related
