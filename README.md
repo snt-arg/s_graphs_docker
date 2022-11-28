@@ -115,6 +115,20 @@ roslaunch s_graphs s_graphs.launch env:=virtual use_free_space_graph:=true 2>/de
 rosbag play PATH_TO_THIS_REPO/virtual_dataset --clock
 ```
 
+### Dataset only using a Velodyne
+
+```bash
+roscd s_graphs && rviz -d rviz/s_graphs.rviz
+```
+
+```bash
+roslaunch s_graphs s_graphs.launch use_free_space_graph:=true compute_odom:=true 2>/dev/null
+```
+
+```bash
+rosbag play PATH_TO_ROSBAG_DATASET --clock
+```
+
 ## ROS Related
 
 ### Nodelets
