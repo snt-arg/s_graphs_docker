@@ -1,3 +1,6 @@
+---
+title-heading: false
+---
 <p align="center">
   <h1 align="center">S-Graphs</h1>
     <p align="center">
@@ -18,7 +21,11 @@
 
 <br>
 
-![S-Graphs Banner](./imgs/banner.png)
+<p align="center">
+  <a href="">
+    <img src="./imgs/banner.png" alt="Logo" width="80%">
+  </a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
