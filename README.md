@@ -1,25 +1,76 @@
-# S-Graphs
+<p align="center">
+  <h1 align="center">S-Graphs</h1>
+    <p align="center">
+    <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
+    ·
+    <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><strong>Jose Luis Sanchez-Lopez</strong></a>
+    <br>
+    <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><strong>Muhammad Shaheer</strong></a>
+    ·
+    <a href="https://arxiv.org/search/cs?searchtype=author&query=Civera%2C+J"><strong>Javier Civera</strong></a>
+    ·
+    <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><strong>Holger Voos</strong></a>
+  </p>
 
-**Situational graphs (S-Graphs)** is a ROS package for generating in real-time three-layered hierarchical factor graphs representing a scene graph including the lowest **_Robot Tracking Layer_** registring the robot poses, **_Metric-Semantic Layer_** which maps planar features and **_Topological Layer_** constraining the planar features using room/corridor factors. It also supports several graph constraints, such as GPS, IMU acceleration (gravity vector), IMU orientation (magnetic sensor). We have tested this package with Velodyne (VLP16) sensors in structured indoor environments. This work is a fork of [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam)
+  <h3 align="center"><a href="https://arxiv.org/abs/2211.08754">Paper</a> | <a href="https://www.youtube.com/watch?v=zPbPe9JXgKk">Video</a></h3>
+  
+</p>
+
+<br>
 
 ![S-Graphs Banner](./imgs/banner.png)
 
-## Table of contents
-
-- [Published Papers](#published-papers)
-- [Getting Started](#getting-started)
-- [About S-Graphs](#about-s-graphs)
-  - [Architecture](#architecture)
-- [Example on Datasets](#example-on-datasets)
-  - [Real Dataset](#real-dataset)
-  - [Virtual Dataset](#virtual-dataset)
-- [ROS Related](#ros-related)
-  - [Nodelets](#nodelets)
-  - [Published TFs](#published-tfs)
-  - [Services](#services)
-  - [Parameters](#parameters)
-- [License](#license)
-- [Maintainers](#maintainers)
+<!-- TABLE OF CONTENTS -->
+<details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-s-graphs">About S-Graphs</a>
+      <ul>
+        <li>
+          <a href="#architecture">Architecture</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li>
+      <a href="#example-on-datasets">Example on Datasets</a>
+      <ul>
+        <li>
+          <a href="#real-dataset">Real Dataset</a>
+        </li>
+        <li>
+          <a href="#virtual-dataset">Virtual Dataset</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#ros-related">ROS Related</a>
+        <ul>
+        <li>
+          <a href="#nodelets">Nodelets</a>
+        </li>
+        <li>
+          <a href="#published-tfs">Published TFs</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#parameters">Parameters</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#license">License</a>
+    </li>
+    <li>
+      <a href="#maintainers">Maintainers</a>
+    </li>
+  </ol>
+</details>
 
 ## Published Papers
 
