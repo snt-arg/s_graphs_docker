@@ -1,0 +1,79 @@
+<div id="landing">
+  <div class="landing-title">
+    <h1> {{ site.title }}</h1>
+      <p align="center">
+        <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><strong>Jose Luis Sanchez-Lopez</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><strong>Muhammad Shaheer</strong></a>
+        ·
+        <a href="https://arxiv.org/search/cs?searchtype=author&query=Civera%2C+J"><strong>Javier Civera</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><strong>Holger Voos</strong></a>
+      </p>
+    <div class="landing-icons">
+      {% if site.email != null %}
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/solid.svg#envelope" | prepend: site.baseurl }}""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail</span>
+        </a>
+      {% endif %}
+
+      {% if site.github_username != null %}
+        <a class="social-link" aria-label="GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/{{site.github_username}}"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#github" | prepend: site.baseurl }}"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      {% endif %}
+
+      {% if site.youtube_link != null %}
+      <a class="social-link" aria-label="Video" target="_blank" rel="noreferrer"
+        href="{{site.youtube_link}}"
+      >
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#youtube" | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">Video</span>
+      </a>
+    {% endif %}
+
+    {% if site.paper_link != null %}
+    <a class="social-link" aria-label="Paper" target="_blank" rel="noreferrer"
+      href="{{site.paper_link}}"
+    >
+      <svg viewBox="0 0 200 200" class="circle">
+        <circle cx="100" cy="100" r="80" />
+      </svg>
+      <div class="social">
+        <svg class="social-svg" viewBox="0 0 48 48">
+          <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#paper-file" | prepend: site.baseurl }}"></use>
+        </svg>
+      </div>
+      <span class="label">Paper</span>
+    </a>
+    {% endif %}
+    </div>
+  </div>
+</div>

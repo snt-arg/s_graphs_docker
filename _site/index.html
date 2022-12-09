@@ -1,78 +1,196 @@
-<p align="center">
-  <h1 align="center">S-Graphs</h1>
-    <p align="center">
-    <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
-    ·
-    <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><strong>Jose Luis Sanchez-Lopez</strong></a>
-    <br>
-    <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><strong>Muhammad Shaheer</strong></a>
-    ·
-    <a href="https://arxiv.org/search/cs?searchtype=author&query=Civera%2C+J"><strong>Javier Civera</strong></a>
-    ·
-    <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><strong>Holger Voos</strong></a>
-  </p>
+<!DOCTYPE html>
+<html lang="en">
 
-  <h3 align="center"><a href="https://arxiv.org/abs/2211.08754">Paper</a> | <a href="https://www.youtube.com/watch?v=zPbPe9JXgKk">Video</a></h3>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>S-Graph</title>
+  <meta name="description" content="Here">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/uniLU.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/uniLU.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/uniLU.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <h1> S-Graph</h1>
+      <p align="center">
+        <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><strong>Jose Luis Sanchez-Lopez</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><strong>Muhammad Shaheer</strong></a>
+        ·
+        <a href="https://arxiv.org/search/cs?searchtype=author&query=Civera%2C+J"><strong>Javier Civera</strong></a>
+        ·
+        <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><strong>Holger Voos</strong></a>
+      </p>
+    <div class="landing-icons">
+      
+
+      
+        <a class="social-link" aria-label="GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/snt-arg/s_graphs_docker"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      
+
+      
+      <a class="social-link" aria-label="Video" target="_blank" rel="noreferrer"
+        href="https://www.youtube.com/watch?v=zPbPe9JXgKk"
+      >
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#youtube"></use>
+          </svg>
+        </div>
+        <span class="label">Video</span>
+      </a>
+    
+
+    
+    <a class="social-link" aria-label="Paper" target="_blank" rel="noreferrer"
+      href="https://arxiv.org/abs/2211.08754"
+    >
+      <svg viewBox="0 0 200 200" class="circle">
+        <circle cx="100" cy="100" r="80" />
+      </svg>
+      <div class="social">
+        <svg class="social-svg" viewBox="0 0 48 48">
+          <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#paper-file"></use>
+        </svg>
+      </div>
+      <span class="label">Paper</span>
+    </a>
+    
+    </div>
+  </div>
+</div>
+
+  <div class="layout">
+    
+    <section align="center">
+      <div>
+    <img src="/assets/gifs/s_graphs.gif" alt="Gif-S-Graph" width="90%">
+</div>
+    </section>
   
-</p>
+    
+      <section class="card neumorphism-card-big">
+        <!-- data-aos="fade-down" -->
+<h1 class="title">Abstract</h1>
+<p class="description" >Mobile robots extract information from its environment to understand their current situation to enable intelligent decision making and autonomous task execution. In our previous work [1], we introduced the concept of Situation Graphs (S- Graphs) which combines in a single optimizable graph, the robot keyframes and the representation of the environment with geometric, semantic and topological abstractions. Although S- Graphs were built and optimized in real-time and demonstrated state-of-the-art results, they are limited to specific structured environments with specific hand-tuned dimensions of rooms and corridors. In this work, we present an advanced version of the Situational Graphs (S-Graphs+), consisting of the five layered optimizable graph that includes (1) metric layer along with the graph of free-space clusters (2) keyframe layer where the robot poses are registered (3) metric-semantic layer consisting of the extracted planar walls (4) novel rooms layer constraining the extracted planar walls (5) novel floors layer encompassing the rooms within a given floor level. S-Graphs+ demonstrates improved performance over S-Graphs efficiently extracting the room information while simultaneously improving the pose estimate of the robot, thus extending the robots situational awareness in the form of a five layered environmental model.</p>
 
-<br>
+      </section>
+    
+    
+    
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Citation</h1>
+<div class="box">
+<pre>
+    <code data-prismjs-copy="copy"> 
+@misc{bavle2022situational,
+    <span class="hljs-attr">title={Situational</span> Graphs for Robot Navigation <span class="hljs-keyword">in</span> Structured Indoor Environments},
+    <span class="hljs-attr">author={Hriday</span> Bavle <span class="hljs-literal">and</span> Jose Luis Sanchez-Lopez <span class="hljs-literal">and</span> Muhammad Shaheer <span class="hljs-literal">and</span> Javier Civera <span class="hljs-literal">and</span> Holger Voos},
+    <span class="hljs-attr">year={2022},</span>
+    <span class="hljs-attr">eprint={2202.12197},</span>
+    <span class="hljs-attr">archivePrefix={arXiv},</span>
+    <span class="hljs-attr">primaryClass={cs.RO}</span>
+}
+    </code>
+</pre>
+</div>
+    </section>
+    
+    
+  </div>
+   <!-- &copy;  -->
+<footer class="footer">
+  <p>
+    The template is based on
+    <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer">
+      Neumorphism
+    </a> designed by
+    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+      Long Do
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
 
-<p align="center">
-  <a href="">
-    <img src="./imgs/banner.png" alt="Logo" width="80%">
-  </a>
-</p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-s-graphs">About S-Graphs</a>
-      <ul>
-        <li>
-          <a href="#architecture">Architecture</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li>
-      <a href="#example-on-datasets">Example on Datasets</a>
-      <ul>
-        <li>
-          <a href="#real-dataset">Real Dataset</a>
-        </li>
-        <li>
-          <a href="#virtual-dataset">Virtual Dataset</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#ros-related">ROS Related</a>
-        <ul>
-        <li>
-          <a href="#nodelets">Nodelets</a>
-        </li>
-        <li>
-          <a href="#published-tfs">Published TFs</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#parameters">Parameters</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#license">License</a>
-    </li>
-    <li>
-      <a href="#maintainers">Maintainers</a>
-    </li>
-  </ol>
-</details>
+<!-- Google Analytics -->
 
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>
