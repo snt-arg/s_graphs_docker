@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <p align="center">
   <h1 align="center">S-Graphs</h1>
     <p align="center">
