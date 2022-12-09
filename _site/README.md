@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="">
-    <img src="./imgs/banner.png" alt="Logo" width="80%">
+    <img src="./assets/img/banner.png" alt="Logo" width="80%">
   </a>
 </p>
 
