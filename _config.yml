@@ -1,6 +1,8 @@
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: S-Graph
+markdown: kramdown
+theme: jekyll-theme-minimal
 # description: This will be meta HTML tag content. This can be ignored.
 description: Meta HTML --> EDIT LATER
 # baseurl: The subpath of your site
@@ -24,7 +26,6 @@ youtube_link: https://www.youtube.com/watch?v=zPbPe9JXgKk
 
 # LANDING GIF
 gif-landing: true
-
 # ABOUT ME SECTION
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
@@ -94,10 +95,10 @@ projects:
     # - repo2-to-be-excluded
 
 # CITATION 
-citation: true
+citation: false
 citation_title: Citation
 # Footer
-enable-footer: true
+enable-footer: false
 # GOOGLE-ANALYTICS
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics

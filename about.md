@@ -37,7 +37,7 @@ source devel/setup.bash
 
 ### Architecture
 
-![S-Graphs Architecture](./imgs/system_architecture.png)
+![S-Graphs Architecture](./assets/imgs/system_architecture.png)
 
 ## Example on Datasets
 

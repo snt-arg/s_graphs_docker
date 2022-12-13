@@ -1,6 +1,5 @@
-<div id="landing">
-  <div class="landing-title">
-    <h1> {{ site.title }}</h1>
+<div class="landing-title">
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
       <p align="center">
         <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
         ·
@@ -60,6 +59,19 @@
       <span class="label">Paper</span>
     </a>
     {% endif %}
-    </div>
   </div>
+  <div class="space-section">
+    <!-- additional pages -->
+    {% assign sorted = site.html_pages | sort:"rank" %}
+    {% for item in sorted %}
+      {% if item.path != "index.md" and item.title and item.rank %}
+        <li>
+          <a href="{{ item.path | replace:'.md','.html' }}">{{ item.title }}</a>
+          <!-- <span> [ {{ item.path }} - {{ item.title }} - {{ item.rank }} ] </span> -->
+        </li>
+      {% endif %}
+    {% endfor %}
+    <!-- end additional pages -->
+  </div>
+</div>
 </div>

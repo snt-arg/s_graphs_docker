@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-
 /* Variables */
 
 $small-screen: 48em !default;
@@ -37,6 +36,58 @@ html {
 
 body {
   height: 100%;
+}
+header {
+  float:left;
+  width:33%;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+  float:right;
+  width: 50%;
+  padding:5px;
+
+}
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
 }
 
 /* Typography */
@@ -84,7 +135,7 @@ a {
 .layout {
   margin: 0.5rem;
   max-width: $large-screen;
-  padding: 0.5rem 0.5rem;
+  padding: 50rem;
 }
 
 .layout .card {
@@ -96,7 +147,6 @@ a {
 
 .layout .card .title {
   text-align: center;
-  position: relative;
 }
 
 .layout .card .subtitle {
@@ -137,6 +187,7 @@ a {
 
 .neumorphism-card-big {
   box-shadow: 3px 3px 3px #a4a6a871, -3px -3px 3px #a4a6a871;
+  padding:20px;
 }
 
 /* Preloader */
@@ -234,7 +285,7 @@ a {
   background: $bg-color;
   color: $text-color;
   display: flex;
-  height: 30%;
+  height: 20%;
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
@@ -247,6 +298,11 @@ a {
   position: absolute;
   right: 0;
   top: 2%;
+}
+
+.space-section{
+  padding-top: 3rem;
+  position: relative;
 }
 
 .contributors {
@@ -915,4 +971,15 @@ a {
   100% {
     bottom: 0;
   }
+}
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
