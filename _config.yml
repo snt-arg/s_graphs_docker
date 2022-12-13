@@ -5,7 +5,8 @@ title: S-Graph
 description: Here
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/s_graphs_docker"
+url: https://snt-arg.github.io
+baseurl: /s_graphs_docker
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
