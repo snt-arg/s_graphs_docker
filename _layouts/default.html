@@ -32,42 +32,9 @@
   </div>
   {% include landing-page.html %}
   <div class="layout">
-    {%if site.gif-landing %}
-    <section align="center">
-      {% include gif-landing.html %}
-    </section>
-  {% endif %}
-    {%if site.show_abstract_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-abstract.html %}
-      </section>
-    {% endif %}
-    {%if site.show_skills_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-skills.html %}
-      </section>
-    {% endif %}
-    {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-timeline.html %}
-      </section>
-    {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
-      </section>
-    {% endif %}
-    {%if site.citation %}
-    <section class="card neumorphism-card-big">
-      {% include citation.html %}
-    </section>
-    {% endif %}
-    {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
-    </section>
-    {% endif %}
-  </div>
-  {% include footer.html %}
+    <div>
+      {% include navigation.html %}
+      {{content}}
+    </div>
 </body>
 </html>
