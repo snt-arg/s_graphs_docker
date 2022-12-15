@@ -14,9 +14,9 @@
     </div>
   </div>
   <!-- End loading squares-->
-
-  <div class="layout">
-  <header id="landing">
+  {% include additional_pages.html %}
+  <div>
+  <header id = "landing" class="some-landing">
     {% include landing-page.html %}
   </header>
   {{content}}
@@ -24,7 +24,5 @@
 <footer>
   {% include footer.html %}
 </footer>
-</div>
 </body>
-
 </html>

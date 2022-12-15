@@ -1,16 +1,24 @@
 ---
 layout: default
 ---
-<section class="card neumorphism-card-big">
+<section>
     {%if site.gif-landing %}
       {% include gif-landing.html %}
     {% endif %}
-
+</section>
+<section>
     {%if site.show_abstract_card %}
       {% include section-abstract.html %}
     {% endif %}
-
+</section>
+<section>
+    {%if site.show_architecture %}
+      {% include architecture.html %}
+    {% endif %}
+</section>
+<section>
     {%if site.citation %}
       {% include citation.html %}
     {% endif %}
-    </section>
+</section>
+

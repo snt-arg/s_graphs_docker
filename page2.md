@@ -1,34 +1,58 @@
 ---
 layout: default
-title: Getting Started
+title: Examples
 rank: 2
 ---
-<section class="card neumorphism-card-big">
-1. Clone this repository
-
-2. Pull the docker image from DockerHub
-
-```sh
-docker pull sntarg/s_graphs:latest
-```
-
-3. Create a container for the s_graphs image.
-
-```sh
-docker run -dit --net host --name s_graphs_container sntarg/s_graphs
-```
-
-This command also incorporates the flags `d`, which makes the container run in the detached mode and `net`, which gives the container the access of the host interfaces.
-
-4. Execute the container
-
-```sh
-docker exec -ti s_graphs_container bash
-```
-
-5. Source the s_graphs workspace
-
-```sh
-source devel/setup.bash
-```
+<section class="section-pad">
+    <p><strong>Note:</strong> <em>For each command below, please execute them in separate terminal windows!</em></p>
+    <h2>Download Datasets</h2>
+    <p><a href="https://uniluxembourg-my.sharepoint.com/:u:/g/personal/hriday_bavle_uni_lu/EQN2qUn1P1dKuzcZqan8o3UBrBMa8b5Pcspupm_CBFHTgA?e=JxYnAJ">Real Dataset</a></p>
+    <p><a href="https://uniluxembourg-my.sharepoint.com/:u:/g/personal/hriday_bavle_uni_lu/EWy7dyDnGzFLh3LMR0VXYQABne9B_NZ0YCM-o_PF8PPY5g?e=xoThE1">Virtual Dataset</a></p>
+    <h2>Real Dataset</h2>
+    <pre>
+        <code class="color-bg">
+            <span class="hljs-built_in">cd</span> PATH_TO_THIS_REPO &amp;&amp; rviz <span class="hljs-_">-d</span> rviz/s_graphs.rviz
+        </code>
+    </pre>
+    <p><strong>The next command run it inside the docker container!</strong></p>
+    <pre><code class="color-bg">
+            roslaunch s_graphs s_graphs.launch <span class="hljs-string">env:</span>=real <span class="hljs-string">use_free_space_graph:</span>=<span class="hljs-literal">true</span> <span class="hljs-number">2</span>&gt;<span class="hljs-regexp">/dev/</span><span class="hljs-literal">null</span>
+    </code></pre>
+    <pre>
+        <code class="color-bg">
+            rosbag PATH_TO_THIS_REPO/real_dataset <span class="hljs-comment">--clock</span>
+        </code>
+    </pre>
+    <h2>Virtual Dataset</h2>
+    <pre>
+        <code class="color-bg">
+            <span class="hljs-built_in">cd</span> PATH_TO_THIS_REPO &amp;&amp; rviz <span class="hljs-_">-d</span> rviz/s_graphs.rviz
+        </code>
+    </pre>
+    <p><strong>The next command run it inside the docker container!</strong></p>
+    <pre>
+        <code class="color-bg">
+            roslaunch s_graphs s_graphs.launch <span class="hljs-string">env:</span>=virtual <span class="hljs-string">use_free_space_graph:</span>=<span class="hljs-literal">true</span> <span class="hljs-number">2</span>&gt;<span class="hljs-regexp">/dev/</span><span class="hljs-literal">null</span>
+        </code>
+    </pre>
+    <pre>
+        <code class="color-bg">
+            rosbag play PATH_TO_THIS_REPO/virtual_dataset <span class="hljs-comment">--clock</span>
+        </code>
+    </pre>
+    <h2>Dataset only using a Velodyne</h2>
+    <pre>
+        <code class="color-bg">
+            roscd s_graphs &amp;&amp; rviz <span class="hljs-_">-d</span> rviz/s_graphs.rviz
+        </code>
+    </pre>
+    <pre>
+        <code class="color-bg">
+            roslaunch s_graphs s_graphs.launch <span class="hljs-string">use_free_space_graph:</span>=<span class="hljs-literal">true</span> <span class="hljs-string">compute_odom:</span>=<span class="hljs-literal">true</span> <span class="hljs-number">2</span>&gt;<span class="hljs-regexp">/dev/</span><span class="hljs-literal">null</span>
+        </code>
+    </pre>
+    <pre>
+        <code class="color-bg">rosbag play PATH_TO_ROSBAG_DATASET <span class="hljs-comment">--clock</span>
+        </code>
+    </pre>
 </section>
