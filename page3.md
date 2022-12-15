@@ -123,7 +123,7 @@ rank: 3
 <ul>
 <li><code>map2odom</code>: The transform published between the map frame and the odom frame after the corrections have been applied.</li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/snt-arg/s_graphs_docker/feature/webpage/assets/img/Tf-tree.png" alt="Tf Tree"></p>
-
-
+<div class="gif-layout">
+    <img src="https://raw.githubusercontent.com/snt-arg/s_graphs_docker/feature/webpage/assets/img/Tf-tree.png" alt="Tf Tree" width="90%">
+</div>
 </section>
