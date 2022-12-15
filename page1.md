@@ -31,7 +31,7 @@ rank: 1
 </code></pre>
 </section>
 
-<section>
+<section class="section-pad">
 <h2>Instructions To Use S-Graphs</h2>
 <ol>
 <li><p>Define the transformation between your sensors (LIDAR, IMU, GPS) and base_link of your system using static_transform_publisher (see line #94, s_graphs.launch). All the sensor data will be transformed into the common <code>base_link</code> frame, and then fed to the SLAM algorithm. Note: <code>base_link</code> frame in virtual dataset is set to <code>base_footprint</code> and in real dataset is set to <code>body</code> </p>

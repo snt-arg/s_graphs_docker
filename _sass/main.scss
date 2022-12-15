@@ -12,6 +12,7 @@ $font-family-numbers: "Josefin Sans", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-size-h2: 1rem !default;
+$font-size-authors: 0.9rem !default;
 $font-weight-strong: 600;
 $text-color: #2b2d2f !default;
 $bg-color: rgb(255, 255, 255);
@@ -63,8 +64,9 @@ section {
   margin:0 auto;
 }
 .authors{
-  font-size: 0.70rem;
-  $font-weight-strong: 100;
+  font-size: $font-size-authors;
+  padding:0.4rem;
+
 }
 
 /* Typography */
@@ -313,12 +315,18 @@ code.color-bg{
   background: $bg-color;
   color: $text-color;
   display: flex;
+  height: 20%;
+  margin: 0.5rem;
   padding: 0.5rem;
+  text-align: center;
 }
 .landing-title {
   left: 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
   position: absolute;
   right: 0;
+  top: 5%;
 }
 
 .some-landing{
