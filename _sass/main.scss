@@ -82,6 +82,10 @@ h2 {
   padding:0.3rem;
 }
 
+hr{
+  width:95%;
+}
+
 p {
   word-spacing: 0.1rem;
 }
@@ -93,6 +97,9 @@ a {
   &:hover {
     color: $text-color;
   }
+}
+li{
+  padding: 0.15rem;
 }
 
 .highlight-title {
@@ -113,7 +120,9 @@ a {
     color: $text-color;
   }
 }
-
+.sec-space{
+  padding-left: 0.2rem;
+}
 /* Layout */
 
 .layout {
@@ -181,7 +190,6 @@ code.color-bg{
   white-space: nowrap;
   background-color: rgba(233, 233, 236, 0.367);
   border-radius: 0.5rem;
-  margin: 2rem;
   padding: 0.5rem;
 }
 
