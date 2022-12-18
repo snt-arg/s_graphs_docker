@@ -82,8 +82,11 @@ h2 {
   padding:0.3rem;
 }
 
-hr{
+.hr_line{
+  margin-left: 1rem;
   width:95%;
+  height: 2px;
+  box-shadow: 2px 2px 2px #a4a6a871;
 }
 
 p {

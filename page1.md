@@ -25,7 +25,7 @@ rank: 1
 </code></pre>
 </ol>
 </section>
-<hr>
+<div class="hr_line"></div>
 <section class="section-pad">
 <h2>Instructions To Use S-Graphs</h2>
 <ol>

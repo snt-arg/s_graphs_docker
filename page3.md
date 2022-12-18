@@ -133,7 +133,7 @@ rank: 3
         </ul>
     </li>
 </ul>
-<hr>
+<div class="hr_line"></div>
 <h3 id="services">Services</h3>
 <ul>
     <li>
@@ -149,10 +149,10 @@ rank: 3
         </ul>
     </li>
 </ul>
-<hr>
+<div class="hr_line"></div>
 <h3 id="parameters">Parameters</h3>
 <p>All the configurable parameters are listed in _launch/s<em>graphs.launch</em> as ros params.</p>
-<hr>
+<div class="hr_line"></div>
 <h3 id="published-tfs">Published TFs</h3>
 <ul>
     <li><code>map2odom</code>: The transform published between the map frame and the odom frame after the corrections have been applied.</li>
