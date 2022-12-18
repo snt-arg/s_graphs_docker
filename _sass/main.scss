@@ -147,14 +147,14 @@ a {
 }
 .description {
   text-align: justify;
-  margin: 2rem;
+  margin: 1rem;
 }
 .gif-layout{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom:2rem;
-  padding-top: 2rem;
+  padding-bottom:1rem;
+  padding-top: 1rem;
 }
 .tab {
   display: inline-block;
@@ -170,8 +170,8 @@ div.BibTex pre{
   background-color: rgba(233, 233, 236, 0.367);
   border-radius: 0.5rem;
   font-size: $font-size-authors;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 code.color-bg{
@@ -186,7 +186,7 @@ code.color-bg{
 }
 
 .section-pad{
-  padding:4rem 4rem;
+  padding:2rem 1rem;
 }
 
 .neumorphism-button {

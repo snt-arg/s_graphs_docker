@@ -4,9 +4,10 @@ title: Wiki
 rank: 3
 ---
 <section class="section-pad">
-<h3 id="nodelets">Nodelets</h3>
+<h1 class="title_section">{{page.title}}</h1>
+<h2>Nodelets composition</h2>
 <blockquote>
-<p>s_graphs is composed of <strong>3</strong> main nodelets.</p>
+<p>S-Graphs+ is composed of <strong>3</strong> main nodelets.</p>
 </blockquote>
 <ul>
 <li><p><strong>s_graphs_nodelet</strong></p>

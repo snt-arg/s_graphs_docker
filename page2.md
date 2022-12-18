@@ -4,6 +4,7 @@ title: Examples
 rank: 2
 ---
 <section class="section-pad">
+    <h1 class="title_section">{{page.title}}</h1>
     <p><strong>Note:</strong> <em>For each command below, please execute them in separate terminal windows!</em></p>
     <h2>Download Datasets</h2>
     <p><a href="https://uniluxembourg-my.sharepoint.com/:u:/g/personal/hriday_bavle_uni_lu/EQN2qUn1P1dKuzcZqan8o3UBrBMa8b5Pcspupm_CBFHTgA?e=JxYnAJ">Real Dataset</a></p>
