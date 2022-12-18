@@ -1,12 +1,12 @@
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: S-Graphs+
-sub_title: A Real-time Hierarchical Representation of Structured Environments for Robust Localization and Mapping
+sub_title: Real-time Localization and Mapping leveraging Hierarchical Representations
 title_home: Home
 markdown: kramdown
 theme: jekyll-theme-minimal
 # description: This will be meta HTML tag content. This can be ignored.
-description: A Real-time Hierarchical Representation of Structured Environments for Robust Localization and Mapping
+description: Real-time Localization and Mapping leveraging Hierarchical Representations
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 url: https://snt-arg.github.io
@@ -41,9 +41,7 @@ about_me_description: Lorem
 # ABSTRACT SECTION
 show_abstract_card: true
 abstract_title: Abstract
-abstract_description: '3D scene graphs represent the environment in an
-efficient graphical format of nodes and edges representing dif-
-ferent geometric elements with suitable semantic attributes and
+abstract_description: "3D scene graphs represent the environment in an efficient graphical format of nodes and edges representing different geometric elements with suitable semantic attributes and
 relational constraints with other elements. Nevertheless, existing
 methods do not efficiently couple the scene graph with the
 SLAM graph generating it, to simultaneously improve in real-
@@ -51,11 +49,11 @@ time the metric estimate of the robot pose or its map estimate. In
 this direction, we present an evolved version of the Situational
 Graphs (dubbed S-Graphs+), which jointly models in a single
 optimizable graph a set of robot keyframes as well as the high-
-level representations of the environment. S-Gaphs+ is a four-layered optimizable graph that includes:(1) a keyframes layer in which robot poses are estimated, (2)
+level representations of the environment.<br><br>
+S-Gaphs+ is a four-layered optimizable graph that includes:(1) a keyframes layer in which robot poses are estimated, (2)
 a walls layer consisting of all the registered wall planes, (3) a
 rooms layer constraining the mapped wall planes, and (4) a floors
-layer encompassing the rooms within a given floor level. Fig. 1
-shows an illustrative example. To efficiently represent rooms and
+layer encompassing the rooms within a given floor level. To efficiently represent rooms and
 floors we present novel room and floor segmentation algorithms
 utilizing the mapped wall planes and free-space clusters. We
 test S-Graphs+ on simulated datasets representing distinct indoor
@@ -63,7 +61,7 @@ environments, on real datasets captured on several construction
 sites and office environments, and on a public dataset captured
 in indoor office environments. S-Graphs+ outperforms relevant
 baselines in the majority of the datasets, while extending the
-robot situational awareness by a four-layered scene model.'
+robot situational awareness by a four-layered scene model."
 
 # ARCHITECTURE
 show_architecture: true

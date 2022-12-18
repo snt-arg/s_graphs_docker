@@ -83,7 +83,6 @@ h2 {
 
 p {
   word-spacing: 0.1rem;
-  padding:0.3rem;
 }
 
 a {
@@ -147,7 +146,6 @@ a {
 }
 .description {
   text-align: justify;
-  padding: 2rem;
   margin: 2rem;
 }
 .gif-layout{
@@ -168,7 +166,8 @@ div.BibTex pre{
   overflow: auto;
   white-space: nowrap;
   background-color: rgba(233, 233, 236, 0.367);
-  border-radius: 2rem;
+  border-radius: 0.5rem;
+  font-size: $font-size-authors;
   padding: 2rem;
   margin: 2rem;
 }
@@ -318,8 +317,10 @@ code.color-bg{
   height: 20%;
   margin: 0.5rem;
   padding: 0.5rem;
+  padding-top: 5%;
   text-align: center;
 }
+
 .landing-title {
   left: 0;
   margin: 0.5rem;
