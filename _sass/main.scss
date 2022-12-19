@@ -15,7 +15,7 @@ $font-size-h2: 1rem !default;
 $font-size-authors: 0.9rem !default;
 $font-size-text: 0.9rem !default;
 $font-size-footer:0.7rem !default;
-$font-weight-strong: 600;
+$font-weight-strong:500;
 $text-color: #2b2d2f !default;
 $bg-color: rgb(255, 255, 255);
 $card-bg-color: linear-gradient(
@@ -183,7 +183,7 @@ div.BibTex pre{
   white-space: nowrap;
   background-color: rgba(233, 233, 236, 0.367);
   border-radius: 0.5rem;
-  font-size: $font-size-authors;
+  font-size: $font-size-text;
   padding: 1rem;
   margin: 1rem;
 }
