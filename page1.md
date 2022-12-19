@@ -5,8 +5,9 @@ rank: 1
 ---
 <section class="section-pad">
 <h1 class="title_section">{{page.title}}</h1>
+Steps:
 <ol>
-    <li>Clone <a href="https://github.com/snt-arg/s_graphs_docker"> this </a>repository
+    <li><p class="sec-space">Clone <a href="https://github.com/snt-arg/s_graphs_docker/" target="_blank"> this </a>repository</p>
     </li>
     <li><p>Pull the docker image from DockerHub</p>
     </li>
