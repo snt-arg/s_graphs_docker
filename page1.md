@@ -37,6 +37,7 @@ rank: 1
 <br>
 <span class="tab">
     &lt;remap</span> <span class="hljs-keyword">from</span>=<span class="hljs-string">"/velodyne_points"</span> <span class="hljs-keyword">to</span>=<span class="hljs-string">"/rslidar_points"</span>/&gt;
+    <br>
   ...
 </code></pre>
 <li>If you have an odometry source convert it to base ENU frame, then remove the <strong><em>ScanMatchingNodelet</em></strong> from line #37 to #50 in <code>s_graphs.launch</code> and then remap odom topic in <strong><em>SGraphsNodelet</em></strong> like </li>
@@ -45,6 +46,7 @@ rank: 1
 <br>
 <span class="tab">
     &lt;remap </span> <span class="hljs-keyword">if</span>=<span class="hljs-string">"$(eval arg('env') == 'real')"</span> <span class="hljs-keyword">from</span>=<span class="hljs-string">"/odom"</span> <span class="hljs-keyword">to</span>=<span class="hljs-string">"/platform/odometry"</span> /&gt;
+    <br>
   ...
 </code></pre>
 <p>Note: If you want to visualize the tfs correctly then your odom source must provide a tf from the <code>odom</code> to <code>base_link</code> frame.  </p>

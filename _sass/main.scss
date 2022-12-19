@@ -13,6 +13,7 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-size-h2: 1rem !default;
 $font-size-authors: 0.9rem !default;
+$font-size-text: 0.9rem !default;
 $font-size-footer:0.7rem !default;
 $font-weight-strong: 600;
 $text-color: #2b2d2f !default;
@@ -58,6 +59,7 @@ header {
 
 section {
   padding:1rem;
+  font-size: $font-size-text;
 }
 
 .wrapper {
