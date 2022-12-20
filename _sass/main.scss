@@ -151,6 +151,10 @@ a {
 .title_section {
   text-align: center;
 }
+.abs_section {
+  padding-top: 3rem;
+  text-align: center;
+}
 .description {
   text-align: justify;
   margin: 2rem;
@@ -384,7 +388,7 @@ code.color-bg{
     }
 
     .social-svg {
-      fill: #2b2d2f;
+      fill: rgb(4, 4, 4);
     }
 
     .label {
@@ -402,7 +406,7 @@ code.color-bg{
       }
 
       .social-svg {
-        fill: #000;
+        fill:rgb(88, 171, 209);
       }
 
       .label {
@@ -465,7 +469,7 @@ code.color-bg{
 
   @keyframes colorBlackIcon {
     to {
-      stroke: #000;
+      stroke: #000000;
     }
   }
 
