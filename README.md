@@ -126,7 +126,11 @@ source devel/setup.bash
 
 ### Architecture
 
-![S-Graphs Architecture](./imgs/system_architecture.png)
+<p align="center">
+<a href="">
+<img src="./assets/img/architecture.png" alt="Tf tree" width="80%">
+</a>
+</p>
 
 ## Example on Datasets
 
@@ -261,7 +265,11 @@ All the configurable parameters are listed in _launch/s_graphs.launch_ as ros pa
 
 - `map2odom`: The transform published between the map frame and the odom frame after the corrections have been applied.
 
-![Tf Tree](./imgs/Tf-tree.png)
+<p align="center">
+<a href="">
+<img src="./assets/img/Tf-tree.png" alt="Tf tree" width="80%">
+</a>
+</p>
 
 ## Instructions To Use S-Graphs
 
