@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% include landing-page.html %}
+<section>
+  {%if site.show_abstract_card %}
+    {% include section-abstract.html %}
+  {% endif %}
+</section>
+<section>
+  {%if site.show_architecture %}
+    {% include architecture.html %}
+  {% endif %}
+</section>
+<section>
+  {%if site.citation %}
+    {% include citation.html %}
+  {% endif %}
+</section>
