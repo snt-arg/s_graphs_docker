@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   {% include head.html %}
 </head>
+
 <body>
-  <!-- Loading squares-->
   <div id="preloader">
     <div class="load">
       <hr />
@@ -13,11 +14,12 @@
       <hr />
     </div>
   </div>
-  <!-- End loading squares-->
   {% include additional_pages.html %}
   {% include landing-page.html %}
-  {{content}}
-<footer>
+  <div class="layout">
+    {{content}}
+  </div>
+  <footer>
   {% include footer.html %}
 </footer>
 </body>

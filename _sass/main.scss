@@ -13,9 +13,7 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-size-h2: 1rem !default;
 $font-size-authors: 0.9rem !default;
-$font-size-text: 0.9rem !default;
-$font-size-footer:0.7rem !default;
-$font-weight-strong:500;
+$font-weight-strong: 600;
 $text-color: #2b2d2f !default;
 $bg-color: rgb(255, 255, 255);
 $card-bg-color: linear-gradient(
@@ -59,7 +57,6 @@ header {
 
 section {
   padding:1rem;
-  font-size: $font-size-text;
 }
 
 .wrapper {
@@ -84,13 +81,6 @@ h2 {
   padding:0.3rem;
 }
 
-.hr_line{
-  margin-left: 1rem;
-  width:95%;
-  height: 2px;
-  box-shadow: 2px 2px 2px #a4a6a871;
-}
-
 p {
   word-spacing: 0.1rem;
 }
@@ -102,9 +92,6 @@ a {
   &:hover {
     color: $text-color;
   }
-}
-li{
-  padding: 0.15rem;
 }
 
 .highlight-title {
@@ -125,9 +112,7 @@ li{
     color: $text-color;
   }
 }
-.sec-space{
-  padding-left: 0.2rem;
-}
+
 /* Layout */
 
 .layout {
@@ -161,14 +146,13 @@ li{
 }
 .description {
   text-align: justify;
-  margin: 1rem;
+  margin: 2rem;
 }
 .gif-layout{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom:1rem;
-  padding-top: 1rem;
+  padding-bottom:2rem;
 }
 .tab {
   display: inline-block;
@@ -183,9 +167,9 @@ div.BibTex pre{
   white-space: nowrap;
   background-color: rgba(233, 233, 236, 0.367);
   border-radius: 0.5rem;
-  font-size: $font-size-text;
-  padding: 1rem;
-  margin: 1rem;
+  font-size: $font-size-authors;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 code.color-bg{
@@ -195,11 +179,12 @@ code.color-bg{
   white-space: nowrap;
   background-color: rgba(233, 233, 236, 0.367);
   border-radius: 0.5rem;
+  margin: 2rem;
   padding: 0.5rem;
 }
 
 .section-pad{
-  padding:2rem 1rem;
+  padding:4rem 4rem;
 }
 
 .neumorphism-button {
@@ -311,11 +296,11 @@ code.color-bg{
   margin: 0.5rem;
   padding: 1rem;
   text-align: center;
-  font-size:$font-size-footer;
 }
 
 .footer a {
   color: $primary-color;
+
   &:hover,
   &:focus {
     background: $bg-color;
@@ -329,7 +314,7 @@ code.color-bg{
   background: $bg-color;
   color: $text-color;
   display: flex;
-  height: 20%;
+  height: 25%;
   margin: 0.5rem;
   padding: 0.5rem;
   padding-top: 5%;

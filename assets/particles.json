@@ -4,7 +4,7 @@
       "value": 30,
       "density": {
         "enable": true,
-        "value_area": 700
+        "value_area": 100
       }
     },
     "color": {
@@ -25,7 +25,7 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 0.8,
+        "speed": 0.5,
         "opacity_min": 0.4,
         "sync": false
       }
@@ -35,8 +35,8 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 5,
-        "size_min": 2,
+        "speed": 4,
+        "size_min": 1,
         "sync": false
       }
     },
@@ -45,7 +45,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 0.55,
+      "speed": 0.4,
       "direction": "bottom",
       "random": true,
       "straight": false,
