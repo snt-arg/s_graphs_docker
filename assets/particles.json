@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 5,
+      "value": 0,
       "density": {
         "enable": true,
         "value_area": 100
       }
     },
     "color": {
-      "value": ["#00a3d7"] 
+      "value": ["#838384"] 
     },
     "shape": {
       "type": "polygon",
@@ -62,7 +62,7 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true
       },
       "onclick": {
         "enable": true,

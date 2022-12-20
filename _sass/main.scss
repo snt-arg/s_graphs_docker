@@ -11,8 +11,8 @@ $font-family: "Raleway", sans-serif;
 $font-family-numbers: "Josefin Sans", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
-$font-size-h2: 1rem !default;
-$font-size-authors: 0.9rem !default;
+$font-size-h2: 1.5rem !default;
+$font-size-authors: 1.1rem !default;
 $font-weight-strong: 600;
 $font-size-footer:0.7rem !default;
 $text-color: #2b2d2f !default;
@@ -24,6 +24,7 @@ $card-bg-color: linear-gradient(
 );
 /*00a3d7 00a1d7*/
 $primary-color: #00a1d7;
+$authors-color: #838384;
 
 /* General */
 
@@ -45,12 +46,12 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 .sidebar-pad {
-  background: $card-bg-color;
-  box-shadow: 1px 1px 1px #a4a6a871, -1px -1px 1px #a4a6a871;
+  /*background: $card-bg-color;
+  box-shadow: 1px 1px 1px #a4a6a871, -1px -1px 1px #a4a6a871;*/
   border-radius: 0.4rem;
   max-width: $large-screen;
-  font-size: 0.75rem;
-  text-align: center;
+  font-size: 1rem;
+  text-align: right;
   position: relative;
   margin: 1rem 0;
   padding: 0.2rem 0.2rem;
@@ -87,7 +88,7 @@ p {
 }
 
 a {
-  color: $primary-color;
+  color: $authors-color;
   text-decoration: none;
 
   &:hover {
@@ -349,6 +350,7 @@ code.color-bg{
   text-align: center;
   position: relative;
 }
+
 
 .contributors {
   justify-content: center;
