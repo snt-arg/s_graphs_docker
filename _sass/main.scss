@@ -164,22 +164,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-.embed-container { 
-  position: relative; 
-  padding-bottom: 56.25%;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-} 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed { 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 .tab {
   display: inline-block;
   margin-left: 40px;
@@ -506,6 +490,23 @@ code.color-bg{
       stroke: #1da1f2;
     }
   }
+}
+
+.landing-video { 
+  position: relative; 
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+} 
+.landing-video iframe,
+.landing-video object,
+.landing-video embed { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Contact Card */
