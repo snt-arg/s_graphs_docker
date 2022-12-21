@@ -13,6 +13,11 @@ layout: default
   {% endif %}
 </section>
 <section>
+  {%if site.show_additional_results %}
+    {% include additional_results.html %}
+  {% endif %}
+</section>
+<section>
   {%if site.citation %}
     {% include citation.html %}
   {% endif %}
