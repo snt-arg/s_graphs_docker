@@ -33,7 +33,7 @@ gif-landing: true
 show_abstract_card: true
 abstract_title: Abstract
 abstract_description: "3D scene graphs represent the environment in an efficient graphical format of nodes and edges representing different geometric elements with suitable semantic attributes and
-relational constraints with other elements. Nevertheless, existing
+relational constraints with other elements. Nevertheless, existing 
 methods do not efficiently couple the scene graph with the
 SLAM graph generating it, to simultaneously improve in real-
 time the metric estimate of the robot pose or its map estimate. In
@@ -57,10 +57,7 @@ robot situational awareness by a four-layered scene model."
 # ARCHITECTURE
 show_architecture: true
 architecture_title: Architecture
-architecture_description: The architecture of S-Graphs+ is illustrated in the figure above. 
-Its pipeline can be divided into six modules, and its estimates are referred to four frames: the LiDAR frame L, the robot frame R, the odometry frame O, and the map frame M. L and R are rigidly attached to the robot and then depend on the time instant t, while O and M are fixed. 
-The first module receives the 3D LiDAR point cloud in frame L, which is pre-filtered and downsampled. The second module estimates the robot odometry in frame O either from LiDAR measurements or the robot encoders. 
-Four additional font-end modules generate the four-layered topological graph modelling the understanding of the environment, namely: 1) The plane detection module, segmenting and initializing wall planes in the map frame M using the point clouds at each keyframe. 
+architecture_description: The architecture of S-Graphs+ is illustrated in the figure above. Its pipeline can be divided into six modules, and its estimates are referred to four frames: the LiDAR frame L, the robot frame R, the odometry frame O, and the map frame M. L and R are rigidly attached to the robot and then depend on the time instant t, while O and M are fixed. The first module receives the 3D LiDAR point cloud in frame L, which is pre-filtered and downsampled. The second module estimates the robot odometry in frame O either from LiDAR measurements or the robot encoders. Four additional font-end modules generate the four-layered topological graph modelling the understanding of the environment, namely: 1) The plane detection module, segmenting and initializing wall planes in the map frame M using the point clouds at each keyframe. 
 2) The room detection module, generating first free-space clusters from the robot poses and 3D LiDAR measurements, and then using such clusters along with the mapped planes to detect room centers in frame M. 
 3) The floor detection module, utilizes the information of all the currently mapped walls to extract the center of the current floor level in frame M. 
 4) Finally, the loop closure module, which utilizes a scan-matching algorithm to recognize revisited places and correct the drift.  
