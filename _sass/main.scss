@@ -164,6 +164,19 @@ a {
   align-items: center;
   justify-content: center;
 }
+.main-video-layout{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.main-video-layout iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 .tab {
   display: inline-block;
   margin-left: 40px;
