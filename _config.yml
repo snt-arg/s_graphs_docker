@@ -62,6 +62,10 @@ architecture_description: "The architecture of S-Graphs+ is illustrated in the f
 3) The floor detection module, utilizes the information of all the currently mapped walls to extract the center of the current floor level in frame M. 
 4) Finally, the loop closure module, which utilizes a scan-matching algorithm to recognize revisited places and correct the drift."  
 
+# Additional Results
+show_additional_results: true
+additional_results_title: Additional Results
+
 # CONTACT SECTION
 # show_contact_card:
 # > setting this to true, will display the Contact section
