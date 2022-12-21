@@ -67,7 +67,7 @@
       {% endif %}
     </div>
    </div>
-    <div class="landing-video">
-    <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/f1Vvp_CIf88?autoplay=1&loop=1&controls=0&modestbranding=1&showinfo=0&playlist=f1Vvp_CIf88&rel=1" title="s_graphs+_main_video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  {%if site.gif-landing %}
+  {% include gif-landing.html %}
+  {% endif %}
   </div>
