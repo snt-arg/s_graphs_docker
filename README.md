@@ -160,14 +160,15 @@ source devel/setup.bash
 
 ### Real Dataset
 
-```bash
-cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
-```
 
-**The next command run it inside the docker container!**
 
+**Command to be executed inside the docker container!**
 ```bash
 roslaunch s_graphs s_graphs.launch env:=real use_free_space_graph:=true 2>/dev/null
+```
+
+```bash
+cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 ```
 
 ```bash
@@ -176,14 +177,15 @@ rosbag PATH_TO_THIS_REPO/real_dataset --clock
 
 ### Virtual Dataset
 
-```bash
-cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
-```
 
-**The next command run it inside the docker container!**
 
+**Command to be executed inside the docker container!**
 ```bash
 roslaunch s_graphs s_graphs.launch env:=virtual use_free_space_graph:=true 2>/dev/null
+```
+
+```bash
+cd PATH_TO_THIS_REPO && rviz -d rviz/s_graphs.rviz
 ```
 
 ```bash
