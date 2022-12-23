@@ -1,18 +1,18 @@
 <p align="center">
-  <h1 align="center">S-Graphs</h1>
+  <h1 align="left">S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations</h1>
     <p align="center">
-    <a href="http://hriday.bavle.com/"><strong>Hriday Bavle</strong></a>
+    <a href="http://hriday.bavle.com/"><light>Hriday Bavle</light></a>
     ·
-    <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><strong>Jose Luis Sanchez-Lopez</strong></a>
+    <a href="https://wwwen.uni.lu/snt/people/jose_luis_sanchez_lopez"><light>Jose Luis Sanchez-Lopez</light></a>
     <br>
-    <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><strong>Muhammad Shaheer</strong></a>
+    <a href="https://wwwen.uni.lu/snt/people/muhammad_shaheer"><light>Muhammad Shaheer</light></a>
     ·
-    <a href="https://arxiv.org/search/cs?searchtype=author&query=Civera%2C+J"><strong>Javier Civera</strong></a>
+    <a href="https://scholar.google.com/citations?user=j_sMzokAAAAJ&hl=en"><light>Javier Civera</light></a>
     ·
-    <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><strong>Holger Voos</strong></a>
+    <a href="https://wwwen.uni.lu/studies/fstm/interdisciplinary_space_master/holger_voos"><light>Holger Voos</light></a>
   </p>
 
-  <h3 align="center"><a href="https://arxiv.org/abs/2211.08754">Paper</a> | <a href="https://www.youtube.com/watch?v=zPbPe9JXgKk">Video</a></h3>
+  <h3 align="center"><a href="https://arxiv.org/pdf/2212.11770.pdf">Paper</a> | <a href="https://www.youtube.com/watch?v=p8vLZqaV_70">Video</a></h3>
   
 </p>
 
@@ -78,7 +78,22 @@
 
 ## Published Papers
 
-1. [Situational Graphs for Robot Navigation in Structured Indoor Environments
+1. [S-Graphs+: Real-time Localization and Mapping leveraging
+Hierarchical Representations
+   ](https://arxiv.org/abs/2212.11770)
+   - **Citation**
+     ```latex
+      @misc{bavle2022sgraphs+,
+        title = {S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations},
+        author={Hriday Bavle and Jose Luis Sanchez-Lopez and Muhammad Shaheer and Javier Civera and Holger Voos},
+        year={2022},
+        publisher = {arXiv},
+        year = {2022},
+        primaryClass={cs.RO}
+     }
+     ``` 
+
+2. [Situational Graphs for Robot Navigation in Structured Indoor Environments
    ](https://arxiv.org/abs/2202.12197)
    - **Citation**
      ```latex
