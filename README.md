@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="left">S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations</h1>
+  <h1 align="center">S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations</h1>
     <p align="center">
     <a href="http://hriday.bavle.com/"><light>Hriday Bavle</light></a>
     ·
@@ -97,14 +97,15 @@ Hierarchical Representations
    ](https://arxiv.org/abs/2202.12197)
    - **Citation**
      ```latex
-     @misc{bavle2022situational,
-           title={Situational Graphs for Robot Navigation in Structured Indoor Environments},
-           author={Hriday Bavle and Jose Luis Sanchez-Lopez and Muhammad Shaheer and Javier Civera and Holger Voos},
-           year={2022},
-           eprint={2202.12197},
-           archivePrefix={arXiv},
-           primaryClass={cs.RO}
-     }
+      @ARTICLE{9826367,
+        author={Bavle, Hriday and Sanchez-Lopez, Jose Luis and Shaheer, Muhammad and Civera, Javier and Voos, Holger},
+        journal={IEEE Robotics and Automation Letters}, 
+        title={Situational Graphs for Robot Navigation in Structured Indoor Environments}, 
+        year={2022},
+        volume={7},
+        number={4},
+        pages={9107-9114},
+        doi={10.1109/LRA.2022.3189785}}
      ```
 
 ## Getting started
