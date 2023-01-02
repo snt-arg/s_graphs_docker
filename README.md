@@ -1,3 +1,4 @@
+[![HitCount](https://hits.dwyl.com/snt-arg/s_graphs_docker.svg?style=flat-square&show=unique)](http://hits.dwyl.com/snt-arg/s_graphs_docker)
 <p align="center">
   <h1 align="center">S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations</h1>
     <p align="center">
