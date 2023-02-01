@@ -1,2 +1,0 @@
-<br>
-<b>Parse error</b>:  syntax error, unexpected '|', expecting '{' in <b>/opt/lampp/htdocs/s_graphs_docker/wp-content/plugins/simply-static/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php</b> on line <b>18</b><br>
