@@ -1,0 +1,9 @@
+{
+	"home_page_title": "Home - v26",
+	"menus": {
+		"main_nav": "V26 Main Menu"
+	},	
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Gallery - v24",
+	"blog_page_title": "Blog - v24",
+	"menus": {
+		"main_nav": "V24 Main Menu"
+	},	
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

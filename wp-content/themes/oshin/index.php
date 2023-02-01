@@ -1,0 +1,97 @@
+<?php
+get_header();
+$page_id = be_get_page_id();
+global $be_themes_data, $blog_attr;
+$blog_attr = array();
+$items_per_page = get_option( 'posts_per_page' );
+$blog_attr['gutter_style'] = ((!isset($be_themes_data['blog_gutter_style'])) || empty($be_themes_data['blog_gutter_style'])) ? 'style1' : $be_themes_data['blog_gutter_style'];
+$blog_attr['gutter_width'] = ((!isset($be_themes_data['blog_gutter_width'])) || empty($be_themes_data['blog_gutter_width'])) ? intval(40) : intval( $be_themes_data['blog_gutter_width'] );
+$blog_attr['pagination_style'] = ((!isset($be_themes_data['blog_pagination_style'])) || empty($be_themes_data['blog_pagination_style'])) ? 'normal' : $be_themes_data['blog_pagination_style'];
+$blog_attr['style'] = ((!isset($be_themes_data['blog_style'])) || empty($be_themes_data['blog_style'])) ? 'style1' : $be_themes_data['blog_style'];
+$blog_column = ((!isset($be_themes_data['blog_column'])) || empty($be_themes_data['blog_column'])) ? 'three-col' : $be_themes_data['blog_column'];
+$col = explode('-', $blog_column);
+$sidebar = ((!isset($be_themes_data['blog_sidebar'])) || empty($be_themes_data['blog_sidebar'])) ? 'right' : $be_themes_data['blog_sidebar'];
+if($blog_attr['style'] == 'style9'){
+	$be_wrap = '';
+}else{
+	$be_wrap = 'be-wrap';
+}
+if( $blog_attr['style'] == 'style3' || $blog_attr['style'] == 'style8' || $blog_attr['style'] == 'style9'  ) {
+	$sidebar = 'no';
+	$blog_style_class = $blog_attr['style'].'-blog portfolio-container clickable clearfix';
+	$be_wrap = (isset($be_themes_data['blog_grid_style']) && !empty($be_themes_data['blog_grid_style']) && 'full' == $be_themes_data['blog_grid_style'] ) ? '' : 'be-wrap' ;
+} else {
+	$blog_style_class = $blog_attr['style'].'-blog';
+}
+if($blog_attr['style'] == 'style8'){
+	$masonry_attr = 'data-enable-masonry = 1';
+}elseif($blog_attr['style'] == 'style9'){
+	$masonry_attr = 'data-enable-masonry = 0';
+}else{
+	$masonry_attr = '';
+}
+if(($blog_attr['style'] == 'style3' || $blog_attr['style'] == 'style8' || $blog_attr['style'] == 'style8') && $blog_attr['gutter_style'] == 'style2') {
+	$portfolio_wrap_style = 'style="margin-left: -'.$blog_attr['gutter_width'].'px;"';
+	$portfolio_pagination_style = 'style="margin-left: '.$blog_attr['gutter_width'].'px; margin-top: '.(40-(intval($blog_attr['gutter_width']) > 40) ? 0 : intval($blog_attr['gutter_width'])).'px;"';
+} else {
+	$portfolio_pagination_style = $portfolio_wrap_style = 'style="margin-left: 0px;"';
+}
+?>
+<section id="blog-content" class="no-sidebar-page">
+	<div class="clearfix">
+		<?php
+			if(isset($be_themes_data['blog_page_show_page_title_module']) && !empty($be_themes_data['blog_page_show_page_title_module']) && $be_themes_data['blog_page_show_page_title_module'] == 1) {
+				get_template_part( 'page-breadcrumb' );
+			}
+			$post_id = get_option( 'page_for_posts' );
+			if(isset($post_id) && !empty($post_id) && $post_id) {
+				$post = get_post($post_id); 
+				$content = apply_filters('the_content', $post->post_content);
+				if( ( function_exists( 'is_edited_with_tatsu' ) && is_edited_with_tatsu( $post_id ) ) || isset( $_GET['tatsu-frame'] ) ) {
+					echo $content;
+				}
+			}
+		?>
+	</div> <!--  End Page Content -->
+</section>
+<?php //style 10 blog single post content
+	if($blog_attr['style'] == 'style10'){
+		get_template_part( 'blog/single','post');	
+	}
+?>
+<section id="content" class="<?php echo esc_attr( $sidebar ); ?>-sidebar-page">
+	<div id="content-wrap" class= "<?php echo $be_wrap; ?>  clearfix"> 
+		<?php //style 10 blog single post content
+			if($blog_attr['style'] == 'style10'){
+				get_template_part( 'blog/single','masonry');	
+			}else{
+		?>
+		<section id="page-content" class="<?php echo ($blog_attr['style'] == 'style3' || $blog_attr['style'] == 'style8' || $sidebar == 'no') ? 'content-no-sidebar' : 'content-single-sidebar'; ?>">
+			<div class="portfolio-all-wrap">
+				<div class="<?php echo ($blog_attr['style'] == 'style3' || $blog_attr['style'] == 'style8' || $blog_attr['style'] == 'style9') ? 'portfolio full-screen full-screen-gutter ' . ( 'style8' == $blog_attr['style'] ? 'portfolio-delay-load portfolio-lazy-load ' : ''  ) .$blog_attr['gutter_style'].'-gutter '.$blog_column : ''; ?>" <?php echo $masonry_attr; ?>   data-col="<?php echo $col[0]; ?>" data-gutter-width="<?php echo esc_attr( $blog_attr['gutter_width'] ); ?>" data-showposts="<?php echo esc_attr( $items_per_page ); ?>" data-paged="2" <?php echo ( 'style8' == $blog_attr[ 'style' ] ) ? ( 'data-animation="fadeInUp"' ) : '' ?>  data-action="get_blog" <?php echo esc_attr( $portfolio_wrap_style ); ?> >
+					<div class="clearfix <?php echo esc_attr( $blog_style_class ); ?>">
+						<?php 			
+						if( have_posts() ) : 
+							while ( have_posts() ) : the_post();
+								$blog_style = be_get_blog_loop_style( $blog_attr['style'] );
+								get_template_part( 'blog/loop', $blog_style );
+							endwhile;
+						else:
+							echo '<p class="element element-empty-message inner-content">'.__( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'oshin' ).'</p>';
+						endif;
+						?>
+					</div>
+					<?php get_blog_pagination($blog_attr, $portfolio_pagination_style); ?>
+				</div>
+			</div>
+		</section> 
+		<?php } ?>
+		<?php
+		if($blog_attr['style'] != 'style3' && $blog_attr['style'] != 'style8' && $blog_attr['style'] != 'style10' && $blog_attr['style'] != 'style9' && $sidebar != 'no') { ?>
+			<section id="<?php echo esc_attr( $sidebar ); ?>-sidebar" class="sidebar-widgets">
+				<?php get_sidebar(); ?>
+			</section> <?php 
+		} ?>
+	</div>
+</section>					
+<?php get_footer(); ?>

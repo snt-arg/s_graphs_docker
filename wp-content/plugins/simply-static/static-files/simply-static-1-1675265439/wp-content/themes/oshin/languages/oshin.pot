@@ -1,0 +1,3006 @@
+# Copyright (C) 2022 Brand Exponents
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Oshin 7.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/oshin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-09T10:01:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: oshin\n"
+
+#. Theme Name of the theme
+msgid "Oshin"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://oshinewptheme.com"
+msgstr ""
+
+#. Description of the theme
+msgid "Multi Layout Multi-Purpose Responsive Wordpress theme"
+msgstr ""
+
+#. Author of the theme
+msgid "Brand Exponents"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.brandexponents.com/"
+msgstr ""
+
+#: 404.php:15
+msgid "404 PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: archive.php:51
+#: category.php:53
+#: index.php:80
+#: search.php:60
+#: tag.php:51
+#: taxonomy-portfolio_categories.php:84
+#: taxonomy-portfolio_tags.php:84
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr ""
+
+#: be-themes-metabox.php:57
+#: be-themes-metabox.php:1285
+msgid "Portfolio Style"
+msgstr ""
+
+#: be-themes-metabox.php:65
+msgid "Portfolio Single Page Style"
+msgstr ""
+
+#: be-themes-metabox.php:91
+msgid "Portfolio Images"
+msgstr ""
+
+#: be-themes-metabox.php:100
+msgid "Animation Style"
+msgstr ""
+
+#: be-themes-metabox.php:149
+msgid "Image Area Width"
+msgstr ""
+
+#: be-themes-metabox.php:164
+msgid "Image Padding"
+msgstr ""
+
+#: be-themes-metabox.php:174
+msgid "Portfolio Title Bar"
+msgstr ""
+
+#: be-themes-metabox.php:182
+msgid "Show Porfolio Title and Navigation Bar"
+msgstr ""
+
+#: be-themes-metabox.php:189
+msgid "Navigate within Category"
+msgstr ""
+
+#: be-themes-metabox.php:197
+msgid "Grid Icon URL <br/><span style=\"color: #878787; font-size: 10px;\">Useful if Navigate within Category is enabled</span>"
+msgstr ""
+
+#: be-themes-metabox.php:207
+msgid "Portfolio Details"
+msgstr ""
+
+#: be-themes-metabox.php:215
+msgid "Client Name"
+msgstr ""
+
+#: be-themes-metabox.php:223
+msgid "Project Date"
+msgstr ""
+
+#: be-themes-metabox.php:231
+msgid "Project URL"
+msgstr ""
+
+#: be-themes-metabox.php:240
+msgid "SLIDER - Main Settings"
+msgstr ""
+
+#: be-themes-metabox.php:249
+#: be-themes-metabox.php:1073
+#: be-themes-metabox.php:1319
+msgid "Gutter Width"
+msgstr ""
+
+#: be-themes-metabox.php:257
+#: be-themes-metabox.php:1371
+msgid "Slider Height"
+msgstr ""
+
+#: be-themes-metabox.php:265
+#: be-themes-metabox.php:1091
+msgid "Enable Loop"
+msgstr ""
+
+#: be-themes-metabox.php:272
+#: be-themes-metabox.php:1099
+msgid "Enable Auto Play <br><span style=\"color:#878787; font-size:10px;\">Auto-playing will stop when the gallery is clicked or an Image is selected</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:279
+#: be-themes-metabox.php:1107
+msgid "Auto Play Duration"
+msgstr ""
+
+#: be-themes-metabox.php:287
+#: be-themes-metabox.php:1116
+msgid "Enable Keyboard Control"
+msgstr ""
+
+#: be-themes-metabox.php:294
+#: be-themes-metabox.php:1124
+msgid "Show Slide Counts"
+msgstr ""
+
+#: be-themes-metabox.php:301
+#: be-themes-metabox.php:1170
+msgid "Disable Vertical Stacked Display in Mobile"
+msgstr ""
+
+#: be-themes-metabox.php:309
+msgid "Slider - Thumbnail Bar Settings"
+msgstr ""
+
+#: be-themes-metabox.php:317
+msgid "Enable Slider Thumbnails bar"
+msgstr ""
+
+#: be-themes-metabox.php:324
+#: be-themes-metabox.php:1185
+#: be-themes-metabox.php:1433
+msgid "Show Thumbnails bar"
+msgstr ""
+
+#: be-themes-metabox.php:336
+msgid "Thumbnail Layout"
+msgstr ""
+
+#: be-themes-metabox.php:349
+msgid "SLIDER - Other Settings"
+msgstr ""
+
+#: be-themes-metabox.php:357
+#: be-themes-metabox.php:1132
+#: be-themes-metabox.php:1418
+msgid "Show Information box"
+msgstr ""
+
+#: be-themes-metabox.php:364
+#: be-themes-metabox.php:1139
+msgid "Information box Style <br><span style=\"color:#878787; font-size:10px;\">The option is applicable only on Ribbon Carousel and Center Slide Carousel</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:379
+#: be-themes-metabox.php:1154
+msgid "Enable Normal/Free Scroll"
+msgstr ""
+
+#: be-themes-metabox.php:386
+#: be-themes-metabox.php:1162
+msgid "Enable Slider Navigation Arrows"
+msgstr ""
+
+#: be-themes-metabox.php:394
+#: be-themes-metabox.php:932
+#: be-themes-metabox.php:1211
+#: be-themes-metabox.php:1440
+#: be-themes-metabox.php:1559
+msgid "Enable Overlay"
+msgstr ""
+
+#: be-themes-metabox.php:401
+#: be-themes-metabox.php:1224
+#: be-themes-metabox.php:1448
+msgid "Overlay Background Color"
+msgstr ""
+
+#: be-themes-metabox.php:409
+msgid "Overlay Background Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:419
+msgid "Portfolio Grid - Thumbnail Settings"
+msgstr ""
+
+#: be-themes-metabox.php:427
+msgid "Open Thumbnail in New tab"
+msgstr ""
+
+#: be-themes-metabox.php:434
+msgid "Link Thumbnail To"
+msgstr ""
+
+#: be-themes-metabox.php:446
+msgid "External URL"
+msgstr ""
+
+#: be-themes-metabox.php:453
+msgid "Double Width"
+msgstr ""
+
+#: be-themes-metabox.php:460
+msgid "Double Height"
+msgstr ""
+
+#: be-themes-metabox.php:467
+#: be-themes-metabox.php:939
+msgid "Overlay Color"
+msgstr ""
+
+#: be-themes-metabox.php:475
+#: be-themes-metabox.php:948
+msgid "Overlay Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:483
+msgid "Portfolio Title Color"
+msgstr ""
+
+#: be-themes-metabox.php:491
+msgid "Portfolio Categories Color"
+msgstr ""
+
+#: be-themes-metabox.php:512
+msgid "Youtube / Vimeo Video Url"
+msgstr ""
+
+#: be-themes-metabox.php:519
+msgid "Audio Embed Code Or Link to an Audio File"
+msgstr ""
+
+#: be-themes-metabox.php:526
+msgid "Link Post Format URL"
+msgstr ""
+
+#: be-themes-metabox.php:533
+msgid "Quote Post Format Author"
+msgstr ""
+
+#: be-themes-metabox.php:540
+msgid "Gallery Post Format Images"
+msgstr ""
+
+#: be-themes-metabox.php:560
+msgid "Quote/Link style Post Background"
+msgstr ""
+
+#: be-themes-metabox.php:566
+msgid "Quote/Link Post Color "
+msgstr ""
+
+#: be-themes-metabox.php:585
+msgid "Enable Double Width"
+msgstr ""
+
+#: be-themes-metabox.php:591
+msgid "Enable Double Height"
+msgstr ""
+
+#: be-themes-metabox.php:640
+msgid "Header Settings"
+msgstr ""
+
+#: be-themes-metabox.php:648
+#: functions/be-themes-options-config.php:3527
+msgid "Header Background Style"
+msgstr ""
+
+#: be-themes-metabox.php:656
+msgid "Logo and Navigation Color Scheme<br><span style=\"color:#878787; font-size:10px;\">Applicable only for Transparent/Semi Transparent header</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:671
+#: functions/be-themes-options-config.php:4558
+#: functions/be-themes-options-config.php:4757
+msgid "Sticky Header"
+msgstr ""
+
+#: be-themes-metabox.php:680
+msgid "Hero Section Settings"
+msgstr ""
+
+#: be-themes-metabox.php:688
+#: functions/be-themes-options-config.php:4531
+#: functions/be-themes-options-config.php:4730
+msgid "Hero Section Type"
+msgstr ""
+
+#: be-themes-metabox.php:697
+msgid "Slider Shortcode"
+msgstr ""
+
+#: be-themes-metabox.php:706
+msgid "Custom Height<br><span style=\"color:#878787; font-size:10px;\">Leave this Blank for a Full Screen Hero Section</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:713
+msgid "Hero Section Position <br><span style=\"color:#878787; font-size:10px;\">Applicable only for non-transparent header</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:723
+msgid "Show With Header<br><span style=\"color:#878787; font-size:10px;\">Applicable only if header is non-transparent, Hero Section position is Before Header and no Custom Height is defined</span></br>"
+msgstr ""
+
+#: be-themes-metabox.php:739
+msgid "Background Settings"
+msgstr ""
+
+#: be-themes-metabox.php:747
+#: functions/be-themes-options-config.php:3439
+#: functions/be-themes-options-config.php:3692
+#: functions/be-themes-options-config.php:3811
+#: functions/be-themes-options-config.php:3894
+msgid "Background Color"
+msgstr ""
+
+#: be-themes-metabox.php:755
+msgid "Background Image"
+msgstr ""
+
+#: be-themes-metabox.php:763
+msgid "Background Repeat"
+msgstr ""
+
+#: be-themes-metabox.php:772
+msgid "Background Attachment"
+msgstr ""
+
+#: be-themes-metabox.php:781
+msgid "Background Position"
+msgstr ""
+
+#: be-themes-metabox.php:790
+msgid "Scale Image to Fill Container"
+msgstr ""
+
+#: be-themes-metabox.php:797
+#: functions/be-themes-options-config.php:4663
+msgid "Background Animation"
+msgstr ""
+
+#: be-themes-metabox.php:814
+msgid "Canvas Settings"
+msgstr ""
+
+#: be-themes-metabox.php:822
+msgid "Animation Canvas on Background"
+msgstr ""
+
+#: be-themes-metabox.php:836
+msgid "Canvas Color 1"
+msgstr ""
+
+#: be-themes-metabox.php:845
+msgid "Canvas Color 2"
+msgstr ""
+
+#: be-themes-metabox.php:854
+msgid "Canvas Color 3"
+msgstr ""
+
+#: be-themes-metabox.php:863
+msgid "Canvas Color 4"
+msgstr ""
+
+#: be-themes-metabox.php:872
+msgid "Canvas Color 5"
+msgstr ""
+
+#: be-themes-metabox.php:883
+#: functions/be-themes-options-config.php:4618
+#: functions/be-themes-options-config.php:4817
+msgid "Video Settings"
+msgstr ""
+
+#: be-themes-metabox.php:891
+#: functions/be-themes-options-config.php:4624
+#: functions/be-themes-options-config.php:4823
+msgid "Enable Background Video"
+msgstr ""
+
+#: be-themes-metabox.php:898
+msgid ".MP4 Video File"
+msgstr ""
+
+#: be-themes-metabox.php:906
+msgid ".OGG Video File"
+msgstr ""
+
+#: be-themes-metabox.php:914
+msgid ".Webm Video File"
+msgstr ""
+
+#: be-themes-metabox.php:924
+msgid "Overlay Settings"
+msgstr ""
+
+#: be-themes-metabox.php:958
+msgid "Hero Section Content Settings"
+msgstr ""
+
+#: be-themes-metabox.php:966
+#: functions/be-themes-options-config.php:1282
+msgid "Content"
+msgstr ""
+
+#: be-themes-metabox.php:974
+msgid "Content Container Wrap"
+msgstr ""
+
+#: be-themes-metabox.php:983
+msgid "Scroll Indicator Settings"
+msgstr ""
+
+#: be-themes-metabox.php:991
+msgid "Scroll Indicator Icon"
+msgstr ""
+
+#: be-themes-metabox.php:1005
+msgid "Scroll Indicator Icon Color"
+msgstr ""
+
+#: be-themes-metabox.php:1013
+msgid "Link Scroll Indicator to (Enter SECTION ID)"
+msgstr ""
+
+#: be-themes-metabox.php:1049
+msgid "Gallery Images"
+msgstr ""
+
+#: be-themes-metabox.php:1057
+msgid "Gallery Style"
+msgstr ""
+
+#: be-themes-metabox.php:1082
+msgid "Gallery Height"
+msgstr ""
+
+#: be-themes-metabox.php:1178
+msgid "Enable Thumbnails bar"
+msgstr ""
+
+#: be-themes-metabox.php:1198
+msgid "Thumbnail Bar Layout"
+msgstr ""
+
+#: be-themes-metabox.php:1233
+#: be-themes-metabox.php:1457
+msgid "Overlay Background Color Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:1302
+msgid "Start from center"
+msgstr ""
+
+#: be-themes-metabox.php:1304
+msgid "Title Carousel will start from the middle slide"
+msgstr ""
+
+#: be-themes-metabox.php:1311
+msgid "Enable Mouse wheel Navigation"
+msgstr ""
+
+#: be-themes-metabox.php:1340
+msgid "Portfolio Title Horizontal Alignment"
+msgstr ""
+
+#: be-themes-metabox.php:1380
+msgid "Order"
+msgstr ""
+
+#: be-themes-metabox.php:1392
+msgid "Slider Animation Style"
+msgstr ""
+
+#: be-themes-metabox.php:1425
+msgid "Enable Normal Scroll/Free Scroll"
+msgstr ""
+
+#: be-themes-metabox.php:1497
+msgid "Layout"
+msgstr ""
+
+#: be-themes-metabox.php:1509
+msgid "Sidebar"
+msgstr ""
+
+#: be-themes-metabox.php:1527
+msgid "Single Page Site"
+msgstr ""
+
+#: be-themes-metabox.php:1533
+msgid "Scroll To Sections"
+msgstr ""
+
+#: be-themes-metabox.php:1539
+msgid "Sticky Sections"
+msgstr ""
+
+#: be-themes-metabox.php:1545
+msgid "Scroll Type"
+msgstr ""
+
+#: be-themes-metabox.php:1569
+msgid "Show Bottom Widgets"
+msgstr ""
+
+#: be-themes-metabox.php:1578
+msgid "Show Footer"
+msgstr ""
+
+#: blog/loop-shortcodes.php:56
+#: blog/loop-shortcodes.php:67
+msgid "Share This : "
+msgstr ""
+
+#: blog/loop-shortcodes.php:59
+#: blog/loop-shortcodes.php:72
+msgid "Tags : "
+msgstr ""
+
+#: blog/loop-style1.php:72
+#: blog/loop-style2.php:64
+#: blog/loop-style3.php:64
+#: blog/loop-style4.php:71
+#: blog/loop-style5.php:64
+#: blog/loop-style6.php:67
+#: blog/loop-style7.php:69
+#: blog/loop-style10.php:90
+#: functions.php:13
+#: functions/helpers.php:834
+#: functions/helpers.php:844
+msgid "Read More"
+msgstr ""
+
+#: blog/loop-style1.php:83
+#: blog/loop-style2.php:75
+#: blog/loop-style3.php:75
+#: blog/loop-style4.php:82
+#: blog/loop-style5.php:75
+#: blog/loop-style6.php:78
+#: blog/loop-style7.php:80
+#: blog/loop-style10.php:101
+msgid "Next >"
+msgstr ""
+
+#: blog/loop-style1.php:84
+#: blog/loop-style2.php:76
+#: blog/loop-style3.php:76
+#: blog/loop-style4.php:83
+#: blog/loop-style5.php:76
+#: blog/loop-style6.php:79
+#: blog/loop-style7.php:81
+#: blog/loop-style10.php:102
+msgid "< Prev"
+msgstr ""
+
+#: blog/loop-style10.php:30
+#: blog/wide-single.php:44
+#: functions/common-helpers.php:77
+#: functions/common-helpers.php:79
+#: functions/helpers.php:98
+msgid "View all posts in"
+msgstr ""
+
+#: blog/post-bottom-details.php:4
+#: blog/post-details.php:9
+msgid "Under :"
+msgstr ""
+
+#: blog/post-details-style2.php:5
+#: blog/post-details.php:5
+msgid "Posted By :"
+msgstr ""
+
+#: blog/post-details-style2.php:7
+#: blog/post-details.php:7
+#: blog/post-top-details.php:5
+msgid " comments"
+msgstr ""
+
+#: blog/post-details-style2.php:9
+msgid "Under : "
+msgstr ""
+
+#: blog/post-details.php:14
+msgid "Posted By "
+msgstr ""
+
+#: blog/post-details.php:15
+msgid " on "
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:17
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:24
+#: comments.php:38
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:25
+#: comments.php:39
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:51
+#: functions/helpers.php:230
+msgid "Name"
+msgstr ""
+
+#: comments.php:52
+#: functions/helpers.php:231
+msgid "Email"
+msgstr ""
+
+#: comments.php:53
+#: functions/helpers.php:232
+msgid "Website"
+msgstr ""
+
+#: comments.php:57
+msgid "Submit"
+msgstr ""
+
+#: comments.php:58
+msgid "Comment"
+msgstr ""
+
+#: functions.php:713
+msgid "Please update now"
+msgstr ""
+
+#: functions.php:717
+msgid "Please provide valid oshin theme purchase code to "
+msgstr ""
+
+#: functions.php:718
+msgid "allow automatic updates"
+msgstr ""
+
+#: functions.php:724
+msgid "is available"
+msgstr ""
+
+#: functions.php:725
+msgid "Current version is"
+msgstr ""
+
+#: functions.php:1405
+msgid "Maintenance Mode is <strong>turned on</strong>. Please don't forget to <a href=\""
+msgstr ""
+
+#: functions/be-gdpr-options.php:7
+msgid "Consent to display content from YouTube."
+msgstr ""
+
+#: functions/be-gdpr-options.php:12
+msgid "Consent to display content from Vimeo."
+msgstr ""
+
+#: functions/be-gdpr-options.php:17
+msgid "Consent to display content from Google Maps."
+msgstr ""
+
+#: functions/be-tgm-plugins.php:275
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:276
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:277
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:278
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/be-tgm-plugins.php:279
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:280
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:281
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:282
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:283
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:284
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:285
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:286
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:287
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:288
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/be-tgm-plugins.php:289
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:290
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/be-tgm-plugins.php:291
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/be-themes-options-config.php:114
+#: functions/be-themes-update-config.php:114
+msgid "Section via hook"
+msgstr ""
+
+#: functions/be-themes-options-config.php:115
+#: functions/be-themes-update-config.php:115
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:372
+#: functions/be-themes-update-config.php:178
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: functions/be-themes-options-config.php:379
+#: functions/be-themes-options-config.php:382
+#: functions/be-themes-update-config.php:185
+#: functions/be-themes-update-config.php:188
+msgid "Current theme preview"
+msgstr ""
+
+#: functions/be-themes-options-config.php:389
+#: functions/be-themes-update-config.php:195
+msgid "By %s"
+msgstr ""
+
+#: functions/be-themes-options-config.php:390
+#: functions/be-themes-update-config.php:196
+msgid "Version %s"
+msgstr ""
+
+#: functions/be-themes-options-config.php:391
+#: functions/be-themes-update-config.php:197
+msgid "Tags"
+msgstr ""
+
+#: functions/be-themes-options-config.php:397
+#: functions/be-themes-update-config.php:202
+msgid "<p class=\"howto\">This <a href=\"http://codex.wordpress.org/Child_Themes\">child theme</a> requires its parent theme</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:455
+msgid "General Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:456
+msgid "General Settings of the site including the favicon and google analytics. <a href=\"%s\" target=\"_blank\">General Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:463
+msgid "Cache Options Panel Settings ?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:465
+msgid "Turn on Cache once you have completed setting up all the Options here. Turning on cache, will save the options panel settings and that will help us optimize performance of the website. However, any changes to the Options while cache is ON will NOT be saved. So make sure you turn OFF cache before making changes in the Options Panel"
+msgstr ""
+
+#: functions/be-themes-options-config.php:486
+msgid "Google Analytics Code"
+msgstr ""
+
+#: functions/be-themes-options-config.php:487
+msgid "Please enter your Google analytics tracking ID here."
+msgstr ""
+
+#: functions/be-themes-options-config.php:493
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/be-themes-options-config.php:494
+msgid "Please add your custom CSS here."
+msgstr ""
+
+#: functions/be-themes-options-config.php:501
+msgid "Custom Javascript"
+msgstr ""
+
+#: functions/be-themes-options-config.php:502
+msgid "Please add your custom js code here."
+msgstr ""
+
+#: functions/be-themes-options-config.php:511
+#: functions/be-themes-options-config.php:527
+msgid "Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:512
+msgid "<a href=\"%s\" target=\"_blank\">Logo Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:519
+msgid "Disable Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:520
+msgid "Check this is you do not wish to have a logo in your site"
+msgstr ""
+
+#: functions/be-themes-options-config.php:528
+msgid "Upload your logo here."
+msgstr ""
+
+#: functions/be-themes-options-config.php:534
+msgid "Logo on Sticky Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:535
+msgid "Upload the logo that needs to be displayed in sticky header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:541
+msgid "Dark Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:542
+msgid "Upload the logo that needs to be displayed in transparent header sections."
+msgstr ""
+
+#: functions/be-themes-options-config.php:548
+msgid "Light Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:549
+msgid "Upload the logo that needs to be displayed in transparent header sections with dark backgrounds."
+msgstr ""
+
+#: functions/be-themes-options-config.php:555
+msgid "Logo on Sidebar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:556
+msgid "Upload the logo that needs to be displayed in the slidebar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:562
+msgid "Strip Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:571
+msgid "Logo shown in Strip Left Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:576
+msgid "Top Header Logo Padding"
+msgstr ""
+
+#: functions/be-themes-options-config.php:577
+#: functions/be-themes-options-config.php:584
+#: functions/be-themes-options-config.php:591
+#: functions/be-themes-options-config.php:3714
+msgid "Enter only Numbers (in pixels)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:583
+msgid "Logo max width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:590
+msgid "Logo max width (Mobile)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:598
+#: functions/be-themes-options-config.php:4175
+#: functions/be-themes-options-config.php:4242
+msgid "Background"
+msgstr ""
+
+#: functions/be-themes-options-config.php:599
+msgid "Background settings for all the individual elements of the site. <a href=\"%s\" target=\"_blank\">Background Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:606
+msgid "Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:614
+#: functions/be-themes-options-config.php:825
+msgid "Page Title Module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:623
+msgid "Body"
+msgstr ""
+
+#: functions/be-themes-options-config.php:631
+#: functions/be-themes-options-config.php:798
+msgid "Content Area"
+msgstr ""
+
+#: functions/be-themes-options-config.php:641
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions/be-themes-options-config.php:651
+msgid "Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:663
+msgid "Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:669
+msgid "Headings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:677
+#: functions/be-themes-options-config.php:1785
+msgid "H1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:678
+#: functions/be-themes-options-config.php:1786
+msgid "Heading Tag 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:697
+#: functions/be-themes-options-config.php:1806
+msgid "H2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:698
+#: functions/be-themes-options-config.php:1807
+msgid "Heading Tag 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:717
+#: functions/be-themes-options-config.php:1827
+msgid "H3"
+msgstr ""
+
+#: functions/be-themes-options-config.php:718
+#: functions/be-themes-options-config.php:1828
+msgid "Heading Tag 3"
+msgstr ""
+
+#: functions/be-themes-options-config.php:737
+#: functions/be-themes-options-config.php:1848
+msgid "H4"
+msgstr ""
+
+#: functions/be-themes-options-config.php:738
+#: functions/be-themes-options-config.php:1849
+msgid "Heading Tag 4"
+msgstr ""
+
+#: functions/be-themes-options-config.php:757
+#: functions/be-themes-options-config.php:1869
+msgid "H5"
+msgstr ""
+
+#: functions/be-themes-options-config.php:758
+#: functions/be-themes-options-config.php:1870
+msgid "Heading Tag 5"
+msgstr ""
+
+#: functions/be-themes-options-config.php:777
+#: functions/be-themes-options-config.php:1890
+msgid "H6"
+msgstr ""
+
+#: functions/be-themes-options-config.php:778
+#: functions/be-themes-options-config.php:1891
+msgid "Heading Tag 6"
+msgstr ""
+
+#: functions/be-themes-options-config.php:806
+msgid "Body Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:845
+#: functions/typography-options.php:151
+msgid "Sub Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:846
+msgid "Font that will be used by the Sub Title Module in Page Builder"
+msgstr ""
+
+#: functions/be-themes-options-config.php:865
+#: functions/typography-options.php:681
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:884
+#: functions/typography-options.php:695
+msgid "Sidebar Widget Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:905
+msgid "Main Navigation Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:913
+#: functions/typography-options.php:181
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:933
+#: functions/typography-options.php:205
+msgid "Navigation Submenu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:954
+#: functions/be-themes-options-config.php:962
+#: functions/typography-options.php:227
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:982
+#: functions/typography-options.php:241
+msgid "Mobile Submenu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1003
+#: functions/widget-functions.php:68
+msgid "Slidebar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1004
+msgid "Typography Options for Elements in the Slidebar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1011
+#: functions/typography-options.php:255
+msgid "Sidebar Menu Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1012
+msgid "This typography setting will apply on the Optional Right Sidebar Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1031
+msgid "Sidebar Sub Menu Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1032
+msgid "This typography setting will apply on the Optional Right Sidebar Sub-Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1051
+#: functions/typography-options.php:710
+msgid "Slidebar Widget Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1071
+#: functions/typography-options.php:724
+msgid "Slidebar Widget Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1093
+msgid "Blog Posts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1101
+#: functions/typography-options.php:601
+msgid "Blog Post Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1120
+#: functions/typography-options.php:616
+msgid "Masonry Style Blog Post Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1139
+#: functions/typography-options.php:631
+msgid "Blog Post Top Meta Options"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1140
+msgid "This typography is used for Meta (Category) in Blog Style with Meta on Top"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1159
+#: functions/typography-options.php:645
+msgid "Blog Post Bottom Meta Options"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1178
+msgid "Custom Typography for Individual Post ?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1184
+#: functions/typography-options.php:662
+msgid "Individual Blog Post Title"
+msgstr ""
+
+#. Template Name of the theme
+#: functions/be-themes-options-config.php:1210
+msgid "Portfolio"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1216
+#: functions/typography-options.php:420
+msgid "Title on Portfolio Grid"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1235
+#: functions/typography-options.php:434
+msgid "Meta on Portfolio Grid"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1236
+msgid "Body font will be used for this."
+msgstr ""
+
+#: functions/be-themes-options-config.php:1255
+msgid "Enable Portfolio Details Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1262
+#: woocommerce/class-wc-widget-cart.php:30
+msgid "Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1303
+#: functions/typography-options.php:503
+msgid "Global Portfolio Navigation"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1323
+#: functions/typography-options.php:517
+msgid "Title in Portfolio Navigation Module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1324
+#: functions/be-themes-options-config.php:1345
+msgid "Applied on Slider Type Portfolios"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1344
+msgid "Caption in Sliders"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1362
+#: functions/typography-options.php:543
+msgid "Portfolio Filters"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1385
+#: functions/be-themes-options-config.php:4128
+#: functions/helpers.php:648
+msgid "Shop"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1391
+#: functions/typography-options.php:560
+msgid "Product Thumbnail Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1411
+#: functions/typography-options.php:584
+msgid "Individual Product Page Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1434
+msgid "Contact Form"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1440
+#: functions/typography-options.php:768
+msgid "Contact Form Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1461
+msgid "Footer and Footer Widgets"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1468
+#: functions/typography-options.php:738
+msgid "Footer Widget Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1488
+#: functions/typography-options.php:752
+msgid "Footer Widget Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1508
+#: functions/typography-options.php:164
+msgid "Footer Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1531
+msgid "Page Builder Modules"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1532
+msgid "Typography settings for specific modules in BE Page Builder"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1537
+msgid "Title Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1538
+msgid "The title font will be applied to the Title section of selected modules that includes - Tabs, Accordion, Animated Charts and Skills"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1557
+#: functions/typography-options.php:296
+msgid "Tab Module Title Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1558
+msgid "The font size for Tab module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1577
+#: functions/typography-options.php:307
+msgid "Accordion Module Title Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1578
+msgid "The font size for Accordion module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1597
+#: functions/typography-options.php:318
+msgid "Skills Module Title Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1598
+msgid "The font size for Skills module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1617
+#: functions/typography-options.php:329
+msgid "Countdown Number Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1618
+msgid "The font size for Countdown module number"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1637
+#: functions/typography-options.php:341
+msgid "Countdown Caption Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1638
+msgid "The font size for Countdown module caption"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1657
+msgid "Content Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1658
+msgid "This font will be applied to the Content section of selected modules that includes - Blockquote, Testimonials etc"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1678
+msgid "Blockquote Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1679
+msgid "The font size for Blockquote module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1697
+#: functions/typography-options.php:371
+msgid "Tweet Module Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1698
+msgid "This font will be applied to the Content section of the Tweet Module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1718
+#: functions/typography-options.php:383
+msgid "Buttons Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1738
+#: functions/typography-options.php:407
+msgid "Animated Link Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1762
+msgid "Responsive Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1769
+msgid "Heading Tags on Mobile"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1777
+msgid "Set Font Sizes for Mobile Devices"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1779
+msgid "By default the Sizes set under OSHINE OPTIONS > TYPOGRAPHY will be applied in all devices"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1915
+msgid "Global Site Layout and Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1916
+msgid "This Panel has all the settings related to the Global Settings and Layout of your Website <a href=\"%s\" target=\"_blank\">Global Site Layout and Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1921
+msgid "Header Layout"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1928
+msgid "Site Layout"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1942
+msgid "Enable Footer Builder"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1949
+msgid "These settings will be applicable if you choose Border Layout in the above option. This is not required for other layouts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1955
+msgid "Border BG"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1965
+msgid "Border Width(in px)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1966
+msgid "Enter Value Only"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2010
+msgid "Display Comments on Pages"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2016
+msgid "Disable Dynamic Menu Color Change on Slider Revolution"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2024
+msgid "Disable CSS Animtion in mobile devices"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2032
+msgid "Disable Back to top Button"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2040
+msgid "Form Field Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2050
+msgid "Button Shape"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2051
+msgid "Not Applicable for Blog & Portfolio Button Styles - TEXT UNDERLINE & TAIL"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2052
+msgid "The Button Shape will be applied on Blog Read More, Portfolio View Project, Commnets Submit, Shop Pages and Contact Form Buttons"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2059
+msgid "Custom Sidebars"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2067
+msgid "Turn On Maintenance Mode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2068
+msgid "For users, not logged into site"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2074
+msgid "Maintenance Mode Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2075
+msgid "Select a page that you want to use as splash page in maintenance mode."
+msgstr ""
+
+#: functions/be-themes-options-config.php:2082
+msgid "Instagram Access Token"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2083
+msgid "<a href='https://developers.facebook.com/docs/instagram-basic-display-api/getting-started/' target='_blank'>Generate Access Token</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2090
+msgid "Google Map API Key"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2091
+msgid "<a href='https://developers.google.com/maps/documentation/javascript/get-api-key/' target='_blank'>Generate your API Key</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2098
+msgid "CDN Address"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2099
+msgid "Add your cdn address here, if you are using one"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2107
+msgid "Top Header Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2108
+msgid "This Panel has all the settings related to the Top Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2115
+#: functions/be-themes-options-config.php:4748
+msgid "Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2116
+msgid "<a href=\"https://www.brandexponents.com/oshine-knowledgebase/knowledge-base/top-header-settings/\" target=\"_blank\">Top Header Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2123
+msgid "Header Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2124
+msgid "Turn this off if you want a Full Screen Width Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2131
+msgid "Top Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2146
+msgid "Menu Level"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2147
+msgid "Maximum menu level to show (numeric)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2154
+msgid "Special Menu Type"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2155
+msgid "Choose the type of Special Menu for navigation. This is possible in any of the Header Styles choosen above. "
+msgstr ""
+
+#: functions/be-themes-options-config.php:2173
+msgid "Navigation Link Hover Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2174
+msgid "Does not apply for Overlay Menu Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2192
+#: functions/be-themes-options-config.php:2749
+msgid "Hamburger Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2201
+msgid "Menu Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2216
+msgid "Menu Bar Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2229
+#: functions/be-themes-options-config.php:2808
+msgid "Menu Link Animation Direction"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2251
+msgid "Menu Link Hover Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2274
+msgid "Menu Sliding Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2285
+#: functions/be-themes-options-config.php:2838
+msgid "Menu Vertical Alignment"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2301
+#: functions/be-themes-options-config.php:2851
+msgid "Menu Horizontal Alignment"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2319
+msgid "Stack Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2331
+msgid "Right Slidebar/Overlay Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2339
+msgid "Right Slidebar/Overlay Menu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2347
+msgid "Overlay color on page when Sliding / Sidebar Stack menu is opened"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2370
+msgid "Submenu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2378
+msgid "Submenu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2391
+msgid "Menu and widgets color scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2392
+msgid "Color scheme that will appear when the menu is opened"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2406
+msgid "Widget Area"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2407
+#: functions/be-themes-options-config.php:2529
+#: functions/be-themes-options-config.php:2885
+msgid "For Example Social Media Icons"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2423
+msgid "Set Navigation Link Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2425
+msgid "By default the Color Scheme set under OSHINE OPTIONS > COLORS will be applied for Menu Links on Hover State"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2431
+msgid "Navigation Link Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2440
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2448
+msgid "Semi Transparent Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2449
+msgid "This color will apply as BG for the Top Header in pages where you choose Semi Transparent Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2456
+msgid "Header Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2457
+msgid "Border Bottom"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2471
+msgid "Header Border Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2472
+#: functions/be-themes-options-config.php:2985
+msgid "Turn this on if you want a wrapped border"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2480
+msgid "Header Widgets"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2481
+msgid "This Panel has all the settings related to the Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2488
+msgid "Position of widgets in Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2515
+#: functions/be-themes-options-config.php:2672
+msgid "Text Area 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2521
+#: functions/be-themes-options-config.php:2679
+msgid "Text Area 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2528
+#: functions/be-themes-options-config.php:2687
+msgid "Content using Code/Shortcode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2545
+msgid "Header Search Widget Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2557
+msgid "Search Screen BG"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2565
+msgid "Search Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2584
+msgid "Header Cart Number Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2592
+msgid "Header Cart Number Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2606
+msgid "Header Top Bar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2607
+msgid "Top Bar will apply only on TOP header style and not on Left Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2614
+msgid "Enable Header Top Bar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2621
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2628
+msgid "TopBar Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2635
+msgid "Top Bar Border (bottom) Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2694
+msgid "Header Bottom Bar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2695
+msgid "This is appicable only if you choose a Header Style with Menu at the Bottom (i.e. style2)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2702
+msgid "Bottom Bar Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2709
+msgid "Bottom Bar Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2725
+msgid "Left Header Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2726
+msgid "This Panel has all the settings related to the Left Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2737
+msgid "Left Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2762
+msgid "Left header Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2773
+msgid "Left Strip Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2786
+msgid "Left Strip Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2798
+msgid "Main overlay color when menu is opened"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2825
+msgid "Menu Hover Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2862
+msgid "Left Header Horizontal Alignment"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2870
+msgid "Left Strip Animation"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2884
+msgid "Special Header Bottom Text/HTML/Shortcode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2896
+msgid "Overlay Color on Left Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2897
+msgid "Will apply on the menu that has a BG image. This will not be applied on \"3D Menu\" style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2904
+msgid "Left Overlay Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2920
+msgid "Left Menu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2938
+msgid "Footer Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2939
+msgid "This Panel has all the settings required for the footer <a href=\"%s\" target=\"_blank\">Footer Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2947
+msgid "Footer Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2948
+msgid "Turn this off if you want a Full Screen Width Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2954
+msgid "Footer Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2962
+msgid "Footer - Fixed to Bottom ?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2963
+msgid "Turn on this option will dock the footer at the bottom, behind the wrapper"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2969
+msgid "Footer border(Top) color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2984
+msgid "Footer Border Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2991
+msgid "Footer Padding Value (in pixels)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2997
+msgid "Primary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3003
+msgid "Secondary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3009
+msgid "Tertiary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3015
+msgid "Footer - Widget 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3023
+msgid "Footer - Widget 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3031
+msgid "Footer - Widget 3"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3039
+msgid "Number of Columns in Footer Widget Area"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3048
+msgid "Show Footer Widget Area in Archive and Search Pages"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3058
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3059
+msgid "This Panel has all the settings related to the Mobile Menu <a href=\"%s\" target=\"_blank\">Mobile Menu Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3068
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3076
+msgid "Mobile Menu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3084
+msgid "Hamburger Icon Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3085
+msgid "This Panel has all the settings related to the styling of the hamburger icon <a href=\"%s\" target=\"_blank\">Hamburger Icon Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3091
+msgid "Hamburger Menu Background"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3100
+msgid "Hamburger Menu Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3108
+msgid "Hamburger Menu Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3116
+msgid "Hamburger Thickness"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3124
+msgid "Hamburger Gap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3136
+msgid "Secondary Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3144
+msgid "Secondary Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3152
+msgid "Secondary Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3160
+msgid "Tertiary Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3161
+msgid "This color will be applied to the content area in Fixed Sidebar Portfolio Pages"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3170
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3176
+msgid "Text Color on BG with Color Scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3183
+msgid "Colors"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3184
+msgid "<a href=\"%s\" target=\"_blank\">Colors Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3203
+msgid "Blog Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3204
+msgid "<a href=\"%s\" target=\"_blank\">Blog Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3210
+msgid "Open Thumbnail image in Lighbox"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3211
+msgid "By default the thumbnail will be linked to the Blog Post page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3218
+msgid "Blog Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3246
+msgid "Select post"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3254
+msgid "Read more Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3274
+msgid "Show Post Category"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3281
+msgid "Show Post Date"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3288
+msgid "Show Count of Post Comments"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3295
+msgid "Show Post Author"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3302
+msgid "Show Share Icon"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3329
+msgid "Filterable Post"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3337
+msgid "Filters Alignment"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3347
+msgid "Bottom border color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3355
+msgid "Number of Items Per Load"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3363
+msgid "Blog Images Aspect Ratio"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3371
+msgid "Masonry Layout"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3379
+msgid "Hide Categories"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3387
+msgid "Blog Column"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3396
+msgid "Blog Grid Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3405
+msgid "Blog Gutter Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3414
+msgid "Blog Pagination Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3423
+msgid "Blog Gutter Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3453
+msgid "Show Page Title Bar in Blog Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3459
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3468
+msgid "Blog Read More Button Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3496
+msgid "Enable Sidebar in Single Posts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3504
+msgid "Enable Breadcrumb in Single Posts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3512
+msgid "Enable Hero Featured Image in Single Posts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3519
+msgid "Single Post Featured Image Height"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3520
+msgid "Leave this blank for a full screen featured image"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3540
+msgid "Header Navigation Color Scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3552
+msgid "More Posts Section"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3560
+msgid "More Posts Section title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3581
+msgid "Show Share Icons"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3589
+msgid "Facebook"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3597
+msgid "Twitter"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3613
+msgid "Linkedin"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3621
+msgid "Pinterest"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3636
+msgid "Portfolio Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3637
+msgid "<a href=\"%s\" target=\"_blank\">Portfolio Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3643
+msgid "Portfolio Images Aspect Ratio"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3651
+msgid "Portfolio Post Slug"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3652
+msgid "This option is to modify the slug of the portfolio post items. Default will be /portfolio/"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3660
+msgid "Portfolio Home Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3661
+msgid "The grid icons in the single portfolio page will be linked to this URL."
+msgstr ""
+
+#: functions/be-themes-options-config.php:3668
+msgid "Portfolio View Project Button Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3678
+msgid "Single Portfolio Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3679
+msgid "Settings applicable on Portfolio Style including - Single Page Builder, Folating Sidebar and Fixed Sidebar types"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3699
+msgid "Navigation Icons color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3705
+msgid "Navigation Icons Hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3713
+msgid "Padding"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3720
+msgid "Bottom Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3735
+msgid "Bar Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3757
+msgid "Enable Portfolio Naviagtion in all items ?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3758
+msgid "Turn this on if you want portfolio navigation for all single portfolio pages, excluding Slider Type Portfolios"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3764
+msgid "Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3765
+msgid "Turn this off if you want a Full Screen Width Navigation"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3772
+msgid "Height"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3780
+msgid "Show Grid Icon"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3781
+msgid "Turn this on if you want a navigation grid"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3788
+msgid "Grid Icon Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3797
+msgid "Icon Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3804
+msgid "Icon Hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3818
+msgid "Background Hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3825
+msgid "Navigation Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3832
+msgid "Navigation Text Hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3839
+msgid "Show Featured Image"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3840
+msgid "Turn this on if you want Featured Images to be visible"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3847
+msgid "Featured image overlay color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3854
+msgid "Featured image overlay hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3861
+#: functions/be-themes-options-config.php:4191
+#: functions/be-themes-options-config.php:4258
+msgid "Border"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3880
+msgid "Slider Type Single Portfolio Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3881
+msgid "Settings applicable on Portfolio Style including - Sliders and Carousels"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3902
+msgid "Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3909
+msgid "Hover Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3916
+msgid "Text Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3924
+msgid "Caption Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3932
+msgid "Thumbnail Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3951
+msgid "Navigation Arrow Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3967
+msgid "Background/Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3968
+msgid "The color will be applied as the BG or border of the slider arrow , depending on the style choosen"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3975
+msgid "Background/Border Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3983
+msgid "Arrow Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:3991
+msgid "Arrow Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4005
+msgid "Portfolio Filter Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4019
+msgid "Portfolio Filter Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4041
+msgid "Portfolio Filter Alignment"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4056
+msgid "Portfolio Taxonomy Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4079
+msgid "Disable Title and Breadcrumbs Bar in Taxonomy Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4087
+msgid "Portfolio Grid Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4096
+msgid "Number of Columns"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4105
+msgid "Portfolio Gutter Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4113
+msgid "Grid hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4129
+msgid "<a href=\"%s\" target=\"_blank\">Shop Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4135
+msgid "Shop Page Column"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4144
+msgid "Enable Sidebar in Shop Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4152
+msgid "Number of products per page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4160
+msgid "Single Page Tabs Position"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4169
+msgid "Shop Page Primary Button Styling"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4183
+#: functions/be-themes-options-config.php:4250
+msgid "Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4199
+#: functions/be-themes-options-config.php:4266
+msgid "Hover Background"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4207
+#: functions/be-themes-options-config.php:4274
+msgid "Hover Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4215
+#: functions/be-themes-options-config.php:4282
+msgid "Hover Border"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4223
+#: functions/be-themes-options-config.php:4290
+msgid "Border Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4236
+msgid "Shop Page Secondary Button Styling"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4305
+msgid "Contact Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4306
+msgid "Contact information that will be used in the Contact form <a href=\"%s\" target=\"_blank\">Contact Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4311
+msgid "Email Address"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4313
+msgid "Enter your email address."
+msgstr ""
+
+#: functions/be-themes-options-config.php:4516
+msgid "Single Blog Hero Section"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4517
+msgid "Single Blog Hero Section Setting <a href=\"%s\" target=\"_blank\">Single Blog Hero Section Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4522
+msgid "Source of Hero Section in Single posts page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4540
+#: functions/be-themes-options-config.php:4739
+msgid "Add Slider Shortcode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4549
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4567
+#: functions/be-themes-options-config.php:4766
+msgid "Transparent Header Navigation Color Scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4568
+#: functions/be-themes-options-config.php:4767
+msgid "Applicable only for Transparent header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4576
+#: functions/be-themes-options-config.php:4775
+msgid "Hero Section Position"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4577
+#: functions/be-themes-options-config.php:4776
+msgid "Applicable only for non-transparent header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4585
+#: functions/be-themes-options-config.php:4784
+msgid "Hero Section Custom Height"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4593
+#: functions/be-themes-options-config.php:4792
+msgid "Hero Section With Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4594
+#: functions/be-themes-options-config.php:4793
+msgid "Applicable only if header is non-transparent, Hero Section position is Before Header and no Custom Height is defined"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4602
+#: functions/be-themes-options-config.php:4801
+msgid "Hero Section Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4610
+#: functions/be-themes-options-config.php:4809
+msgid "Hero Section Background Image"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4632
+#: functions/be-themes-options-config.php:4831
+msgid "Background Video format"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4641
+#: functions/be-themes-options-config.php:4840
+msgid "Video .MP4 Video File"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4642
+#: functions/be-themes-options-config.php:4841
+msgid "Self host the video and enter the URL of the media file"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4650
+#: functions/be-themes-options-config.php:4849
+msgid "Unmute Video"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4651
+#: functions/be-themes-options-config.php:4850
+msgid "By default, the video in the BG will be muted"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4680
+#: functions/be-themes-options-config.php:4878
+msgid "Hero Section Enable Background Overlay"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4688
+#: functions/be-themes-options-config.php:4886
+msgid "Background Overlay Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4696
+#: functions/be-themes-options-config.php:4894
+msgid "Wrap Content"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4705
+#: functions/be-themes-options-config.php:4903
+msgid "Hero Section content"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4715
+msgid "Single Shop Hero Section"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4716
+msgid "Single Shop Hero Section Setting <a href=\"%s\" target=\"_blank\">Single Shop Hero Section Settings Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4721
+msgid "Source of Hero Section in Single Products page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4862
+msgid "Enable Parallax"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4870
+msgid "Enable Mouse Move Parallax"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4915
+msgid "Import / Export"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4916
+msgid "Import and Export your Redux Framework settings from file, text or URL. <a href=\"%s\" target=\"_blank\">Import/Export Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4930
+msgid "Performance"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4931
+msgid "<a href=\"%s\" target=\"_blank\">Performance Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4937
+msgid "Use external file to load dynamic css"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4944
+msgid "Use Minified CSS assets"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4951
+msgid "Use minified JS assets"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4960
+msgid "GDPR Compliance"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4961
+msgid "<a href=\"%s\" target=\"_blank\">GDPR Compliance Documentation</a>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4967
+msgid "Add Consent Checkboxes to Contact Form and Newsletter Modules"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4974
+msgid "Anonymize IP when using Google Analytics"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4984
+msgid "Theme Information"
+msgstr ""
+
+#: functions/be-themes-options-config.php:4985
+msgid "<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:5001
+#: functions/be-themes-update-config.php:251
+msgid "Theme Information 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:5002
+#: functions/be-themes-options-config.php:5008
+#: functions/be-themes-update-config.php:252
+#: functions/be-themes-update-config.php:258
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:5007
+#: functions/be-themes-update-config.php:257
+msgid "Theme Information 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:5012
+#: functions/be-themes-update-config.php:262
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:5033
+#: functions/be-themes-options-config.php:5034
+msgid "Oshine Options"
+msgstr ""
+
+#: functions/be-themes-update-config.php:229
+msgid "Purchase Code"
+msgstr ""
+
+#: functions/be-themes-update-config.php:236
+msgid "Enter Code"
+msgstr ""
+
+#: functions/be-themes-update-config.php:237
+msgid "You can find the code here"
+msgstr ""
+
+#: functions/be-themes-update-config.php:283
+#: functions/be-themes-update-config.php:284
+msgid "Oshin Purchase Code"
+msgstr ""
+
+#: functions/common-helpers.php:508
+#: functions/helpers.php:23
+msgid "First"
+msgstr ""
+
+#: functions/common-helpers.php:511
+#: functions/helpers.php:26
+msgid "Prev"
+msgstr ""
+
+#: functions/common-helpers.php:519
+#: functions/helpers.php:36
+msgid "Next"
+msgstr ""
+
+#: functions/common-helpers.php:522
+#: functions/helpers.php:39
+msgid "Last"
+msgstr ""
+
+#: functions/common-helpers.php:680
+msgid "Instagram Error : "
+msgstr ""
+
+#: functions/common-helpers.php:689
+msgid "Instagram Error : Access Token is not entered under OSHINE OPTIONS > GLOBAL SITE LAYOUT AND SETTINGS. Access Token for your account can be generated from https://developers.facebook.com/docs/instagram-basic-display-api/getting-started/"
+msgstr ""
+
+#: functions/common-helpers.php:737
+#: functions/common-helpers.php:742
+msgid "Flickr Error : "
+msgstr ""
+
+#: functions/common-helpers.php:737
+msgid "Unknown Error"
+msgstr ""
+
+#: functions/helpers.php:194
+msgid "Older posts"
+msgstr ""
+
+#: functions/helpers.php:195
+msgid "Newer posts"
+msgstr ""
+
+#: functions/helpers.php:215
+msgid "Search ..."
+msgstr ""
+
+#: functions/helpers.php:249
+msgid "Edit"
+msgstr ""
+
+#: functions/helpers.php:264
+msgid "Reply"
+msgstr ""
+
+#: functions/helpers.php:273
+#: functions/helpers.php:276
+msgid "%1$s"
+msgstr ""
+
+#: functions/helpers.php:292
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/helpers.php:562
+#: functions/helpers.php:634
+msgid "Home"
+msgstr ""
+
+#: functions/helpers.php:568
+#: functions/helpers.php:570
+#: functions/helpers.php:572
+#: functions/helpers.php:578
+#: functions/helpers.php:580
+#: functions/helpers.php:582
+msgid "%s"
+msgstr ""
+
+#: functions/helpers.php:570
+#: functions/helpers.php:580
+#: functions/helpers.php:657
+#: functions/helpers.php:671
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions/helpers.php:572
+#: functions/helpers.php:582
+#: functions/helpers.php:659
+#: functions/helpers.php:673
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions/helpers.php:574
+#: functions/helpers.php:665
+#: page-title.php:15
+msgid "Portfolio Archives"
+msgstr ""
+
+#: functions/helpers.php:584
+#: functions/helpers.php:675
+#: page-title.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: functions/helpers.php:642
+#: page-title.php:27
+#: page-title.php:35
+msgid "Blog"
+msgstr ""
+
+#: functions/helpers.php:661
+msgid "Portfolio Category / "
+msgstr ""
+
+#: functions/helpers.php:663
+msgid "Portfolio Tag / "
+msgstr ""
+
+#: functions/helpers.php:683
+msgid "Here"
+msgstr ""
+
+#: functions/helpers.php:892
+msgid "Load More"
+msgstr ""
+
+#: functions/typography-options.php:4
+msgid "Heading 1"
+msgstr ""
+
+#: functions/typography-options.php:20
+msgid "Heading 2"
+msgstr ""
+
+#: functions/typography-options.php:36
+msgid "Heading 3"
+msgstr ""
+
+#: functions/typography-options.php:52
+msgid "Heading 4"
+msgstr ""
+
+#: functions/typography-options.php:72
+msgid "Heading 5"
+msgstr ""
+
+#: functions/typography-options.php:88
+msgid "Heading 6"
+msgstr ""
+
+#: functions/typography-options.php:116
+msgid "Body - Main Text"
+msgstr ""
+
+#: functions/typography-options.php:135
+msgid "Page Title Bar"
+msgstr ""
+
+#: functions/typography-options.php:270
+msgid "Sidebar Submenu Text"
+msgstr ""
+
+#: functions/typography-options.php:286
+msgid "Title font of page builder modules"
+msgstr ""
+
+#: functions/typography-options.php:352
+msgid "Testimonials Font Family"
+msgstr ""
+
+#: functions/typography-options.php:446
+msgid "Portfolio Details Module - Title"
+msgstr ""
+
+#: functions/typography-options.php:460
+msgid "Portfolio Details Module - Content"
+msgstr ""
+
+#: functions/typography-options.php:474
+msgid "Split Screen Portfolio Title"
+msgstr ""
+
+#: functions/typography-options.php:489
+msgid "Title Carousel Portfolio Title"
+msgstr ""
+
+#: functions/typography-options.php:530
+msgid "Caption in Portfolio Sliders"
+msgstr ""
+
+#: functions/widget-functions.php:13
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions/widget-functions.php:15
+msgid "Widget area of Sidebar template pages"
+msgstr ""
+
+#: functions/widget-functions.php:24
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions/widget-functions.php:26
+#: functions/widget-functions.php:37
+#: functions/widget-functions.php:48
+#: functions/widget-functions.php:59
+msgid "Footer widget area"
+msgstr ""
+
+#: functions/widget-functions.php:35
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions/widget-functions.php:46
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions/widget-functions.php:57
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions/widget-functions.php:70
+msgid "Widget area of Slidebar"
+msgstr ""
+
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:20
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:26
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:75
+msgid "Your Photostream"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:4
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:5
+msgid "BE Recent Posts"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:29
+msgid "Recent Posts"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:91
+msgid "Title:"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:94
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Gallery"
+msgstr ""
+
+#: headers/header-functions.php:615
+#: headers/header-functions.php:637
+#: woocommerce/be-woo-functions.php:198
+msgid "View your shopping cart"
+msgstr ""
+
+#: headers/header-functions.php:1445
+msgid "Page %s"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blank Page Template"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page With Sidebar And Title"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page With Sidebar"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Split Screen Left"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Split Screen Right"
+msgstr ""
+
+#: page-title.php:3
+msgid "Category: "
+msgstr ""
+
+#: page-title.php:5
+msgid "Articles Tagged with: "
+msgstr ""
+
+#: page-title.php:7
+msgid "Search Results for: "
+msgstr ""
+
+#: page-title.php:11
+msgid "Portfolio Category : "
+msgstr ""
+
+#: page-title.php:13
+msgid "Portfolio Tag : "
+msgstr ""
+
+#: page-title.php:18
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: page-title.php:20
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: page-title.php:22
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page With Title"
+msgstr ""
+
+#: search.php:63
+msgid "Sorry, Please enter a search query"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:23
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:25
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:29
+#: woocommerce/class-wc-widget-cart.php:54
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:35
+msgid "Hide if cart is empty"
+msgstr ""

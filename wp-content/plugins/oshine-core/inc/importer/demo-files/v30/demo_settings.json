@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Home - v30",
+	"blog_page_title": "News - v30",
+	"menus": {
+		"main_nav": "v30 Main Menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

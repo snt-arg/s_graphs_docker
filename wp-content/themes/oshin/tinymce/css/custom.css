@@ -1,0 +1,26 @@
+body{
+        color: #666;
+        -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+	line-height: 20px;
+	font: 13px 'Droid Sans',sans-serif;
+	font-weight: 400;
+}
+#shortcode{
+	display: inline;
+	margin: 0 0 10px 10px;
+	font: 13px 'Droid Sans',sans-serif;
+}
+#insert{
+	margin: 0 0 0 35px !important;
+	background: #444 !important;
+	color: #EEE !important;
+	font: 14px 'Droid Sans',sans-serif !important;
+	font-weight: bold !important;
+}
+#cancel{
+	margin: 0 0 0 25px !important;
+	background: #444 !important;
+	color: #EEE !important;
+	font: 14px 'Droid Sans',sans-serif !important;
+	font-weight: bold !important;
+}

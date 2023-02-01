@@ -1,0 +1,40 @@
+@import "compass/css3";
+.highlight-font {
+	font-size:14px;
+	line-height:22px;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	font-weight: 600;
+}
+.highlight {
+	@extend .highlight-font;
+	position: relative;
+	display: inline-block;
+	span.text {
+		z-index: 2;
+		position:relative;
+		&:before {
+		content: "";
+		z-index: -1;
+		position: absolute;
+		background: #ccc;
+		height: 40%;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+	}
+	}
+
+}
+.btn {
+	padding: 6px 12px;
+	&.transparent {
+		border: 1px solid;
+	}
+	&.btn-default {
+		
+	}
+}
+.text-muted {
+	@include opacity(0.5);
+}

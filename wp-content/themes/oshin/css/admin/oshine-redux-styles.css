@@ -1,0 +1,27 @@
+#be_themes_data-top_header_hamburger_style .tiles,
+#be_themes_data-left_header_hamburger_style .tiles{
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#be_themes_data-opt-menu-style .tiles,
+#be_themes_data-left-header-style .tiles {
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redux-container-image_select .redux-image-select-selected .tiles{
+    border-color: #0073aa;
+}
+
+.qtip-tipsy{
+    display: none !important;
+}
+.redux-container-image_select .redux-image-select .tiles {
+    background-repeat: no-repeat;
+    background-position: center;
+}

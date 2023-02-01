@@ -1,0 +1,16 @@
+{
+	"home_page_title": "Home - v7",
+	"blog_page_title": "Blog-v7",
+	"sliders": {
+		"masterslider": "v7.json",
+		"revslider": "v7-home.zip"
+	},
+	"menus": {
+		"main_nav": "V7 Main Menu"
+	},
+	"content_plugins": {
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post",
+		"revslider": "Slider Revolution"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"home_page_title": "Home – hair Treatment",
+	"content_plugins": {
+		"tatsu": "Tatsu"
+	},
+	"nav_menus":{"2":"Main Menu","3":"Footer_Nav_1","4":"Footer_Nav_2","5":"Footer_Nav_Imp"}
+}

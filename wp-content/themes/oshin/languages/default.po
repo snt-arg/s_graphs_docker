@@ -1,0 +1,5804 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oshin 1.9\n"
+"POT-Creation-Date: 2015-05-21 20:34+0530\n"
+"PO-Revision-Date: 2015-05-21 20:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: Brand Exponents <swami@brandexponents.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "404 PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:397
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:566
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:405
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:567
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:413
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:421
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:568
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:428
+msgid "Please Wait"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:439
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/enqueue.php:440
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/core/panel.php:340
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:221
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:221
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:190
+msgid "Redux Framework"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:225
+#: ReduxFramework/ReduxCore/framework.php:229
+msgid "Options"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1409
+#: ReduxFramework/ReduxCore/templates/panel/menu_container.tpl.php:63
+msgid "System Info"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1712
+msgid "Enable"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1717
+msgid "Disable"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1723
+msgid "moving the mouse over"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1725
+msgid "clicking"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1729
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1734
+msgid "Hints"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:1861
+msgid "Default"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:2711
+msgid "Invalid security credential, please reload the page and try again."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/framework.php:2797
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_filesystem.php:23
+msgid "Unable to modify required files. Please ensure that"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_filesystem.php:25
+msgid ""
+"has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_functions.php:237
+msgid "Dismiss"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_helpers.php:593
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_themecheck.php:61
+#, php-format
+msgid ""
+"The theme you are testing has %s embedded. We invite you to read the %sTheme-"
+"Check Documentation%s to understand some warnings you will see because of "
+"Redux."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/class.redux_themecheck.php:109
+msgid ""
+"The following directories & files are still located in your <strong>Redux</"
+"strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/debug.php:41
+#: ReduxFramework/ReduxCore/inc/debug.php:69
+#: ReduxFramework/ReduxCore/inc/debug.php:76
+#: ReduxFramework/ReduxCore/inc/debug.php:77
+msgid "Options Object"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/debug.php:54
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:601
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:602
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/customizer/extension_customizer.php:603
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+#: ReduxFramework/sample/sample-config-legacy.php:1591
+#: functions/be-themes-options-config.php:2785
+msgid "Import / Export"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:103
+msgid "Import Options"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid "Import from File"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid "Import from URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:107
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:112
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:119
+msgid "Export Options"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:121
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Copy Data"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Download Data File"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Copy Export URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:124
+#: ReduxFramework/ReduxCore/inc/fields/color/field_color.php:73
+#: ReduxFramework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: ReduxFramework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:141
+#: be-themes-metabox.php:462
+msgid "Background Repeat"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:203
+#: be-themes-metabox.php:470
+msgid "Background Attachment"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:223
+#: be-themes-metabox.php:478
+msgid "Background Position"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:277
+#: ReduxFramework/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:314
+#: ReduxFramework/ReduxCore/inc/fields/media/field_media.php:198
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:126
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/background/field_background.php:321
+#: ReduxFramework/ReduxCore/inc/fields/media/field_media.php:205
+#: ReduxFramework/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: ReduxFramework/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: ReduxFramework/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:133
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:190
+#: meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:125
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:138
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:145
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:152
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:159
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/border/field_border.php:173
+msgid "Border style"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:442
+#: be-themes-metabox.php:734 be-themes-metabox.php:843
+msgid "Height"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: ReduxFramework/ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: ReduxFramework/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/gallery/field_gallery.php:73
+#: ReduxFramework/sample/sample-config-legacy.php:313
+#: ReduxFramework/sample/sample-config.php:896
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/password/field_password.php:62
+#: ReduxFramework/sample/sample-config.php:487 meta-box/demo/demo.php:112
+msgid "Password"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/select/field_select.php:83
+#: ReduxFramework/ReduxCore/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/select/field_select.php:134
+#: ReduxFramework/ReduxCore/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:73
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:145
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:200
+#: woocommerce/class-wc-widget-cart.php:30
+msgid "Title"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:149
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:204
+#: ReduxFramework/sample/sample-config.php:1836
+#: ReduxFramework/sample/sample-config.php:1845
+msgid "Description"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:153
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:207
+#: meta-box/demo/demo.php:262
+msgid "URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:167
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:258
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:273
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:342
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:343
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:365
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:366
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:388
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:389
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:408
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:409
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:432
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:441
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:450
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:459
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:879
+msgid "Standard Fonts"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/fields/typography/field_typography.php:980
+msgid "Google Webfonts"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:154
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:214
+msgid "Redux Extensions"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/color/validation_color.php:15
+#: ReduxFramework/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: ReduxFramework/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/css/validation_css.php:38
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/email/validation_email.php:16
+#: ReduxFramework/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: ReduxFramework/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:8
+#: ReduxFramework/ReduxCore/inc/welcome/views/changelog.php:8
+#: ReduxFramework/ReduxCore/inc/welcome/views/credits.php:8
+#: ReduxFramework/ReduxCore/inc/welcome/views/extensions.php:82
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:31
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:8
+#: ReduxFramework/sample/sample-config-legacy.php:210
+#: functions/be-themes-options-config.php:212
+#: functions/be-themes-update-config.php:197
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/changelog.php:5
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:28
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of "
+"thousands of instances worldwide, you can be assured that we will take care "
+"of you and your clients."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank "
+"all of those who help Redux to be what it is. Thank you for your involvement."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/credits.php:14
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"https://github.com/reduxframework/redux-framework/"
+"blob/master/CONTRIBUTING.md\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/extensions.php:76
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/extensions.php:79
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/extensions.php:88
+msgid ""
+"While some are built specificially for developers, extensions such as Custom "
+"Fonts are sure to make any user happy."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:25
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:38
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:41
+msgid "Get System Report"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:44
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:51
+msgid "Copied!"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:51
+msgid "Copy for Support"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:60
+msgid "WordPress Environment"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:65
+msgid "Home URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:70
+msgid "Site URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:75
+msgid "Redux Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:80
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:88
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:93
+msgid "WP Content URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:102
+msgid "WP Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:107
+msgid "WP Multisite"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:116
+msgid "Permalink Structure"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:122
+msgid "Front Page Display"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:131
+msgid "Front Page"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:136
+msgid "Posts Page"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:144
+msgid "WP Memory Limit"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:150
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:157
+msgid "Database Table Prefix"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:163
+msgid "WP Debug Mode"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:172
+msgid "Language"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:181
+msgid "Browser"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:186
+msgid "Browser Info"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:202
+msgid "Server Environment"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:207
+msgid "Server Info"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:212
+msgid "Localhost Environment"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:223
+msgid "PHP Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:228
+msgid "ABSPATH"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:235
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:240
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:245
+msgid "PHP Time Limit"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:250
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:255
+msgid "PHP Display Errors"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:267
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:277
+msgid "MySQL Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:282
+msgid "Max Upload Size"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:287
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:293
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:310
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:349
+msgid "Remote Post"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:355
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:358
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:373
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:365
+msgid "Remote Get"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:371
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:405
+msgid "Active Plugins"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:421
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:445
+msgid "Redux Instance: "
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:577
+msgid "Theme"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:582
+#: contact.php:26 functions/helpers.php:331
+msgid "Name"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:587
+msgid "Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:593
+msgid "is available"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:598
+msgid "Author URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:603
+msgid "Child Theme"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:606
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:614
+msgid "Parent Theme Name"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:620
+msgid "Parent Theme Version"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/status_report.php:627
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:5
+msgid ""
+"We are an open source project used by developers to make powerful control "
+"panels."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:20
+msgid "Generate a Support URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:21
+msgid "Select Support Type"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:22
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:65
+msgid "How to Get Support"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:30
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:33
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:37
+msgid ""
+"Generate\n"
+"                        a Support URL"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:44
+msgid "Select Your Support Type"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:47
+msgid "What type of user are you?"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:52
+#: meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:53
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:56
+msgid "Developer"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:57
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:68
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:74
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:77
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/views/support.php:215
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:170
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:190
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:198
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:206
+#: ReduxFramework/class.redux-plugin.php:411
+msgid "Get Support"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:223
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:231
+msgid "Redux Framework Status"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:336
+msgid "What's New"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:340
+#: ReduxFramework/sample/barebones-config.php:150
+#: ReduxFramework/sample/sample-config-legacy.php:1783
+#: ReduxFramework/sample/sample-config.php:213
+msgid "Extensions"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:344
+msgid "Changelog"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:348
+msgid "Credits"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:352
+#: ReduxFramework/sample/barebones-config.php:144
+#: ReduxFramework/sample/sample-config-legacy.php:1777
+#: ReduxFramework/sample/sample-config.php:207
+msgid "Support"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:356
+#: functions/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/inc/welcome/welcome.php:513
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/footer.tpl.php:47
+#: ReduxFramework/ReduxCore/templates/panel/header_stickybar.tpl.php:20
+msgid "Save Changes"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/footer.tpl.php:50
+#: ReduxFramework/ReduxCore/templates/panel/header_stickybar.tpl.php:22
+msgid "Reset Section"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/footer.tpl.php:51
+#: ReduxFramework/ReduxCore/templates/panel/header_stickybar.tpl.php:23
+msgid "Reset All"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/footer.tpl.php:56
+#: ReduxFramework/ReduxCore/templates/panel/header_stickybar.tpl.php:26
+msgid "Working..."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:12
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:47
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:21
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:27
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:32
+msgid "and"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:35
+msgid "Redux has enabled developer mode because"
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header.tpl.php:37
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: ReduxFramework/ReduxCore/templates/panel/header_stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:307
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:307
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:408
+msgid "Docs"
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:409
+msgid "Repo"
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:410
+msgid "Builder"
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:416
+msgid "Deactivate Demo Mode"
+msgstr ""
+
+#: ReduxFramework/class.redux-plugin.php:418
+msgid "Activate Demo Mode"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:55
+#: ReduxFramework/sample/sample-config-legacy.php:239
+msgid "Home Settings"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:56
+#: ReduxFramework/sample/sample-config-legacy.php:1565
+#: ReduxFramework/sample/sample-config.php:2149
+msgid ""
+"These fields can be fully translated by WPML (WordPress Multi-Language). "
+"This serves as an example for you to implement. For extra details look at "
+"our <a href=\"http://docs.reduxframework.com/core/advanced/wpml-integration/"
+"\" target=\"_blank\">WPML Implementation</a> documentation."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:64
+#: ReduxFramework/sample/barebones-config.php:247
+msgid "Example Text"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:67
+#: ReduxFramework/sample/barebones-config.php:248
+msgid "Example description."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:68
+#: ReduxFramework/sample/barebones-config.php:249
+msgid "Example subtitle."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:78
+#: ReduxFramework/sample/sample-config-legacy.php:1564
+msgid "WPML Example"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:79
+msgid ""
+"These fields can be fully translated by WPML (WordPress Multi-Language). "
+"This serves as an example for you to implement."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:86
+#: ReduxFramework/sample/sample-config-legacy.php:1572
+#: ReduxFramework/sample/sample-config.php:2156
+msgid "WPML Text"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:87
+#: ReduxFramework/sample/sample-config-legacy.php:1573
+#: ReduxFramework/sample/sample-config.php:2157
+msgid "This string can be translated via WPML."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:92
+#: ReduxFramework/sample/sample-config-legacy.php:1578
+#: ReduxFramework/sample/sample-config.php:2162
+msgid "WPML Multi Checkbox"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:93
+#: ReduxFramework/sample/sample-config-legacy.php:1579
+#: ReduxFramework/sample/sample-config.php:2163
+msgid "You can literally translate the values via key."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:110
+#: ReduxFramework/sample/barebones-config.php:204
+#: ReduxFramework/sample/sample-config-legacy.php:1636
+#: ReduxFramework/sample/sample-config.php:268 be-themes-options.php:86
+#: functions/be-themes-options-config.php:2826
+#: functions/be-themes-update-config.php:259
+msgid "Theme Information 1"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:111
+#: ReduxFramework/sample/barebones-config-legacy.php:117
+#: ReduxFramework/sample/barebones-config.php:205
+#: ReduxFramework/sample/barebones-config.php:210
+#: ReduxFramework/sample/sample-config-legacy.php:1637
+#: ReduxFramework/sample/sample-config-legacy.php:1643
+#: ReduxFramework/sample/sample-config.php:269
+#: ReduxFramework/sample/sample-config.php:274 be-themes-options.php:87
+#: be-themes-options.php:92 functions/be-themes-options-config.php:2827
+#: functions/be-themes-options-config.php:2833
+#: functions/be-themes-update-config.php:260
+#: functions/be-themes-update-config.php:266
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:116
+#: ReduxFramework/sample/barebones-config.php:209
+#: ReduxFramework/sample/sample-config-legacy.php:1642
+#: ReduxFramework/sample/sample-config.php:273 be-themes-options.php:91
+#: functions/be-themes-options-config.php:2832
+#: functions/be-themes-update-config.php:265
+msgid "Theme Information 2"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:121
+#: ReduxFramework/sample/barebones-config.php:216
+#: ReduxFramework/sample/sample-config-legacy.php:1647
+#: ReduxFramework/sample/sample-config.php:280 be-themes-options.php:95
+#: functions/be-themes-options-config.php:2837
+#: functions/be-themes-update-config.php:270
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:144
+#: ReduxFramework/sample/barebones-config-legacy.php:145
+#: ReduxFramework/sample/barebones-config.php:35
+#: ReduxFramework/sample/barebones-config.php:36
+#: ReduxFramework/sample/sample-config-legacy.php:1670
+#: ReduxFramework/sample/sample-config-legacy.php:1671
+#: ReduxFramework/sample/sample-config.php:98
+#: ReduxFramework/sample/sample-config.php:99
+msgid "Sample Options"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:262
+#: ReduxFramework/sample/barebones-config.php:183
+#: ReduxFramework/sample/sample-config-legacy.php:1816
+#: ReduxFramework/sample/sample-config.php:246
+#: functions/be-themes-options-config.php:2957
+#: functions/be-themes-update-config.php:392
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:264
+#: ReduxFramework/sample/barebones-config.php:185
+#: ReduxFramework/sample/sample-config-legacy.php:1818
+#: ReduxFramework/sample/sample-config.php:248
+#: functions/be-themes-options-config.php:2959
+#: functions/be-themes-update-config.php:394
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config-legacy.php:268
+#: ReduxFramework/sample/barebones-config.php:189
+#: ReduxFramework/sample/sample-config-legacy.php:1822
+#: ReduxFramework/sample/sample-config.php:252
+#: functions/be-themes-options-config.php:2963
+#: functions/be-themes-update-config.php:398
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:138
+#: ReduxFramework/sample/sample-config-legacy.php:1368
+#: ReduxFramework/sample/sample-config-legacy.php:1625
+#: ReduxFramework/sample/sample-config-legacy.php:1771
+#: ReduxFramework/sample/sample-config.php:201
+#: ReduxFramework/sample/sample-config.php:2201
+#: functions/be-themes-options-config.php:2815
+#: functions/be-themes-update-config.php:248
+msgid "Documentation"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:240
+msgid "Basic Field"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:242
+msgid "Basic field with no subsections."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:257
+#: ReduxFramework/sample/sample-config.php:305
+msgid "Basic Fields"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:259
+msgid "Basic fields as subsections."
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:264
+#: ReduxFramework/sample/sample-config.php:434
+#: functions/be-themes-options-config.php:2233
+#: functions/be-themes-options-config.php:2300 meta-box/demo/demo.php:57
+msgid "Text"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:265
+#: ReduxFramework/sample/barebones-config.php:282
+#: ReduxFramework/sample/sample-config.php:315
+#: ReduxFramework/sample/sample-config.php:366
+#: ReduxFramework/sample/sample-config.php:396
+#: ReduxFramework/sample/sample-config.php:435
+#: ReduxFramework/sample/sample-config.php:474
+#: ReduxFramework/sample/sample-config.php:489
+#: ReduxFramework/sample/sample-config.php:508
+#: ReduxFramework/sample/sample-config.php:533
+#: ReduxFramework/sample/sample-config.php:566
+#: ReduxFramework/sample/sample-config.php:624
+#: ReduxFramework/sample/sample-config.php:647
+#: ReduxFramework/sample/sample-config.php:666
+#: ReduxFramework/sample/sample-config.php:687
+#: ReduxFramework/sample/sample-config.php:734
+#: ReduxFramework/sample/sample-config.php:740
+#: ReduxFramework/sample/sample-config.php:784
+#: ReduxFramework/sample/sample-config.php:820
+#: ReduxFramework/sample/sample-config.php:890
+#: ReduxFramework/sample/sample-config.php:906
+#: ReduxFramework/sample/sample-config.php:959
+#: ReduxFramework/sample/sample-config.php:988
+#: ReduxFramework/sample/sample-config.php:1001
+#: ReduxFramework/sample/sample-config.php:1096
+#: ReduxFramework/sample/sample-config.php:1146
+#: ReduxFramework/sample/sample-config.php:1185
+#: ReduxFramework/sample/sample-config.php:1244
+#: ReduxFramework/sample/sample-config.php:1469
+#: ReduxFramework/sample/sample-config.php:1564
+#: ReduxFramework/sample/sample-config.php:1598
+#: ReduxFramework/sample/sample-config.php:1662
+#: ReduxFramework/sample/sample-config.php:1682
+#: ReduxFramework/sample/sample-config.php:1764
+#: ReduxFramework/sample/sample-config.php:1780
+#: ReduxFramework/sample/sample-config.php:1828
+#: ReduxFramework/sample/sample-config.php:1860
+msgid "For full documentation on this field, visit: "
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:272
+#: ReduxFramework/sample/sample-config.php:442
+#: ReduxFramework/sample/sample-config.php:462
+msgid "Text Field"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:273
+#: ReduxFramework/sample/barebones-config.php:290
+#: ReduxFramework/sample/sample-config.php:443
+#: ReduxFramework/sample/sample-config.php:451
+#: ReduxFramework/sample/sample-config.php:463
+#: ReduxFramework/sample/sample-config.php:515
+#: ReduxFramework/sample/sample-config.php:1835
+#: ReduxFramework/sample/sample-config.php:1844
+msgid "Subtitle"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:274
+#: ReduxFramework/sample/barebones-config.php:291
+#: ReduxFramework/sample/sample-config.php:444
+#: ReduxFramework/sample/sample-config.php:452
+#: ReduxFramework/sample/sample-config.php:464
+msgid "Field Description"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:281
+msgid "Text Area"
+msgstr ""
+
+#: ReduxFramework/sample/barebones-config.php:289
+msgid "Text Area Field"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:108
+#: ReduxFramework/sample/sample-config.php:2283
+#: functions/be-themes-options-config.php:114
+#: functions/be-themes-update-config.php:114
+msgid "Section via hook"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:109
+#: ReduxFramework/sample/sample-config.php:2284
+#: functions/be-themes-options-config.php:115
+#: functions/be-themes-update-config.php:115
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:189
+#: functions/be-themes-options-config.php:194
+#: functions/be-themes-update-config.php:179
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:209
+#: functions/be-themes-options-config.php:211
+#: functions/be-themes-update-config.php:196
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:211
+#: functions/be-themes-options-config.php:213
+#: functions/be-themes-update-config.php:198
+msgid "Tags"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:216
+#: functions/be-themes-options-config.php:218
+#: functions/be-themes-update-config.php:203
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:216
+#: functions/be-themes-options-config.php:218
+#: functions/be-themes-update-config.php:203
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:240
+msgid ""
+"Redux Framework was created with the developer in mind. It allows for any "
+"theme developer to have an advanced theme panel with most of the features a "
+"developer would need. For more information check out the Github repo at: <a "
+"href=\"https://github.com/ReduxFramework/Redux-Framework\">https://github."
+"com/ReduxFramework/Redux-Framework</a>"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:248
+msgid "Web Fonts"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:252
+#: ReduxFramework/sample/sample-config-legacy.php:281
+#: ReduxFramework/sample/sample-config.php:916
+#: ReduxFramework/sample/sample-config.php:950
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:253
+#: ReduxFramework/sample/sample-config-legacy.php:282
+#: ReduxFramework/sample/sample-config-legacy.php:300
+#: ReduxFramework/sample/sample-config-legacy.php:308
+#: ReduxFramework/sample/sample-config.php:917
+#: ReduxFramework/sample/sample-config.php:929
+#: ReduxFramework/sample/sample-config.php:937
+#: ReduxFramework/sample/sample-config.php:951
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:262
+msgid "Section Show"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:263
+#: ReduxFramework/sample/sample-config-legacy.php:270
+msgid "With the \"section\" field you can create indent option sections."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:269
+msgid "Media Options"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:278
+#: ReduxFramework/sample/sample-config.php:913
+msgid "Media w/ URL"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:298
+#: ReduxFramework/sample/sample-config.php:927
+msgid "Media w/o URL"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:299
+#: ReduxFramework/sample/sample-config-legacy.php:307
+#: ReduxFramework/sample/sample-config.php:928
+#: ReduxFramework/sample/sample-config.php:936
+msgid ""
+"This represents the minimalistic view. It does not have the preview box or "
+"the display URL in an input box. "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:306
+#: ReduxFramework/sample/sample-config.php:935
+msgid "Media No Preview"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:314
+#: ReduxFramework/sample/sample-config.php:897
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:315
+#: ReduxFramework/sample/sample-config-legacy.php:705
+#: ReduxFramework/sample/sample-config-legacy.php:716
+#: ReduxFramework/sample/sample-config-legacy.php:734
+#: ReduxFramework/sample/sample-config-legacy.php:832
+#: ReduxFramework/sample/sample-config-legacy.php:846
+#: ReduxFramework/sample/sample-config-legacy.php:855
+#: ReduxFramework/sample/sample-config-legacy.php:862
+#: ReduxFramework/sample/sample-config-legacy.php:875
+#: ReduxFramework/sample/sample-config-legacy.php:884
+#: ReduxFramework/sample/sample-config-legacy.php:893
+#: ReduxFramework/sample/sample-config-legacy.php:915
+#: ReduxFramework/sample/sample-config-legacy.php:928
+#: ReduxFramework/sample/sample-config-legacy.php:937
+#: ReduxFramework/sample/sample-config-legacy.php:952
+#: ReduxFramework/sample/sample-config-legacy.php:961
+#: ReduxFramework/sample/sample-config-legacy.php:970
+#: ReduxFramework/sample/sample-config-legacy.php:980
+#: ReduxFramework/sample/sample-config-legacy.php:996
+#: ReduxFramework/sample/sample-config-legacy.php:1004
+#: ReduxFramework/sample/sample-config-legacy.php:1023
+#: ReduxFramework/sample/sample-config-legacy.php:1031
+#: ReduxFramework/sample/sample-config-legacy.php:1039
+#: ReduxFramework/sample/sample-config-legacy.php:1053
+#: ReduxFramework/sample/sample-config-legacy.php:1061
+#: ReduxFramework/sample/sample-config-legacy.php:1111
+#: ReduxFramework/sample/sample-config-legacy.php:1125
+#: ReduxFramework/sample/sample-config-legacy.php:1145
+#: ReduxFramework/sample/sample-config-legacy.php:1159
+#: ReduxFramework/sample/sample-config-legacy.php:1187
+#: ReduxFramework/sample/sample-config-legacy.php:1220
+#: ReduxFramework/sample/sample-config-legacy.php:1229
+#: ReduxFramework/sample/sample-config-legacy.php:1237
+#: ReduxFramework/sample/sample-config-legacy.php:1246
+#: ReduxFramework/sample/sample-config-legacy.php:1254
+#: ReduxFramework/sample/sample-config-legacy.php:1263
+#: ReduxFramework/sample/sample-config-legacy.php:1271
+#: ReduxFramework/sample/sample-config-legacy.php:1280
+#: ReduxFramework/sample/sample-config-legacy.php:1288
+#: ReduxFramework/sample/sample-config-legacy.php:1297
+#: ReduxFramework/sample/sample-config-legacy.php:1307
+#: ReduxFramework/sample/sample-config-legacy.php:1315
+#: ReduxFramework/sample/sample-config-legacy.php:1324
+#: ReduxFramework/sample/sample-config-legacy.php:1332
+#: ReduxFramework/sample/sample-config-legacy.php:1341
+#: ReduxFramework/sample/sample-config-legacy.php:1391
+#: ReduxFramework/sample/sample-config-legacy.php:1402
+#: ReduxFramework/sample/sample-config-legacy.php:1416
+#: ReduxFramework/sample/sample-config.php:322
+#: ReduxFramework/sample/sample-config.php:330
+#: ReduxFramework/sample/sample-config.php:349
+#: ReduxFramework/sample/sample-config.php:357
+#: ReduxFramework/sample/sample-config.php:373
+#: ReduxFramework/sample/sample-config.php:387
+#: ReduxFramework/sample/sample-config.php:403
+#: ReduxFramework/sample/sample-config.php:417
+#: ReduxFramework/sample/sample-config.php:516
+#: ReduxFramework/sample/sample-config.php:656
+#: ReduxFramework/sample/sample-config.php:696
+#: ReduxFramework/sample/sample-config.php:750
+#: ReduxFramework/sample/sample-config.php:768
+#: ReduxFramework/sample/sample-config.php:898
+#: ReduxFramework/sample/sample-config.php:1154
+#: ReduxFramework/sample/sample-config.php:1168
+#: ReduxFramework/sample/sample-config.php:1253
+#: ReduxFramework/sample/sample-config.php:1275
+#: ReduxFramework/sample/sample-config.php:1300
+#: ReduxFramework/sample/sample-config.php:1333
+#: ReduxFramework/sample/sample-config.php:1342
+#: ReduxFramework/sample/sample-config.php:1350
+#: ReduxFramework/sample/sample-config.php:1359
+#: ReduxFramework/sample/sample-config.php:1367
+#: ReduxFramework/sample/sample-config.php:1376
+#: ReduxFramework/sample/sample-config.php:1384
+#: ReduxFramework/sample/sample-config.php:1393
+#: ReduxFramework/sample/sample-config.php:1401
+#: ReduxFramework/sample/sample-config.php:1410
+#: ReduxFramework/sample/sample-config.php:1420
+#: ReduxFramework/sample/sample-config.php:1428
+#: ReduxFramework/sample/sample-config.php:1437
+#: ReduxFramework/sample/sample-config.php:1445
+#: ReduxFramework/sample/sample-config.php:1454
+#: ReduxFramework/sample/sample-config.php:1523
+#: ReduxFramework/sample/sample-config.php:1772
+#: ReduxFramework/sample/sample-config.php:1886
+#: ReduxFramework/sample/sample-config.php:1896
+#: ReduxFramework/sample/sample-config.php:1905
+#: ReduxFramework/sample/sample-config.php:1912
+#: ReduxFramework/sample/sample-config.php:1921
+#: ReduxFramework/sample/sample-config.php:1930
+#: ReduxFramework/sample/sample-config.php:1939
+#: ReduxFramework/sample/sample-config.php:1961
+#: ReduxFramework/sample/sample-config.php:1998
+#: ReduxFramework/sample/sample-config.php:2007
+#: ReduxFramework/sample/sample-config.php:2016
+#: ReduxFramework/sample/sample-config.php:2034
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:320
+#: ReduxFramework/sample/sample-config.php:1604
+msgid "Slider Example 1"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:321
+#: ReduxFramework/sample/sample-config.php:1605
+msgid "This slider displays the value as a label."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:322
+#: ReduxFramework/sample/sample-config.php:1606
+msgid "Slider description. Min: 1, max: 500, step: 1, default value: 250"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:332
+#: ReduxFramework/sample/sample-config.php:1616
+msgid "Slider Example 2 with Steps (5)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:333
+#: ReduxFramework/sample/sample-config.php:1617
+msgid "This example displays the value in a text box"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:334
+#: ReduxFramework/sample/sample-config.php:1618
+msgid "Slider description. Min: 0, max: 300, step: 5, default value: 75"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:344
+#: ReduxFramework/sample/sample-config.php:1628
+msgid "Slider Example 3 with two sliders"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:345
+#: ReduxFramework/sample/sample-config.php:1629
+msgid "This example displays the values in select boxes"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:346
+#: ReduxFramework/sample/sample-config.php:1630
+msgid ""
+"Slider description. Min: 0, max: 500, step: 5, slider 1 default value: 100, "
+"slider 2 default value: 300"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:360
+#: ReduxFramework/sample/sample-config.php:1644
+msgid "Slider Example 4 with float values"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:361
+#: ReduxFramework/sample/sample-config.php:1645
+msgid "This example displays float values"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:362
+#: ReduxFramework/sample/sample-config.php:1646
+msgid "Slider description. Min: 0, max: 1, step: .1, default value: .5"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:373
+#: ReduxFramework/sample/sample-config.php:1668
+msgid "JQuery UI Spinner Example 1"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:374
+#: ReduxFramework/sample/sample-config.php:1669
+msgid ""
+"JQuery UI spinner description. Min:20, max: 100, step:20, default value: 40"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:383
+#: ReduxFramework/sample/sample-config.php:1192
+msgid "Switch On"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:384
+#: ReduxFramework/sample/sample-config-legacy.php:391
+#: ReduxFramework/sample/sample-config.php:1193
+#: ReduxFramework/sample/sample-config.php:1200
+msgid "Look, it's on!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:390
+#: ReduxFramework/sample/sample-config.php:1199
+msgid "Switch Off"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:398
+#: ReduxFramework/sample/sample-config.php:1207
+msgid "Switch - Nested Children, Enable to show"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:399
+#: ReduxFramework/sample/sample-config.php:1208
+msgid "Look, it's on! Also hidden child elements!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:408
+#: ReduxFramework/sample/sample-config.php:1217
+msgid "Switch - This and the next switch required for patterns to show"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:409
+#: ReduxFramework/sample/sample-config-legacy.php:418
+#: ReduxFramework/sample/sample-config.php:1218
+#: ReduxFramework/sample/sample-config.php:1227
+msgid "Also called a \"fold\" parent."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:410
+#: ReduxFramework/sample/sample-config-legacy.php:419
+#: ReduxFramework/sample/sample-config.php:1219
+#: ReduxFramework/sample/sample-config.php:1228
+msgid ""
+"Items set with a fold to this ID will hide unless this is set to the "
+"appropriate value."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:417
+#: ReduxFramework/sample/sample-config.php:1226
+msgid "Switch2 - Enable the above switch and this one for patterns to show"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:430
+msgid "Images Option (with pattern=>true)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:431
+#: ReduxFramework/sample/sample-config.php:1513
+msgid "Select a background pattern."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:477
+#: ReduxFramework/sample/sample-config.php:965
+msgid "Slides Options"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:478
+#: ReduxFramework/sample/sample-config.php:966
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:479
+#: ReduxFramework/sample/sample-config.php:967
+msgid ""
+"This field will store all slides values into a multidimensional array to use "
+"into a foreach loop."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:481
+#: ReduxFramework/sample/sample-config.php:969
+msgid "This is a title"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:482
+#: ReduxFramework/sample/sample-config.php:970
+msgid "Description Here"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:483
+#: ReduxFramework/sample/sample-config.php:971
+msgid "Give us a link!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:490
+#: ReduxFramework/sample/sample-config.php:1538
+msgid "Preset"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:491
+#: ReduxFramework/sample/sample-config-legacy.php:493
+#: ReduxFramework/sample/sample-config.php:1539
+#: ReduxFramework/sample/sample-config.php:1541
+msgid ""
+"This allows you to set a json string or array to override multiple "
+"preferences in your theme."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:514
+#: ReduxFramework/sample/sample-config.php:1680 be-themes-options.php:355
+#: functions/be-themes-options-config.php:388
+msgid "Typography"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:536
+#: ReduxFramework/sample/sample-config.php:1723
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:555
+#: functions/be-themes-options-config.php:245
+msgid "General Settings"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:561
+msgid "Main Layout"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:562
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:595
+msgid "Tracking Code"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:596
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:603
+#: ReduxFramework/sample/sample-config.php:579
+msgid "CSS Code"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:604
+#: ReduxFramework/sample/sample-config.php:580
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:635
+#: functions/be-themes-options-config.php:634
+msgid "Footer Text"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:636
+msgid ""
+"You can use the following shortcodes in your footer text: [wp-url] [site-"
+"url] [theme-url] [login-url] [logout-url] [site-title] [site-tagline] "
+"[current-year]"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:651
+msgid "Styling Options"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:657
+#: ReduxFramework/sample/sample-config.php:1265
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:658
+#: ReduxFramework/sample/sample-config.php:1266
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:666
+msgid "Body Background Color"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:667
+msgid "Pick a background color for the theme (default: #fff)."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:675
+#: ReduxFramework/sample/sample-config.php:728
+msgid "Body Background"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:676
+#: ReduxFramework/sample/sample-config.php:729
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:682
+#: ReduxFramework/sample/sample-config.php:638
+msgid "Footer Background Color"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:683
+#: ReduxFramework/sample/sample-config.php:639
+msgid "Pick a background color for the footer (default: #dd9933)."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:690
+#: ReduxFramework/sample/sample-config.php:665
+#: ReduxFramework/sample/sample-config.php:673
+msgid "Color RGBA"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:691
+#: ReduxFramework/sample/sample-config.php:674
+msgid "Gives you the RGBA color."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:703
+#: ReduxFramework/sample/sample-config.php:654
+msgid "Header Gradient Color Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:704
+#: ReduxFramework/sample/sample-config-legacy.php:715
+#: ReduxFramework/sample/sample-config-legacy.php:731
+#: ReduxFramework/sample/sample-config.php:655
+#: ReduxFramework/sample/sample-config.php:695
+#: ReduxFramework/sample/sample-config.php:747
+#: ReduxFramework/sample/sample-config.php:764
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:714
+#: ReduxFramework/sample/sample-config.php:694
+msgid "Links Color Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:730
+#: ReduxFramework/sample/sample-config.php:746
+#: ReduxFramework/sample/sample-config.php:763
+msgid "Header Border Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:760
+#: ReduxFramework/sample/sample-config.php:840
+#: ReduxFramework/sample/sample-config.php:865
+msgid "Padding/Margin Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:761
+#: ReduxFramework/sample/sample-config.php:841
+#: ReduxFramework/sample/sample-config.php:866
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:762
+#: ReduxFramework/sample/sample-config.php:842
+#: ReduxFramework/sample/sample-config.php:867
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:775
+#: ReduxFramework/sample/sample-config.php:792
+msgid "Dimensions (Width/Height) Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:776
+#: ReduxFramework/sample/sample-config.php:793
+#: ReduxFramework/sample/sample-config.php:806
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:777
+#: ReduxFramework/sample/sample-config.php:794
+#: ReduxFramework/sample/sample-config.php:807
+msgid ""
+"You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:786
+#: ReduxFramework/sample/sample-config.php:1688
+msgid "Body Font"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:787
+#: ReduxFramework/sample/sample-config.php:1689
+msgid "Specify the body font properties."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:799
+#: be-themes-options.php:212 functions/be-themes-options-config.php:319
+msgid "Custom CSS"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:800
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:801
+msgid "This field is even CSS validated!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:807
+msgid "Custom HTML"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:808
+msgid "Just like a text box widget."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:809
+msgid "This field is even HTML validated!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:823
+#: ReduxFramework/sample/sample-config.php:1876
+msgid "Field Validation"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:824
+msgid "Validate ALL fields within Redux."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:825
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed2</p>"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:830
+#: ReduxFramework/sample/sample-config.php:1884
+msgid "Text Option - Email Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:831
+#: ReduxFramework/sample/sample-config.php:1885
+msgid ""
+"This is a little space under the Field Title in the Options table, "
+"additional info is good in here."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:844
+#: ReduxFramework/sample/sample-config.php:1894
+msgid "Text Option with Data Attributes"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:845
+#: ReduxFramework/sample/sample-config.php:1895
+msgid ""
+"You can also pass an options array if you want. Set the default to whatever "
+"you like."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:852
+#: ReduxFramework/sample/sample-config.php:1902
+msgid "Multi Text Option - Color Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:854
+#: ReduxFramework/sample/sample-config.php:1904
+msgid ""
+"If you enter an invalid color it will be removed. Try using the text \"blue"
+"\" as a color.  ;)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:860
+#: ReduxFramework/sample/sample-config.php:1910
+msgid "Text Option - URL Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:861
+#: ReduxFramework/sample/sample-config.php:1911
+msgid "This must be a URL."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:873
+#: ReduxFramework/sample/sample-config.php:1919
+msgid "Text Option - Numeric Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:874
+#: ReduxFramework/sample/sample-config.php:1920
+msgid "This must be numeric."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:882
+#: ReduxFramework/sample/sample-config.php:1928
+msgid "Text Option - Comma Numeric Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:883
+#: ReduxFramework/sample/sample-config.php:1929
+msgid "This must be a comma separated string of numerical values."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:891
+#: ReduxFramework/sample/sample-config.php:1937
+msgid "Text Option - No Special Chars Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:892
+#: ReduxFramework/sample/sample-config.php:1938
+msgid "This must be a alpha numeric only."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:900
+#: ReduxFramework/sample/sample-config.php:1946
+msgid "Text Option - Str Replace Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:901
+#: ReduxFramework/sample/sample-config-legacy.php:914
+#: ReduxFramework/sample/sample-config-legacy.php:927
+#: ReduxFramework/sample/sample-config-legacy.php:936
+#: ReduxFramework/sample/sample-config.php:1947
+#: ReduxFramework/sample/sample-config.php:1960
+#: ReduxFramework/sample/sample-config.php:1973
+msgid "You decide."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:902
+#: ReduxFramework/sample/sample-config.php:1948
+msgid "This field's default value was changed by a filter hook!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:913
+#: ReduxFramework/sample/sample-config.php:1959
+msgid "Text Option - Preg Replace Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:926
+#: ReduxFramework/sample/sample-config.php:1972
+msgid "Text Option - Custom Callback Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:935
+msgid "Text Option - Custom Callback Validated - Class"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:950
+#: ReduxFramework/sample/sample-config.php:1996
+msgid "Textarea Option - No HTML Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:951
+#: ReduxFramework/sample/sample-config.php:1997
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:959
+#: ReduxFramework/sample/sample-config.php:2005
+msgid "Textarea Option - HTML Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:960
+#: ReduxFramework/sample/sample-config.php:2006
+msgid "HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:968
+#: ReduxFramework/sample/sample-config.php:514
+#: ReduxFramework/sample/sample-config.php:2014
+msgid "Textarea Option - HTML Validated Custom"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:969
+#: ReduxFramework/sample/sample-config.php:2015
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:978
+#: ReduxFramework/sample/sample-config.php:2032
+msgid "Textarea Option - JS Validated"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:979
+#: ReduxFramework/sample/sample-config.php:2033
+msgid "JS will be escaped"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:988
+msgid "Radio/Checkbox Fields"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:989
+#: ReduxFramework/sample/sample-config-legacy.php:1138
+#: ReduxFramework/sample/sample-config-legacy.php:1384
+#: ReduxFramework/sample/sample-config-legacy.php:1612
+#: functions/be-themes-options-config.php:2802
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:994
+#: ReduxFramework/sample/sample-config.php:320
+msgid "Checkbox Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:995
+#: ReduxFramework/sample/sample-config-legacy.php:1003
+#: ReduxFramework/sample/sample-config-legacy.php:1022
+#: ReduxFramework/sample/sample-config-legacy.php:1030
+#: ReduxFramework/sample/sample-config-legacy.php:1038
+#: ReduxFramework/sample/sample-config-legacy.php:1052
+#: ReduxFramework/sample/sample-config-legacy.php:1060
+#: ReduxFramework/sample/sample-config-legacy.php:1075
+#: ReduxFramework/sample/sample-config-legacy.php:1144
+#: ReduxFramework/sample/sample-config-legacy.php:1158
+#: ReduxFramework/sample/sample-config-legacy.php:1186
+#: ReduxFramework/sample/sample-config-legacy.php:1219
+#: ReduxFramework/sample/sample-config-legacy.php:1228
+#: ReduxFramework/sample/sample-config-legacy.php:1236
+#: ReduxFramework/sample/sample-config-legacy.php:1245
+#: ReduxFramework/sample/sample-config-legacy.php:1253
+#: ReduxFramework/sample/sample-config-legacy.php:1262
+#: ReduxFramework/sample/sample-config-legacy.php:1270
+#: ReduxFramework/sample/sample-config-legacy.php:1279
+#: ReduxFramework/sample/sample-config-legacy.php:1287
+#: ReduxFramework/sample/sample-config-legacy.php:1296
+#: ReduxFramework/sample/sample-config-legacy.php:1314
+#: ReduxFramework/sample/sample-config-legacy.php:1323
+#: ReduxFramework/sample/sample-config-legacy.php:1331
+#: ReduxFramework/sample/sample-config-legacy.php:1340
+#: ReduxFramework/sample/sample-config-legacy.php:1348
+#: ReduxFramework/sample/sample-config-legacy.php:1390
+#: ReduxFramework/sample/sample-config-legacy.php:1401
+#: ReduxFramework/sample/sample-config-legacy.php:1415
+#: ReduxFramework/sample/sample-config.php:321
+#: ReduxFramework/sample/sample-config.php:329
+#: ReduxFramework/sample/sample-config.php:348
+#: ReduxFramework/sample/sample-config.php:356
+#: ReduxFramework/sample/sample-config.php:372
+#: ReduxFramework/sample/sample-config.php:386
+#: ReduxFramework/sample/sample-config.php:1153
+#: ReduxFramework/sample/sample-config.php:1167
+#: ReduxFramework/sample/sample-config.php:1252
+#: ReduxFramework/sample/sample-config.php:1274
+#: ReduxFramework/sample/sample-config.php:1299
+#: ReduxFramework/sample/sample-config.php:1332
+#: ReduxFramework/sample/sample-config.php:1341
+#: ReduxFramework/sample/sample-config.php:1349
+#: ReduxFramework/sample/sample-config.php:1358
+#: ReduxFramework/sample/sample-config.php:1366
+#: ReduxFramework/sample/sample-config.php:1375
+#: ReduxFramework/sample/sample-config.php:1383
+#: ReduxFramework/sample/sample-config.php:1392
+#: ReduxFramework/sample/sample-config.php:1400
+#: ReduxFramework/sample/sample-config.php:1409
+#: ReduxFramework/sample/sample-config.php:1427
+#: ReduxFramework/sample/sample-config.php:1436
+#: ReduxFramework/sample/sample-config.php:1444
+#: ReduxFramework/sample/sample-config.php:1453
+#: ReduxFramework/sample/sample-config.php:1461
+#: ReduxFramework/sample/sample-config.php:1477
+#: ReduxFramework/sample/sample-config.php:1522
+#: ReduxFramework/sample/sample-config.php:1771
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1002
+#: ReduxFramework/sample/sample-config.php:328
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1021
+#: ReduxFramework/sample/sample-config-legacy.php:1051
+#: ReduxFramework/sample/sample-config.php:347
+msgid "Multi Checkbox Option (with menu data)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1029
+#: ReduxFramework/sample/sample-config.php:355
+msgid "Multi Checkbox Option (with sidebar data)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1037
+#: ReduxFramework/sample/sample-config.php:371
+msgid "Radio Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1059
+#: ReduxFramework/sample/sample-config.php:1521
+msgid "Images Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1074
+#: ReduxFramework/sample/sample-config.php:1476
+msgid "Images Option for Layout"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1076
+#: ReduxFramework/sample/sample-config.php:1478
+msgid ""
+"This uses some of the built in images, you can use them for layout options."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1109
+#: ReduxFramework/sample/sample-config-legacy.php:1123
+#: ReduxFramework/sample/sample-config.php:401
+#: ReduxFramework/sample/sample-config.php:415
+msgid "Sortable Text Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1110
+#: ReduxFramework/sample/sample-config-legacy.php:1124
+#: ReduxFramework/sample/sample-config.php:402
+#: ReduxFramework/sample/sample-config.php:416
+msgid "Define and reorder these however you want."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1137
+#: ReduxFramework/sample/sample-config.php:1236
+msgid "Select Fields"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1143
+#: ReduxFramework/sample/sample-config.php:1251
+msgid "Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1157
+#: ReduxFramework/sample/sample-config.php:1273
+msgid "Select Option with optgroup"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1185
+#: ReduxFramework/sample/sample-config.php:1298
+msgid "Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1200
+#: ReduxFramework/sample/sample-config.php:1313
+#: ReduxFramework/sample/sample-config.php:1562
+#: ReduxFramework/sample/sample-config.php:1571
+msgid "Select Image"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1201
+#: ReduxFramework/sample/sample-config.php:1314
+msgid "A preview of the selected image will appear underneath the select box."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1212
+#: ReduxFramework/sample/sample-config.php:1325
+msgid "You can easily add a variety of data from WordPress."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1218
+#: ReduxFramework/sample/sample-config.php:1331
+msgid "Categories Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1227
+#: ReduxFramework/sample/sample-config.php:1340
+msgid "Categories Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1235
+#: ReduxFramework/sample/sample-config.php:1348
+msgid "Pages Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1244
+#: ReduxFramework/sample/sample-config.php:1357
+msgid "Pages Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1252
+#: ReduxFramework/sample/sample-config.php:1365
+msgid "Tags Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1261
+#: ReduxFramework/sample/sample-config.php:1374
+msgid "Tags Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1269
+#: ReduxFramework/sample/sample-config.php:1382
+msgid "Menus Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1278
+#: ReduxFramework/sample/sample-config.php:1391
+msgid "Menus Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1286
+#: ReduxFramework/sample/sample-config.php:1399
+msgid "Post Type Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1295
+#: ReduxFramework/sample/sample-config.php:1408
+msgid "Post Type Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1305
+#: ReduxFramework/sample/sample-config.php:1418
+msgid "Post Type Multi Select Option + Sortable"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1306
+#: ReduxFramework/sample/sample-config.php:1419
+msgid "This field also has sortable enabled!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1313
+#: ReduxFramework/sample/sample-config.php:1426
+msgid "Posts Select Option2"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1322
+#: ReduxFramework/sample/sample-config.php:1435
+msgid "Posts Multi Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1330
+#: ReduxFramework/sample/sample-config.php:1443
+msgid "User Role Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1339
+#: ReduxFramework/sample/sample-config.php:1452
+msgid "Capabilities Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1347
+#: ReduxFramework/sample/sample-config.php:1460
+msgid "Elusive Icons Select Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1349
+#: ReduxFramework/sample/sample-config.php:1462
+msgid "Here's a list of all the elusive icons by name and icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1355
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1356
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1357
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1361
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1383
+msgid "Additional Fields"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1389
+#: ReduxFramework/sample/sample-config.php:1770
+msgid "Date Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1400
+#: ReduxFramework/sample/sample-config.php:1152
+msgid "Button Set Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1414
+#: ReduxFramework/sample/sample-config.php:1166
+msgid "Button Set, Multi Select"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1429
+#: ReduxFramework/sample/sample-config.php:1007
+msgid "This is the info field, if you want to break sections up."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1435
+#: ReduxFramework/sample/sample-config-legacy.php:1443
+#: ReduxFramework/sample/sample-config-legacy.php:1451
+#: ReduxFramework/sample/sample-config-legacy.php:1465
+#: ReduxFramework/sample/sample-config-legacy.php:1473
+#: ReduxFramework/sample/sample-config-legacy.php:1482
+#: ReduxFramework/sample/sample-config-legacy.php:1491
+#: ReduxFramework/sample/sample-config-legacy.php:1500
+#: ReduxFramework/sample/sample-config.php:1013
+#: ReduxFramework/sample/sample-config.php:1020
+#: ReduxFramework/sample/sample-config.php:1028
+#: ReduxFramework/sample/sample-config.php:1036
+#: ReduxFramework/sample/sample-config.php:1045
+#: ReduxFramework/sample/sample-config.php:1052
+#: ReduxFramework/sample/sample-config.php:1060
+#: ReduxFramework/sample/sample-config.php:1069
+#: ReduxFramework/sample/sample-config.php:1078
+#: ReduxFramework/sample/sample-config.php:1087
+msgid "This is a title."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1436
+msgid "This is an info field with the warning style applied and a header."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1444
+msgid ""
+"This is an info field with the success style applied, a header and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1452
+msgid ""
+"This is an info field with the critical style applied, a header and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1466
+msgid ""
+"This is an info notice field with the normal style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1474
+msgid ""
+"This is an info notice field with the info style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1483
+msgid ""
+"This is an info notice field with the warning style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1492
+msgid ""
+"This is an info notice field with the success style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1501
+msgid ""
+"This is an notice field with the critical style applied, a header and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1506
+#: ReduxFramework/sample/sample-config.php:1866
+msgid "Custom Field Callback"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1507
+#: ReduxFramework/sample/sample-config-legacy.php:1515
+#: ReduxFramework/sample/sample-config.php:1867
+msgid "This is a completely unique field type"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1508
+#: ReduxFramework/sample/sample-config-legacy.php:1516
+#: ReduxFramework/sample/sample-config.php:1868
+msgid ""
+"This is created with a callback function, so anything goes in this field. "
+"Make sure to define the function though."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1514
+msgid "Custom Field Callback - Class"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1524
+#: ReduxFramework/sample/sample-config-legacy.php:1548
+#: ReduxFramework/sample/sample-config.php:2183
+msgid "Customizer Only Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1525
+#: ReduxFramework/sample/sample-config-legacy.php:1549
+#: ReduxFramework/sample/sample-config.php:2184
+msgid "The subtitle is NOT visible in customizer"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1526
+#: ReduxFramework/sample/sample-config-legacy.php:1550
+#: ReduxFramework/sample/sample-config.php:2185
+msgid "The field desc is NOT visible in customizer."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1541
+#: ReduxFramework/sample/sample-config.php:2176
+msgid "Customizer Only"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1542
+#: ReduxFramework/sample/sample-config.php:2177
+msgid ""
+"<p class=\"description\">This Section should be visible only in Customizer</"
+"p>"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1592
+#: functions/be-themes-options-config.php:2786
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config-legacy.php:1611
+#: functions/be-themes-options-config.php:2801
+msgid "Theme Information"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:312 meta-box/demo/demo.php:70
+msgid "Checkbox"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:363 meta-box/demo/demo.php:78
+msgid "Radio"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:385
+msgid "Radio Option w/ Menu Data"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:393
+msgid "Sortable"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:450
+msgid "Text Field w/ Hint"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:472
+msgid "Multi Text"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:480
+msgid "Multi Text Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:481
+msgid "Field subtitle"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:482
+msgid "Field Decription"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:506 meta-box/demo/demo.php:118
+msgid "Textarea"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:524
+msgid "Editors"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:530
+msgid "WordPress Editor"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:539
+msgid "Editor"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:540
+msgid "Use any of the features of WordPress editor inside your panel!"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:546
+msgid "Editor w/o Media Button"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:562
+msgid "Editor - Full Width"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:570
+msgid "ACE Editor"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:574
+msgid "For full documentation on the this field, visit: "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:589
+msgid "JS Code"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:590
+msgid "Paste your JS code here."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:600
+msgid "PHP Code"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:601
+msgid "Paste your PHP code here."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:615
+msgid "Color Selection"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:622
+msgid "Color"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:631
+msgid "Site Title Color"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:632
+msgid "Pick a title color for the theme (default: #000)."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:646
+msgid "Color Gradient"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:686
+msgid "Link Color"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:713
+msgid "Design Fields"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:720 be-themes-options.php:230
+#: functions/be-themes-options-config.php:339
+#: functions/be-themes-options-config.php:2225
+#: functions/be-themes-options-config.php:2292
+msgid "Background"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:738
+#: functions/be-themes-options-config.php:2241
+#: functions/be-themes-options-config.php:2308
+msgid "Border"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:782
+msgid "Dimensions"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:805
+msgid "Dimensions (Width) Option"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:818
+msgid "Spacing"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:880
+msgid "Media Uploads"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:888
+msgid "Gallery"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:904
+msgid "Media"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:946
+msgid "Upload Anything - Disabled Mode"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:957
+msgid "Slides"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:979
+msgid "Presentation Fields"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:986
+msgid "Divide"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:988
+msgid ""
+"The spacer to the section menu as seen to the left (after this section "
+"block) is the divide \"section\". Also the divider below is the divide "
+"\"field\"."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:999
+msgid "Info"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1014
+msgid ""
+"This is an info field with the <strong>info</strong> style applied. By "
+"default the <strong>normal</strong> style is applied."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1021
+msgid "This is an info field with the <strong>warning</strong> style applied."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1029
+msgid ""
+"This is an info field with the <strong>success</strong> style applied and an "
+"icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1037
+msgid ""
+"This is an info field with the <strong>critical</strong> style applied and "
+"an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1046
+msgid ""
+"This is an info field with the <strong>custom</strong> style applied, color "
+"arg passed, and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1053
+msgid ""
+"This is an info non-notice field with the <strong>normal</strong> style "
+"applied."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1061
+msgid ""
+"This is an info non-notice field with the <strong>info</strong> style "
+"applied."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1070
+msgid ""
+"This is an info non-notice field with the <strong>warning</strong> style "
+"applied and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1079
+msgid ""
+"This is an info non-notice field with the <strong>success</strong> style "
+"applied and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1088
+msgid ""
+"This is an non-notice field with the <strong>critical</strong> style applied "
+"and an icon."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1094
+msgid "Section"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1102
+msgid "Section Example"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1103
+msgid "With the \"section\" field you can create indented option sections."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1109
+#: ReduxFramework/sample/sample-config.php:1115
+msgid "Field Title"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1110
+#: ReduxFramework/sample/sample-config.php:1116
+msgid "Field Subtitle"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1126
+msgid "And now you can add more fields below and outside of the indent."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1137
+msgid "Switch & Button Set"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1144
+msgid "Button Set"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1183
+msgid "Switch"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1242 meta-box/demo/demo.php:90
+#: meta-box/demo/demo.php:277 meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1467
+msgid "Image Select"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1512
+msgid "Images Option (with tiles => true)"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1589
+msgid "Slider / Spinner"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1596 meta-box/demo/demo.php:156
+#: meta-box/demo/slider.php:9
+msgid "Slider"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1660
+msgid "Spinner"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1701
+msgid "Typography h2.site-description"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1738
+msgid "Additional Types"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1762
+#: meta-box/demo/date-time-js-options.php:15
+msgid "Date"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1778
+msgid "Sorter"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1826
+msgid "Raw"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1834
+msgid "Standard Raw Field"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1843
+msgid "Raw Field <code>full_width</code> False"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1852
+msgid "Advanced Features"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1858
+msgid "Callback"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1878
+#: ReduxFramework/sample/sample-config.php:2044
+msgid "For full documentation on validation, visit: "
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:1974
+msgid ""
+"Enter <code>1</code> and click <strong>Save Changes</strong> for an error "
+"message, or enter <code>2</code> and click <strong>Save Changes</strong> for "
+"a warning message."
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:2042
+msgid "Field Required / Linking"
+msgstr ""
+
+#: ReduxFramework/sample/sample-config.php:2148
+msgid "WPML Integration"
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm-controller.php:28
+msgid "Must call in of after the \"plugins_loaded\" action."
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm-controller.php:138
+#, php-format
+msgid "Unknown action \"%1$s\" specified for %2$s"
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm-controller.php:143
+#, php-format
+msgid "The unknown action has been replaced with \"%s\""
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm-controller.php:158
+#, php-format
+msgid "Automatic action performed: \"%s\""
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm.php:112
+msgid "Activate Development Plugins"
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm.php:119
+msgid "Deactivate Development Plugins"
+msgstr ""
+
+#: ReduxFramework/tests/includes/class-tivwp-dm.php:131
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ajax-handler.php:19
+msgid "All fields are required"
+msgstr ""
+
+#: ajax-handler.php:23
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ajax-handler.php:36
+msgid "Your message was sent sucessfully"
+msgstr ""
+
+#: archive.php:48 blog.php:62 category.php:48 index.php:54 search.php:49
+#: tag.php:48 taxonomy-portfolio_categories.php:52
+#: taxonomy-portfolio_tags.php:52
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: be-themes-metabox.php:23
+msgid "Client Name"
+msgstr ""
+
+#: be-themes-metabox.php:30
+msgid "Project Date"
+msgstr ""
+
+#: be-themes-metabox.php:37
+msgid "Project URL"
+msgstr ""
+
+#: be-themes-metabox.php:43
+msgid "Link Thumbnail To"
+msgstr ""
+
+#: be-themes-metabox.php:54
+msgid "External URL"
+msgstr ""
+
+#: be-themes-metabox.php:60
+msgid "Show Porfolio Title and Navigation Bar"
+msgstr ""
+
+#: be-themes-metabox.php:66
+msgid "Traverse within Category"
+msgstr ""
+
+#: be-themes-metabox.php:72
+msgid "Main Portfolio Page"
+msgstr ""
+
+#: be-themes-metabox.php:78
+msgid "Double Width"
+msgstr ""
+
+#: be-themes-metabox.php:84
+msgid "Double Height"
+msgstr ""
+
+#: be-themes-metabox.php:90 be-themes-metabox.php:249
+#: be-themes-metabox.php:747 be-themes-metabox.php:863
+msgid "Overlay Background Color"
+msgstr ""
+
+#: be-themes-metabox.php:97 be-themes-metabox.php:754
+#: be-themes-metabox.php:870
+msgid "Overlay Background Color Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:104
+msgid "Overlay Title Color"
+msgstr ""
+
+#: be-themes-metabox.php:111
+msgid "Overlay Categories Color"
+msgstr ""
+
+#: be-themes-metabox.php:118
+msgid "Portfolio Single Page Style"
+msgstr ""
+
+#: be-themes-metabox.php:139
+msgid "Slider Images"
+msgstr ""
+
+#: be-themes-metabox.php:146
+msgid "Animation Style"
+msgstr ""
+
+#: be-themes-metabox.php:211 be-themes-metabox.php:709
+#: be-themes-metabox.php:825
+msgid "Show Information box"
+msgstr ""
+
+#: be-themes-metabox.php:217
+msgid "Show Thumbnails bar"
+msgstr ""
+
+#: be-themes-metabox.php:223
+msgid ""
+"Enable Normal Scroll <br/><br/><h5><span>MORE SETTINGS FOR HORIZONTAL "
+"CAROUSEL SLIDER</span></h5>"
+msgstr ""
+
+#: be-themes-metabox.php:229 be-themes-metabox.php:727
+#: be-themes-metabox.php:850
+msgid "Gutter Width"
+msgstr ""
+
+#: be-themes-metabox.php:236
+msgid "Slider Height"
+msgstr ""
+
+#: be-themes-metabox.php:243 be-themes-metabox.php:741
+#: be-themes-metabox.php:857
+msgid "Enable Overlay"
+msgstr ""
+
+#: be-themes-metabox.php:256
+msgid "Overlay Background Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:272
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: be-themes-metabox.php:284
+msgid "Sidebar"
+msgstr ""
+
+#: be-themes-metabox.php:300 be-themes-options.php:905
+#: functions/be-themes-options-config.php:1577
+msgid "Blog Style"
+msgstr ""
+
+#: be-themes-metabox.php:315
+msgid "Blog Column If Masonry Layout"
+msgstr ""
+
+#: be-themes-metabox.php:323
+msgid "Blog Gutter Style If Masonry Layout"
+msgstr ""
+
+#: be-themes-metabox.php:330 functions/be-themes-options-config.php:1693
+msgid "Blog Pagination Style"
+msgstr ""
+
+#: be-themes-metabox.php:337
+msgid "Blog Gutter Width If Masonry Layout"
+msgstr ""
+
+#: be-themes-metabox.php:352 be-themes-options.php:932
+#: functions/be-themes-options-config.php:1710
+msgid "Show Bottom Widgets"
+msgstr ""
+
+#: be-themes-metabox.php:360
+msgid "Show Footer"
+msgstr ""
+
+#: be-themes-metabox.php:368
+msgid "Scroll To Sections"
+msgstr ""
+
+#: be-themes-metabox.php:374
+msgid "Single Page Version"
+msgstr ""
+
+#: be-themes-metabox.php:389 be-themes-options.php:1023
+#: be-themes-options.php:1241
+msgid "Header Hero Section Type"
+msgstr ""
+
+#: be-themes-metabox.php:397 be-themes-options.php:1032
+#: be-themes-options.php:1250
+msgid "Add Revolution Slider"
+msgstr ""
+
+#: be-themes-metabox.php:404
+msgid "Header BG"
+msgstr ""
+
+#: be-themes-metabox.php:411 functions/be-themes-options-config.php:2433
+#: functions/be-themes-options-config.php:2625
+msgid "Sticky Header"
+msgstr ""
+
+#: be-themes-metabox.php:419
+msgid ""
+"Color Scheme<br><i style=\"color:red;\">Applicable only for Transparent/Semi "
+"Transparent header</i></br>"
+msgstr ""
+
+#: be-themes-metabox.php:426
+msgid ""
+"Position <br><i style=\"color:red;\">Applicable only for non-transparent "
+"header</i></br>"
+msgstr ""
+
+#: be-themes-metabox.php:434
+msgid ""
+"Show With Header<br><i style=\"color:red;\">Applicable only if header is non-"
+"transparent, Hero Section position is Before Header and no Custom Height is "
+"defined</i></br>"
+msgstr ""
+
+#: be-themes-metabox.php:442
+msgid "Custom Height"
+msgstr ""
+
+#: be-themes-metabox.php:448 functions/be-themes-options-config.php:1770
+#: functions/be-themes-options-config.php:1838
+msgid "Background Color"
+msgstr ""
+
+#: be-themes-metabox.php:455
+msgid "Background Image"
+msgstr ""
+
+#: be-themes-metabox.php:486
+msgid "Center Scale Image to occupy container"
+msgstr ""
+
+#: be-themes-metabox.php:492 functions/be-themes-options-config.php:2538
+msgid "Background Animation"
+msgstr ""
+
+#: be-themes-metabox.php:506
+msgid "Animation Canvas on Background"
+msgstr ""
+
+#: be-themes-metabox.php:519
+msgid "Canvas Color 1"
+msgstr ""
+
+#: be-themes-metabox.php:526
+msgid "Canvas Color 2"
+msgstr ""
+
+#: be-themes-metabox.php:533
+msgid "Canvas Color 3"
+msgstr ""
+
+#: be-themes-metabox.php:540
+msgid "Canvas Color 4"
+msgstr ""
+
+#: be-themes-metabox.php:547
+msgid "Canvas Color 5"
+msgstr ""
+
+#: be-themes-metabox.php:554 functions/be-themes-options-config.php:2499
+#: functions/be-themes-options-config.php:2691
+msgid "Enable Background Video"
+msgstr ""
+
+#: be-themes-metabox.php:560 functions/be-themes-options-config.php:2516
+#: functions/be-themes-options-config.php:2708
+msgid "Video .MP4 Video File"
+msgstr ""
+
+#: be-themes-metabox.php:566
+msgid "Video .OGG Video File"
+msgstr ""
+
+#: be-themes-metabox.php:572
+msgid "Video .Webm Video File"
+msgstr ""
+
+#: be-themes-metabox.php:578 be-themes-options.php:1183
+#: be-themes-options.php:1401 functions/be-themes-options-config.php:2547
+#: functions/be-themes-options-config.php:2746
+msgid "Hero Section Enable Background Overlay"
+msgstr ""
+
+#: be-themes-metabox.php:584 functions/be-themes-options-config.php:2555
+#: functions/be-themes-options-config.php:2754
+msgid "Background Overlay Color"
+msgstr ""
+
+#: be-themes-metabox.php:591
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: be-themes-metabox.php:597
+msgid "Container Wrap"
+msgstr ""
+
+#: be-themes-metabox.php:605
+msgid "Content"
+msgstr ""
+
+#: be-themes-metabox.php:612
+msgid "Section Navigation Target Id"
+msgstr ""
+
+#: be-themes-metabox.php:618
+msgid "Section Navigation Target Icon Color"
+msgstr ""
+
+#: be-themes-metabox.php:625
+msgid "Section Navigation Target Icon"
+msgstr ""
+
+#: be-themes-metabox.php:645
+msgid "Youtube / Vimeo Video Url"
+msgstr ""
+
+#: be-themes-metabox.php:652
+msgid "Audio Embed Code Or Link to an Audio File"
+msgstr ""
+
+#: be-themes-metabox.php:659
+msgid "Link Post Format URL"
+msgstr ""
+
+#: be-themes-metabox.php:666
+msgid "Quote Post Format Author"
+msgstr ""
+
+#: be-themes-metabox.php:673
+msgid "Gallery Post Format Images"
+msgstr ""
+
+#: be-themes-metabox.php:689
+msgid "Gallery Style"
+msgstr ""
+
+#: be-themes-metabox.php:702
+msgid "Gallery Images"
+msgstr ""
+
+#: be-themes-metabox.php:715 be-themes-metabox.php:831
+msgid "Show Carousel bar"
+msgstr ""
+
+#: be-themes-metabox.php:721 be-themes-metabox.php:837
+msgid ""
+"Enable Normal Scroll<br/><br/><h5><span>MORE SETTINGS FOR HORIZONTAL "
+"CAROUSEL SLIDER</span></h5>"
+msgstr ""
+
+#: be-themes-metabox.php:789
+msgid "Portfolio Style"
+msgstr ""
+
+#: be-themes-metabox.php:801
+msgid "Dual Carousel Slider Animation Style"
+msgstr ""
+
+#: be-themes-options.php:23
+msgid "A Section added by hook"
+msgstr ""
+
+#: be-themes-options.php:24
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array, great to allow child themes, to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: be-themes-options.php:59
+msgid ""
+"<p>Welcome to BE Themes Options panel. You will find that its very simple to "
+"do what you want and yet powerful enough to do whatever you want, with our "
+"wide variety of options. </p>"
+msgstr ""
+
+#: be-themes-options.php:69 be-themes-options.php:72
+msgid "BE Theme Options"
+msgstr ""
+
+#: be-themes-options.php:136
+msgid "General"
+msgstr ""
+
+#: be-themes-options.php:137 be-themes-options.php:356
+#: be-themes-options.php:877 be-themes-options.php:892
+msgid "<p class=\"description\"></p>"
+msgstr ""
+
+#: be-themes-options.php:142
+msgid "Status of the Website"
+msgstr ""
+
+#: be-themes-options.php:144
+msgid ""
+"It is important to set this to \"deploy\" after you have finished playing "
+"with options panel and ready to launch the website. It will help us cache "
+"the css and optimize performance of the website"
+msgstr ""
+
+#: be-themes-options.php:151 functions/be-themes-options-config.php:261
+msgid "Enable Pagebuilder ?"
+msgstr ""
+
+#: be-themes-options.php:152
+msgid ""
+"Check this box if you would like to use the page builder for constructing "
+"your pages and portfolio posts. Page Builder is not available for blog "
+"posts. You can still disable the page builder per page if you would like to "
+"use the default wordpress content editor"
+msgstr ""
+
+#: be-themes-options.php:159
+msgid "Your Logo"
+msgstr ""
+
+#: be-themes-options.php:161 functions/be-themes-options-config.php:271
+msgid "Please upload your logo here."
+msgstr ""
+
+#: be-themes-options.php:166
+msgid "Logo on Transparent Header Dark Scheme"
+msgstr ""
+
+#: be-themes-options.php:168 functions/be-themes-options-config.php:285
+msgid ""
+"Please upload the logo that needs to be displayed in transparent header "
+"sections."
+msgstr ""
+
+#: be-themes-options.php:173
+msgid "Logo on Transparent Header Light Scheme"
+msgstr ""
+
+#: be-themes-options.php:175
+msgid ""
+"Please upload the logo that needs to be displayed in transparent header "
+"sections with light backgrounds."
+msgstr ""
+
+#: be-themes-options.php:180 functions/be-themes-options-config.php:297
+msgid "Logo on Sidebar"
+msgstr ""
+
+#: be-themes-options.php:182 functions/be-themes-options-config.php:299
+msgid "Please upload the logo that needs to be displayed in the slidebar"
+msgstr ""
+
+#: be-themes-options.php:187 functions/be-themes-options-config.php:304
+msgid "Your Favicon"
+msgstr ""
+
+#: be-themes-options.php:189 functions/be-themes-options-config.php:306
+msgid "Please upload a favicon here."
+msgstr ""
+
+#: be-themes-options.php:194
+msgid "Copyright Text"
+msgstr ""
+
+#: be-themes-options.php:203 functions/be-themes-options-config.php:311
+msgid "Google Analytics Code"
+msgstr ""
+
+#: be-themes-options.php:205 functions/be-themes-options-config.php:313
+msgid "Please enter your Google analytics tracking ID here."
+msgstr ""
+
+#: be-themes-options.php:214 functions/be-themes-options-config.php:321
+msgid "Please add your custom CSS here."
+msgstr ""
+
+#: be-themes-options.php:221 functions/be-themes-options-config.php:328
+msgid "Custom Javascript"
+msgstr ""
+
+#: be-themes-options.php:223 functions/be-themes-options-config.php:330
+msgid "Please add your custom js code here."
+msgstr ""
+
+#: be-themes-options.php:231
+msgid ""
+"<p class=\"description\">Control the Appearance of the site from this tab by "
+"uploading your own patterns and images or by choosing from one of the "
+"plethora of presets available</p>"
+msgstr ""
+
+#: be-themes-options.php:237
+msgid "Header"
+msgstr ""
+
+#: be-themes-options.php:254 functions/be-themes-options-config.php:346
+msgid "Body"
+msgstr ""
+
+#: be-themes-options.php:271 functions/be-themes-options-config.php:356
+msgid "Content Area"
+msgstr ""
+
+#: be-themes-options.php:288 functions/be-themes-options-config.php:366
+msgid "Bottom Widget Area"
+msgstr ""
+
+#: be-themes-options.php:305 functions/be-themes-options-config.php:1423
+msgid "Footer"
+msgstr ""
+
+#: be-themes-options.php:322 functions/be-themes-options-config.php:376
+msgid "Header Title Module"
+msgstr ""
+
+#: be-themes-options.php:339
+msgid "Submenu & Mobile Menu Background Color"
+msgstr ""
+
+#: be-themes-options.php:347
+msgid "Sidebar menu / Left Header Background Color"
+msgstr ""
+
+#: be-themes-options.php:362 functions/be-themes-options-config.php:395
+msgid "H1"
+msgstr ""
+
+#: be-themes-options.php:363 functions/be-themes-options-config.php:396
+msgid "Heading Tag 1"
+msgstr ""
+
+#: be-themes-options.php:380 functions/be-themes-options-config.php:412
+msgid "H2"
+msgstr ""
+
+#: be-themes-options.php:381 functions/be-themes-options-config.php:413
+msgid "Heading Tag 2"
+msgstr ""
+
+#: be-themes-options.php:398 functions/be-themes-options-config.php:429
+msgid "H3"
+msgstr ""
+
+#: be-themes-options.php:399 functions/be-themes-options-config.php:430
+msgid "Heading Tag 3"
+msgstr ""
+
+#: be-themes-options.php:416 functions/be-themes-options-config.php:446
+msgid "H4"
+msgstr ""
+
+#: be-themes-options.php:417 functions/be-themes-options-config.php:447
+msgid "Heading Tag 4"
+msgstr ""
+
+#: be-themes-options.php:434 functions/be-themes-options-config.php:463
+msgid "H5"
+msgstr ""
+
+#: be-themes-options.php:435 functions/be-themes-options-config.php:464
+msgid "Heading Tag 5"
+msgstr ""
+
+#: be-themes-options.php:452 functions/be-themes-options-config.php:480
+msgid "H6"
+msgstr ""
+
+#: be-themes-options.php:453 functions/be-themes-options-config.php:481
+msgid "Heading Tag 6"
+msgstr ""
+
+#: be-themes-options.php:470 functions/be-themes-options-config.php:515
+msgid "Body Text"
+msgstr ""
+
+#: be-themes-options.php:487 functions/be-themes-options-config.php:532
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: be-themes-options.php:505 functions/be-themes-options-config.php:549
+msgid "Sidebar Widget Text"
+msgstr ""
+
+#: be-themes-options.php:522
+msgid "Footer Widget Title"
+msgstr ""
+
+#: be-themes-options.php:540
+msgid "Footer Widget Text"
+msgstr ""
+
+#: be-themes-options.php:557
+msgid "Slidebar Menu Widget Title"
+msgstr ""
+
+#: be-themes-options.php:575
+msgid "Slidebar Menu Widget Text"
+msgstr ""
+
+#: be-themes-options.php:592
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: be-themes-options.php:609 functions/be-themes-options-config.php:651
+msgid "Navigation Menu"
+msgstr ""
+
+#: be-themes-options.php:626
+msgid "Font Family of Buttons"
+msgstr ""
+
+#: be-themes-options.php:634
+msgid "Portfolio Title"
+msgstr ""
+
+#: be-themes-options.php:652
+msgid "Navigation Submenu & Mobile Menu Text"
+msgstr ""
+
+#: be-themes-options.php:669 functions/be-themes-options-config.php:685
+msgid "Sidebar Menu Text"
+msgstr ""
+
+#: be-themes-options.php:686 functions/be-themes-options-config.php:753
+msgid "Page Title Module"
+msgstr ""
+
+#: be-themes-options.php:687 functions/be-themes-options-config.php:754
+msgid "Page Title Module Title"
+msgstr ""
+
+#: be-themes-options.php:706 be-themes-options.php:712
+#: functions/be-themes-options-config.php:780
+#: meta-box/demo/image-select.php:10
+msgid "Layout"
+msgstr ""
+
+#: be-themes-options.php:707 be-themes-options.php:814
+#: be-themes-options.php:986
+msgid "<p class=\"description\">"
+msgstr ""
+
+#: be-themes-options.php:724 functions/be-themes-options-config.php:1002
+msgid "Number of Columns in Bottom Widget Area"
+msgstr ""
+
+#: be-themes-options.php:736 functions/be-themes-options-config.php:2616
+msgid "Header Style"
+msgstr ""
+
+#: be-themes-options.php:744 functions/be-themes-options-config.php:816
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: be-themes-options.php:752
+msgid "Show Search in Header"
+msgstr ""
+
+#: be-themes-options.php:760
+msgid "Show Cart in Header"
+msgstr ""
+
+#: be-themes-options.php:768 functions/be-themes-options-config.php:839
+msgid "Display Comments on Pages"
+msgstr ""
+
+#: be-themes-options.php:776
+msgid "Show Main Navigation"
+msgstr ""
+
+#: be-themes-options.php:785
+msgid "Show Slidebar"
+msgstr ""
+
+#: be-themes-options.php:794 functions/be-themes-options-config.php:994
+msgid "Custom Sidebars"
+msgstr ""
+
+#: be-themes-options.php:802
+msgid "Remove Smooth Scroll"
+msgstr ""
+
+#: be-themes-options.php:813 functions/be-themes-options-config.php:1506
+msgid "Colors"
+msgstr ""
+
+#: be-themes-options.php:819 functions/be-themes-options-config.php:1512
+msgid "Color Scheme"
+msgstr ""
+
+#: be-themes-options.php:827
+msgid "Text Color on a background which has the above Color Scheme"
+msgstr ""
+
+#: be-themes-options.php:835 functions/be-themes-options-config.php:1528
+msgid "Secondary Background Color"
+msgstr ""
+
+#: be-themes-options.php:843 functions/be-themes-options-config.php:1536
+msgid "Secondary Text Color"
+msgstr ""
+
+#: be-themes-options.php:851 functions/be-themes-options-config.php:1544
+msgid "Secondary Border Color"
+msgstr ""
+
+#: be-themes-options.php:859 functions/be-themes-options-config.php:1270
+msgid "Header Cart Number Background Color"
+msgstr ""
+
+#: be-themes-options.php:867 functions/be-themes-options-config.php:1278
+msgid "Header Cart Number Text Color"
+msgstr ""
+
+#: be-themes-options.php:876 functions/be-themes-options-config.php:2356
+msgid "Contact Settings"
+msgstr ""
+
+#: be-themes-options.php:882 functions/be-themes-options-config.php:2362
+msgid "Email Address"
+msgstr ""
+
+#: be-themes-options.php:884 functions/be-themes-options-config.php:2364
+msgid "Please enter your email address."
+msgstr ""
+
+#: be-themes-options.php:891 functions/be-themes-options-config.php:1563
+#: functions/be-themes-options-config.php:1564
+msgid "Blog Settings"
+msgstr ""
+
+#: be-themes-options.php:897
+msgid "Thumbnail Open to Lightbox"
+msgstr ""
+
+#: be-themes-options.php:914 functions/be-themes-options-config.php:1658
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: be-themes-options.php:923 functions/be-themes-options-config.php:1675
+msgid "Blog Column"
+msgstr ""
+
+#: be-themes-options.php:924 functions/be-themes-options-config.php:1676
+#: functions/be-themes-options-config.php:1685
+#: functions/be-themes-options-config.php:1694
+#: functions/be-themes-options-config.php:1703
+msgid "Affects only Masonry Layout"
+msgstr ""
+
+#: be-themes-options.php:943 functions/be-themes-options-config.php:1739
+#: functions/be-themes-options-config.php:1740
+msgid "Portfolio Settings"
+msgstr ""
+
+#: be-themes-options.php:944
+msgid "<p class=\"description\">Portfolio Taxonomy Settings</p>"
+msgstr ""
+
+#: be-themes-options.php:949 functions/be-themes-options-config.php:1908
+msgid "Portfolio Taxonomy Pages Style"
+msgstr ""
+
+#: be-themes-options.php:958 functions/be-themes-options-config.php:1917
+msgid "Portfolio Portfolio Taxonomy Pages Column"
+msgstr ""
+
+#: be-themes-options.php:967 functions/be-themes-options-config.php:1926
+msgid "Portfolio Taxonomy Pages hover Color"
+msgstr ""
+
+#: be-themes-options.php:975
+msgid "Portfolio Taxonomy Pages hover Color Opacity"
+msgstr ""
+
+#: be-themes-options.php:985 functions/be-themes-options-config.php:2145
+#: functions/helpers.php:756
+msgid "Shop"
+msgstr ""
+
+#: be-themes-options.php:991
+msgid "Shop with Sidebar ?"
+msgstr ""
+
+#: be-themes-options.php:999 functions/be-themes-options-config.php:2168
+msgid "Number of products per page"
+msgstr ""
+
+#: be-themes-options.php:1008
+msgid "Single blog Hero Section"
+msgstr ""
+
+#: be-themes-options.php:1009
+msgid "<p class=\"description\">Single blog Hero Section Content</p>"
+msgstr ""
+
+#: be-themes-options.php:1014 be-themes-options.php:1232
+msgid "Header Hero Section from"
+msgstr ""
+
+#: be-themes-options.php:1040
+msgid "Transparent Header ?"
+msgstr ""
+
+#: be-themes-options.php:1048 be-themes-options.php:1266
+msgid "Header Sticky"
+msgstr ""
+
+#: be-themes-options.php:1057 functions/be-themes-options-config.php:2442
+#: functions/be-themes-options-config.php:2634
+msgid "Transparent Header Navigation Color Scheme"
+msgstr ""
+
+#: be-themes-options.php:1058 be-themes-options.php:1276
+#: functions/be-themes-options-config.php:2443
+#: functions/be-themes-options-config.php:2635
+msgid "Applicable only for Transparent header"
+msgstr ""
+
+#: be-themes-options.php:1066 be-themes-options.php:1284
+#: functions/be-themes-options-config.php:2451
+#: functions/be-themes-options-config.php:2643
+msgid "Hero Section Position"
+msgstr ""
+
+#: be-themes-options.php:1067 be-themes-options.php:1285
+#: functions/be-themes-options-config.php:2452
+#: functions/be-themes-options-config.php:2644
+msgid "Applicable only for non-transparent header"
+msgstr ""
+
+#: be-themes-options.php:1075 be-themes-options.php:1293
+msgid "Hero Section With Header ?"
+msgstr ""
+
+#: be-themes-options.php:1076 be-themes-options.php:1294
+#: functions/be-themes-options-config.php:2469
+#: functions/be-themes-options-config.php:2661
+msgid ""
+"Applicable only if header is non-transparent, Hero Section position is "
+"Before Header and no Custom Height is defined"
+msgstr ""
+
+#: be-themes-options.php:1084 be-themes-options.php:1302
+#: functions/be-themes-options-config.php:2460
+#: functions/be-themes-options-config.php:2652
+msgid "Hero Section Custom Height"
+msgstr ""
+
+#: be-themes-options.php:1092 be-themes-options.php:1310
+#: functions/be-themes-options-config.php:2477
+#: functions/be-themes-options-config.php:2669
+msgid "Hero Section Background Color"
+msgstr ""
+
+#: be-themes-options.php:1100 be-themes-options.php:1318
+#: functions/be-themes-options-config.php:2485
+#: functions/be-themes-options-config.php:2677
+msgid "Hero Section Background Image"
+msgstr ""
+
+#: be-themes-options.php:1108 be-themes-options.php:1326
+msgid "Hero Section Background Repeat"
+msgstr ""
+
+#: be-themes-options.php:1117 be-themes-options.php:1335
+msgid "Hero Section Background Attachment"
+msgstr ""
+
+#: be-themes-options.php:1126 be-themes-options.php:1344
+msgid "Hero Section Background Position"
+msgstr ""
+
+#: be-themes-options.php:1135 be-themes-options.php:1353
+msgid "Hero Section Center Scale Image to occupy container"
+msgstr ""
+
+#: be-themes-options.php:1143 be-themes-options.php:1361
+msgid "Hero Section Enable Parallax"
+msgstr ""
+
+#: be-themes-options.php:1151 be-themes-options.php:1369
+msgid "Hero Section Enable Background Video"
+msgstr ""
+
+#: be-themes-options.php:1159 be-themes-options.php:1377
+msgid "Hero Section Video .MP4 Video File"
+msgstr ""
+
+#: be-themes-options.php:1167 be-themes-options.php:1385
+msgid "Hero Section Video .OGG Video File"
+msgstr ""
+
+#: be-themes-options.php:1175 be-themes-options.php:1393
+msgid "Hero Section Video .Webm Video File"
+msgstr ""
+
+#: be-themes-options.php:1191 be-themes-options.php:1409
+msgid "Hero Section Background Overlay Color"
+msgstr ""
+
+#: be-themes-options.php:1199 be-themes-options.php:1417
+msgid "Hero Section Background Overlay Opacity"
+msgstr ""
+
+#: be-themes-options.php:1207 be-themes-options.php:1425
+msgid "Wrap Content ?"
+msgstr ""
+
+#: be-themes-options.php:1216 be-themes-options.php:1434
+#: functions/be-themes-options-config.php:2572
+#: functions/be-themes-options-config.php:2771
+msgid "Hero Section content"
+msgstr ""
+
+#: be-themes-options.php:1226 functions/be-themes-options-config.php:2583
+msgid "Single Shop Hero Section"
+msgstr ""
+
+#: be-themes-options.php:1227
+msgid "<p class=\"description\">Single Shop Hero Section Content</p>"
+msgstr ""
+
+#: be-themes-options.php:1258
+msgid "Transparent Header"
+msgstr ""
+
+#: be-themes-options.php:1275
+msgid "Transparent Header Color Scheme"
+msgstr ""
+
+#: blog/loop-shortcodes.php:54 blog/loop-style1.php:86 blog/loop-style2.php:77
+#: blog/loop-style3.php:77 blog/loop-style4.php:87 blog/loop-style5.php:75
+#: blog/loop-style6.php:78 blog/loop-style7.php:80
+msgid "Share This : "
+msgstr ""
+
+#: blog/loop-shortcodes.php:57 blog/loop-style1.php:89 blog/loop-style2.php:80
+#: blog/loop-style3.php:80 blog/loop-style4.php:90 blog/loop-style5.php:78
+#: blog/loop-style6.php:81 blog/loop-style7.php:83
+msgid "Tags : "
+msgstr ""
+
+#: blog/loop-style1.php:58 blog/loop-style2.php:48 blog/loop-style3.php:47
+#: blog/loop-style4.php:58 blog/loop-style5.php:47 blog/loop-style6.php:50
+#: blog/loop-style7.php:52 functions.php:10 functions/helpers.php:1019
+#: functions/helpers.php:1027
+msgid "Read More"
+msgstr ""
+
+#: blog/loop-style1.php:68 blog/loop-style2.php:58 blog/loop-style3.php:57
+#: blog/loop-style4.php:68 blog/loop-style5.php:57 blog/loop-style6.php:60
+#: blog/loop-style7.php:62
+msgid "Next >"
+msgstr ""
+
+#: blog/loop-style1.php:69 blog/loop-style2.php:59 blog/loop-style3.php:58
+#: blog/loop-style4.php:69 blog/loop-style5.php:58 blog/loop-style6.php:61
+#: blog/loop-style7.php:63
+msgid "< Prev"
+msgstr ""
+
+#: blog/post-bottom-details.php:4 blog/post-details.php:9
+msgid "Under :"
+msgstr ""
+
+#: blog/post-details-style2.php:5 blog/post-details.php:5
+msgid "Posted By :"
+msgstr ""
+
+#: blog/post-details-style2.php:7 blog/post-details.php:7
+#: blog/post-top-details.php:5
+msgid " comments"
+msgstr ""
+
+#: blog/post-details-style2.php:9
+msgid "Under : "
+msgstr ""
+
+#: blog/post-details.php:14
+msgid "Posted By "
+msgstr ""
+
+#: blog/post-details.php:15
+msgid " on "
+msgstr ""
+
+#: comments.php:8
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:24 comments.php:38
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:25 comments.php:39
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:26 comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:51 contact.php:38
+msgid "Submit"
+msgstr ""
+
+#: comments.php:52
+msgid "Comment"
+msgstr ""
+
+#: contact.php:29 functions/helpers.php:332 meta-box/demo/demo.php:243
+msgid "Email"
+msgstr ""
+
+#: contact.php:32
+msgid "Subject"
+msgstr ""
+
+#: contact.php:35
+msgid "Message"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:130
+#: functions/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:131
+#: functions/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:132
+#: functions/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:133
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/be-tgm-plugins.php:144
+#: functions/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/be-tgm-plugins.php:145
+#: functions/class-tgm-plugin-activation.php:177
+#: functions/class-tgm-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/be-tgm-plugins.php:146
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/be-themes-options-config.php:246
+msgid ""
+"General Settings of the site including the logo, favicon and  google "
+"analytics."
+msgstr ""
+
+#: functions/be-themes-options-config.php:253
+msgid "Cache Options Panel Settings?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:255
+msgid ""
+"Turn on Cache once you have completed setting up all the Options here. "
+"Turning on cache, will save the options panel settings and that will help us "
+"optimize performance of the website. However, any changes to the Options "
+"while cache is ON will NOT be saved. So make sure you turn OFF cache before "
+"making changes in the Options Panel"
+msgstr ""
+
+#: functions/be-themes-options-config.php:262
+msgid ""
+"Check this box if you would like to use the page builder for constructing "
+"your pages and portfolio posts. You can still disable the page builder per "
+"page if you would like to use the default wordpress content editor"
+msgstr ""
+
+#: functions/be-themes-options-config.php:269
+msgid "Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:276
+msgid "Logo on Sticky"
+msgstr ""
+
+#: functions/be-themes-options-config.php:278
+msgid "Please upload the logo that needs to be displayed in sticky header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:283
+msgid "Dark Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:290
+msgid "Light Logo"
+msgstr ""
+
+#: functions/be-themes-options-config.php:292
+msgid ""
+"Please upload the logo that needs to be displayed in transparent header "
+"sections with dark backgrounds."
+msgstr ""
+
+#: functions/be-themes-options-config.php:340
+msgid "Background settings for all the individual elements of the site."
+msgstr ""
+
+#: functions/be-themes-options-config.php:389
+msgid ""
+"Setup the typography for all the individual elements in your website here"
+msgstr ""
+
+#: functions/be-themes-options-config.php:497
+msgid "Sub Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:498
+msgid "Font that will be used by the Sub Title Module in Page Builder"
+msgstr ""
+
+#: functions/be-themes-options-config.php:566
+msgid "Bottom Widget Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:583
+msgid "Bottom Widget Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:600
+msgid "Slidebar Widget Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:617
+msgid "Slidebar Widget Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:668
+msgid "Navigation Submenu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:686
+msgid "This typography setting will apply on the Optional Right Sidebar Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:702
+msgid "Sidebar Sub Menu Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:719
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:736
+msgid "Mobile Submenu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:774
+msgid "Site Layout"
+msgstr ""
+
+#: functions/be-themes-options-config.php:775
+msgid "This page has all the settings related to the Layout of your Website"
+msgstr ""
+
+#: functions/be-themes-options-config.php:795
+msgid ""
+"These settings will be applicable if you choose Border Layout in the above "
+"option. This is not required for other layouts"
+msgstr ""
+
+#: functions/be-themes-options-config.php:801
+msgid "Border BG"
+msgstr ""
+
+#: functions/be-themes-options-config.php:824
+msgid "Enable All Ajax"
+msgstr ""
+
+#: functions/be-themes-options-config.php:832
+msgid "All Ajax Exclude Links"
+msgstr ""
+
+#: functions/be-themes-options-config.php:833
+msgid "Seperate by ,"
+msgstr ""
+
+#: functions/be-themes-options-config.php:847
+msgid "Enable Smooth Scroll"
+msgstr ""
+
+#: functions/be-themes-options-config.php:855
+msgid "Disable CSS Animtion in mobile devices"
+msgstr ""
+
+#: functions/be-themes-options-config.php:863
+msgid "Disable Back to top Button"
+msgstr ""
+
+#: functions/be-themes-options-config.php:871
+msgid "Enable Pagebuilder Blog Posts?"
+msgstr ""
+
+#: functions/be-themes-options-config.php:879
+msgid "Loader Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:895
+msgid "Header Search Widget Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:907
+msgid "Search Screen BG"
+msgstr ""
+
+#: functions/be-themes-options-config.php:915
+msgid "Search Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:923
+msgid "Textbox Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:941
+msgid "Slider Navigation Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:957
+msgid "Background/Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:958
+msgid ""
+"The color will be applied as the BG or border of the slider arrow , "
+"depending on the style choosen"
+msgstr ""
+
+#: functions/be-themes-options-config.php:965
+msgid "Background/Border Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:973
+msgid "Arrow Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:981
+msgid "Arrow Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1013
+msgid "Header Layout"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1014
+msgid "This page has all the settings related to the Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1022
+msgid "Header Type"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1029
+msgid "Header Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1053
+msgid "Enable Top Bar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1054
+msgid "Top Bar will apply only on TOP header style and not on Left Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1069
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1075
+msgid "TopBar Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1081
+msgid "Top Bar Border (bottom) Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1095
+#: functions/be-themes-options-config.php:1300
+msgid "Text Area 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1101
+#: functions/be-themes-options-config.php:1306
+msgid "Text Area 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1108
+#: functions/be-themes-options-config.php:1313
+msgid "Content using Code/Shortcode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1141
+msgid "Top Header Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1142
+msgid "This page has all the settings related to the Top Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1151
+msgid "Header Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1152
+msgid "Turn this off if you want a Full Screen Width Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1159
+msgid "Top Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1167
+msgid "Header Border(bottom) Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1168
+msgid "This is appicable only if you choose a Top Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1182
+msgid "Border Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1183
+#: functions/be-themes-options-config.php:1449
+msgid "Turn this on if you want a wrapped border"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1189
+msgid "Top Header Logo Padding"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1190
+#: functions/be-themes-options-config.php:1795
+msgid "Enter only Numbers (in pixels)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1196
+msgid "Submenu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1204
+msgid "Submenu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1212
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1220
+msgid "Bottom Bar Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1221
+#: functions/be-themes-options-config.php:1228
+msgid ""
+"This is appicable only if you choose a Header Style with Menu at the Bottom "
+"(i.e. style2)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1227
+msgid "Bottom Bar Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1242
+msgid "Special Menu Type"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1243
+msgid ""
+"Choose the type of Special Menu for navigation. This is possible in any of "
+"the Header Styles choosen above. "
+msgstr ""
+
+#: functions/be-themes-options-config.php:1254
+msgid "Right Slidebar/Overlay Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1262
+msgid "Right Slidebar/Overlay Menu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1286
+msgid "Semi Transparent Top Header Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1287
+msgid ""
+"This color will apply as BG for the Top Header in pages where you choose "
+"Semi Transparent Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1314
+msgid "For Example Social Media Icons"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1324
+msgid "Position of widgets in Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1348
+msgid "Left Header Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1349
+msgid "This page has all the settings related to the Left Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1359
+msgid "Left Header Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1367
+msgid "Overlay Color on Left Menu"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1368
+msgid ""
+"Will apply on the menu that has a BG image. This will not be applied on "
+"\"Strip with Overlay Menu\" style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1375
+msgid "Image that should appear on the Strip"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1376
+msgid "This image is required if you choose Sliding Left Menu style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1381
+msgid "Left Overlay Menu Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1389
+msgid "Left Menu Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1399
+msgid "Footer Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1400
+msgid "This page has all the settings required for the footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1408
+msgid "Footer Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1409
+msgid "Turn this off if you want a Full Screen Width Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1415
+msgid "Footer Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1433
+msgid "Footer border(Top) color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1448
+msgid "Footer Border Wrap"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1455
+msgid "Footer Padding Value (in pixels)"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1461
+msgid "Primary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1467
+msgid "Secondary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1473
+msgid "Tertiary Text on Footer"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1479
+msgid "Footer - Widget 1"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1487
+msgid "Footer - Widget 2"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1495
+msgid "Footer - Widget 3"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1520
+msgid "Text Color on BG with Color Scheme"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1552
+msgid "Tertiary Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1553
+msgid ""
+"This color will be applied to the content area in Fixed Sidebar Portfolio "
+"Pages"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1569
+msgid "Open Thumbnail image in Lighbox"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1570
+msgid "By default the thumbnail will be linked to the Blog Post page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1594
+msgid "Blog Post Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1610
+msgid "Masonry Blog Post Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1626
+msgid "Blog Post Meta Options"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1642
+msgid "Blog Post Top Meta Options"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1643
+msgid ""
+"This typography is used for Meta (Category) in Blog Style with Meta on Top"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1667
+msgid "Enable Single Post Sidebar"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1684
+msgid "Blog Gutter Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1702
+msgid "Blog Gutter Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1719
+msgid "Blog Read More Button Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1728
+msgid "Show Page Title Module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1745
+msgid "Portfolio Images Aspect Ratio"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1754
+msgid "Portfolio Home Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1755
+msgid "The grid icons in the single portfolio page will be linked to this URL."
+msgstr ""
+
+#: functions/be-themes-options-config.php:1778
+msgid "Navigation Icons color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1786
+msgid "Navigation Icons Hover color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1794
+msgid "Padding"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1801
+msgid "Bottom Border Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1816
+msgid "Bar Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1846
+msgid "Text Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1853
+msgid "Hover Background Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1860
+msgid "Text Hover Color"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1873
+msgid "Title on Portfolio Grid"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1890
+msgid "Meta on Portfolio Grid"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1891
+msgid "Body font will be used for this."
+msgstr ""
+
+#: functions/be-themes-options-config.php:1934
+msgid "Portfolio View Project Button Style"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1943
+msgid "Portfolio Post Slug"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1944
+msgid ""
+"This option is to modify the slug of the portfolio post items. Default will "
+"be /portfolio/"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1955
+msgid "Page Builder Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1956
+msgid "Page Builder Typography Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1961
+msgid "Module Title Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1962
+msgid ""
+"The title font will be applied to the Title section of selected modules that "
+"includes - Tabs, Accordion, Animated Charts and Skills"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1979
+msgid "Tab Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1980
+msgid "The font size for Tab module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1997
+msgid "Accordion Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:1998
+msgid "The font size for Accordion module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2015
+msgid "Skills Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2016
+msgid "The font size for Skills module title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2033
+msgid "Countdown Number Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2034
+msgid "The font size for Countdown module number"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2051
+msgid "Countdown Caption Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2052
+msgid "The font size for Countdown module caption"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2069
+msgid "Special Module Content Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2070
+msgid ""
+"This font will be applied to the Content section of selected modules that "
+"includes - Blockquote, Testimonials etc"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2087
+msgid "Blockquote Font Size"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2088
+msgid "The font size for Blockquote module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2105
+msgid "Tweet Module Font Family"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2106
+msgid "This font will be applied to the Content section of the Tweet Module"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2123
+msgid "Font Family for Buttons"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2146
+msgid "Shop Page Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2151
+msgid "Shop Page Column"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2160
+msgid "Enable Sidebar in Shop Page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2176
+msgid "Product Thumbnail Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2193
+msgid "Product Single page Title"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2210
+msgid "Single Page Tabs Position"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2219
+msgid "Shop Page Primary Button Styling"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2249
+#: functions/be-themes-options-config.php:2316
+msgid "Hover Background"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2257
+#: functions/be-themes-options-config.php:2324
+msgid "Hover Text"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2265
+#: functions/be-themes-options-config.php:2332
+msgid "Hover Border"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2273
+#: functions/be-themes-options-config.php:2340
+msgid "Border Width"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2286
+msgid "Shop Page Secondary Button Styling"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2357
+msgid "Contact information that we will be used in the Contact form"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2371
+msgid "Contact Form Typography"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2391
+msgid "Single Blog Hero Section"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2392
+msgid "Single Blog Hero Section Setting</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2397
+msgid "Source of Hero Section in Single posts page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2406
+#: functions/be-themes-options-config.php:2598
+msgid "Hero Section Type"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2415
+#: functions/be-themes-options-config.php:2607
+msgid "Add Slider Shortcode"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2424
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2468
+#: functions/be-themes-options-config.php:2660
+msgid "Hero Section With Header"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2493
+#: functions/be-themes-options-config.php:2685
+msgid "Video Settings"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2507
+#: functions/be-themes-options-config.php:2699
+msgid "Background Video format"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2517
+#: functions/be-themes-options-config.php:2709
+msgid "Self host the video and enter the URL of the media file"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2525
+#: functions/be-themes-options-config.php:2717
+msgid "Unmute Video"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2526
+#: functions/be-themes-options-config.php:2718
+msgid "By default, the video in the BG will be muted"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2563
+#: functions/be-themes-options-config.php:2762
+msgid "Wrap Content"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2584
+msgid "Single Shop Hero Section Setting</p>"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2589
+msgid "Source of Hero Section in Single Products page"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2730
+msgid "Enable Parallax"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2738
+msgid "Enable Mouse Move Parallax"
+msgstr ""
+
+#: functions/be-themes-options-config.php:2857
+#: functions/be-themes-options-config.php:2858
+msgid "Oshin Options"
+msgstr ""
+
+#: functions/be-themes-update-config.php:230
+msgid "Purchase Code"
+msgstr ""
+
+#: functions/be-themes-update-config.php:237
+msgid "Enter Code"
+msgstr ""
+
+#: functions/be-themes-update-config.php:238
+msgid "You can find the code here"
+msgstr ""
+
+#: functions/be-themes-update-config.php:290
+#: functions/be-themes-update-config.php:291
+msgid "Oshin Purchase Code"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:532
+#: functions/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1167
+#: functions/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1170
+#: functions/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1288
+#: functions/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1312
+#: functions/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2070
+#: functions/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2070
+#: functions/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/helpers.php:38 functions/helpers.php:105
+msgid "First"
+msgstr ""
+
+#: functions/helpers.php:41 functions/helpers.php:108
+msgid "Prev"
+msgstr ""
+
+#: functions/helpers.php:51 functions/helpers.php:116
+msgid "Next"
+msgstr ""
+
+#: functions/helpers.php:54 functions/helpers.php:119
+msgid "Last"
+msgstr ""
+
+#: functions/helpers.php:151 functions/helpers.php:153
+#: functions/helpers.php:167 functions/helpers.php:169
+msgid "View all posts in"
+msgstr ""
+
+#: functions/helpers.php:296
+msgid "Older posts"
+msgstr ""
+
+#: functions/helpers.php:297
+msgid "Newer posts"
+msgstr ""
+
+#: functions/helpers.php:317
+msgid "Search ..."
+msgstr ""
+
+#: functions/helpers.php:333
+msgid "Website"
+msgstr ""
+
+#: functions/helpers.php:350 functions/helpers.php:402
+msgid "Edit"
+msgstr ""
+
+#: functions/helpers.php:365
+msgid "Reply"
+msgstr ""
+
+#: functions/helpers.php:374 functions/helpers.php:377
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: functions/helpers.php:393
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/helpers.php:671 functions/helpers.php:742
+msgid "Home"
+msgstr ""
+
+#: functions/helpers.php:677 functions/helpers.php:679
+#: functions/helpers.php:681 functions/helpers.php:687
+#: functions/helpers.php:689 functions/helpers.php:691
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions/helpers.php:683 functions/helpers.php:773 page-title.php:15
+msgid "Portfolio Archives"
+msgstr ""
+
+#: functions/helpers.php:693 functions/helpers.php:783 page-title.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: functions/helpers.php:750 functions/helpers.php:810 page-title.php:27
+#: page-title.php:29
+msgid "Blog"
+msgstr ""
+
+#: functions/helpers.php:769
+msgid "Portfolio Category / "
+msgstr ""
+
+#: functions/helpers.php:771
+msgid "Portfolio Tag / "
+msgstr ""
+
+#: functions/helpers.php:791
+msgid "Here"
+msgstr ""
+
+#: functions/helpers.php:1196 functions/helpers.php:1202
+msgid "Instagram Error : "
+msgstr ""
+
+#: functions/helpers.php:1248 functions/helpers.php:1253
+msgid "Flickr Error : "
+msgstr ""
+
+#: functions/helpers.php:1248
+msgid "Unknown Error"
+msgstr ""
+
+#: functions/helpers.php:1288
+msgid "Dribble Error : "
+msgstr ""
+
+#: functions/helpers.php:1376
+msgid "Load More"
+msgstr ""
+
+#: functions/twitter/class-wp-twitter-api.php:57
+msgid "Can't get the bearer token, check your credentials"
+msgstr ""
+
+#: functions/twitter/class-wp-twitter-api.php:100
+msgid "Bearer Token is good, check your query"
+msgstr ""
+
+#: functions/widget-functions.php:13
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions/widget-functions.php:15
+msgid "Widget area of Sidebar template pages"
+msgstr ""
+
+#: functions/widget-functions.php:24
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions/widget-functions.php:26 functions/widget-functions.php:37
+#: functions/widget-functions.php:48 functions/widget-functions.php:59
+msgid "Footer widget area"
+msgstr ""
+
+#: functions/widget-functions.php:35
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions/widget-functions.php:46
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions/widget-functions.php:57
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions/widget-functions.php:68
+msgid "Slidebar"
+msgstr ""
+
+#: functions/widget-functions.php:70
+msgid "Widget area of Slidebar"
+msgstr ""
+
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:20
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:26
+#: functions/widgets/brankic-photostream-widget/bra_photostream_widget.php:71
+msgid "Your Photostream"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:4
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:5
+msgid "BE Recent Posts"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:30
+msgid "Recent Posts"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:89
+msgid "Title:"
+msgstr ""
+
+#: functions/widgets/recent_post_widget.php:92
+msgid "Number of posts to show:"
+msgstr ""
+
+#: headers/header-functions.php:158 headers/header-functions.php:180
+#: woocommerce/be-woo-functions.php:197
+msgid "View your shopping cart"
+msgstr ""
+
+#: headers/header-functions.php:576
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: meta-box/demo/all-custom-post-types.php:20
+msgid "Personal Information"
+msgstr ""
+
+#: meta-box/demo/all-custom-post-types.php:25
+msgid "Full name"
+msgstr ""
+
+#: meta-box/demo/better-include.php:16
+#: meta-box/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: meta-box/demo/better-include.php:19
+#: meta-box/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:11
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:21 meta-box/demo/demo.php:188
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:23
+msgid "Select Date"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:24 meta-box/demo/demo.php:189
+msgid "yy-mm-dd"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:30
+msgid "Datetime"
+msgstr ""
+
+#: meta-box/demo/date-time-js-options.php:41
+msgid "Time"
+msgstr ""
+
+#: meta-box/demo/demo.php:38
+msgid "Standard Fields"
+msgstr ""
+
+#: meta-box/demo/demo.php:61
+msgid "Text description"
+msgstr ""
+
+#: meta-box/demo/demo.php:64
+msgid "Default text value"
+msgstr ""
+
+#: meta-box/demo/demo.php:84 meta-box/demo/demo.php:95
+#: meta-box/demo/demo.php:237 meta-box/demo/demo.php:282
+msgid "Label1"
+msgstr ""
+
+#: meta-box/demo/demo.php:85 meta-box/demo/demo.php:96
+#: meta-box/demo/demo.php:238 meta-box/demo/demo.php:283
+msgid "Label2"
+msgstr ""
+
+#: meta-box/demo/demo.php:101 meta-box/demo/demo.php:288
+msgid "Select an Item"
+msgstr ""
+
+#: meta-box/demo/demo.php:108
+msgid "Hidden value"
+msgstr ""
+
+#: meta-box/demo/demo.php:119
+msgid "Textarea description"
+msgstr ""
+
+#: meta-box/demo/demo.php:136
+msgid "Password is required"
+msgstr ""
+
+#: meta-box/demo/demo.php:137
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: meta-box/demo/demo.php:145
+msgid "Advanced Fields"
+msgstr ""
+
+#: meta-box/demo/demo.php:151
+msgid "Heading"
+msgstr ""
+
+#: meta-box/demo/demo.php:161 meta-box/demo/slider.php:14
+msgid "$"
+msgstr ""
+
+#: meta-box/demo/demo.php:162 meta-box/demo/slider.php:15
+msgid " USD"
+msgstr ""
+
+#: meta-box/demo/demo.php:173
+msgid "Number"
+msgstr ""
+
+#: meta-box/demo/demo.php:182
+msgid "Date picker"
+msgstr ""
+
+#: meta-box/demo/demo.php:197
+msgid "Datetime picker"
+msgstr ""
+
+#: meta-box/demo/demo.php:211
+msgid "Time picker"
+msgstr ""
+
+#: meta-box/demo/demo.php:226
+msgid "Color picker"
+msgstr ""
+
+#: meta-box/demo/demo.php:232
+msgid "Checkbox list"
+msgstr ""
+
+#: meta-box/demo/demo.php:245
+msgid "Email description"
+msgstr ""
+
+#: meta-box/demo/demo.php:251
+msgid "Range"
+msgstr ""
+
+#: meta-box/demo/demo.php:253
+msgid "Range description"
+msgstr ""
+
+#: meta-box/demo/demo.php:264
+msgid "URL description"
+msgstr ""
+
+#: meta-box/demo/demo.php:270
+msgid "oEmbed"
+msgstr ""
+
+#: meta-box/demo/demo.php:272
+msgid "oEmbed description"
+msgstr ""
+
+#: meta-box/demo/demo.php:292
+msgid "Taxonomy"
+msgstr ""
+
+#: meta-box/demo/demo.php:306
+msgid "Posts (Pages)"
+msgstr ""
+
+#: meta-box/demo/demo.php:322
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: meta-box/demo/demo.php:327
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: meta-box/demo/demo.php:343 meta-box/demo/force-delete.php:15
+msgid "File Upload"
+msgstr ""
+
+#: meta-box/demo/demo.php:349
+msgid "File Advanced Upload"
+msgstr ""
+
+#: meta-box/demo/demo.php:357 meta-box/demo/force-delete.php:22
+msgid "Image Upload"
+msgstr ""
+
+#: meta-box/demo/demo.php:363 meta-box/demo/force-delete.php:28
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: meta-box/demo/demo.php:369 meta-box/demo/force-delete.php:35
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: meta-box/demo/demo.php:376
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: meta-box/demo/force-delete.php:11
+msgid "Test Meta Box"
+msgstr ""
+
+#: meta-box/demo/image-select.php:6
+msgid "Image Select Demo"
+msgstr ""
+
+#: meta-box/demo/map.php:9
+msgid "Google Map"
+msgstr ""
+
+#: meta-box/demo/map.php:13
+msgid "Address"
+msgstr ""
+
+#: meta-box/demo/map.php:15
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: meta-box/demo/map.php:19
+msgid "Location"
+msgstr ""
+
+#: meta-box/demo/oembed.php:6
+msgid "oEmbed Demo"
+msgstr ""
+
+#: meta-box/demo/oembed.php:10
+msgid "oEmbed(s)"
+msgstr ""
+
+#: meta-box/demo/slider.php:6
+msgid "Slider Demo"
+msgstr ""
+
+#: meta-box/demo/url.php:6
+msgid "URL Demo"
+msgstr ""
+
+#: meta-box/demo/url.php:10
+msgid "URL(s)"
+msgstr ""
+
+#: meta-box/inc/field.php:190
+msgid "+"
+msgstr ""
+
+#: meta-box/inc/field.php:207
+msgid "&#8211;"
+msgstr ""
+
+#: meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: meta-box/inc/fields/post.php:66 meta-box/inc/fields/taxonomy.php:41
+#: meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: meta-box/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: page-title.php:3
+msgid "Category: "
+msgstr ""
+
+#: page-title.php:5
+msgid "Articles Tagged with: "
+msgstr ""
+
+#: page-title.php:7
+msgid "Search Results for: "
+msgstr ""
+
+#: page-title.php:11
+msgid "Portfolio Category : "
+msgstr ""
+
+#: page-title.php:13
+msgid "Portfolio Tag : "
+msgstr ""
+
+#: page-title.php:18
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: page-title.php:20
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: page-title.php:22
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: search.php:52
+msgid "Sorry, Please enter a search query"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:23
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:25
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:29
+#: woocommerce/class-wc-widget-cart.php:54
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/class-wc-widget-cart.php:35
+msgid "Hide if cart is empty"
+msgstr ""

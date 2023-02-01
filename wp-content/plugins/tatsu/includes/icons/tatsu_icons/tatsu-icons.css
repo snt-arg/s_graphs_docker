@@ -1,0 +1,2150 @@
+@font-face {
+  font-family: 'tatsu-icons';
+  src:
+    url('fonts/tatsu-icons.ttf?1deqen') format('truetype'),
+    url('fonts/tatsu-icons.woff?1deqen') format('woff'),
+    url('fonts/tatsu-icons.svg?1deqen#tatsu-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tatsu-icon-"], [class*=" tatsu-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tatsu-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tatsu-icon-tiktok:before {
+  content: "\e900";
+}
+.tatsu-icon-music:before {
+  content: "\e800";
+}
+.tatsu-icon-wallet:before {
+  content: "\e801";
+}
+.tatsu-icon-search:before {
+  content: "\e802";
+}
+.tatsu-icon-mail:before {
+  content: "\e803";
+}
+.tatsu-icon-heart:before {
+  content: "\e804";
+}
+.tatsu-icon-star:before {
+  content: "\e805";
+}
+.tatsu-icon-key:before {
+  content: "\e806";
+}
+.tatsu-icon-doc:before {
+  content: "\e807";
+}
+.tatsu-icon-user:before {
+  content: "\e808";
+}
+.tatsu-icon-videocam:before {
+  content: "\e809";
+}
+.tatsu-icon-camera:before {
+  content: "\e80a";
+}
+.tatsu-icon-photo:before {
+  content: "\e80b";
+}
+.tatsu-icon-attach:before {
+  content: "\e80c";
+}
+.tatsu-icon-lock:before {
+  content: "\e80d";
+}
+.tatsu-icon-eye:before {
+  content: "\e80e";
+}
+.tatsu-icon-tag:before {
+  content: "\e80f";
+}
+.tatsu-icon-thumbs-up:before {
+  content: "\e810";
+}
+.tatsu-icon-pencil:before {
+  content: "\e811";
+}
+.tatsu-icon-comment:before {
+  content: "\e812";
+}
+.tatsu-icon-location:before {
+  content: "\e813";
+}
+.tatsu-icon-cup:before {
+  content: "\e814";
+}
+.tatsu-icon-trash:before {
+  content: "\e815";
+}
+.tatsu-icon-database:before {
+  content: "\e816";
+}
+.tatsu-icon-megaphone:before {
+  content: "\e817";
+}
+.tatsu-icon-graduation-cap:before {
+  content: "\e818";
+}
+.tatsu-icon-fire:before {
+  content: "\e819";
+}
+.tatsu-icon-paper-plane:before {
+  content: "\e81a";
+}
+.tatsu-icon-cloud:before {
+  content: "\e81b";
+}
+.tatsu-icon-globe:before {
+  content: "\e81c";
+}
+.tatsu-icon-inbox:before {
+  content: "\e81d";
+}
+.tatsu-icon-cd:before {
+  content: "\e81e";
+}
+.tatsu-icon-mobile:before {
+  content: "\e81f";
+}
+.tatsu-icon-desktop:before {
+  content: "\e820";
+}
+.tatsu-icon-tv:before {
+  content: "\e821";
+}
+.tatsu-icon-lightbulb:before {
+  content: "\e822";
+}
+.tatsu-icon-clock:before {
+  content: "\e823";
+}
+.tatsu-icon-sound:before {
+  content: "\e824";
+}
+.tatsu-icon-calendar:before {
+  content: "\e825";
+}
+.tatsu-icon-params:before {
+  content: "\e826";
+}
+.tatsu-icon-cog:before {
+  content: "\e827";
+}
+.tatsu-icon-note:before {
+  content: "\e828";
+}
+.tatsu-icon-beaker:before {
+  content: "\e829";
+}
+.tatsu-icon-truck:before {
+  content: "\e82a";
+}
+.tatsu-icon-money:before {
+  content: "\e82b";
+}
+.tatsu-icon-food:before {
+  content: "\e82c";
+}
+.tatsu-icon-shop:before {
+  content: "\e82d";
+}
+.tatsu-icon-diamond:before {
+  content: "\e82e";
+}
+.tatsu-icon-t-shirt:before {
+  content: "\e82f";
+}
+.tatsu-icon-activity:before {
+  content: "\e901";
+}
+.tatsu-icon-airplay:before {
+  content: "\e902";
+}
+.tatsu-icon-alert-circle:before {
+  content: "\e903";
+}
+.tatsu-icon-alert-octagon:before {
+  content: "\e904";
+}
+.tatsu-icon-alert-triangle:before {
+  content: "\e905";
+}
+.tatsu-icon-align-center:before {
+  content: "\e906";
+}
+.tatsu-icon-align-justify:before {
+  content: "\e907";
+}
+.tatsu-icon-align-left2:before {
+  content: "\e908";
+}
+.tatsu-icon-align-right2:before {
+  content: "\e909";
+}
+.tatsu-icon-anchor:before {
+  content: "\e90a";
+}
+.tatsu-icon-aperture:before {
+  content: "\e90b";
+}
+.tatsu-icon-archive2:before {
+  content: "\e90c";
+}
+.tatsu-icon-arrow-down2:before {
+  content: "\e90d";
+}
+.tatsu-icon-arrow-down-circle:before {
+  content: "\e90e";
+}
+.tatsu-icon-arrow-down-left:before {
+  content: "\e90f";
+}
+.tatsu-icon-arrow-down-right:before {
+  content: "\e910";
+}
+.tatsu-icon-arrow-left2:before {
+  content: "\e911";
+}
+.tatsu-icon-arrow-left-circle:before {
+  content: "\e912";
+}
+.tatsu-icon-arrow-right2:before {
+  content: "\e913";
+}
+.tatsu-icon-arrow-right-circle:before {
+  content: "\e914";
+}
+.tatsu-icon-arrow-up2:before {
+  content: "\e915";
+}
+.tatsu-icon-arrow-up-circle:before {
+  content: "\e916";
+}
+.tatsu-icon-arrow-up-left:before {
+  content: "\e917";
+}
+.tatsu-icon-arrow-up-right:before {
+  content: "\e918";
+}
+.tatsu-icon-at-sign:before {
+  content: "\e919";
+}
+.tatsu-icon-award:before {
+  content: "\e91a";
+}
+.tatsu-icon-bar-chart:before {
+  content: "\e91b";
+}
+.tatsu-icon-bar-chart-2:before {
+  content: "\e91c";
+}
+.tatsu-icon-battery2:before {
+  content: "\e91d";
+}
+.tatsu-icon-battery-charging:before {
+  content: "\e91e";
+}
+.tatsu-icon-bell2:before {
+  content: "\e91f";
+}
+.tatsu-icon-bell-off:before {
+  content: "\e920";
+}
+.tatsu-icon-bluetooth1:before {
+  content: "\e921";
+}
+.tatsu-icon-book2:before {
+  content: "\e922";
+}
+.tatsu-icon-book-open:before {
+  content: "\e923";
+}
+.tatsu-icon-bookmark2:before {
+  content: "\e924";
+}
+.tatsu-icon-box2:before {
+  content: "\e925";
+}
+.tatsu-icon-briefcase2:before {
+  content: "\e926";
+}
+.tatsu-icon-calendar2:before {
+  content: "\e927";
+}
+.tatsu-icon-camera2:before {
+  content: "\e928";
+}
+.tatsu-icon-camera-off:before {
+  content: "\e929";
+}
+.tatsu-icon-cast:before {
+  content: "\e92a";
+}
+.tatsu-icon-check2:before {
+  content: "\e92b";
+}
+.tatsu-icon-check-circle:before {
+  content: "\e92c";
+}
+.tatsu-icon-check-square:before {
+  content: "\e92d";
+}
+.tatsu-icon-chevron-down2:before {
+  content: "\e92e";
+}
+.tatsu-icon-chevron-left2:before {
+  content: "\e92f";
+}
+.tatsu-icon-chevron-right2:before {
+  content: "\e930";
+}
+.tatsu-icon-chevron-up2:before {
+  content: "\e931";
+}
+.tatsu-icon-chevrons-down:before {
+  content: "\e932";
+}
+.tatsu-icon-chevrons-left:before {
+  content: "\e933";
+}
+.tatsu-icon-chevrons-right:before {
+  content: "\e934";
+}
+.tatsu-icon-chevrons-up:before {
+  content: "\e935";
+}
+.tatsu-icon-chrome1:before {
+  content: "\e936";
+}
+.tatsu-icon-circle:before {
+  content: "\e937";
+}
+.tatsu-icon-clipboard2:before {
+  content: "\e938";
+}
+.tatsu-icon-clock2:before {
+  content: "\e939";
+}
+.tatsu-icon-cloud2:before {
+  content: "\e93a";
+}
+.tatsu-icon-cloud-drizzle:before {
+  content: "\e93b";
+}
+.tatsu-icon-cloud-lightning:before {
+  content: "\e93c";
+}
+.tatsu-icon-cloud-off:before {
+  content: "\e93d";
+}
+.tatsu-icon-cloud-rain:before {
+  content: "\e93e";
+}
+.tatsu-icon-cloud-snow:before {
+  content: "\e93f";
+}
+.tatsu-icon-code2:before {
+  content: "\e940";
+}
+.tatsu-icon-codepen:before {
+  content: "\e941";
+}
+.tatsu-icon-command:before {
+  content: "\e942";
+}
+.tatsu-icon-compass2:before {
+  content: "\e943";
+}
+.tatsu-icon-copy2:before {
+  content: "\e944";
+}
+.tatsu-icon-corner-down-left:before {
+  content: "\e945";
+}
+.tatsu-icon-corner-down-right:before {
+  content: "\e946";
+}
+.tatsu-icon-corner-left-down:before {
+  content: "\e947";
+}
+.tatsu-icon-corner-left-up:before {
+  content: "\e948";
+}
+.tatsu-icon-corner-right-down:before {
+  content: "\e949";
+}
+.tatsu-icon-corner-right-up:before {
+  content: "\e94a";
+}
+.tatsu-icon-corner-up-left:before {
+  content: "\e94b";
+}
+.tatsu-icon-corner-up-right:before {
+  content: "\e94c";
+}
+.tatsu-icon-cpu:before {
+  content: "\e94d";
+}
+.tatsu-icon-credit-card2:before {
+  content: "\e94e";
+}
+.tatsu-icon-crop2:before {
+  content: "\e94f";
+}
+.tatsu-icon-crosshair:before {
+  content: "\e950";
+}
+.tatsu-icon-database2:before {
+  content: "\e951";
+}
+.tatsu-icon-delete:before {
+  content: "\e952";
+}
+.tatsu-icon-disc:before {
+  content: "\e953";
+}
+.tatsu-icon-dollar-sign:before {
+  content: "\e954";
+}
+.tatsu-icon-download2:before {
+  content: "\e955";
+}
+.tatsu-icon-download-cloud:before {
+  content: "\e956";
+}
+.tatsu-icon-droplet:before {
+  content: "\e957";
+}
+.tatsu-icon-edit2:before {
+  content: "\e958";
+}
+.tatsu-icon-edit-2:before {
+  content: "\e959";
+}
+.tatsu-icon-edit-3:before {
+  content: "\e95a";
+}
+.tatsu-icon-external-link:before {
+  content: "\e95b";
+}
+.tatsu-icon-eye2:before {
+  content: "\e95c";
+}
+.tatsu-icon-eye-off:before {
+  content: "\e95d";
+}
+.tatsu-icon-fast-forward:before {
+  content: "\e95e";
+}
+.tatsu-icon-feather2:before {
+  content: "\e95f";
+}
+.tatsu-icon-file:before {
+  content: "\e960";
+}
+.tatsu-icon-file-minus:before {
+  content: "\e961";
+}
+.tatsu-icon-file-plus:before {
+  content: "\e962";
+}
+.tatsu-icon-file-text:before {
+  content: "\e963";
+}
+.tatsu-icon-film:before {
+  content: "\e964";
+}
+.tatsu-icon-filter:before {
+  content: "\e965";
+}
+.tatsu-icon-flag2:before {
+  content: "\e966";
+}
+.tatsu-icon-folder2:before {
+  content: "\e967";
+}
+.tatsu-icon-folder-minus:before {
+  content: "\e968";
+}
+.tatsu-icon-folder-plus:before {
+  content: "\e969";
+}
+.tatsu-icon-gift:before {
+  content: "\e96a";
+}
+.tatsu-icon-github2:before {
+  content: "\e96b";
+}
+.tatsu-icon-gitlab:before {
+  content: "\e96c";
+}
+.tatsu-icon-globe2:before {
+  content: "\e96d";
+}
+.tatsu-icon-grid2:before {
+  content: "\e96e";
+}
+.tatsu-icon-hard-drive:before {
+  content: "\e96f";
+}
+.tatsu-icon-hash:before {
+  content: "\e970";
+}
+.tatsu-icon-headphones:before {
+  content: "\e971";
+}
+.tatsu-icon-heart2:before {
+  content: "\e972";
+}
+.tatsu-icon-help-circle:before {
+  content: "\e973";
+}
+.tatsu-icon-home2:before {
+  content: "\e974";
+}
+.tatsu-icon-image2:before {
+  content: "\e975";
+}
+.tatsu-icon-inbox2:before {
+  content: "\e976";
+}
+.tatsu-icon-info2:before {
+  content: "\e977";
+}
+.tatsu-icon-instagram2:before {
+  content: "\e978";
+}
+.tatsu-icon-italic:before {
+  content: "\e979";
+}
+.tatsu-icon-layers2:before {
+  content: "\e97a";
+}
+.tatsu-icon-layout:before {
+  content: "\e97b";
+}
+.tatsu-icon-life-buoy:before {
+  content: "\e97c";
+}
+.tatsu-icon-link2:before {
+  content: "\e97d";
+}
+.tatsu-icon-link-2:before {
+  content: "\e97e";
+}
+.tatsu-icon-linkedin2:before {
+  content: "\e97f";
+}
+.tatsu-icon-list2:before {
+  content: "\e980";
+}
+.tatsu-icon-loader:before {
+  content: "\e981";
+}
+.tatsu-icon-lock2:before {
+  content: "\e982";
+}
+.tatsu-icon-log-in:before {
+  content: "\e983";
+}
+.tatsu-icon-log-out2:before {
+  content: "\e984";
+}
+.tatsu-icon-mail2:before {
+  content: "\e985";
+}
+.tatsu-icon-map2:before {
+  content: "\e986";
+}
+.tatsu-icon-map-pin:before {
+  content: "\e987";
+}
+.tatsu-icon-maximize:before {
+  content: "\e988";
+}
+.tatsu-icon-maximize-2:before {
+  content: "\e989";
+}
+.tatsu-icon-menu2:before {
+  content: "\e98a";
+}
+.tatsu-icon-message-circle:before {
+  content: "\e98b";
+}
+.tatsu-icon-message-square:before {
+  content: "\e98c";
+}
+.tatsu-icon-mic2:before {
+  content: "\e98d";
+}
+.tatsu-icon-mic-off:before {
+  content: "\e98e";
+}
+.tatsu-icon-minimize:before {
+  content: "\e98f";
+}
+.tatsu-icon-minimize-2:before {
+  content: "\e990";
+}
+.tatsu-icon-minus2:before {
+  content: "\e991";
+}
+.tatsu-icon-minus-circle:before {
+  content: "\e992";
+}
+.tatsu-icon-minus-square:before {
+  content: "\e993";
+}
+.tatsu-icon-monitor:before {
+  content: "\e994";
+}
+.tatsu-icon-moon2:before {
+  content: "\e995";
+}
+.tatsu-icon-more-horizontal:before {
+  content: "\e996";
+}
+.tatsu-icon-more-vertical:before {
+  content: "\e997";
+}
+.tatsu-icon-move:before {
+  content: "\e998";
+}
+.tatsu-icon-music2:before {
+  content: "\e999";
+}
+.tatsu-icon-navigation:before {
+  content: "\e99a";
+}
+.tatsu-icon-navigation-2:before {
+  content: "\e99b";
+}
+.tatsu-icon-octagon:before {
+  content: "\e99c";
+}
+.tatsu-icon-package:before {
+  content: "\e99d";
+}
+.tatsu-icon-paperclip:before {
+  content: "\e99e";
+}
+.tatsu-icon-pause:before {
+  content: "\e99f";
+}
+.tatsu-icon-pause-circle:before {
+  content: "\e9a0";
+}
+.tatsu-icon-percent:before {
+  content: "\e9a1";
+}
+.tatsu-icon-phone2:before {
+  content: "\e9a2";
+}
+.tatsu-icon-phone-call:before {
+  content: "\e9a3";
+}
+.tatsu-icon-phone-forwarded:before {
+  content: "\e9a4";
+}
+.tatsu-icon-phone-incoming:before {
+  content: "\e9a5";
+}
+.tatsu-icon-phone-missed:before {
+  content: "\e9a6";
+}
+.tatsu-icon-phone-off:before {
+  content: "\e9a7";
+}
+.tatsu-icon-phone-outgoing:before {
+  content: "\e9a8";
+}
+.tatsu-icon-pie-chart2:before {
+  content: "\e9a9";
+}
+.tatsu-icon-play:before {
+  content: "\e9aa";
+}
+.tatsu-icon-play-circle:before {
+  content: "\e9ab";
+}
+.tatsu-icon-plus2:before {
+  content: "\e9ac";
+}
+.tatsu-icon-plus-circle:before {
+  content: "\e9ad";
+}
+.tatsu-icon-plus-square:before {
+  content: "\e9ae";
+}
+.tatsu-icon-pocket:before {
+  content: "\e9af";
+}
+.tatsu-icon-power:before {
+  content: "\e9b0";
+}
+.tatsu-icon-printer:before {
+  content: "\e9b1";
+}
+.tatsu-icon-radio2:before {
+  content: "\e9b2";
+}
+.tatsu-icon-refresh-ccw:before {
+  content: "\e9b3";
+}
+.tatsu-icon-refresh-cw:before {
+  content: "\e9b4";
+}
+.tatsu-icon-repeat:before {
+  content: "\e9b5";
+}
+.tatsu-icon-rewind:before {
+  content: "\e9b6";
+}
+.tatsu-icon-rotate-ccw:before {
+  content: "\e9b7";
+}
+.tatsu-icon-rotate-cw:before {
+  content: "\e9b8";
+}
+.tatsu-icon-rss2:before {
+  content: "\e9b9";
+}
+.tatsu-icon-save2:before {
+  content: "\e9ba";
+}
+.tatsu-icon-scissors2:before {
+  content: "\e9bb";
+}
+.tatsu-icon-search1:before {
+  content: "\e9bc";
+}
+.tatsu-icon-send:before {
+  content: "\e9bd";
+}
+.tatsu-icon-server:before {
+  content: "\e9be";
+}
+.tatsu-icon-settings:before {
+  content: "\e9bf";
+}
+.tatsu-icon-share:before {
+  content: "\e9c0";
+}
+.tatsu-icon-share-2:before {
+  content: "\e9c1";
+}
+.tatsu-icon-shield2:before {
+  content: "\e9c2";
+}
+.tatsu-icon-shield-off:before {
+  content: "\e9c3";
+}
+.tatsu-icon-shopping-bag2:before {
+  content: "\e9c4";
+}
+.tatsu-icon-shopping-cart2:before {
+  content: "\e9c5";
+}
+.tatsu-icon-shuffle2:before {
+  content: "\e9c6";
+}
+.tatsu-icon-sidebar:before {
+  content: "\e9c7";
+}
+.tatsu-icon-skip-back:before {
+  content: "\e9c8";
+}
+.tatsu-icon-skip-forward:before {
+  content: "\e9c9";
+}
+.tatsu-icon-slack1:before {
+  content: "\e9ca";
+}
+.tatsu-icon-slash:before {
+  content: "\e9cb";
+}
+.tatsu-icon-sliders:before {
+  content: "\e9cc";
+}
+.tatsu-icon-smartphone:before {
+  content: "\e9cd";
+}
+.tatsu-icon-speaker:before {
+  content: "\e9ce";
+}
+.tatsu-icon-square:before {
+  content: "\e9cf";
+}
+.tatsu-icon-star2:before {
+  content: "\e9d0";
+}
+.tatsu-icon-stop-circle:before {
+  content: "\e9d1";
+}
+.tatsu-icon-sun:before {
+  content: "\e9d2";
+}
+.tatsu-icon-sunrise:before {
+  content: "\e9d3";
+}
+.tatsu-icon-sunset:before {
+  content: "\e9d4";
+}
+.tatsu-icon-tablet2:before {
+  content: "\e9d5";
+}
+.tatsu-icon-tag2:before {
+  content: "\e9d6";
+}
+.tatsu-icon-target:before {
+  content: "\e9d7";
+}
+.tatsu-icon-terminal:before {
+  content: "\e9d8";
+}
+.tatsu-icon-thermometer2:before {
+  content: "\e9d9";
+}
+.tatsu-icon-thumbs-down2:before {
+  content: "\e9da";
+}
+.tatsu-icon-thumbs-up2:before {
+  content: "\e9db";
+}
+.tatsu-icon-toggle-left:before {
+  content: "\e9dc";
+}
+.tatsu-icon-toggle-right:before {
+  content: "\e9dd";
+}
+.tatsu-icon-trash2:before {
+  content: "\e9de";
+}
+.tatsu-icon-trash-2:before {
+  content: "\e9df";
+}
+.tatsu-icon-trending-down:before {
+  content: "\e9e0";
+}
+.tatsu-icon-trending-up:before {
+  content: "\e9e1";
+}
+.tatsu-icon-triangle:before {
+  content: "\e9e2";
+}
+.tatsu-icon-truck1:before {
+  content: "\e9e3";
+}
+.tatsu-icon-tv2:before {
+  content: "\e9e4";
+}
+.tatsu-icon-twitter2:before {
+  content: "\e9e5";
+}
+.tatsu-icon-type:before {
+  content: "\e9e6";
+}
+.tatsu-icon-umbrella:before {
+  content: "\e9e7";
+}
+.tatsu-icon-underline:before {
+  content: "\e9e8";
+}
+.tatsu-icon-unlock:before {
+  content: "\e9e9";
+}
+.tatsu-icon-upload2:before {
+  content: "\e9ea";
+}
+.tatsu-icon-upload-cloud:before {
+  content: "\e9eb";
+}
+.tatsu-icon-user2:before {
+  content: "\e9ec";
+}
+.tatsu-icon-user-check:before {
+  content: "\e9ed";
+}
+.tatsu-icon-user-minus:before {
+  content: "\e9ee";
+}
+.tatsu-icon-user-plus:before {
+  content: "\e9ef";
+}
+.tatsu-icon-user-x:before {
+  content: "\e9f0";
+}
+.tatsu-icon-users2:before {
+  content: "\e9f1";
+}
+.tatsu-icon-video2:before {
+  content: "\e9f2";
+}
+.tatsu-icon-video-off:before {
+  content: "\e9f3";
+}
+.tatsu-icon-voicemail2:before {
+  content: "\e9f4";
+}
+.tatsu-icon-volume:before {
+  content: "\e9f5";
+}
+.tatsu-icon-volume-1:before {
+  content: "\e9f6";
+}
+.tatsu-icon-volume-2:before {
+  content: "\e9f7";
+}
+.tatsu-icon-volume-x:before {
+  content: "\e9f8";
+}
+.tatsu-icon-watch:before {
+  content: "\e9f9";
+}
+.tatsu-icon-wifi:before {
+  content: "\e9fa";
+}
+.tatsu-icon-wifi-off:before {
+  content: "\e9fb";
+}
+.tatsu-icon-wind:before {
+  content: "\e9fc";
+}
+.tatsu-icon-x:before {
+  content: "\e9fd";
+}
+.tatsu-icon-x-circle:before {
+  content: "\e9fe";
+}
+.tatsu-icon-x-square:before {
+  content: "\e9ff";
+}
+.tatsu-icon-youtube2:before {
+  content: "\ea00";
+}
+.tatsu-icon-zap:before {
+  content: "\ea01";
+}
+.tatsu-icon-zap-off:before {
+  content: "\ea02";
+}
+.tatsu-icon-zoom-in:before {
+  content: "\ea03";
+}
+.tatsu-icon-zoom-out:before {
+  content: "\ea04";
+}
+.tatsu-icon-youtube1:before {
+  content: "\ea05";
+}
+.tatsu-icon-skype1:before {
+  content: "\ea16";
+}
+.tatsu-icon-picasa:before {
+  content: "\ea1f";
+}
+.tatsu-icon-google-play:before {
+  content: "\ea2c";
+}
+.tatsu-icon-google-hangouts:before {
+  content: "\ea2d";
+}
+.tatsu-icon-google-drive:before {
+  content: "\ea2e";
+}
+.tatsu-icon-flickr1:before {
+  content: "\ea31";
+}
+.tatsu-icon-evernote:before {
+  content: "\ea34";
+}
+.tatsu-icon-basecamp:before {
+  content: "\ea39";
+}
+.tatsu-icon-baidu:before {
+  content: "\ea3a";
+}
+.tatsu-icon-px:before {
+  content: "\ea3c";
+}
+.tatsu-icon-location-pin:before {
+  content: "\ea3d";
+}
+.tatsu-icon-inbox1:before {
+  content: "\ea3e";
+}
+.tatsu-icon-water:before {
+  content: "\ea3f";
+}
+.tatsu-icon-warning:before {
+  content: "\ea40";
+}
+.tatsu-icon-wallet1:before {
+  content: "\ea41";
+}
+.tatsu-icon-voicemail:before {
+  content: "\ea42";
+}
+.tatsu-icon-vinyl:before {
+  content: "\ea43";
+}
+.tatsu-icon-video:before {
+  content: "\ea44";
+}
+.tatsu-icon-video-camera:before {
+  content: "\ea45";
+}
+.tatsu-icon-v-card:before {
+  content: "\ea46";
+}
+.tatsu-icon-users:before {
+  content: "\ea47";
+}
+.tatsu-icon-user1:before {
+  content: "\ea48";
+}
+.tatsu-icon-upload:before {
+  content: "\ea49";
+}
+.tatsu-icon-upload-to-cloud:before {
+  content: "\ea4a";
+}
+.tatsu-icon-untag:before {
+  content: "\ea4b";
+}
+.tatsu-icon-unread:before {
+  content: "\ea4c";
+}
+.tatsu-icon-uninstall:before {
+  content: "\ea4d";
+}
+.tatsu-icon-typing:before {
+  content: "\ea4e";
+}
+.tatsu-icon-tv1:before {
+  content: "\ea4f";
+}
+.tatsu-icon-trophy:before {
+  content: "\ea50";
+}
+.tatsu-icon-triangle-up:before {
+  content: "\ea51";
+}
+.tatsu-icon-triangle-right:before {
+  content: "\ea52";
+}
+.tatsu-icon-triangle-left:before {
+  content: "\ea53";
+}
+.tatsu-icon-triangle-down:before {
+  content: "\ea54";
+}
+.tatsu-icon-tree:before {
+  content: "\ea55";
+}
+.tatsu-icon-trash1:before {
+  content: "\ea56";
+}
+.tatsu-icon-traffic-cone:before {
+  content: "\ea57";
+}
+.tatsu-icon-tools:before {
+  content: "\ea58";
+}
+.tatsu-icon-time-slot:before {
+  content: "\ea59";
+}
+.tatsu-icon-ticket:before {
+  content: "\ea5a";
+}
+.tatsu-icon-thunder-cloud:before {
+  content: "\ea5b";
+}
+.tatsu-icon-thumbs-up1:before {
+  content: "\ea5c";
+}
+.tatsu-icon-thumbs-down:before {
+  content: "\ea5d";
+}
+.tatsu-icon-thermometer:before {
+  content: "\ea5e";
+}
+.tatsu-icon-text:before {
+  content: "\ea5f";
+}
+.tatsu-icon-text-document:before {
+  content: "\ea60";
+}
+.tatsu-icon-text-document-inverted:before {
+  content: "\ea61";
+}
+.tatsu-icon-tag1:before {
+  content: "\ea62";
+}
+.tatsu-icon-tablet:before {
+  content: "\ea63";
+}
+.tatsu-icon-tablet-mobile-combo:before {
+  content: "\ea64";
+}
+.tatsu-icon-switch:before {
+  content: "\ea65";
+}
+.tatsu-icon-sweden:before {
+  content: "\ea66";
+}
+.tatsu-icon-swap:before {
+  content: "\ea67";
+}
+.tatsu-icon-suitcase:before {
+  content: "\ea68";
+}
+.tatsu-icon-stopwatch:before {
+  content: "\ea69";
+}
+.tatsu-icon-star1:before {
+  content: "\ea6a";
+}
+.tatsu-icon-star-outlined:before {
+  content: "\ea6b";
+}
+.tatsu-icon-squared-plus:before {
+  content: "\ea6c";
+}
+.tatsu-icon-squared-minus:before {
+  content: "\ea6d";
+}
+.tatsu-icon-squared-cross:before {
+  content: "\ea6e";
+}
+.tatsu-icon-spreadsheet:before {
+  content: "\ea6f";
+}
+.tatsu-icon-sports-club:before {
+  content: "\ea70";
+}
+.tatsu-icon-sound1:before {
+  content: "\ea71";
+}
+.tatsu-icon-sound-mute:before {
+  content: "\ea72";
+}
+.tatsu-icon-sound-mix:before {
+  content: "\ea73";
+}
+.tatsu-icon-signal:before {
+  content: "\ea74";
+}
+.tatsu-icon-shuffle:before {
+  content: "\ea75";
+}
+.tatsu-icon-shopping-cart:before {
+  content: "\ea76";
+}
+.tatsu-icon-shopping-basket:before {
+  content: "\ea77";
+}
+.tatsu-icon-shopping-bag:before {
+  content: "\ea78";
+}
+.tatsu-icon-shop1:before {
+  content: "\ea79";
+}
+.tatsu-icon-shield:before {
+  content: "\ea7a";
+}
+.tatsu-icon-shareable:before {
+  content: "\ea7b";
+}
+.tatsu-icon-share-alternative:before {
+  content: "\ea7c";
+}
+.tatsu-icon-select-arrows:before {
+  content: "\ea7d";
+}
+.tatsu-icon-scissors:before {
+  content: "\ea7e";
+}
+.tatsu-icon-save:before {
+  content: "\ea7f";
+}
+.tatsu-icon-ruler:before {
+  content: "\ea80";
+}
+.tatsu-icon-rss:before {
+  content: "\ea81";
+}
+.tatsu-icon-round-brush:before {
+  content: "\ea82";
+}
+.tatsu-icon-rocket:before {
+  content: "\ea83";
+}
+.tatsu-icon-retweet:before {
+  content: "\ea84";
+}
+.tatsu-icon-resize-full-screen:before {
+  content: "\ea85";
+}
+.tatsu-icon-resize-100:before {
+  content: "\ea86";
+}
+.tatsu-icon-reply:before {
+  content: "\ea87";
+}
+.tatsu-icon-reply-all:before {
+  content: "\ea88";
+}
+.tatsu-icon-remove-user:before {
+  content: "\ea89";
+}
+.tatsu-icon-radio:before {
+  content: "\ea8a";
+}
+.tatsu-icon-quote:before {
+  content: "\ea8b";
+}
+.tatsu-icon-publish:before {
+  content: "\ea8c";
+}
+.tatsu-icon-progress-two:before {
+  content: "\ea8d";
+}
+.tatsu-icon-progress-one:before {
+  content: "\ea8e";
+}
+.tatsu-icon-progress-full:before {
+  content: "\ea8f";
+}
+.tatsu-icon-progress-empty:before {
+  content: "\ea90";
+}
+.tatsu-icon-print:before {
+  content: "\ea91";
+}
+.tatsu-icon-price-tag:before {
+  content: "\ea92";
+}
+.tatsu-icon-price-ribbon:before {
+  content: "\ea93";
+}
+.tatsu-icon-power-plug:before {
+  content: "\ea94";
+}
+.tatsu-icon-popup:before {
+  content: "\ea95";
+}
+.tatsu-icon-plus:before {
+  content: "\ea96";
+}
+.tatsu-icon-pin:before {
+  content: "\ea97";
+}
+.tatsu-icon-pie-chart:before {
+  content: "\ea98";
+}
+.tatsu-icon-phone:before {
+  content: "\ea99";
+}
+.tatsu-icon-pencil1:before {
+  content: "\ea9a";
+}
+.tatsu-icon-paper-plane1:before {
+  content: "\ea9b";
+}
+.tatsu-icon-palette:before {
+  content: "\ea9c";
+}
+.tatsu-icon-open-book:before {
+  content: "\ea9d";
+}
+.tatsu-icon-old-phone:before {
+  content: "\ea9e";
+}
+.tatsu-icon-old-mobile:before {
+  content: "\ea9f";
+}
+.tatsu-icon-notifications-off:before {
+  content: "\eaa0";
+}
+.tatsu-icon-notification:before {
+  content: "\eaa1";
+}
+.tatsu-icon-note1:before {
+  content: "\eaa2";
+}
+.tatsu-icon-newsletter:before {
+  content: "\eaa3";
+}
+.tatsu-icon-news:before {
+  content: "\eaa4";
+}
+.tatsu-icon-new:before {
+  content: "\eaa5";
+}
+.tatsu-icon-new-message:before {
+  content: "\eaa6";
+}
+.tatsu-icon-network:before {
+  content: "\eaa7";
+}
+.tatsu-icon-music1:before {
+  content: "\eaa8";
+}
+.tatsu-icon-mouse:before {
+  content: "\eaa9";
+}
+.tatsu-icon-mouse-pointer:before {
+  content: "\eaaa";
+}
+.tatsu-icon-moon:before {
+  content: "\eaab";
+}
+.tatsu-icon-modern-mic:before {
+  content: "\eaac";
+}
+.tatsu-icon-mobile1:before {
+  content: "\eaad";
+}
+.tatsu-icon-minus:before {
+  content: "\eaae";
+}
+.tatsu-icon-mic:before {
+  content: "\eaaf";
+}
+.tatsu-icon-message:before {
+  content: "\eab0";
+}
+.tatsu-icon-merge:before {
+  content: "\eab1";
+}
+.tatsu-icon-menu:before {
+  content: "\eab2";
+}
+.tatsu-icon-megaphone1:before {
+  content: "\eab3";
+}
+.tatsu-icon-medal:before {
+  content: "\eab4";
+}
+.tatsu-icon-mask:before {
+  content: "\eab5";
+}
+.tatsu-icon-map:before {
+  content: "\eab6";
+}
+.tatsu-icon-man:before {
+  content: "\eab7";
+}
+.tatsu-icon-mail1:before {
+  content: "\eab8";
+}
+.tatsu-icon-magnifying-glass:before {
+  content: "\eab9";
+}
+.tatsu-icon-magnet:before {
+  content: "\eaba";
+}
+.tatsu-icon-loop:before {
+  content: "\eabb";
+}
+.tatsu-icon-login:before {
+  content: "\eabc";
+}
+.tatsu-icon-log-out:before {
+  content: "\eabd";
+}
+.tatsu-icon-lock1:before {
+  content: "\eabe";
+}
+.tatsu-icon-lock-open:before {
+  content: "\eabf";
+}
+.tatsu-icon-location1:before {
+  content: "\eac0";
+}
+.tatsu-icon-list:before {
+  content: "\eac1";
+}
+.tatsu-icon-link:before {
+  content: "\eac2";
+}
+.tatsu-icon-light-up:before {
+  content: "\eac3";
+}
+.tatsu-icon-light-down:before {
+  content: "\eac4";
+}
+.tatsu-icon-light-bulb:before {
+  content: "\eac5";
+}
+.tatsu-icon-lifebuoy:before {
+  content: "\eac6";
+}
+.tatsu-icon-level-up:before {
+  content: "\eac7";
+}
+.tatsu-icon-level-down:before {
+  content: "\eac8";
+}
+.tatsu-icon-leaf:before {
+  content: "\eac9";
+}
+.tatsu-icon-layers:before {
+  content: "\eaca";
+}
+.tatsu-icon-laptop:before {
+  content: "\eacb";
+}
+.tatsu-icon-language:before {
+  content: "\eacc";
+}
+.tatsu-icon-landline:before {
+  content: "\eacd";
+}
+.tatsu-icon-lab-flask:before {
+  content: "\eace";
+}
+.tatsu-icon-keyboard:before {
+  content: "\eacf";
+}
+.tatsu-icon-key1:before {
+  content: "\ead0";
+}
+.tatsu-icon-install:before {
+  content: "\ead1";
+}
+.tatsu-icon-info:before {
+  content: "\ead2";
+}
+.tatsu-icon-info-with-circle:before {
+  content: "\ead3";
+}
+.tatsu-icon-infinity:before {
+  content: "\ead4";
+}
+.tatsu-icon-images:before {
+  content: "\ead5";
+}
+.tatsu-icon-image:before {
+  content: "\ead6";
+}
+.tatsu-icon-image-inverted:before {
+  content: "\ead7";
+}
+.tatsu-icon-hour-glass:before {
+  content: "\ead8";
+}
+.tatsu-icon-home:before {
+  content: "\ead9";
+}
+.tatsu-icon-help:before {
+  content: "\eada";
+}
+.tatsu-icon-help-with-circle:before {
+  content: "\eadb";
+}
+.tatsu-icon-heart1:before {
+  content: "\eadc";
+}
+.tatsu-icon-heart-outlined:before {
+  content: "\eadd";
+}
+.tatsu-icon-hand:before {
+  content: "\eade";
+}
+.tatsu-icon-hair-cross:before {
+  content: "\eadf";
+}
+.tatsu-icon-grid:before {
+  content: "\eae0";
+}
+.tatsu-icon-graduation-cap1:before {
+  content: "\eae1";
+}
+.tatsu-icon-globe1:before {
+  content: "\eae2";
+}
+.tatsu-icon-gauge:before {
+  content: "\eae3";
+}
+.tatsu-icon-game-controller:before {
+  content: "\eae4";
+}
+.tatsu-icon-funnel:before {
+  content: "\eae5";
+}
+.tatsu-icon-forward:before {
+  content: "\eae6";
+}
+.tatsu-icon-folder:before {
+  content: "\eae7";
+}
+.tatsu-icon-folder-video:before {
+  content: "\eae8";
+}
+.tatsu-icon-folder-music:before {
+  content: "\eae9";
+}
+.tatsu-icon-folder-images:before {
+  content: "\eaea";
+}
+.tatsu-icon-flower:before {
+  content: "\eaeb";
+}
+.tatsu-icon-flow-tree:before {
+  content: "\eaec";
+}
+.tatsu-icon-flow-parallel:before {
+  content: "\eaed";
+}
+.tatsu-icon-flow-line:before {
+  content: "\eaee";
+}
+.tatsu-icon-flow-cascade:before {
+  content: "\eaef";
+}
+.tatsu-icon-flow-branch:before {
+  content: "\eaf0";
+}
+.tatsu-icon-flat-brush:before {
+  content: "\eaf1";
+}
+.tatsu-icon-flashlight:before {
+  content: "\eaf2";
+}
+.tatsu-icon-flash:before {
+  content: "\eaf3";
+}
+.tatsu-icon-flag:before {
+  content: "\eaf4";
+}
+.tatsu-icon-fingerprint:before {
+  content: "\eaf5";
+}
+.tatsu-icon-feather:before {
+  content: "\eaf6";
+}
+.tatsu-icon-eye1:before {
+  content: "\eaf7";
+}
+.tatsu-icon-eye-with-line:before {
+  content: "\eaf8";
+}
+.tatsu-icon-export:before {
+  content: "\eaf9";
+}
+.tatsu-icon-eraser:before {
+  content: "\eafa";
+}
+.tatsu-icon-erase:before {
+  content: "\eafb";
+}
+.tatsu-icon-emoji-sad:before {
+  content: "\eafc";
+}
+.tatsu-icon-emoji-neutral:before {
+  content: "\eafd";
+}
+.tatsu-icon-emoji-happy:before {
+  content: "\eafe";
+}
+.tatsu-icon-emoji-flirt:before {
+  content: "\eaff";
+}
+.tatsu-icon-email:before {
+  content: "\eb00";
+}
+.tatsu-icon-edit:before {
+  content: "\eb01";
+}
+.tatsu-icon-drop:before {
+  content: "\eb02";
+}
+.tatsu-icon-drive:before {
+  content: "\eb03";
+}
+.tatsu-icon-drink:before {
+  content: "\eb04";
+}
+.tatsu-icon-download:before {
+  content: "\eb05";
+}
+.tatsu-icon-dots-three-vertical:before {
+  content: "\eb06";
+}
+.tatsu-icon-dots-three-horizontal:before {
+  content: "\eb07";
+}
+.tatsu-icon-documents:before {
+  content: "\eb08";
+}
+.tatsu-icon-document:before {
+  content: "\eb09";
+}
+.tatsu-icon-document-landscape:before {
+  content: "\eb0a";
+}
+.tatsu-icon-direction:before {
+  content: "\eb0b";
+}
+.tatsu-icon-database1:before {
+  content: "\eb0c";
+}
+.tatsu-icon-cycle:before {
+  content: "\eb0d";
+}
+.tatsu-icon-cw:before {
+  content: "\eb0e";
+}
+.tatsu-icon-cup1:before {
+  content: "\eb0f";
+}
+.tatsu-icon-cross:before {
+  content: "\eb10";
+}
+.tatsu-icon-crop:before {
+  content: "\eb11";
+}
+.tatsu-icon-credit:before {
+  content: "\eb12";
+}
+.tatsu-icon-credit-card:before {
+  content: "\eb13";
+}
+.tatsu-icon-creative-commons:before {
+  content: "\eb14";
+}
+.tatsu-icon-creative-commons-sharealike:before {
+  content: "\eb15";
+}
+.tatsu-icon-creative-commons-share:before {
+  content: "\eb16";
+}
+.tatsu-icon-creative-commons-remix:before {
+  content: "\eb17";
+}
+.tatsu-icon-creative-commons-public-domain:before {
+  content: "\eb18";
+}
+.tatsu-icon-creative-commons-noncommercial-us:before {
+  content: "\eb19";
+}
+.tatsu-icon-creative-commons-noncommercial-eu:before {
+  content: "\eb1a";
+}
+.tatsu-icon-creative-commons-noderivs:before {
+  content: "\eb1b";
+}
+.tatsu-icon-creative-commons-attribution:before {
+  content: "\eb1c";
+}
+.tatsu-icon-copy:before {
+  content: "\eb1d";
+}
+.tatsu-icon-controller-stop:before {
+  content: "\eb1e";
+}
+.tatsu-icon-controller-record:before {
+  content: "\eb1f";
+}
+.tatsu-icon-controller-play:before {
+  content: "\eb20";
+}
+.tatsu-icon-controller-paus:before {
+  content: "\eb21";
+}
+.tatsu-icon-controller-next:before {
+  content: "\eb22";
+}
+.tatsu-icon-controller-jump-to-start:before {
+  content: "\eb23";
+}
+.tatsu-icon-controller-fast-forward:before {
+  content: "\eb24";
+}
+.tatsu-icon-controller-fast-backward:before {
+  content: "\eb25";
+}
+.tatsu-icon-compass:before {
+  content: "\eb26";
+}
+.tatsu-icon-colours:before {
+  content: "\eb27";
+}
+.tatsu-icon-cog1:before {
+  content: "\eb28";
+}
+.tatsu-icon-code:before {
+  content: "\eb29";
+}
+.tatsu-icon-cloud1:before {
+  content: "\eb2a";
+}
+.tatsu-icon-clock1:before {
+  content: "\eb2b";
+}
+.tatsu-icon-clipboard:before {
+  content: "\eb2c";
+}
+.tatsu-icon-classic-computer:before {
+  content: "\eb2d";
+}
+.tatsu-icon-clapperboard:before {
+  content: "\eb2e";
+}
+.tatsu-icon-circular-graph:before {
+  content: "\eb2f";
+}
+.tatsu-icon-circle-with-plus:before {
+  content: "\eb30";
+}
+.tatsu-icon-circle-with-minus:before {
+  content: "\eb31";
+}
+.tatsu-icon-circle-with-cross:before {
+  content: "\eb32";
+}
+.tatsu-icon-chevron-with-circle-up:before {
+  content: "\eb33";
+}
+.tatsu-icon-chevron-with-circle-right:before {
+  content: "\eb34";
+}
+.tatsu-icon-chevron-with-circle-left:before {
+  content: "\eb35";
+}
+.tatsu-icon-chevron-with-circle-down:before {
+  content: "\eb36";
+}
+.tatsu-icon-chevron-up:before {
+  content: "\eb37";
+}
+.tatsu-icon-chevron-thin-up:before {
+  content: "\eb38";
+}
+.tatsu-icon-chevron-thin-right:before {
+  content: "\eb39";
+}
+.tatsu-icon-chevron-thin-left:before {
+  content: "\eb3a";
+}
+.tatsu-icon-chevron-thin-down:before {
+  content: "\eb3b";
+}
+.tatsu-icon-chevron-small-up:before {
+  content: "\eb3c";
+}
+.tatsu-icon-chevron-small-right:before {
+  content: "\eb3d";
+}
+.tatsu-icon-chevron-small-left:before {
+  content: "\eb3e";
+}
+.tatsu-icon-chevron-small-down:before {
+  content: "\eb3f";
+}
+.tatsu-icon-chevron-right:before {
+  content: "\eb40";
+}
+.tatsu-icon-chevron-left:before {
+  content: "\eb41";
+}
+.tatsu-icon-chevron-down:before {
+  content: "\eb42";
+}
+.tatsu-icon-check:before {
+  content: "\eb43";
+}
+.tatsu-icon-chat:before {
+  content: "\eb44";
+}
+.tatsu-icon-ccw:before {
+  content: "\eb45";
+}
+.tatsu-icon-camera1:before {
+  content: "\eb46";
+}
+.tatsu-icon-calendar1:before {
+  content: "\eb47";
+}
+.tatsu-icon-calculator:before {
+  content: "\eb48";
+}
+.tatsu-icon-cake:before {
+  content: "\eb49";
+}
+.tatsu-icon-bug:before {
+  content: "\eb4a";
+}
+.tatsu-icon-bucket:before {
+  content: "\eb4b";
+}
+.tatsu-icon-brush:before {
+  content: "\eb4c";
+}
+.tatsu-icon-browser:before {
+  content: "\eb4d";
+}
+.tatsu-icon-briefcase:before {
+  content: "\eb4e";
+}
+.tatsu-icon-box:before {
+  content: "\eb4f";
+}
+.tatsu-icon-bowl:before {
+  content: "\eb50";
+}
+.tatsu-icon-bookmarks:before {
+  content: "\eb51";
+}
+.tatsu-icon-bookmark:before {
+  content: "\eb52";
+}
+.tatsu-icon-book:before {
+  content: "\eb53";
+}
+.tatsu-icon-block:before {
+  content: "\eb54";
+}
+.tatsu-icon-blackboard:before {
+  content: "\eb55";
+}
+.tatsu-icon-bell:before {
+  content: "\eb56";
+}
+.tatsu-icon-beamed-note:before {
+  content: "\eb57";
+}
+.tatsu-icon-battery:before {
+  content: "\eb58";
+}
+.tatsu-icon-bar-graph:before {
+  content: "\eb59";
+}
+.tatsu-icon-back:before {
+  content: "\eb5a";
+}
+.tatsu-icon-back-in-time:before {
+  content: "\eb5b";
+}
+.tatsu-icon-awareness-ribbon:before {
+  content: "\eb5c";
+}
+.tatsu-icon-attachment:before {
+  content: "\eb5d";
+}
+.tatsu-icon-arrow-with-circle-up:before {
+  content: "\eb5e";
+}
+.tatsu-icon-arrow-with-circle-right:before {
+  content: "\eb5f";
+}
+.tatsu-icon-arrow-with-circle-left:before {
+  content: "\eb60";
+}
+.tatsu-icon-arrow-with-circle-down:before {
+  content: "\eb61";
+}
+.tatsu-icon-arrow-up:before {
+  content: "\eb62";
+}
+.tatsu-icon-arrow-right:before {
+  content: "\eb63";
+}
+.tatsu-icon-arrow-long-up:before {
+  content: "\eb64";
+}
+.tatsu-icon-arrow-long-right:before {
+  content: "\eb65";
+}
+.tatsu-icon-arrow-long-left:before {
+  content: "\eb66";
+}
+.tatsu-icon-arrow-long-down:before {
+  content: "\eb67";
+}
+.tatsu-icon-arrow-left:before {
+  content: "\eb68";
+}
+.tatsu-icon-arrow-down:before {
+  content: "\eb69";
+}
+.tatsu-icon-arrow-bold-up:before {
+  content: "\eb6a";
+}
+.tatsu-icon-arrow-bold-right:before {
+  content: "\eb6b";
+}
+.tatsu-icon-arrow-bold-left:before {
+  content: "\eb6c";
+}
+.tatsu-icon-arrow-bold-down:before {
+  content: "\eb6d";
+}
+.tatsu-icon-area-graph:before {
+  content: "\eb6e";
+}
+.tatsu-icon-archive:before {
+  content: "\eb6f";
+}
+.tatsu-icon-align-vertical-middle:before {
+  content: "\eb70";
+}
+.tatsu-icon-align-top:before {
+  content: "\eb71";
+}
+.tatsu-icon-align-right:before {
+  content: "\eb72";
+}
+.tatsu-icon-align-left:before {
+  content: "\eb73";
+}
+.tatsu-icon-align-horizontal-middle:before {
+  content: "\eb74";
+}
+.tatsu-icon-align-bottom:before {
+  content: "\eb75";
+}
+.tatsu-icon-aircraft:before {
+  content: "\eb76";
+}
+.tatsu-icon-aircraft-take-off:before {
+  content: "\eb77";
+}
+.tatsu-icon-air:before {
+  content: "\eb78";
+}
+.tatsu-icon-adjust:before {
+  content: "\eb79";
+}
+.tatsu-icon-add-user:before {
+  content: "\eb7a";
+}
+.tatsu-icon-add-to-list:before {
+  content: "\eb7b";
+}
+.tatsu-icon-twitter:before {
+  content: "\f099";
+}
+.tatsu-icon-facebook:before {
+  content: "\f09a";
+}
+.tatsu-icon-github-circled:before {
+  content: "\f09b";
+}
+.tatsu-icon-gplus:before {
+  content: "\f0d5";
+}
+.tatsu-icon-linkedin:before {
+  content: "\f0e1";
+}
+.tatsu-icon-html5:before {
+  content: "\f13b";
+}
+.tatsu-icon-css3:before {
+  content: "\f13c";
+}
+.tatsu-icon-euro:before {
+  content: "\f153";
+}
+.tatsu-icon-pound:before {
+  content: "\f154";
+}
+.tatsu-icon-dollar:before {
+  content: "\f155";
+}
+.tatsu-icon-rupee:before {
+  content: "\f156";
+}
+.tatsu-icon-yen:before {
+  content: "\f157";
+}
+.tatsu-icon-rouble:before {
+  content: "\f158";
+}
+.tatsu-icon-bitcoin:before {
+  content: "\f15a";
+}
+.tatsu-icon-youtube:before {
+  content: "\f167";
+}
+.tatsu-icon-xing:before {
+  content: "\f168";
+}
+.tatsu-icon-youtube-play:before {
+  content: "\f16a";
+}
+.tatsu-icon-dropbox:before {
+  content: "\f16b";
+}
+.tatsu-icon-instagram:before {
+  content: "\f16d";
+}
+.tatsu-icon-flickr:before {
+  content: "\f16e";
+}
+.tatsu-icon-bitbucket:before {
+  content: "\f171";
+}
+.tatsu-icon-tumblr:before {
+  content: "\f173";
+}
+.tatsu-icon-apple:before {
+  content: "\f179";
+}
+.tatsu-icon-windows:before {
+  content: "\f17a";
+}
+.tatsu-icon-android:before {
+  content: "\f17b";
+}
+.tatsu-icon-dribbble:before {
+  content: "\f17d";
+}
+.tatsu-icon-skype:before {
+  content: "\f17e";
+}
+.tatsu-icon-trello:before {
+  content: "\f181";
+}
+.tatsu-icon-vkontakte:before {
+  content: "\f189";
+}
+.tatsu-icon-weibo:before {
+  content: "\f18a";
+}
+.tatsu-icon-slack:before {
+  content: "\f198";
+}
+.tatsu-icon-wordpress:before {
+  content: "\f19a";
+}
+.tatsu-icon-google:before {
+  content: "\f1a0";
+}
+.tatsu-icon-reddit:before {
+  content: "\f1a1";
+}
+.tatsu-icon-delicious:before {
+  content: "\f1a5";
+}
+.tatsu-icon-digg:before {
+  content: "\f1a6";
+}
+.tatsu-icon-drupal:before {
+  content: "\f1a9";
+}
+.tatsu-icon-behance:before {
+  content: "\f1b4";
+}
+.tatsu-icon-steam-squared:before {
+  content: "\f1b7";
+}
+.tatsu-icon-spotify:before {
+  content: "\f1bc";
+}
+.tatsu-icon-deviantart:before {
+  content: "\f1bd";
+}
+.tatsu-icon-soundcloud:before {
+  content: "\f1be";
+}
+.tatsu-icon-vine:before {
+  content: "\f1ca";
+}
+.tatsu-icon-git:before {
+  content: "\f1d3";
+}
+.tatsu-icon-wechat:before {
+  content: "\f1d7";
+}
+.tatsu-icon-yelp:before {
+  content: "\f1e9";
+}
+.tatsu-icon-paypal:before {
+  content: "\f1ed";
+}
+.tatsu-icon-cc-visa:before {
+  content: "\f1f0";
+}
+.tatsu-icon-cc-paypal:before {
+  content: "\f1f4";
+}
+.tatsu-icon-cc-stripe:before {
+  content: "\f1f5";
+}
+.tatsu-icon-lastfm:before {
+  content: "\f202";
+}
+.tatsu-icon-dashcube:before {
+  content: "\f210";
+}
+.tatsu-icon-sellsy:before {
+  content: "\f213";
+}
+.tatsu-icon-pinterest:before {
+  content: "\f231";
+}
+.tatsu-icon-whatsapp:before {
+  content: "\f232";
+}
+.tatsu-icon-medium:before {
+  content: "\f23a";
+}
+.tatsu-icon-tripadvisor:before {
+  content: "\f262";
+}
+.tatsu-icon-safari:before {
+  content: "\f267";
+}
+.tatsu-icon-chrome:before {
+  content: "\f268";
+}
+.tatsu-icon-firefox:before {
+  content: "\f269";
+}
+.tatsu-icon-opera:before {
+  content: "\f26a";
+}
+.tatsu-icon-internet-explorer:before {
+  content: "\f26b";
+}
+.tatsu-icon-amazon:before {
+  content: "\f270";
+}
+.tatsu-icon-houzz:before {
+  content: "\f27c";
+}
+.tatsu-icon-vimeo:before {
+  content: "\f27d";
+}
+.tatsu-icon-edge:before {
+  content: "\f282";
+}
+.tatsu-icon-credit-card-alt:before {
+  content: "\f283";
+}
+.tatsu-icon-usb:before {
+  content: "\f287";
+}
+.tatsu-icon-bluetooth:before {
+  content: "\f293";
+}

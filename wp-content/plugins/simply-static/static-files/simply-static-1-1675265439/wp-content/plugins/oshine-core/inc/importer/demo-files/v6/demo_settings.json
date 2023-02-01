@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Work-Home-v6",
+	"blog_page_title": "Journal-v6",
+	"menus": {
+		"main_nav": "V6 Main Menu"
+	},		
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

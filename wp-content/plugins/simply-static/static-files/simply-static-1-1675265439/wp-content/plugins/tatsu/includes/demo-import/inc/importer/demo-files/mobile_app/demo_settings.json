@@ -1,0 +1,7 @@
+{
+	"home_page_title": "Home – Mobile app",
+	"content_plugins": {
+		"tatsu": "Tatsu"
+	},
+	"nav_menus":{"2":"Main Menu","3":"Mobile Menu","4":"FooterMenuLeft","5":"FooterMenuRight"}
+}

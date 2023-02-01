@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cookie_privacy_content" />
+        <key name="accept_btn_text" />
+        <key name="popup_title_text" />
+        <key name="popup_intro_content" />
+        <key name="privacy_policy_link_text" />
+        <key name="popup_save_btn_text" />
+        <key name="consent_desc" />
+        <key name="text_on_overlay" />
+    </admin-texts>
+</wpml-config>

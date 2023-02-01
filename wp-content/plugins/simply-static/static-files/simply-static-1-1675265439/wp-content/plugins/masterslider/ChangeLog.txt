@@ -1,0 +1,646 @@
+Version 3.5.9 / (11.10.2021)
+============================
+- [Fixed] An issue which caused controls `autohide` option didn't work.
+
+Version 3.5.1 / (28.04.2021)
+============================
+- [Improvement]: Security improvements were applied.
+
+Version 3.5.0 / (27.02.2021)
+============================
+[Fix]: An issue with rendering 3D transform on Firefox browser fixed.
+
+Version 3.4.10 / (15.02.2021)
+============================
+- [Fix] An issue with detecting css vendor prefix on webkit browsers fixed.
+
+Version 3.4.9 / (14.02.2021)
+============================
+- [Fix] An issue with applying transitions on new Edge browser fixed.
+
+Version 3.4.2 / (08.09.2020)
+============================
+- [Improvement]: Improvements for automatic update feature applied.
+
+Version 3.4.0 / (01.09.2020)
+============================
+- [New]: Introducing new responsive options for changing layers position on desktop, tablet or mobile devices added.
+- [New]: New layer option for hiding the layer on mobile or tablet added.
+- [New]: New options for slider width and height on mobile and tablet added.
+- [Fixe]: An issue with hotspot pulse animation fixed.
+- [Improvement]: Style improvements for admin panel applied.
+
+Version 3.2.9 / (11.08.2017)
+============================
+- [Fix]: Minor bugs fixed.
+
+Version 3.2.7 / (29.07.2017)
+============================
+- [New]: Adding MasterSlider element to Elementor Page builder.
+- [Fix]: Compatibility with PHP 7.2 applied.
+- [Fix]: An issue with deprecated functions for WooCommerce slider fixed.
+- [Fix]: An issue with autoplay option on mobile devices fixed.
+- [Improvement]: Fixing an issue with cropping images for post slider.
+
+Version 3.2.2 / (01.11.2017)
+============================
+- [Improvement]: Performance improvement in post slider.
+- [Improvement]: Automatic flushing the cache on deleting or duplicating the slider.
+
+Version 3.2.0 / (01.08.2017)
+============================
+- [New]: Now the post slider cache will be flushed automatically after publishing new post.
+- [New]: New woocommerce sample sliders added to the premium library.
+- [Fix]: An issue with PHP 7.1 fixed.
+
+Version 3.1.3 / (08.04.2017)
+============================
+- [Fix]: A minor compatibility issue with PHP 7 fixed.
+- [Fix]: Addressed an error while importing post sliders with specific category terms.
+- [Fix]: Italian translation added [Thanks to Jordan Silaen @ChameleonJohn.com ].
+
+Version 3.1.2 / (13.02.2017)
+============================
+- [Fix]: Fixing a bug that prevents displaying video backgroud on mobile devices.
+- [Fix]: Two minor bugs fixed.
+
+Version 3.1.0 / (13.11.2016)
+============================
+- [Fix]: Addressed a bug that result in a 503 error in admin page for some clients.
+- [Improvement]: Now you can access the sample slider library instantly, and load any sample slider completely on the fly.
+
+Version 3.0.6 / (30.10.2016)
+============================
+- [New]: 15 sample sliders added as public sample sliders to sliders list.
+- [Improvement]: Displaying appropriate notices if Master Slider requirements are not met.
+- [Improvement]: Simplifying the procedure of activating and deactivating licenses.
+- [Improvement]: Adding compatibility with WordPress 4.6 in loading text domains.
+- [Fix]: Minor bugs fixed
+
+Version 3.0.4 / (16.08.2016)
+============================
+- [Fix]: Addressed as issue with adding custom css class name to slides in post slider.
+- [Fix]: Minor bugs fixed.
+
+Version 3.0.0 / (15.08.2016)
+============================
+- [New]: Introducing overlay layers. Now you can add animated layers over the slider too.
+- [New]: Introducing masked layer, this feature gives you the ability of masking layers to achieve fresh looking animations.
+- [New]: Introducing smart layer actions, now it is possible to add "show layer", "hide layer" or "toggle layer" actions to the layers.
+- [New]: Introducing sample sliders store. Now, "direct buyers" of Master Slider are able to access to weekly new sample sliders right from their websites. Master Slider will auto fetches new sample sliders from Master server. All you have to do is adding your purchase key in Master Slider > Setting page to enable the "automatic update" and "Live Sample Sliders" feature.
+- [New]: New slider skin, "Minimal".
+- [New]: New slider sample as the example of new features.
+- [New]: Search and replace tool for applying bulk changes in slides and layers content (MasterSlider > Setting > Replace Setting).
+- [New]: Option of enabling background video in mobile devices.
+- [Fix]: Static layers positioning in Firefox.
+- [Improvement]: Layer animations and show/hide timing functionality.
+- [Improvement]: In slider alias verification field.
+- [Improvement]: Some minor security improvements.
+
+Version 2.29.0 / (15.03.2016)
+============================
+- [Fix]: An issue in Master slider gallery view with latest version of Master Slider fixed.
+
+Version 2.28.3 / (07.03.2016)
+============================
+- [Fix]: An issue with resizing images in post slider fixed
+
+Version 2.28.1 / (02.03.2016)
+============================
+- [Fix]: An issue with generating alias after importing slider fixed
+- [Improvement]: Improvement in sliders list page in admin panel
+- [Improvement]: Now images are fully compatible with SSL
+- [Improvement]: Max slide duration limit changed to 600 sec
+- [Fix]: Addressed some bugs while importing sliders
+- [Fix]: A fix for those websites with custom upload path added
+
+Version 2.26.0 / (06.01.2016)
+============================
+- [Fix]: An issue with the third party upload path checker in ssl fixed
+- [New]: New filter hooks 'msp_post_slider_query_args' and 'msp_wc_slider_query_args' for changing the query default value added
+- [Fix]: A typo in variable fixed and an extra parameter removed.
+
+Version 2.25.4 / (14.12.2015)
+============================
+- [Fix]: Addressed a bug that causes some rendering issues when there was more than one slider in a page.
+- [Fix]: Addressed a bug with swipe events.
+
+Version 2.25.0 / (05.12.2015)
+============================
+- [New]: Introducing Box transition view.
+- [Fix]: An issue with validating slider alias fixed
+- [New]: New dynamic tags for 'Post image title and alt' added
+- [New]: Exporting custom button styles added to importer and exporter tools
+- [New]: Title attribute added to button layers too
+- [Fix]: Addressed an issue that the slider alias was undefined after duplicating an slider
+- [Fix]: Addressed a bug that through an error while inserting as Slider in page by 'Visual Composer' (slider alias)
+- [Fix]: Addressed an issue with touch JS error in some Android devices.
+- [Improvement]: Improvement for loading fonts on websites under SSL
+- [Improvement]: Swipe sensitivity while scrolling page on touch devices improved.
+- [Improvement]: Now Master Slider can be initialized properly event if the page contains JS errors from third-party scripts.
+
+Version 2.22.1 / (3.11.2015)
+============================
+- [Fix]: An issue with undefined param fixed
+
+Version 2.22.0 / (31.10.2015)
+============================
+- [New]: Introducing slider alias
+- [Improvement]: Title for background slide added
+- [Fix]: An issue with implementing the scrollTo parameters fixed
+- [Fix]: Legacy wpb_vc function changed to vc_map
+- [Fix]: An issue with undefined variable name fixed
+
+Version 2.20.4 / (30.09.2015)
+============================
+- [Improvement]: SEO improvement for gallery slider
+- [Improvement]: Now the slide info sections with no conent are no longer visible
+
+Version 2.20.3 / (12.09.2015)
+============================
+- [Fix]: Addressed an issue with undefined IDs while adding shortcodes to WordPress editor
+- [New]: Russian translation by: "oharreg"
+
+Version 2.20.0 / (31.08.2015)
+============================
+- [Fix]: Address an incompatibility issue with WordPress 4.3 which result in white screen of death for some clients
+- [Improvement]: Improvement in formatting the prices for WooCommerce slider
+
+
+Version 2.19.0 / (26.08.2015)
+============================
+- [Improvement]: Security improvement
+- [Fix]: Deprecated PHP4 constructor style replaced with new style
+- [Fix]: Addressed an issue with sizing the thumbnails
+
+
+Version 2.18.2 / (29.06.2015)
+============================
+- [Improvement]: Under the hood improvement
+
+
+Version 2.18.0 / (25.06.2015)
+============================
+- [Improvement]: Now Master Slider is compatible with new Facebook oauth
+- [Improvement]: Improvement in automatic update script
+
+
+Version 2.17.0 / (17.06.2015)
+============================
+- [Fix]: Addressed an issue with IE9.
+- [Fix]: Fixed an issue in FireFox which prevents youtube and vimeo videos to be visible in fullscreen mode.
+- [Fix]: Now custom fonts in admin panel are supported under SSL protocol too.
+- [Fix]: An issue with font size while assigning custom font to layers in admin panel fixed.
+- [New]: New option added to post slider to exclude posts without image from slider.
+- [New]: New template tags for "add to card" button in woocommerce slider.
+- [Improvement]: Improvement in {{content-150}} dynamic tag.
+
+
+Version 2.16.0 / (04.06.2015)
+============================
+- [Fix]: Addressed an issue with controls in touch devices while auto hide is enabled.
+- [Fix]: An issue in IE11 fixed.
+- [Fix]: A conflict while selecting layers in admin panel fixed.
+- [Improvement]: Improvement in automatic update feature.
+
+
+Version 2.15.0 / (21.05.2015)
+============================
+- [Fix]: Addressed as issue with hotspot options.
+- [Fix]: Fixed an issue with layers on video when parallax was enabled.
+- [Fix]: An issue with background color of buttons fixed.
+- [Update]: Translate files updated
+
+
+Version 2.14.2 / (08.05.2015)
+============================
+- [Improvement]: Improvement in permalink dynamic tag in post slider.
+- [Improvement]: Some improvement for serving assets under SSL.
+- [Fix]: Default minHeight changed to 0.
+- [Fix]: Some CSS reset rules added to links on slider.
+- [Fix]: An error in parallax effect fixed.
+
+
+Version 2.14.0 / (06.05.2015)
+============================
+- [New]: New option for "autofill" layout added which retrieves the parent element of slider with jQuery selector.
+- [New]: New option `minHeight` added which specifies min height value for the slider, it prevents slider to be displayed tiny in small screens.
+- [New]: New option for scroll action on layers added which specifies a jQuery selector to scroll the page to the element after clicking the layer.
+- [New]: New option for thumblist to change the slides while moving mouse cursor over thumbnails.
+- [New]: Brand new sticky preview and save button with new interface in admin panel.
+- [Fix]: An issue with updating values while switching between layers fixed.
+- [Fix]: A conflict with new API changes in WP 4.2 for gallery fixed.
+- [Fix]: An issue with some special characters in slide info fixed.
+- [Improvement]: Moving custom slider styles after background image style in css file for improving customization capability.
+- [Improvement]: Improvement in slider preview while choosing "autofill" layout.
+- [Improvement]: Interface improvement for slider box.
+- [Improvement]: Improvement in slider sizing methods with autofill or fullscreen layout.
+- [Fix]: An issue with sorting sliders base on date_modified fixed.
+- [Fix]: Escaping the brackets for rel attribute on slides.
+- [Fix]: Addressed an issue while auto hide in controls did not function properly on touch devices.
+- [Fix]: An issue with parallax effect fixed.
+- [Fix]: Addressed an issue while inserting larger numbers than slides number in preload field.
+
+
+Version 2.12.2 / (24.04.2015)
+============================
+- [New]: Search box for searching through the sliders added.
+- [Fix]: Addressed an issue which does not show the layers when the slide image is not set.
+- Master Slider is 100% secure in vulnerability check
+
+
+Version 2.12.0 / (21.04.2015)
+============================
+- [New]: New option for thumbnail list to add thumb in tab
+- [New]: Fixed layers (fixed layers on slide) added.
+- [New]: Static layers (layers without transition on slide) added.
+- [New]: New slide transition "Stack" added.
+- [New]: Arrows for the thumblist control added.
+- [New]: New sample post slider with thumb in tab added.
+- [New]: New sample slider for introducing stack transition added.
+- [Improvement]: Improvement in startOnAppear option functionality.
+- [Improvement]: Improvement in slider performance.
+- [Fix]: An issue with encoding brackets in custom styles fixed
+- [Fix]: A conflict with startOnAppear in Facebook gallery fixed.
+- [Fix]: An issue in calculating thumbnails width fixed.
+- [Fix]: An issue in aligning thumbnails which doesn't have fillMode option fixed.
+- [Fix]: Addressed an issue when resizable option is off on a layer with link
+- [Improvement]: Improvements under the hood.
+
+
+Version 2.10.2 / (20.03.2015)
+============================
+- [New]: Introducing "Start On Hover" feature, to display the slider when it appears in browser viewport.
+- [New]: News sample sliders added. (Fullscreen with zoom effect, Post slider with tabs on right)
+- [New]: New dynamic tags for post slider added. {{image-400x225}}, {{thumbnail}, {{thumbnail-150x150}}, {{thubnailurl}}
+- [New]: Now tab element in post slider receives dynamic tag from slide info too
+- [Improvement]: API methods updated
+- [Fix]: An issue with displaying brackets in {{title}} tag fixed
+- [Fix]: Some minor JavaScript errors fixed.
+
+
+Version 2.9.12 / (05.03.2015)
+============================
+- [Improvement]: Enhancement for {{excerpt}} dynamic tag in post slider
+- [Improvement]: Check and notify if user rich_editing is disabled
+
+
+Version 2.9.10 / (04.03.2015)
+============================
+- [New]: Introducing keyboard navigation
+- [New]: New dynamic tag (content-150) to create trimmed content on the fly. {{content-200}} to trim the content if it was longer than 200 character.
+- [Fix]: An issue while previewing post slider results fixed.
+- [Fix]: Addressed an issue while using bracket in slide and link title.
+- [Update]: French translation added. Special thanks to Thomas:<www.thomasgrimaud.fr>
+- [New]: Brazilian Portuguese translation added. Special thanks to WebPress:<www.themeforest.net/user/WebPress-CodeLayer>
+- [Fix]: Addressed and issue with rendering 3D transitions in FireFox
+
+
+Version 2.9.9 / (21.02.2015)
+============================
+- [Fix]: An issue with mouse wheel fixed
+- [New]: dynamic tag linked_title added
+
+
+Version 2.9.8 / (25.01.2015)
+============================
+- [New]: New sample slider "Slider with vertical tab" added
+- [Fix]: Addressed an issue with an unexpected 404 error for a missing image file
+- [Fix]: ms-skin-sample.css missed in previous updates, now added again
+- [Fix]: Addressed an issue which caused "Partial view version 2" not to work properly.
+- [Fix]: Addressed an issue which caused image layers over first slider not aligning correctly in Chrome for iOS.
+
+
+Version 2.9.7 / (06.01.2015)
+============================
+- [Fix]: Addressed a bug in background fill mode for post slider
+- [Fix]: Now square brackets are supported in post and product titles
+- [Fix]: An issue with a missing file fixed
+- [Improvement]: Some improvement in API for managing front end assets
+
+
+Version 2.9.6 / (25.12.2014)
+============================
+- [Fix]: An issue with including jquery-easig fixed
+- [Fix]: Addressed an issue with layers without fade transition
+
+
+Version 2.9.5 / (23.12.2014)
+============================
+- [New]: Width and height options for image layer added
+- [New]: Now it's possible to bind lightbox to slide image too
+- [Fix]: Addressed and issue with rendering issue in latest version of Firefox
+- [Fix]: An issue with slide link in latest version of Firefox fixed
+- [Fix]: Video background paused in "mask" transition view when window resized.
+- [New]: White overlay patterns for slides added
+- [New]: Serbian translate added. Thanks to "Borisa Djuraskovic" (http://www.webhostinghub.com)
+
+
+Version 2.9.2 / (19.12.2014)
+============================
+- [Fix]: An conflict with modal window in WordPress 4.1 fixed
+- [Fix]: Addressed an issue with excerpt length functionality in post slider
+- [Fix]: Addressed an issue with not applying custom order for post slider
+- [Improvement]: User interface improvement
+
+
+Version 2.9.0 / (16.12.2014)
+============================
+- [Update]: Annoying glow on buttons and links in admin panel removed
+- [New]: Custom css editor added to admin panel
+- [New]: New sample slider for post slider added
+- [New]: New sample slider for parallax mask transition added
+- [Fix]: An issue with slider fallbacks fixed
+- [Fix]: An issue with default link target for button layers fixed
+- [New]: New transition view "parallaxMask"
+- [New]: New direction styles to tab's arrow (left and top)
+- [Fix]: Fixed links and buttons not working with "mask" transition
+- [Fix]: An issue with instant start layers and load nearby preloading fixed
+- [Fix]: An issue with wheel navigation with non-loop slider fixed
+- [Fix]: An issue with unexpected horizontal page scroll bar when fullscreen fixed
+- [Fix]: Fixed unexpected js errors when swipe navigation is disabled
+- [Fix]: An issue removeEventListener method fixed
+- [Fix]: Addressed an issue about not showing layers with "width-limit" attribute during window resizes
+- [Improvement]: Lots of improvement in slider performance
+- [Improvement]: Adding compatibility with wheel navigation by Magic Mouse or Trackpad in OS X
+- [Improvement]: Improvement in parallax effect by mouse movement.
+- [Update]: Slider base styles updated
+- [Update]: Translate files updated
+
+
+Version 2.7.2 / (30.09.2014)
+============================
+- [New]: New sample slider added ( Partial view slider version 4 )
+- [New]: Automatic cache flush for sliders while clicking on "Save" button in global setting page
+- [Improvement]: Overlay color for slider gallery view improved
+- [Fix]: Addressed an issue with loading verification script on "Enable Automatic Update" setting page
+- [Improvement]: Improvement in assigning slider capabilities to default roles
+
+
+Version 2.7.0 / (25.09.2014)
+============================
+- [New]: Introducing Master Slider Gallery view. Now you can display WordPress galleries as slider too.
+- [Improvement]: Now button layer accepts HTML content too
+- [Fix]: Now google fonts work under both SSL and non-SSL
+- [Fix]: Addressed an issue in updating layer content
+- [New]: New field added to post slider and WooCommerce slider to include by post ID too.
+- [Update]: Translate files updated
+
+
+Version 2.6.0 / (18.09.2014)
+============================
+- [New Feature]: Introducing "Scroll down" layer action
+- [Fix]: Addressed an issue with grap cursors in Internet Explorer
+- [Fix]: An issue with creating styles on MultiSite fixed
+- [Fix]: An issue with video cover on devices fixed
+- [New]: New developer API to change origin_uploads_url for importing medias
+- [Improvement]: Improvement in admin interface
+- [Improvement]: Improvement in automatic update validation
+
+
+Version 2.5.2 / (08.09.2014)
+============================
+- [New]: 5 new sample sliders added
+- [Improvement]: Improving responsiveness of admin panel
+- [Improvement]: Interface compatibility with WordPress 4.0 in admin area applied
+
+
+Version 2.5.0 / (25.08.2014)
+============================
+- [New Feature]: Layer actions added to all layer types
+- [New Feature]: New way to let theme developers to include demo sliders in their themes http://goo.gl/MJ3K75
+- [New Feature]: Color tint added to slide overlay
+- [Fix]: An issue with Master Slider button in TinyMCE fixed
+- [Fix]: Addressed an issue with affecting template tags after post slider on pages
+- [Fix]: An issue with API related to default slider setting values fixed
+- [Fix]: Addressed an issue with pausing YouTube videos
+- [Improvement]: Improving slides list view in Master slider's admin panel
+- [Update]: Documentations updated
+
+
+Version 2.4.0 / (13.08.2014)
+============================
+- [New Feature]: Introducing deepLink feature. Now you can link to specific slide too.
+- [Improvement]: Some improvements in scroll parallax effect and minor bugs fixed
+- [Improvement]: Improvement in aligning layers
+- [Fix]: An issue with post slider query fixed
+- [Fix]: An issue with layer action names fixed
+- [Fix]: Some issues with aligning slider controls on mobile size fixed
+
+
+Version 2.3.2 / (06.08.2014)
+============================
+- [New Feature]: Parallax effect added to slide image while scrolling the page
+- [Fix]: An issue with parallax scroll fixed
+
+
+Version 2.3.0 / (05.08.2014)
+============================
+- [New Feature]: New button added to WordPress editor in order to add Master Slider shorcodes with just simple click
+- [New Feature]: Vertical align option added to bullet control
+- [New]: New filter to let developers overwrite default values in admin panel
+- [Fix]: A minor bug in post slider fixed
+
+
+Version 2.2.0 / (25.07.2014)
+============================
+- [New Feature]: Introducing scroll parallax effect
+- [New Feature]: Auto play option added to youtube and vimeo videos
+- [Fix]: A minor bug in looping slider fixed
+- [Update]: Translate files updated
+
+
+Version 2.1.0 / (22.07.2014)
+============================
+- [New Feature]: Pattern overlay added to slide
+- [Fix]: An issue with aligning layers fixed
+
+
+Version 2.0.5 / (18.07.2014)
+============================
+- [New Feature]: New option added to global setting that let you load plugins's scripts on all pages.
+			   ( Useful when loading slider via Ajax )
+
+
+Version 2.0.4 / (17.07.2014)
+============================
+- [Improvement]: Some improvements in importing process
+- [Improvement]: The fallback for old versions of jQuery removed
+- [Fix]: An issue with adding inline css for tab control fixed
+- [Update]: Translate files updated
+
+
+Version 2.0.3 / (03.07.2014)
+============================
+- [Fix]: An unwanted log error fixed
+- [Fix]: An issue with 'go to slide' action fixed
+- [Fix]: An issue with thumbnail control fixed
+- [Improvement]: some improvement for positioning layers when admin panel inits
+
+
+Version 2.0.0 / (01.07.2014)
+============================
+- [New Feature]: Introducing new layer type for adding buttons to slides.
+- [New Feature]: Introducing visual button editor. Now you can select your preferred button style from huge collection of ready to use button styles or create and reuse your custom buttons.
+- [New Feature]: Introducing layer action. Now you can set special action for layers ( go to next slide, go to previous, pause slider, .. )
+- [Improvement]: An issue with displaying several instance of same slider on single page fixed ( when built-in cache was enabled )
+- [Fix]: An issue with displaying widget title in sidebar fixed
+- [Fix]: An issue with flickr API fixed
+- [Update]: Translate files updated
+- [Update]: Documentation updated
+
+
+Version 1.8.8 / (21.06.2014)
+============================
+- [New Feature]: introducing cache boosting to make Masterslider even more faster! (enable from Masterslider setting)
+- [New]: Categories and tags added to dynamic tags in post slider and woo slider
+- [Improvement]: Usability improvement in license activation form
+- [New Feature]: Uninstall feature added to Masterslider
+- [Fix]: An issue with adopting proper style after importing slider fixed
+- [Fix]: return empty value if meta tag value is empty or not found in post slider and woo slider
+- [Update]: Translate files updated
+
+
+Version 1.8.6 / (13.06.2014)
+============================
+- [Fix]: A minor issue with arrow style fixed
+
+
+Version 1.8.5 / (11.06.2014)
+============================
+- [New Feature]: New option added to layer options to fix layer position
+- [New Feature]: Compability with prettyPhoto lightbox added
+- [Fix]: An issue with aligning slide info fixed
+- [Fix]: An issue with max-width in hotspot fixed
+- [Fix]: An issue with z-sorting in 3D view fixed
+
+
+Version 1.8.4 / (06.06.2014)
+============================
+- [Improvement]: Performance improvement for parallax effects
+- [Fix]: An issue with height of slide info fixed
+- [Fix]: An issue with auto-play feature on video slides fixed
+- [Fix]: An issue with woocommerce product slider in multisite fixed
+- [Fix]: An issue with positioning layers in first slide with no slide background fixed
+- [Fix]: An issue with updating layer content while typing in text editor fixed
+- [Update]: WooCommerce single product slider is now disabled by default.
+- [Update]: Language files updated
+- [Update]: Documentation updated
+
+
+Version 1.8.3 / (03.06.2014)
+============================
+- [New Feature]: Masterslider is now multisite compatible.
+- [New Feature]: New API to let developers add their own slider skins
+- [Fix]: Now post slider accepts special tags for slide info too
+- [Fix]: An issue with loop option for slide video background fixed
+- [Fix]: An issue with layer position origin fixed
+
+
+Version 1.8.0 / (30.05.2014)
+============================
+- [New feature]: Introducing WooCommerce product slider
+- [New feature]: Introducing layer position origin. Now you can position layers from top left, center, top right, bottom left, ..
+- [New feature]: New option added to slide options to specify background color for each slide ( under slides > Misc tab )
+- [New feature]: New option for link target added to slide options in post slider
+- [New feature]: New option for hotspot added to "Stay tooltip on mouse over"
+- [New feature]: New feature to replace woocommerce default product slider in product single page with Masterslider (You can enable or disable this feature in Masterslider setting)
+- [New feature]: Thumbnail control added to post slider and woocommerce product slider
+- [Fix]: An issue with "Show layers before slide transition complete" option in layer options fixed
+- [Fix]: An issue with slide duration in post slider fixed
+- [Fix]: An issue with automatic update fixed
+- [Fix]: Minor bugs fixed
+
+
+Version 1.7.3 / (24.05.2014)
+============================
+- [Improvement]: Style improvement for vertical arrows
+- [Fix]: An issue with layer effect on image layers fixed
+- [Fix]: An issue with displaying the list of post types on edit page fixed
+- [Fix]: An Issue with playing video backgrounds with ogv extension fixed
+
+
+Version 1.7.2 / (16.05.2014)
+============================
+- [New feature]: Support for post meta fields in post slider added.
+- Now you can display post meta fields in post slider by adding post meta key in {{}}
+- For example to display value for a meta field with 'project_link' id you just need to add {{project_link}} in slide content.
+
+
+Version 1.7.1 / (15.05.2014)
+============================
+- [Fix]: An issue with post slider on front page fixed
+
+
+Version 1.7.0 / (15.05.2014)
+============================
+- [New Feature]: Introducing post slider. Now you can create a slider to dynamically load content from any post types.
+- [New Feature]: Introducing parallax layers effect. Now you can add parallax effect to layers while swiping slides or moving mouse.
+- [Improvement]: Improvement on positioning slider controls
+- [Fix]: An issue with displaying slide image on video slide fixed
+
+
+Version 1.5.0 / (07.05.2014)
+============================
+- [New Feature]: Introducing facebook slider
+- [New Feature]: 8 new slider templates added. ( Tablet and Smartphone templates )
+- [New Feature]: 8 new sample sliders added. ( for Tablet and Smartphone templates )
+- [New Feature]: New option added to thumblist control for controlling thumbnail fill mode
+- [New]: Developer documentation added
+- [New]: get_masterslider_parsed_data function added for theme developers
+- [New]: New filter and action hooks added for theme developers
+- [Fix]: An issue with displaying "created_date" in list view fixed
+- [Fix]: An issue with overlapping contents on bottom side of slider fixed
+
+
+Version 1.3.3 / (29.04.2014)
+============================
+- [New Feature]: Now imported images will be added to media library too, for easier media management
+- [New]: 2 new sample sliders added. "video gallery sample 2", "fullscreen slider with video background"
+- [New]: 2 new templates added. "flat-display" and "flat-laptop"
+- [New]: New option in global setting added that let you to hide update/info table
+- [Improvement]: Some improvement in pagination of list view table
+- [Improvement]: Performance improvement
+- [Fix]: An issue with themes using bootstrap 3 fixed. Now master slider is fully compatible with bootstrap
+- [Fix]: An issue with "display" template fixed
+- [Fix]: An issue with running 3D transitions on Enfold theme fixed
+
+
+Version 1.3.0 / (27.04.2014)
+============================
+- [New feature]: Introducing flickr slider :)
+- [New feature]: Rich api added for developers to add their preferred sample sliders.
+- [New feature]: 23 new sample sliders added to slider panel. Create your preferred slider with just one simple click!
+- [New feature]: Auto Importing/Fetching images added to importer!
+- [Improvement]: Filtering added to sliders table.
+- [Fix]: Some typo fixed in help tab
+
+Version 1.1.2 / (20.04.2014)
+============================
+- [New feature]: Auto update feature added
+- [New feature]: CKeditor editor replaced with TinyMce
+- [New feature]: New option "Slider wrapper width" for "boxed" and "parialview" layout added
+- [Improvement]: Now you can import export preset styles and preset transitions too.
+- [Improvement]: Some style improvement in admin panel
+- [Fix]: addressed some issue with loading jquery on some themes and bug fixed.
+- [Fix]: An issue with adding custom css code to page fixed.
+- [Update]: language files updated
+
+Version 1.0.5 / (15.04.2014)
+============================
+- [Improvement]: some style improvement for gallery template
+
+Version 1.0.4 / (14.04.2014)
+============================
+- [Fix]: An issue with hotspot alignment fixed
+
+Version 1.0.3 / (14.04.2014)
+============================
+- [New feature]: Auto image crop feature added as option
+- [New feature]: Now you can add shortcodes as content for layers and slide info
+- [Improvement]: laptop and display templates added
+- [Update]: force browser to reload cached css after saving slider
+
+Version 1.0.0 / (12.04.2014)
+============================
+- Initial release

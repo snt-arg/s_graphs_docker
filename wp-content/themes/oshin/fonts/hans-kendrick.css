@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('custom-fonts/hanskendrick-heavy-webfont.otf') format("otf");
+    src: url('custom-fonts/hanskendrick-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('custom-fonts/hanskendrick-heavy-webfont.woff') format('woff'),
+         url('custom-fonts/hanskendrick-heavy-webfont.ttf') format('truetype'),
+         url('custom-fonts/hanskendrick-heavy-webfont.svg#hans_kendrickheavy') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('custom-fonts/hanskendrick-light-webfont.otf') format("otf");
+    src: url('custom-fonts/hanskendrick-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('custom-fonts/hanskendrick-light-webfont.woff') format('woff'),
+         url('custom-fonts/hanskendrick-light-webfont.ttf') format('truetype'),
+         url('custom-fonts/hanskendrick-light-webfont.svg#hans_kendricklight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('custom-fonts/hanskendrick-medium-webfont.otf') format("otf");
+    src: url('custom-fonts/hanskendrick-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('custom-fonts/hanskendrick-medium-webfont.woff') format('woff'),
+         url('custom-fonts/hanskendrick-medium-webfont.ttf') format('truetype'),
+         url('custom-fonts/hanskendrick-medium-webfont.svg#hans_kendrickmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url('custom-fonts/hanskendrick-regular-webfont.otf') format("otf");
+    src: url('custom-fonts/hanskendrick-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('custom-fonts/hanskendrick-regular-webfont.woff') format('woff'),
+         url('custom-fonts/hanskendrick-regular-webfont.ttf') format('truetype'),
+         url('custom-fonts/hanskendrick-regular-webfont.svg#hans_kendrickregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}

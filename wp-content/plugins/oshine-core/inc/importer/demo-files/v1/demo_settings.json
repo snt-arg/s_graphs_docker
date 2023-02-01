@@ -1,0 +1,30 @@
+{
+	"home_page_title": "Home",
+	"blog_page_title": "Blog",
+	"shop_page_title": "Shop",
+	"my_account_page_title": "My Account",
+	"cart_page_title": "Cart",
+	"checkout_page_title": "Checkout",
+	"sliders": {
+		"masterslider": "v1.json"
+	},
+	"menus": {
+		"main_nav": "Main Menu"
+	},
+	"content_plugins": {
+		"woocommerce":"woocommerce",
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post"
+	},
+	"woocommerce_settings":{
+		"woocommerce_single_image_width" : "600",
+		"woocommerce_thumbnail_image_width": "300",
+		"woocommerce_thumbnail_cropping" : "custom",
+		"woocommerce_thumbnail_cropping_custom_width":"4",
+		"woocommerce_thumbnail_cropping_custom_height":"3"
+	},
+	"widget_nav_menu_settings":{
+		"title":"Links",
+		"nav_menu":"Footer Menu"
+	}
+}

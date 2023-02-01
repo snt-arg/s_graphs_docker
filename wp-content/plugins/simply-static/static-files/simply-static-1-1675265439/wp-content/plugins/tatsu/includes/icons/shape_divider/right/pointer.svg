@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" width="100px" height="1080px" viewBox="0 0 100 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g transform="translate(50.000000, 540.000000) rotate(90.000000) translate(-50.000000, -540.000000) translate(-490.000000, 490.000000)" fill-rule="nonzero">
+            <polygon points="0 0 1080 0 1080 70 557.479688 70 540 100 523.337063 70 0 70"></polygon>
+        </g>
+    </g>
+</svg>

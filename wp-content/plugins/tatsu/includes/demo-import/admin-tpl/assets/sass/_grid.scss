@@ -1,0 +1,36 @@
+.clearfix {
+    clear: both;
+    &:after,
+    &:before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@for $i from 1 through 12 {
+    .c-#{$i} {
+        float: left;
+        padding-right: 10px;
+        padding-left: 10px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.c-6 {
+    width: 49%;
+}
+
+.c-4 {
+    width: 20%;
+}
+
+.c-8 {
+    width: 75%;
+}
+
+.c-9 {
+    width: 40%;
+}

@@ -1,0 +1,9 @@
+{
+	"home_page_title": "V40 Home",
+	"menus": {
+		"main_nav": "v40 main menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

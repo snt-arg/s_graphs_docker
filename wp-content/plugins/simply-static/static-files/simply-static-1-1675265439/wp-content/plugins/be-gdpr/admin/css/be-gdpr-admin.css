@@ -1,0 +1,73 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ /****** Switch Styles *********/
+ .gdpr-settings .switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 21px;
+  }
+  
+  .gdpr-settings  .switch input {display:none;}
+  
+  .gdpr-settings  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .gdpr-settings  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .gdpr-settings input:checked + .slider {
+    background-color: #1985ba;
+  }
+  
+  .gdpr-settings  input:focus + .slider {
+    box-shadow: 0 0 1px #1985ba;
+  }
+  
+  .gdpr-settings  input:checked + .slider:before {
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+  }
+
+  .be-settings-page-option{
+    display: flex;
+      align-items: center;
+      padding: 10px 0;
+  }
+  
+  .be-settings-page-option-label{
+    width:320px;
+    display: inline-block;
+  }
+  
+  .be-settings-page-option-checkbox{
+    margin-right: 20px;
+  }
+
+
+.be-gdpr-disclaimer {
+    font-size: 12px;
+}

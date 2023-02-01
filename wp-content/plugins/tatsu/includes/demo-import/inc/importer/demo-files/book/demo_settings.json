@@ -1,0 +1,7 @@
+{
+	"home_page_title": "Home – Book",
+	"content_plugins": {
+		"tatsu": "Tatsu"
+	},
+	"nav_menus":{"2":"Main Menu"}
+}

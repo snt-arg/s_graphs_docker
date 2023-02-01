@@ -1,0 +1,253 @@
+/************************************************
+ 	Left header Styles
+ ************************************************/
+.be-left-strip-wrapper{
+	width: 71px;
+	position: fixed;
+	height: 100%;
+	background-color: #000;
+	z-index: 9;
+	left: 0;
+	cursor: pointer;
+	transition: all 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.left-strip-menu .be-left-strip-wrapper{
+	z-index: 15;
+	transition: transform 700ms cubic-bezier(0.645, 0.045, 0.355, 1), opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1) ;
+}
+
+.left-strip-menu #be-left-strip:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	height: 100%;
+	transform-origin: top right;
+	transform: scaleY(0);
+	transition: transform 600ms cubic-bezier(0.645, 0.045, 0.355, 1) 100ms;
+}
+.side-menu-opened.left-strip-menu #be-left-strip:after{
+	transform: scaleY(1);
+}
+
+.left-header #be-left-strip{
+	position: relative;
+	height: 100%;
+}
+
+.left-header #be-left-strip .be-leftside-menu-controller{
+	position: absolute;
+	bottom: 40px;
+	font-size: 30px;	
+	width: 100%;
+	text-align: center;
+}
+
+.admin-bar.left-header #be-left-strip .be-leftside-menu-controller{
+	bottom: 72px;
+}
+
+.left-header #be-left-strip #logo-strip-bar{
+	top: 40px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+/*Left static menu*/
+.left-static-menu #main-wrapper{
+	margin-left: 280px;
+}
+
+.left-static-menu #be-sidemenu-content{
+	padding-left : 0px;
+	padding-right: 0px;
+}
+
+/*Left strip menu */
+.left-strip-menu #main{
+	left: 0;
+	transition : all 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.left-strip-menu:not(.menu_over_main).side-menu-opened #main{
+	-ms-transform: translateX(210px);
+	    transform: translateX(210px);
+}
+
+.left-header:not(.left-static-menu):not(.left-static) #main-wrapper{
+	margin-left: 70px;
+	overflow-x: hidden;
+	transition : all 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
+} 
+
+/*Overlay-Center-align-menu*/
+.be-overlay-menu-close {
+	position: absolute;
+	z-index: 15;
+	font-size: 30px !important;
+	margin-top: 8px;
+	right: 25px;
+	top:25px;
+	cursor: pointer;
+}
+.be-overlay-menu-close:before {
+	display: inline-block;
+	transition: transform 400ms ease;
+}
+.be-overlay-menu-close:hover:before {
+	-webkit-transform: rotate(90deg) ;
+	-moz-transform: rotate(90deg) ;
+	-ms-transform: rotate(90deg) ;
+	-o-transform: rotate(90deg) ;
+}
+/*.side-menu-opened:not(.overlay-center-align-menu):not(.overlay-left-align-menu) .be-left-strip-wrapper{
+	-ms-transform: translateX(280px);
+	    transform: translateX(280px);
+	opacity: 0;
+}*/
+
+/*Dont allow pointer events to happen when side-menu-opened is there*/
+.left-header:not(.overlay-center-align-menu):not(.overlay-left-align-menu).side-menu-opened #main > * {
+	pointer-events: none;
+}
+
+.left-strip-menu #main::after {
+	content: '';
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index:11;
+	background: rgba(0,0,0,0.8);
+	/* the transition delay of the height needs to be synced with the container transition time */
+	transition: opacity 700ms cubic-bezier(0.645, 0.045, 0.355, 1), height 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.left-strip-menu.side-menu-opened #main::after{
+	opacity: 1;
+}
+.side-menu-opened.overlay-center-align-menu .be-left-strip-wrapper,
+.side-menu-opened.overlay-left-align-menu .be-left-strip-wrapper{
+	opacity: 0;
+}
+.left-header.side-menu-opened.overlay-center-align-menu #main-wrapper,
+.left-header.side-menu-opened.overlay-left-align-menu #main-wrapper{
+	margin-left: 0px;
+}
+
+.animate .be-left-strip-wrapper{
+	opacity: 0;
+}
+.left-header.animate:not(.left-static-menu):not(.left-static) #main-wrapper{
+	margin-left: 0px;
+}
+
+#be-left-strip .be-mobile-menu-icon {
+	position: absolute;
+	top: auto;
+	bottom: 60px;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	transition: background-color 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+.admin-bar #be-left-strip .be-mobile-menu-icon {
+    bottom: 92px;
+}
+
+#be-left-strip .be-mobile-menu-icon,
+#be-left-strip .be-mobile-menu-icon span{
+	background-color: black;
+}
+
+#be-left-strip .header-cart-controls{
+	width: 100%;
+	text-align: center;
+	top: 85%;
+}
+
+#be-left-strip .header-cart-controls .cart-contents span {
+	display: block;
+	position: static;
+	margin-top: -60px;
+}
+.left-strip-menu #be-sidemenu-content{
+	padding-top : 40px;
+}
+
+/**
+ * Static Left Header 
+ */
+.left-static-menu .be-sidemenu {
+    overflow-y: auto;
+}
+.left-static-menu #be-sidemenu-content {
+    padding : 35px;
+    min-height: 100%;
+    height : auto;
+}
+.left-static-menu .be-sidemenu .special-header-logo, 
+.left-static-menu .be-sidemenu .special-header-menu, 
+.left-static-menu .be-sidemenu .special-header-bottom-text {
+    padding: 0;
+    margin : 0;
+    padding : 20px 0;
+    flex-basis: 33.33%;
+    flex-grow: 1;
+}
+
+.left-static-menu .be-sidemenu .special-header-logo {
+	padding-top: 0;
+}
+
+.left-static-menu .be-sidemenu .special-header-bottom-text {
+	padding-bottom: 0;
+}
+
+.be-sidemenu-align-center  .special-header-menu .menu-item, 
+.be-sidemenu-align-center  .special-header-logo, 
+.be-sidemenu-align-center  .special-header-bottom-text {
+    text-align: center;
+}
+
+.be-sidemenu-align-left  .special-header-menu .menu-item, 
+.be-sidemenu-align-left  .special-header-logo, 
+.be-sidemenu-align-left  .special-header-bottom-text {
+    text-align: left;
+}
+
+.be-sidemenu-align-right  .special-header-menu .menu-item, 
+.be-sidemenu-align-right  .special-header-logo, 
+.be-sidemenu-align-right  .special-header-bottom-text {
+    text-align: right;
+}
+
+.left-static-menu .menu-container {
+    position: static;
+    overflow: hidden;
+    width : 100%;
+}
+
+.left-static-menu .special-header-bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.left-static-menu .special-header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.be-sidemenu-align-right  .special-header-bottom-text {
+    align-items: flex-end;
+}
+.be-sidemenu-align-center  .special-header-bottom-text {
+    align-items: center;
+}

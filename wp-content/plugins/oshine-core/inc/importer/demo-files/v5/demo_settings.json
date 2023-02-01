@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Home-v5",
+	"blog_page_title": "Blog-v5",	
+	"menus": {
+		"main_nav": "V5 Main Menu"
+	},	
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home -v18",
+	"sliders": {
+		"masterslider": "v18.json"
+	},
+	"menus": {
+		"main_nav": "V18 Main Menu"
+	},
+	"content_plugins": {
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

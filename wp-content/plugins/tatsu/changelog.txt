@@ -1,0 +1,12 @@
+<h3>3.3.0 (October 2, 2020)</h3>
+<ul>
+ 	<li>Added support for global section.</li>
+ 	<li>Added support for headers & footers section.</li>
+ 	<li>Added Blank Page Template option.</li>
+	<li>Fixed minor issues.</li>
+</ul>
+<h3>3.2.3 (September 28, 2020)</h3>
+<ul>
+ 	<li>Fixed page builder design bug.</li>
+	<li>Update theme compatibility.</li>
+</ul>

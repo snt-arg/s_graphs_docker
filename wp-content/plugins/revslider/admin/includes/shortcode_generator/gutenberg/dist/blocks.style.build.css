@@ -1,0 +1,39 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+div.revslider_block {
+  background: url(images/rs6_logo_2x.png);
+  background-size: 120px 30px;
+  background-repeat: no-repeat;
+  line-height: 32px; }
+
+div.revslider_block .components-text-control__input {
+  display: none; }
+
+div.revslider_block span {
+  font-weight: bold;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; }
+
+div.revslider_block .slider_slug {
+  float: left; }
+
+div.revslider_block .slider_edit_button {
+  float: right; }
+
+/*
+[data-type="themepunch/revslider"] .editor-block-list__block-edit:before {
+  outline: 1px solid rgba(145, 151, 162, 0.25) !important; }
+*/
+.editor-block-list-item-themepunch-revslider svg,
+.components-panel__body.edit-post-block-sidebar__panel svg.dashicons-update {
+  width: 24px;
+  height: 24px; }
+
+.editor-block-list-item-themepunch-revslider .editor-block-types-list__item-title {
+  padding: 4px 1px 4px 1px; }
+
+.wp-block[data-type="themepunch/revslider"] .sliderBar button.components-button.slider_editor_button span {
+  position: absolute; }

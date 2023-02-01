@@ -1,0 +1,15 @@
+{
+	"home_page_title": "Home -v17",
+	"blog_page_title": "Blog -v17",
+	"sliders": {
+		"revslider": "home_v17.zip"
+	},
+	"menus": {
+		"main_right_nav": "V17 Main Right Menu",
+		"main_left_nav": "V17 Main Left Menu"
+	},
+	"content_plugins": {
+		"revslider": "Slider Revolution",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

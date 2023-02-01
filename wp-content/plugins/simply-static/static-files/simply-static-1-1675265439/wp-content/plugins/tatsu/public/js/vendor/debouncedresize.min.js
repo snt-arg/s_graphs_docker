@@ -1,0 +1,1 @@
+!function(e){"use strict";var s,o,u=e.event;s=u.special.debouncedresize={setup:function(){e(this).on("resize",s.handler)},teardown:function(){e(this).off("resize",s.handler)},handler:function(e,t){var n=this,i=arguments,r=function(){e.type="debouncedresize",u.dispatch.apply(n,i)};o&&clearTimeout(o),t?r():o=setTimeout(r,s.threshold)},threshold:150}}(jQuery);

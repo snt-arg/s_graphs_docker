@@ -1,0 +1,9 @@
+{
+	"home_page_title": "Home v29",
+	"menus": {
+		"main_nav": "V29 Main Menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

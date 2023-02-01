@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Home v45",
+	"blog_page_title": "",
+	"menus": {
+		"main_nav": "Home v45"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

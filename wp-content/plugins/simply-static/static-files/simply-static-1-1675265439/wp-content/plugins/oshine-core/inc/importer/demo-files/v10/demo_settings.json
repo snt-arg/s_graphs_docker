@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Dual Carousel Portfolio -home-v10",
+	"blog_page_title": "Blog-v10",
+	"menus": {
+		"main_nav": "V10 Main Menu"
+	},	
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

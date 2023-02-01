@@ -1,0 +1,9 @@
+{
+	"home_page_title": "Home - v37",
+	"menus": {
+		"main_nav": "v37 Main Menu"
+	},
+	"content_plugins": {
+		"woocommerce": "Woo Commerce"
+	}
+}

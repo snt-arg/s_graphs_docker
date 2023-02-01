@@ -1,0 +1,7 @@
+{
+	"home_page_title": "Home – skin care",
+	"content_plugins": {
+		"tatsu": "Tatsu"
+	},
+	"nav_menus":{"2":"Main Menu","3":"Footer Menu","4":"Other Products","5":"footer_shop_links"}
+}

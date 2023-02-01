@@ -1,0 +1,1696 @@
+@charset 'UTF-8';
+.tatsu-module *:last-child,
+.oshine-module *:last-child  {
+  margin-bottom: 0;
+}
+
+.tatsu-module-select{ 
+    position : absolute; 
+    box-sizing : border-box; 
+    pointer-events : none;  
+    display : none; 
+    z-index : 900 
+}  
+.tatsu-drag-observer{ 
+    position : absolute; 
+    box-sizing : border-box; 
+    pointer-events : none; 
+    height : 5px; 
+    display : none; 
+    border-radius : 10px; z-index : 100; 
+} 
+.tatsu-observer-tooltip.out{ 
+    bottom : 100%; 
+    left : -2px; 
+} 
+.be-pb-draglayer-wrapper{ 
+    display: inline-block; 
+    height: 50px; 
+    width: 50px; 
+} 
+.be-pb-draglayer .svg-icons{ 
+    width : 1em; 
+    height : 1em; 
+    font-size : 50px; 
+    position : absolute; 
+    top : calc(50% - 25px); 
+    right : calc(50% - 25px) 
+} 
+.be-pb-draglayer{ 
+    display : block; 
+    width : 50px; 
+    height : 50px; 
+    position : relative 
+} 
+.tatsu-drop-mark-top::before {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: rgba(0, 242, 255, 0.45);
+    display: block;
+    border-radius: 10px;
+    position : absolute;
+    top : 0px; 
+    box-sizing : border-box; 
+    border : 1px dashed #13b3bb; 
+}
+.tatsu-drop-mark-bottom::after {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: rgba(0, 242, 255, 0.45);
+    display: block;
+    border-radius: 10px;
+    position : absolute;
+    bottom : 0px; 
+    box-sizing : border-box; 
+    border : 1px dashed #13b3bb; 
+}
+
+
+.tatsu-column-pad > .be-preview:last-child > .tatsu-module:last-child,
+.tatsu-column-pad > .be-preview:last-child > .oshine-module:last-child,
+.tatsu-column-pad > .be-preview:last-child > .exp-module:last-child,
+.tatsu-column-pad > .be-preview:last-child > .tatsu-shortcode-wrapper > .tatsu-module:last-child,
+.tatsu-column-pad > .be-preview:last-child > .tatsu-shortcode-wrapper > .oshine-module:last-child{
+  margin-bottom: 0 !important;
+}
+
+.tatsu-column:not( .tatsu-column-parallax, .tatsu-column-effect-tilt ) > .tatsu-column-inner {
+    transform : initial !important;
+}
+
+.tatsu-col-overlay-link {
+    z-index: 0;
+}
+
+/**
+ * Section
+ */
+ .tatsu-section-background-wrap:not(.tatsu-parallax-element-wrap) {
+     height : 100% !important;
+     transform: none !important;
+ }
+ .tatsu-section-pad {
+     position: relative;
+ }
+ .tatsu-section-padding-dragger {
+     position : absolute;
+     left : 0;
+     width : 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: ns-resize;
+     font-weight: 600;
+     font-size : 14px;
+     z-index: 100;
+     user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+ }
+ .tatsu-section-padding-dragger-top {
+    top : 0;
+ }
+ .tatsu-section-padding-dragger-bottom {
+    bottom : 0;
+ }
+
+ /**
+  * Column
+  */
+  .tatsu-column-width-placeholder{
+      position: absolute;
+      top : 20px;
+      font-weight: 600;
+      font-size : 14px;
+      display: flex;
+      align-items: center;
+      padding: 7px 15px;
+      min-width: 100px;
+      z-index: 10;
+      border-radius: 100px;
+      justify-content: center;
+      color : #fff;
+      user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  .tatsu-header-col .tatsu-column-width-placeholder {
+      top : 0;
+  }
+  .tatsu-header-col .tatsu-column-width-placeholder {
+      padding: 3px 10px;
+  }
+  .tatsu-column-width-placeholder-right {
+      right : 20px;
+  }
+  .tatsu-column-width-placeholder-left {
+    left : 20px;
+  }
+  .tatsu-column-width-dragger {
+    width : 20px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 20px;
+    height: 100%;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: col-resize;
+  }
+  .tatsu-column-width-dragger-left {
+    left : -10px;
+  }
+  .tatsu-column-width-dragger-right {
+    right : -10px;
+  }
+  .tatsu-column-width-dragger-inner {
+    width: 8px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    -webkit-transform: translate(-3px,-50%);
+    transform: translate(-3px,-50%);
+    opacity: 0;
+  }
+  .visible .tatsu-column-width-dragger-inner {
+      opacity: 1;
+  }
+  .tatsu-prev-pointer-events {
+      pointer-events: none;
+  }
+
+  .tatsu-column-inner-width-drag {
+      opacity: 0.5;
+  }
+
+/* .be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h1:last-child,
+.be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h2:last-child,
+.be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h3:last-child,
+.be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h4:last-child,
+.be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h5:last-child,
+.be-preview > .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h6:last-child {
+    margin-bottom: 20px;
+}  */
+
+/**
+ * Icon
+ */
+ .be-preview .tatsu-normal-icon.align-none .tatsu-icon {
+     margin-right: 10px;
+ }
+ .be-preview:last-child > .tatsu-normal-icon.align-none .tatsu-icon {
+    margin-right: 0px;
+}
+
+.be-preview .tatsu-gradient-icon.align-none .tatsu-icon-bg {
+    margin-right: 10px;
+}
+.be-preview:last-child > .tatsu-gradient-icon.align-none .tatsu-icon-bg {
+   margin-right: 0px;
+}
+.tatsu-icon-ripple::before,
+.tatsu-icon-ripple::after {
+    display: none;
+}
+.tatsu-icon-ripple-before,
+.tatsu-icon-ripple-after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transform: scale(.35);
+    opacity: 0;
+    animation: tatsu-ripple 2.6s cubic-bezier(.25,.9,.2,1) 0.4s infinite;
+}
+.tatsu-icon-ripple-after {
+    animation-delay : 0s;
+}
+
+/****/
+
+/**
+ * Buttons
+ */
+.be-preview > .tatsu-normal-button.tatsu-button-wrap,
+.be-preview > .tatsu-button-container {
+    margin-right: 20px;
+}
+.be-preview:last-child > .tatsu-normal-button.tatsu-button-wrap,
+.be-preview:last-child > .tatsu-button-container {
+    margin-right: 0px;
+}
+
+
+/**
+ * Image Carousel
+ */
+.tatsu-carousel {
+    visibility: visible;
+}
+.tatsu-carousel-col {
+    position : relative;
+}
+@media only screen and (min-width : 768px ) and (max-width : 1024px) {
+    .tatsu-fixed-carousel .tatsu-carousel-col {
+        width : 100%;
+    }
+}
+@media only screen and (max-width : 767px) {
+    .tatsu-client-carousel .tatsu-carousel-col {
+        width : 100%;
+    }
+    .tatsu-carousel.tatsu-carousel-destroy-in-mobile .tatsu-carousel-col-inner,
+    .tatsu-variable-carousel .tatsu-carousel-col-inner {
+        height : auto !important;
+    }
+    .tatsu-carousel-destroy-in-mobile .tatsu-carousel-col {
+        margin-bottom: 25px !important;
+    }
+}
+
+/**
+ * Lists
+ */
+
+.tatsu-lists-number .tatsu-list-item-numbered-before {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex : 0 0 auto;
+}
+
+.tatsu-lists-number.tatsu-list .tatsu-list-content::before {
+    display: none;
+}
+
+
+/**
+ * Interactive Box
+ */
+ .tatsu-interactive-box-stacks-before {
+    position:  absolute;
+    top: 0;
+    left:  50%;
+    content:  '';
+    width:  95%;
+    height:  100%;
+    transform: translate3d(-50%, 0, 0 );
+    border-radius:  inherit;
+    transition : all 0.5s;
+    opacity:  0;
+    background: inherit;
+}
+.tatsu-interactive-box-stacks-after {
+    position:  absolute;
+    top: 0;
+    background:  inherit;
+    left: 50%;
+    border-radius:  inherit;
+    content:  '';
+    opacity:  0;
+    width:  90%;
+    height:  100%;
+    transform:  translate3d(-50%, 0, 0 );
+    transition : all 0.5s;
+    opacity: 0; 
+}
+.tatsu-interactive-box-stacked:hover .tatsu-interactive-box-stacks-before {
+    transform: translate3d(-50%, 7px, 0 );
+    opacity:  0.7;
+}
+.tatsu-interactive-box-stacked:hover .tatsu-interactive-box-stacks-after {
+    transform: translate3d(-50%, 14px, 0);
+    opacity:  0.5;
+}
+.tatsu-interactive-box-with-bg-image .tatsu-interactive-box-stacks-before,
+.tatsu-interactive-box-with-bg-image .tatsu-interactive-box-stacks-after { 
+   z-index: -2;
+}
+.tatsu-interactive-box-tatsu-overlay {
+    position: absolute;
+    height : 100%;
+    content : '';
+    top : 0;
+    left : 0;
+    border-radius: inherit;
+    width : 100%;
+    backface-visibility: hidden;
+}
+.tatsu-interactive-box-transform-tatsu-hover-bg {
+    content : '';
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    top : 0;
+    left : 0;
+    opacity : 0;
+    z-index: -1;
+    border-radius: inherit;
+    transition: all 0.5s;
+    box-shadow: 0 30px 65px rgba(0,0,0,0.15);
+}
+.tatsu-interactive-box-transform:hover .tatsu-interactive-box-transform-tatsu-hover-bg {
+    opacity: 1;
+}
+.tatsu-interactive-box-with-bg-image .tatsu-interactive-box-stacks::before,
+.tatsu-interactive-box-with-bg-image .tatsu-interactive-box-stacks::after {
+    display: none;
+}
+.tatsu-interactive-box-overlay::before {
+   display: none;
+}
+
+
+.be-preview:not( :last-child ) > .tatsu-row-wrap > .tatsu-row > .tatsu-column {
+    margin-bottom : 50px;
+}
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column,
+.be-preview:not( :last-child ) > .tatsu-zero-margin > .tatsu-row > .tatsu-column  {
+    margin-bottom: 0;
+}
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h1:last-child,
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h2:last-child,
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h3:last-child,
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h4:last-child,
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h5:last-child,
+.be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad  h6:last-child {
+    margin-bottom: 0;
+} 
+
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h1:last-child,
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h2:last-child,
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h3:last-child,
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h4:last-child,
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h5:last-child,
+.be-preview:not(:last-child) > .tatsu-row-wrap > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad h6:last-child {
+    margin-bottom: 20px;
+}
+
+@media only screen and ( max-width : 767px ) {
+    .be-preview:not( :last-child ) > .tatsu-row-wrap > .tatsu-row > .tatsu-column:last-child {
+        margin-bottom : 50px;
+    }
+    /* used for overriding css in line 36 */
+    .be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column { 
+        margin-bottom: 50px;
+    }
+    .be-preview:last-child > .tatsu-row-wrap > .tatsu-row > .tatsu-column:last-child {
+        margin-bottom: 0px;
+    }
+    /* to override css in line 60 and 32 */
+    .be-preview > .tatsu-eq-cols.tatsu-row-wrap > .tatsu-row > .tatsu-column,
+    .be-preview > .tatsu-eq-cols.tatsu-row-wrap > .tatsu-row > .tatsu-column:last-child,
+    .be-preview > .tatsu-zero-margin.tatsu-row-wrap > .tatsu-row > .tatsu-column,
+    .be-preview > .tatsu-zero-margin.tatsu-row-wrap > .tatsu-row > .tatsu-column:last-child,
+    .be-preview > .tatsu-no-gutter.tatsu-row-wrap > .tatsu-row > .tatsu-column,
+    .be-preview > .tatsu-no-gutter.tatsu-row-wrap > .tatsu-row > .tatsu-column:last-child{
+        margin-bottom : 0px;
+    }
+}
+
+.mfp-bottom-bar {
+    display: none;
+}
+
+.tatsu-module.linebreak {
+  margin-bottom: 0;
+}
+
+#tatsu-tinymce-helper {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 900;
+  width: 100%;
+
+}
+
+.tatsu-drag-overlay { 
+  position : absolute; 
+  z-index : 50; 
+  cursor : move; 
+  height : 100%; 
+  width : 100%; 
+}
+
+/**
+ * Exponent Cart
+ */
+ .tatsu-module-preview .exponent-cart {
+     display: flex;
+ }
+
+  /*************************************************
+inline Editor 
+*************************************************/
+.tatsu-inline-wrapper:after {
+    content: '';
+    display: block;
+    border-top: 5px solid #1b1d20;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: translateX(-50%);
+}
+.tatsu-inline-wrapper.below:after {
+    content: '';
+    display: block;
+    border-top: 5px solid #1b1d20;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+  .tatsu-inline-button > div {
+      height : 24px;
+      width: 20px;
+      margin: 0 auto;
+      pointer-events: none;
+  }
+
+  .tatsu-inline-button{
+      /* line-height: 2.4; */
+      line-height: 36px;
+      text-align: center;
+  }
+
+.tatsu-inline-wrapper{
+    display: inline-block;
+    background: rgba( 0, 0, 0, 0.85 );
+    position: absolute;
+    cursor: pointer;
+    width: 414px;
+    z-index: 99999999;
+    transition : all 400ms linear;
+    transition-property: top, left;
+    transform : translate( -50%, -100% );
+    line-height: 0;
+    border-radius: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(50, 55, 61, 0.9);
+}
+
+.tatsu-inline-wrapper.colorPickerOpen{
+    width: 250px;
+    border-radius: 5px;
+    padding: 20px 12px 20px 20px;
+    box-sizing: border-box;
+}
+.tatsu-inline-color-tools-wrapper {
+    margin-bottom: 20px;
+}
+#tatsu-inline-color-input {
+    position: relative;
+    border: 1px;
+    height: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    color: #767b7d;
+    padding: 0 0 0 30px;
+    border-radius: 100px;
+    padding: 0 0 0 25px;
+    background: #32373d;
+    width: 85%;
+    margin-right: 11px;
+}
+.colorPickerOpen .tatsu-inline-inner-wrap svg {
+    height: 20px !important;
+}
+
+.colorPickerOpen .colorpicker {
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background: transparent;
+}
+.colorPickerOpen .map {
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    height: 80%;
+}
+
+.colorPickerOpen .hue-slider {
+    top: 0;
+    bottom: 0;
+}
+
+.colorPickerOpen .slider .pointer {
+    background: #32373d;
+}
+
+.tatsu-inline-wrapper.colorhubThingsOpen{
+    width: auto;
+} 
+
+.tatsu-inline-wrapper.urlOpen{
+    width: 300px;
+}
+.tatsu-inline-wrapper.fontOpen{
+    width: 400px;
+    padding: 0;
+    border-radius: 5px;
+}
+.tatsu-inline-font-search-wrapper {
+    text-align: center;
+    border-bottom: 1px solid rgba(50, 55, 61, 0.5);
+    padding: 15px;
+    background: rgba(0,0,0,0.3)
+}
+#tatsu-inline-font-search {
+        border: 1px;
+        height: 25px;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        outline: none;
+        font-size: 12px;
+        color: #767b7d;
+        padding: 0 0 0 30px;
+        border-radius: 100px;
+        padding: 0 0 0 25px;
+        background: rgba(255,255,255,0.1);
+        width: 95%;
+}
+.tatsu-inline-wrapper.alignmentOpen{
+    width: 182px;
+}
+.tatsu-inline-wrapper.listTypeOpen{
+    width: 107px;
+}
+.align-left .public-DraftStyleDefault-ltr{
+    text-align: left
+}
+.align-center .public-DraftStyleDefault-ltr{
+    text-align: center;
+}
+.align-right .public-DraftStyleDefault-ltr{
+    text-align: right;
+}
+.align-justify .public-DraftStyleDefault-ltr{
+    text-align: justify;
+}
+.tatsu-block-toolarea{
+    display: flex;
+    width : 100%;
+    border-bottom: 1px solid rgba(63,63,63,0.5);
+}
+.tatsu-inline-heading-blocks{
+    border-bottom: 1px solid #232629;
+    background: #303235;
+}
+
+.ReactVirtualized__List::-webkit-scrollbar{
+    display: none;
+}
+.tatsu-font-attribute-control-wrapper{
+    text-align: center;
+}
+
+
+
+
+.tatsu-inline-unit-wrapper {
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #c4c4c4;
+    font-weight: bold;
+}
+.tatsu-inline-fontSize-control input, .tatsu-inline-letterSpace-control input, .tatsu-inline-lineHeight-control input, .tatsu-linkinput-wrap input[type = "text"] {
+    display: inline-block;
+    height: 20px;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 2px;
+    outline: 0;
+    color: #727b7d;
+    padding: 5px 15px;
+    margin-right: 5px;
+    background: rgba(255,255,255,0.1);
+}
+#tatsu-inline-link-area{
+  margin-right: 9px;
+  width: 90%;
+  margin-bottom: 0;
+}
+.tatsu-inline-link-close-button > div {
+    height : 20px;
+}
+#tatsu-inline-font-size-input{
+  width : 71%;
+}
+#tatsu-inline-letter-spacing-input{
+  width: 60%;
+}
+#tatsu-inline-line-height-input {
+    width: 67%;
+}
+.tatsu-inline-lineHeight-control, .tatsu-inline-fontSize-control, .tatsu-inline-letterSpace-control {
+    text-align: left;
+    border-bottom: 1px solid rgba(50, 55, 61, 0.5);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.3);
+}
+.tatsu-inline-font-help-text {
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #c4c4c4;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+
+.tatsu-inline-wrapper.urlOpen{
+  width : 334px;
+  padding: 5px 20px;
+}
+body #main{
+    position: static;
+}
+/****** 
+Color Picker
+*******/
+.colorpicker {
+  position: relative;
+  width: 14em;
+  height: 13em;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); }
+
+.map {
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  right: 2em;
+  left: 1em;
+  overflow: hidden;
+  user-select: none;
+  border-radius: 0.25em; }
+  .map.active {
+    cursor: none; }
+  .map.dark .pointer {
+    border-color: #fff; }
+  .map.light .pointer {
+    border-color: #000; }
+  .map .pointer {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    will-change: left, bottom; }
+  .map .background {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+  .map .background:before,
+  .map .background:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .map .background:after {
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    bottom : -1px;
+    }
+  .map .background:before {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%); }
+
+.slider {
+  position: absolute;
+  user-select: none; }
+  .slider.vertical {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 10px;
+    cursor: ns-resize; }
+    .slider.vertical .track {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 8px;
+      margin-left: -4px; }
+  .slider.horizontal {
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 10px;
+    cursor: ew-resize; }
+    .slider.horizontal .track {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      height: 8px;
+      margin-top: -4px; }
+  .slider .track {
+    border-radius: 3px;
+    background: #888; }
+  .slider .pointer {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px #ccc,0 1px 2px #ccc;
+    will-change: left, bottom; }
+
+.hue-slider {
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  right: 1.3em; }
+  .hue-slider .track {
+    background: linear-gradient(to bottom, #FF0000 0%, #FF0099 10%, #CD00FF 20%, #3200FF 30%, #0066FF 40%, #00FFFD 50%, #00FF66 60%, #35FF00 70%, #CDFF00 80%, #FF9900 90%, #FF0000 100%); }
+
+.opacity-slider {
+  position: absolute;
+  bottom: 1.3em;
+  left: 1em;
+  right: 2em; }
+  .opacity-slider .slider {
+    background: #fff url("data:image/gif;base64,R0lGODdhEAAQAPEAAMvLy8zMzP///wAAACwAAAAAEAAQAEACHYxvosstCAEMrq6Jj812Y59NIDQipdY5XLWqH4sVADs=") repeat;
+    background-size: 8px 8px;
+    height: 8px; }
+    .opacity-slider .slider .track {
+      height: 8px;
+      margin-top: -4px;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #FFF 100%); }
+
+.with-opacity-slider {
+  height: 14em; }
+  .with-opacity-slider .map {
+    bottom: 2em;
+    }
+  .with-opacity-slider .hue-slider {
+    bottom: 2em; }
+
+/* body {
+  background: #eee;
+ } */
+
+#container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  bottom: 20%;
+  right: 10%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); }
+
+.picker {
+  position: relative;
+  margin-bottom: 1em; }
+  .picker:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.picker-right {
+  height: 20em; }
+
+@media (min-width: 50em) {
+  .picker {
+    width: 50%;
+    float: left; } }
+
+.swatch-item {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: none;
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  position: relative;
+  outline: none; }
+  .swatch-item:focus {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    z-index: 5;
+    border-radius: 3px; }
+  .swatch-item.swatch-selected {
+    -webkit-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    z-index: 10 !important; }
+
+/** set the content wrap to static so that inline editor works well when the page is edited for the first time in tatsu **/
+    #content-wrap.be-wrap {
+      position : static;
+    }
+
+/** add tools css **/
+#tatsu-add-tools-line {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+}
+
+.tatsu-add-tools-helper {
+    position: absolute;
+    z-index: 10000;
+    display : none;
+    width : 22px;
+    transform: translate(-50%,-50%);
+}
+.tatsu-pill.tatsu-add-tools-helper {
+    width : 70px;
+    transition: none;
+}
+.tatsu-add-tools-helper-add-section.tatsu-add-tools-helper {
+    width : 35px;
+}
+.tatsu-pill .tatsu-add-tools-icon-wrapper:first-child {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.tatsu-add-tools-helper svg {
+    width: 8px;
+    height: 8px;
+    fill: white;
+}
+.tatsu-add-tools-icon-wrapper {
+    height: 16px;
+    width: 16px;
+    display : flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tatsu-pill .tatsu-add-tools-icon-wrapper {
+    width : 25px;
+    height: 20px;
+    transition: none;
+    border-radius: 0;
+}
+.tatsu-pill .tatsu-add-tools-icon-wrapper:first-child {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.tatsu-pill .tatsu-add-tools-icon-wrapper:last-child {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #07e689;
+}
+.tatsu-add-tools-helper-add-section .tatsu-add-tools-icon-wrapper {
+    width : 35px;
+    height : 35px;
+}
+/* .tatsu-add-tools-helper:not(.tatsu-pill):hover,
+.tatsu-add-tools-helper:not(.tatsu-pill):hover .tatsu-add-tools-icon-wrapper {
+    width : 32px;
+    height : 32px;
+    transition : height 250ms linear, width 250ms linear;    
+} */
+.tatsu-add-tools-helper-add-section.tatsu-add-tools-helper:hover,
+.tatsu-add-tools-helper-add-section.tatsu-add-tools-helper:hover .tatsu-add-tools-icon-wrapper {
+    width : 40px;
+    height : 40px;
+}
+.tatsu-add-tools-helper:not( .tatsu-pill ) .tatsu-add-tools-icon-wrapper:last-child {
+    display: none;
+}
+
+/************* 
+tatsu hover observer 
+**************/
+#tatsu-observer {
+   position : absolute; 
+   box-sizing : border-box; 
+   pointer-events : none; 
+   display : none; 
+   z-index : 1000; 
+}
+#tatsu-observer-tooltip {
+  line-height : normal; 
+  display : inline-block; 
+  position : absolute; 
+  padding : 5px 12px;
+  color : #fff; 
+  text-transform : capitalize;
+  z-index: 16777271;
+  font-family: Roboto;
+  font-size: 12px;
+}
+#tatsu-observer-tooltip.out, #tatsu-selection-tooltip.out{
+   left : -1px;
+   transform: translateY( -100% );
+}
+
+/******** Selection Handler *********/
+
+
+#tatsu-selection-tooltip {
+  line-height : normal; 
+  display : flex;
+  align-items: center;
+  position : absolute; 
+  font-size:14px;
+  color : #fff; 
+  text-transform : capitalize;
+  z-index: 16777271;
+  pointer-events: all;
+  font-family: Roboto;
+  border-radius:3px;
+}
+.tatsu-draggable-selection-header {
+    cursor: move;
+}
+
+.tatsu-observer-tool, 
+.tatsu-observer-drag-indicator {
+    display: flex;
+    align-items:  center;
+}
+
+.tatsu-observer-tool {
+    cursor: pointer;
+    padding:  10px;
+    position: relative;
+}
+
+.tatsu-observer-tool:last-child {
+    border:  none;
+}
+
+
+/* #tatsu-selection-tooltip svg {
+    align-self:  center;
+    padding: 0 10px;
+}
+#tatsu-selection-tooltip svg:last-child {
+    padding-right : 0
+} */
+#tatsu-selection-tooltip.out:after {
+    height: 10px;
+    width: 10px;
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+#tatsu-selection-tooltip.in:after {
+    height: 10px;
+    width: 10px;
+    content: " ";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+
+.tatsu-selection-breadcrumb{
+    position:absolute;
+    bottom: 98%;
+    width:100px;
+    border-radius:4px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    cursor: pointer;
+    z-index: 16777271;
+}
+
+.tatsu-selection-breadcrumb-item{
+    padding:8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+.tatsu-selection-tooltip-title{
+    width: 130px;
+    padding : 10px 10px 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    display : flex;
+    justify-content : space-between;
+}
+
+.tatsu-observer-title-inner {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tatsu-observer-dropup-icon {
+    margin-top: -1px;
+    margin-left : 3px;
+    transform : rotate(180deg);
+    transform-origin: 50% 55%;
+    transition :transform 300ms ease;
+}
+.tatsu-observer-dropup-icon svg {
+    fill: #fff;
+}
+
+.tatsu-observer-dropup-icon.open {
+    transform : rotate(0deg);
+}
+
+.tatsu-icon-seperating-span{
+  width:1px;
+  background:rgba(255,255,255,0.5);
+
+}
+
+.tatsu-observer-tool:before,
+.tatsu-observer-drag-indicator:before {
+    content: '';
+    background: #ffffff40;
+    height: 40px;
+    width: 1px;
+    z-index: 1;
+    position: absolute;
+    left:0;
+} 
+
+.tatsu-observer-drag-indicator:before {
+    right: 0;
+    left: auto;
+}
+
+#tatsu-selection-tooltip .tatsu-observer-tool svg,
+#tatsu-selection-tooltip .tatsu-observer-drag-indicator svg{
+    height: 20px;
+    width: 20px;
+    fill :#ffffffc7;
+}
+
+.tatsu-observer-drag-indicator{
+    position: relative;
+    padding: 10px;
+}
+
+/****** Tatsu drawer module list overlay *******/
+
+#tatsu-modulelist-drawer-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1300;
+    background: rgba(0,0,0,0.7);
+}
+#tatsu-modulelist-drawer-overlay.active{
+    display: block;
+}
+
+/******** Add button in tatsu empty column ********/
+
+ 
+.tatsu-empty-col:hover{
+    background : rgba(27,134,241, 0.2);
+    cursor : pointer;
+}
+#tatsu-empty-col-add-tools-icon-wrapper {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    line-height: 0;
+    transition: background 300ms linear;
+    cursor: pointer;
+}
+
+#tatsu-empty-col-add-tools-icon-wrapper svg {
+    height: 12px;
+    width:  12px;
+    position: absolute;
+    fill: #b6b2b2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: fill 300ms linear;
+}
+
+
+/************* Add modules title *****************/
+#tatsu-modulelist-drawer-overlay-inner-text {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-family: Roboto;
+    text-transform: capitalize;
+    color: #fff;
+}
+#tatsu-modulelist-drawer-subtext{
+    font-family: Roboto;
+    font-size: 14px;
+    text-transform: none;
+}
+#tatsu-modulelist-drawer-maintext{
+    display: block;
+}
+
+/********************** preview ****************/
+.be-preview {
+    padding: 0.1px;
+}
+
+/*********** min height for svg icon, tatsu text, shortcode module, tatsu code and tatsu inline editor ***********/
+
+.tatsu-text-inner, .oshine-svg-icon, .tatsu-inline-text, .tatsu-single-image, .tatsu-shortcode, .tatsu-code {
+    min-height : 10px;
+}
+
+#tatsu-copy-paste-helper {
+    height : 0px;
+    width : 0px;
+    position : absolute;
+    z-index: -1;
+    display: none;
+}
+/*************** ajax modules loader ********************/
+.tatsu-module-loader {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    display: none;
+    font-size: 10px;
+    border-top: 3px solid rgba(179, 183, 186, 0.25);
+    border-right: 3px solid rgba(179, 183, 186, 0.25);
+    border-bottom: 3px solid rgba(179, 183, 186, 0.25);
+    -webkit-animation: tatsu-loader-spin 1.1s infinite linear;
+    animation: tatsu-loader-spin .6s infinite linear;
+}
+@-webkit-keyframes tatsu-loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes tatsu-loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.tatsu-module-loading {
+    opacity: 0.3;
+}
+.tatsu-module-loading .tatsu-module-loader,
+.tatsu-module-placeholder .tatsu-module-loader {
+    display: block;
+}
+.tatsu-module-loading > div:first-child {
+    opacity: 0.2;
+}
+.tatsu-module-placeholder {
+    position: relative;
+    height : 200px;
+    background : rgba(32, 203, 212, 0.17);
+}
+
+.be-gdpr-cookie-notice-bar{
+    display: none;
+}
+/* Changes for Header and Footer Builder in TATSU Frame */
+
+#tatsu-header-container{
+    display: none;
+}
+#tatsu-footer-container {
+    display: none;
+}
+
+.single-tatsu_header,
+.single-tatsu_footer {
+    background: #dddddd;
+}
+.single-tatsu_header #tatsu-content-wrap,
+.single-tatsu_footer #tatsu-content-wrap {
+    margin-top: 100px;
+    background: #ffffff;
+}
+.single-tatsu_header #bottom-widgets,
+.single-tatsu_header #footer,
+.single-tatsu_header #tatsu-footer-container,
+.single-tatsu_footer #tatsu-header-container,
+.single-tatsu_footer #bottom-widgets,
+.single-tatsu_footer #footer{
+    display: none;
+}
+@media only screen and (max-width : 767px) {
+    .single-tatsu_header #tatsu-selection-tooltip{
+        display: none;
+    }
+}
+.tatsu-header-col{
+    position: relative;
+    min-height:30px;
+}
+#tatsu-fixed-overlay.open{
+    z-index: 0;
+}
+.tatsu-slide-menu {
+    z-index: 52; 
+}
+#tatsu-observer {
+    z-index: 50;
+}
+#tatsu-observer.higher-z-index{
+    z-index: 53;
+}
+.hamburger-wrap .tatsu-header-col,
+.hamburger-wrap .tatsu-empty-col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33.33% !important;
+    width: 100% !important;
+    height: 33.33%;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+.hamburger-wrap .tatsu-header-col:nth-child(2) {
+    justify-content: center;
+}
+.hamburger-wrap .tatsu-header-col:last-child {
+    justify-content: flex-end;
+}
+.tatsu-header-col .be-preview:last-child > .tatsu-header-module,
+.tatsu-header-col .be-preview:last-child > .tatsu-module{
+    margin-right : 0 !important;
+}
+@media only screen and (max-width: 1366px) {
+    .tatsu-header-col .be-preview:nth-last-child(2) > .tatsu-header-module,
+    .tatsu-header-col .be-preview:nth-last-child(2) > .tatsu-module{
+        /* margin-right : 0 !important; */
+    }
+}
+.tatsu-icon-group .tatsu-icon-shortcode:last-child{
+    margin-right: 0px !important;
+}
+
+.tatsu-mobile-navigation .tatsu-mobile-menu{
+    width: max-content;
+}
+
+.tatsu-header-navigation li br,
+.tatsu-sidebar-navigation li br{
+    display : none; 
+}
+
+.tatsu-mobile-menu-icon{
+    pointer-events: none;
+}
+.tatsu-inline-typehub-selector {
+    padding: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.tatsu-inline-typehub-selectors-list {
+    max-height: 180px;
+    padding: 0 5px;
+    overflow-y: auto;
+}
+
+.tatsu-inline-font-help-text.typehub{
+    padding: 5px 0px;
+    margin-left: 0 0 0 10px;
+}
+
+.tatsu-mobile-navigation .tatsu-mobile-menu{
+	width: 327px;
+	top: 15%;
+}
+
+/* Modify Media Query to Toggle Tablet and Laptop Visiblity in Header Builder Frame */
+
+@media only screen and (min-width: 961px) and (max-width: 1366px) {
+    .tatsu-header .tatsu-hide-tablet:not(.tatsu-mobile-navigation) {
+        display: flex !important;
+    }    
+    .tatsu-header .tatsu-hide-laptop {
+        display: none !important;
+    }    
+}
+
+/* Gradient Color Picker */
+div,
+input{
+    box-sizing: border-box;
+}
+.be-gradient-color-panel{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    background: #fff;
+    width: 260px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    z-index: 2;
+}
+.be-color-picker-tab{
+    color: #999;
+    background: #F1F2F2;
+    font-size: 13px;
+    display: flex;
+}
+.be-color-picker-tab > span{
+    border-bottom: 1px solid #979797;
+    border-right: 1px solid #979797;
+    cursor: pointer;
+}
+.be-color-picker-tab > span:last-child{
+    border-right:0px;
+}
+.be-color-picker-tab span,
+.gradient-direction span{
+    display: inline-block;
+    background: #262626;
+    display: flex;
+    flex-grow: 1;
+    color: #979797;
+    flex-shrink: 1;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px 0px;
+}
+.be-color-picker-tab .visible-palette{
+    background: #00000060;
+    color: #f1f2f2;
+}
+.be-color-palette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.be-color-palette,
+.be-color-picker-tab,
+.be-color-palette .gradient-wrap{
+    margin: 5px 0px;
+}
+.be-color-palette .gradient-settings{
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+.be-color-palette .gradient-settings input{
+    text-align: center;
+    height: 30px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 1px solid #d6d7d7;
+    background: #fff;
+    padding: 0px;
+}
+.be-color-palette .gradient-settings p{
+    margin: 0px;
+    color: #535456;
+    padding: 10px 0px 0px 0px;
+    font-size: 10px;
+}
+.be-color-palette .gradient-bar-wrapper{
+    width: 220px;
+    padding-left: 50px;
+}
+.be-color-palette .gradient-bar{
+    height: 30px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.be-color-palette ul.gradient-picker{
+    list-style: none;
+    position: relative;
+    height: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+.be-color-palette ul.gradient-picker li{
+    cursor: pointer;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #d6d7d7;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.be-color-palette ul.gradient-picker li:before {
+    content: "";
+    border: 2px solid;
+    border-color: #d6d7d7 transparent transparent #d6d7d7;
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.be-swatch-wrap,
+.be-palette-wrap{
+    margin: 0px 20px;
+    width: 186px;
+    padding: 20px 0px;
+}
+.be-swatch-wrap .single-swatch{
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+    border:none;
+    transition: border 300ms;
+}
+.be-swatch-wrap .single-swatch:after,
+.be-palette-wrap .single-palette:after{
+    opacity: 0;
+    content: '';
+    background: #fff;
+    width: 7px;
+    border-radius: 50%;
+    height: 7px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity 300ms;
+}
+.be-swatch-wrap .single-swatch.show-selection:after,
+.be-palette-wrap .single-palette.show-selection:after{
+    opacity: 1;
+}
+.be-swatch-wrap .single-swatch:not(.disbaled-swatch):before{
+    opacity: 0;
+    z-index: -1;
+    content: attr(data-label);
+    width: max-content;
+    position: absolute;
+    top: -28px;
+    background: #383838;
+    padding: 12px 6px;
+    left: -5px;
+    border-radius: 3px;
+    color: #f4f4f4;
+    transition: 0.3s all linear;
+}
+.be-swatch-wrap .single-swatch:hover:before{
+    opacity: 1;    
+    z-index: 2;
+}
+.be-swatch-wrap .single-swatch.show-selection,
+.be-palette-wrap .single-palette.show-selection{
+    border: 2px solid #262626;
+}
+.be-swatch-wrap .swatch-search{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.swatch-search::-webkit-input-placeholder {
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-weight:normal;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.be-palette-wrap .single-palette{
+    height: 30px;
+    border: 1px solid #100102;
+    margin-bottom: 5px;
+    position: relative;
+}
+ .tatsu-bottom-divider {
+    bottom : -1px;
+} 
+.single-swatch.disbaled-swatch{
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+/** Rev Slider */
+.tatsu-rev-slider-placeholder {
+    min-height : 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/** Slick */
+.slick-dots,.slick-next,.slick-prev{position:absolute;display:block;padding:0}.slick-dots li button:before,.slick-next:before,.slick-prev:before{font-family:slick;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-loading .slick-list{background:url(ajax-loader.gif) center center no-repeat #fff}@font-face{font-family:slick;font-weight:400;font-style:normal;src:url(fonts/slick.eot);src:url(fonts/slick.eot?#iefix) format('embedded-opentype'),url(fonts/slick.woff) format('woff'),url(fonts/slick.ttf) format('truetype'),url(fonts/slick.svg#slick) format('svg')}.slick-next,.slick-prev{font-size:0;line-height:0;top:50%;width:20px;height:20px;-webkit-transform:translate(0,-50%);-ms-transform:translate(0,-50%);transform:translate(0,-50%);cursor:pointer;color:transparent;border:none;outline:0;background:0 0}.slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{color:transparent;outline:0;background:0 0}.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-size:20px;line-height:1;opacity:.75;color:#fff}.slick-prev{left:-25px}[dir=rtl] .slick-prev{right:-25px;left:auto}.slick-prev:before{content:'â†'}.slick-next:before,[dir=rtl] .slick-prev:before{content:'â†’'}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}[dir=rtl] .slick-next:before{content:'â†'}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{bottom:-25px;width:100%;margin:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;width:20px;height:20px;margin:0 5px;padding:0;cursor:pointer}.slick-dots li button{font-size:0;line-height:0;display:block;width:20px;height:20px;padding:5px;cursor:pointer;color:transparent;border:0;outline:0;background:0 0}.slick-dots li button:focus,.slick-dots li button:hover{outline:0}.slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}.slick-dots li button:before{font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:'â€¢';text-align:center;opacity:.25;color:#000}.slick-dots li.slick-active button:before{opacity:.75;color:#000}/*# sourceMappingURL=slick-theme.min.css.map */
+.slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{top:0;left:0}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}/*# sourceMappingURL=slick.min.css.map */
+
+
+.be-slider.slick-slider {
+    visibility: visible;
+}
+
+.slick-dots {
+    line-height: 0;
+}
+.slick-dots li {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 8px;
+    background: #333;
+    border-radius: 50%;
+    opacity: 0.25;
+    cursor: pointer;
+}
+.slick-dots .slick-active {
+    opacity: 1;
+}
+
+.tatsu-slick-arrow {
+    position:  absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    transform:  translateY(-50%);
+    opacity:  0;
+    transition:  all 0.5s ease;
+}
+.tatsu-next {
+    right:  0;
+}
+.tatsu-prev {
+    left: 0;
+    z-index:  1;
+}
+.tatsu-slick-arrow svg {
+    width:  100%;
+    height:  100%;
+    stroke : #979797;
+}
+.slick-slider:hover .tatsu-prev {
+    opacity:  1;
+    left:  20px;
+}
+.slick-slider:hover .tatsu-next {
+    right:  20px;
+    opacity:  1;
+}
+
+.tatsu-inline-wrapper.fontOpen svg {
+    height: 15px;
+    margin-top: 10px;
+    fill : #c4c4c4;
+} 
+.tatsu-inline-wrapper.fontOpen .tatsu-inline-button{
+    font-weight:600;
+    font-size: 15px;
+    color : #c4c4c4;
+} 
+.tatsu-inline-inner-wrap .be-color-picker-tab{
+    margin-top : -1px;
+}
+
+.tatsu-animate.already-visible {
+    visibility: visible;
+}
+.tatsu-frame .tatsu-gradient-button .tatsu-button-wrap:hover .tatsu-button-text span {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+{
+    "home_page_title":"Home",
+    "shop_page_title": "Shop",
+	"my_account_page_title": "My account",
+	"cart_page_title": "Cart",
+	"checkout_page_title": "Checkout",
+    "sliders": {
+		"revslider": "spyro-shop-demo.zip"
+	},
+    "content_plugins":{
+        "tatsu":"Tatsu",
+        "woocommerce":"Woo Commerce",
+        "revslider": "Slider Revolution"
+    },
+    "nav_menus":{"54":"Footer Menu 3","55":"Shop Menu","56":"Terms","59":"Footer Menu 1","60":"Footer Menu 2","61":"Footer Menu 4"}
+}
