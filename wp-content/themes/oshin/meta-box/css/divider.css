@@ -1,0 +1,5 @@
+.rwmb-divider-wrapper hr {
+	flex: 1;
+	border: none;
+	border-top: 1px solid #e6e6e6;
+}

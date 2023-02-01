@@ -1,0 +1,1374 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oshine Modules\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-12 10:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.7.2\n"
+"X-Domain: oshine-modules"
+
+#: includes/modules/recent_posts_style_2.php:47
+msgid " comments"
+msgstr ""
+
+#: includes/modules/be_slider.php:311
+msgid ".MP4 Video File"
+msgstr ""
+
+#: includes/modules/be_slider.php:320
+msgid ".OGG Video File"
+msgstr ""
+
+#: includes/modules/be_slider.php:329
+msgid ".Webm Video File"
+msgstr ""
+
+#: includes/modules/gallery.php:459 includes/modules/portfolio.php:1004
+msgid "2 column grid in mobile"
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:822
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: includes/modules/accordion.php:167
+msgid "Accordian Content"
+msgstr ""
+
+#: includes/modules/accordion.php:160
+msgid "Accordian Title"
+msgstr ""
+
+#: includes/modules/accordion.php:66
+msgid "Accordion Toggles"
+msgstr ""
+
+#: includes/modules/gallery.php:371
+msgid "Account Name"
+msgstr ""
+
+#: includes/modules/tabs.php:85 includes/modules/accordion.php:86
+#: includes/modules/flex_slider.php:121
+msgid "Advanced"
+msgstr ""
+
+#: includes/modules/project_details.php:143 includes/modules/newsletter.php:178
+#: includes/modules/testimonials.php:183 includes/modules/grids.php:155
+#: includes/modules/portfolio_navigation_module.php:167
+#: includes/modules/svg_icon.php:125 includes/modules/tweets.php:202
+msgid "Alignment"
+msgstr ""
+
+#: includes/modules/portfolio.php:276
+msgid "All"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:20
+msgid "All fields are required"
+msgstr ""
+
+#: includes/modules/chart.php:72
+msgid "Animated Charts"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:380
+msgid "Animation"
+msgstr ""
+
+#: includes/modules/svg_icon.php:196
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/modules/svg_icon.php:182
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/modules/pricing_column.php:359 includes/modules/grids.php:372
+#: includes/modules/tweets.php:249
+msgid "Animation Type"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:707
+msgid "Api Key / List Id / Email Address is missing"
+msgstr ""
+
+#: includes/modules/blog.php:106
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: includes/modules/testimonials.php:170
+msgid "Author Role - Font Type"
+msgstr ""
+
+#: includes/modules/icon_card.php:172 includes/modules/newsletter.php:197
+msgid "Background"
+msgstr ""
+
+#: includes/modules/skills.php:272
+#: includes/modules/animate_icons_style1.php:233
+#: includes/modules/animate_icons_style2.php:173
+msgid "Background Color"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:247
+#: includes/modules/animate_icons_style2.php:186
+msgid "Background Color - Hover State"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:221
+msgid "Background Image"
+msgstr ""
+
+#: includes/modules/chart.php:282
+msgid "Bar Width"
+msgstr ""
+
+#: includes/modules/be_slider.php:249
+msgid "BE Slide"
+msgstr ""
+
+#: includes/modules/be_slider.php:139
+msgid "BE Slider"
+msgstr ""
+
+#: includes/modules/blog.php:136
+msgid "Blog"
+msgstr ""
+
+#: includes/modules/blog.php:202
+msgid "Blog Masonry Columns"
+msgstr ""
+
+#: includes/modules/newsletter.php:267
+msgid "Border"
+msgstr ""
+
+#: includes/modules/grids.php:141 includes/modules/menu_card.php:219
+#: includes/modules/process_style1.php:140
+msgid "Border Color"
+msgstr ""
+
+#. Author of the plugin
+msgid "Brand Exponents"
+msgstr ""
+
+#: includes/modules/pricing_column.php:313
+#: includes/modules/contact_form.php:271
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:320
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:327
+msgid "Button Border Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:334
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: includes/modules/newsletter.php:250
+msgid "Button Border Width"
+msgstr ""
+
+#: includes/modules/contact_form.php:258
+msgid "Button Style"
+msgstr ""
+
+#: includes/modules/newsletter.php:190 includes/modules/pricing_column.php:284
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/pricing_column.php:299
+#: includes/modules/contact_form.php:284
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:306
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: includes/modules/newsletter.php:47
+#, php-format
+msgid ""
+"By checking this box, you consent and confirm your subscription to our "
+"newsletter. For more info check our <a href=\"%s\" target=\"_blank\">privacy "
+"policy</a> where you will get more info on where, how and why we store your "
+"data."
+msgstr ""
+
+#: includes/modules/contact_form.php:56
+#, php-format
+msgid ""
+"By checking this box, you consent to sending your details to us over email. "
+"For more info check our <a href=\"%s\" target=\"_blank\">privacy policy</a> "
+"where you will get more info on where, how and why we store your data."
+msgstr ""
+
+#: includes/modules/icon_card.php:250 includes/modules/icon_card.php:275
+#: includes/modules/chart.php:205 includes/modules/justified_gallery.php:414
+#: includes/modules/menu_card.php:124
+msgid "Caption"
+msgstr ""
+
+#: includes/modules/chart.php:236
+msgid "Caption Color"
+msgstr ""
+
+#: includes/modules/chart.php:212
+msgid "Caption Font Size"
+msgstr ""
+
+#: includes/modules/menu_card.php:151
+msgid "Caption Text Color"
+msgstr ""
+
+#: includes/modules/menu_card.php:58
+msgid "Card"
+msgstr ""
+
+#: includes/modules/recent_posts.php:175 includes/modules/blog.php:233
+msgid "Categories"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:517
+#: includes/modules/portfolio.php:1078
+msgid "Categories Color"
+msgstr ""
+
+#: includes/modules/project_details.php:51
+msgid "Category"
+msgstr ""
+
+#: includes/modules/chart.php:271
+msgid "Chart Size ( Height & Width )"
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:776
+msgid "Check for updates"
+msgstr ""
+
+#: includes/modules/clients.php:221
+msgid "Choose a Client image"
+msgstr ""
+
+#: includes/modules/tabs.php:122
+msgid "Choose icon"
+msgstr ""
+
+#: includes/modules/pricing_column.php:285
+msgid "Click Here"
+msgstr ""
+
+#: includes/modules/clients.php:168 includes/modules/project_details.php:42
+msgid "Client"
+msgstr ""
+
+#: includes/modules/clients.php:96
+msgid "Clients"
+msgstr ""
+
+#: includes/functions/helpers.php:665
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/modules/accordion.php:98
+msgid "Collapse content"
+msgstr ""
+
+#: includes/modules/portfolio_navigation_module.php:179
+msgid "Color"
+msgstr ""
+
+#: includes/modules/grids.php:129 includes/modules/contact_form.php:159
+msgid "Columns"
+msgstr ""
+
+#: includes/modules/contact_form.php:89
+msgid "Contact Form"
+msgstr ""
+
+#: includes/modules/content_slides.php:181 includes/modules/accordion.php:79
+#: includes/modules/grids.php:358 includes/modules/be_slider.php:338
+#: includes/modules/process_style1.php:323
+msgid "Content"
+msgstr ""
+
+#: includes/modules/be_slider.php:365
+msgid "Content Animation"
+msgstr ""
+
+#: includes/modules/content_slides.php:120
+msgid "Content Max Width"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:373
+msgid "Content on Hover"
+msgstr ""
+
+#: includes/modules/animate_icons_style2.php:306
+msgid "Content on Mouse Over"
+msgstr ""
+
+#: includes/modules/be_slider.php:358
+msgid "Content Position"
+msgstr ""
+
+#: includes/modules/content_slides.php:156
+msgid "Content Slide"
+msgstr ""
+
+#: includes/modules/content_slides.php:60
+msgid "Content Slider"
+msgstr ""
+
+#: includes/modules/be_slider.php:345
+msgid "Content Width"
+msgstr ""
+
+#: includes/modules/be_countdown.php:41
+msgid "Countdown"
+msgstr ""
+
+#: includes/modules/be_countdown.php:89
+msgid "Countdown End Date and Time"
+msgstr ""
+
+#: includes/modules/pricing_column.php:277
+msgid "Currency"
+msgstr ""
+
+#: includes/modules/clients.php:242 includes/modules/gallery.php:563
+#: includes/modules/portfolio_carousel.php:434
+#: includes/modules/portfolio.php:1099
+#: includes/modules/justified_gallery.php:308
+msgid "Default Image Style"
+msgstr ""
+
+#: includes/modules/skills.php:125
+msgid "Direction"
+msgstr ""
+
+#: includes/modules/gallery.php:639 includes/modules/portfolio_carousel.php:531
+#: includes/modules/portfolio.php:1092
+#: includes/modules/justified_gallery.php:427
+msgid "Disable Like Button"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:354
+msgid "Disable Overlay"
+msgstr ""
+
+#: includes/modules/pricing_column.php:270
+msgid "Duration"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:148
+#: includes/modules/animate_icons_style2.php:103
+msgid "Element"
+msgstr ""
+
+#: includes/modules/contact_form.php:43
+msgid "Email"
+msgstr ""
+
+#: includes/modules/be_slider.php:304
+msgid "Enable Background Video"
+msgstr ""
+
+#: includes/modules/pricing_column.php:352 includes/modules/grids.php:365
+#: includes/modules/tweets.php:242
+msgid "Enable CSS Animation"
+msgstr ""
+
+#: includes/modules/gallery.php:608 includes/modules/portfolio_carousel.php:482
+#: includes/modules/portfolio.php:1043
+msgid "Enable Gradient Overlay"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:228
+msgid "Enable Infinite Scroll"
+msgstr ""
+
+#: includes/modules/gallery.php:489
+msgid "Enable Masonry Layout"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:261
+msgid "Enable Overlay"
+msgstr ""
+
+#: includes/modules/tweets.php:235
+msgid "Enable Pagination"
+msgstr ""
+
+#: includes/modules/gallery.php:520
+msgid "Enable Parallax Effect to Portfolio Items"
+msgstr ""
+
+#: includes/modules/content_slides.php:99 includes/modules/clients.php:141
+#: includes/modules/tweets.php:214
+msgid "Enable Slide Show"
+msgstr ""
+
+#: includes/modules/flex_slider.php:132
+msgid "Enable Slideshow"
+msgstr ""
+
+#: includes/modules/pricing_column.php:436
+msgid "Feature"
+msgstr ""
+
+#: includes/modules/skills.php:259
+msgid "Fill Color"
+msgstr ""
+
+#: includes/modules/recent_posts.php:164 includes/modules/blog.php:222
+msgid "Filter By"
+msgstr ""
+
+#: includes/modules/portfolio.php:786
+msgid "Filter To Use"
+msgstr ""
+
+#: includes/modules/portfolio.php:780
+msgid "Filterable Portfolio"
+msgstr ""
+
+#: includes/functions/helpers.php:272
+msgid "First"
+msgstr ""
+
+#: includes/modules/blog.php:206
+msgid "Five"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:93
+msgid "Fixed Height Animated Module"
+msgstr ""
+
+#: includes/functions/helpers.php:515 includes/functions/helpers.php:520
+msgid "Flickr Error : "
+msgstr ""
+
+#: includes/modules/icon_card.php:258
+msgid "Font for Caption"
+msgstr ""
+
+#: includes/modules/icon_card.php:222
+msgid "Font for Title"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:119
+msgid "Font Size"
+msgstr ""
+
+#: includes/modules/portfolio.php:1036
+msgid "Force Show Overlay and Title ?"
+msgstr ""
+
+#: includes/modules/blog.php:205
+msgid "Four"
+msgstr ""
+
+#: includes/modules/gallery.php:255
+msgid "Gallery"
+msgstr ""
+
+#: includes/modules/gallery.php:233 includes/modules/justified_gallery.php:138
+msgid "Gallery Notice : "
+msgstr ""
+
+#: includes/modules/gallery.php:438
+msgid "Gallery Pagination Style"
+msgstr ""
+
+#: includes/modules/gallery.php:626 includes/modules/portfolio_carousel.php:497
+#: includes/modules/portfolio.php:1058
+#: includes/modules/justified_gallery.php:395
+msgid "Gradient Direction"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:369
+msgid "Gradient Overlay"
+msgstr ""
+
+#: includes/modules/grids.php:271
+msgid "Grid Content"
+msgstr ""
+
+#: includes/modules/gallery.php:467 includes/modules/portfolio.php:744
+#: includes/modules/blog.php:260
+msgid "Gutter Style"
+msgstr ""
+
+#: includes/modules/gallery.php:478 includes/modules/portfolio.php:755
+#: includes/modules/animate_icons_style1.php:123 includes/modules/blog.php:272
+msgid "Gutter Width"
+msgstr ""
+
+#: includes/modules/pricing_column.php:208
+msgid "Header Background Color (Applied on Colored Header)"
+msgstr ""
+
+#: includes/modules/pricing_column.php:226
+msgid "Header Text Color (Applied on Colored Header)"
+msgstr ""
+
+#: includes/modules/animate_icons_style2.php:265
+msgid "Heading tag to use for Title"
+msgstr ""
+
+#: includes/modules/skills.php:137 includes/modules/svg_icon.php:101
+#: includes/modules/animate_icons_style1.php:104
+msgid "Height"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:524
+#: includes/modules/portfolio.php:1085
+msgid "Hide Categories ?"
+msgstr ""
+
+#: includes/modules/recent_posts.php:191
+msgid "Hide Excerpt"
+msgstr ""
+
+#: includes/modules/pricing_column.php:450 includes/modules/menu_card.php:184
+msgid "Highlight Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:341
+msgid "Highlight Column"
+msgstr ""
+
+#: includes/modules/pricing_column.php:464
+msgid "Highlight Text Color"
+msgstr ""
+
+#: includes/modules/menu_card.php:177
+msgid "Highlight this item"
+msgstr ""
+
+#: includes/modules/pricing_column.php:443
+msgid "Highlight this section ?"
+msgstr ""
+
+#: includes/modules/portfolio.php:674
+msgid "Hover & Title Styles"
+msgstr ""
+
+#: includes/modules/newsletter.php:210
+msgid "Hover Background"
+msgstr ""
+
+#: includes/modules/newsletter.php:281
+msgid "Hover Border"
+msgstr ""
+
+#: includes/modules/gallery.php:556
+msgid "Hover Content Color"
+msgstr ""
+
+#: includes/modules/clients.php:253 includes/modules/gallery.php:575
+#: includes/modules/portfolio_carousel.php:446
+#: includes/modules/portfolio.php:1111
+#: includes/modules/justified_gallery.php:327
+msgid "Hover Image Style"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:289
+msgid "Hover Overlay Background Color"
+msgstr ""
+
+#: includes/modules/gallery.php:527 includes/modules/portfolio_carousel.php:401
+#: includes/modules/portfolio.php:917
+#: includes/modules/justified_gallery.php:291 includes/modules/team.php:474
+msgid "Hover Style"
+msgstr ""
+
+#: includes/modules/newsletter.php:236
+msgid "Hover Text"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://brandexponents.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://oshine.wpengine.com"
+msgstr ""
+
+#: includes/modules/icon_card.php:138 includes/modules/icon_card.php:187
+#: includes/modules/chart.php:151 includes/modules/grids.php:323
+#: includes/modules/animate_icons_style1.php:309
+#: includes/modules/animate_icons_style2.php:199
+#: includes/modules/process_style1.php:280
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:357
+msgid "Icon and Title Color"
+msgstr ""
+
+#: includes/modules/icon_card.php:200
+msgid "Icon Border"
+msgstr ""
+
+#: includes/modules/icon_card.php:73
+msgid "Icon Card"
+msgstr ""
+
+#: includes/modules/grids.php:345 includes/modules/animate_icons_style2.php:229
+#: includes/modules/process_style1.php:290
+msgid "Icon Color"
+msgstr ""
+
+#: includes/modules/animate_icons_style2.php:245
+msgid "Icon Color on Mouse over"
+msgstr ""
+
+#: includes/modules/grids.php:331 includes/modules/animate_icons_style1.php:317
+#: includes/modules/animate_icons_style2.php:206
+#: includes/modules/process_style1.php:303
+msgid "Icon Size"
+msgstr ""
+
+#: includes/modules/grids.php:81
+msgid "Icon/Image Grid"
+msgstr ""
+
+#: includes/modules/gallery.php:587 includes/modules/portfolio_carousel.php:458
+#: includes/modules/portfolio.php:986
+#: includes/modules/justified_gallery.php:340
+msgid "Image Effects"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:256
+msgid "Image Height"
+msgstr ""
+
+#: includes/modules/gallery.php:503 includes/modules/portfolio.php:868
+#: includes/modules/justified_gallery.php:273
+msgid "Image Load Animation"
+msgstr ""
+
+#: includes/modules/flex_slider.php:99
+msgid "Image Slider"
+msgstr ""
+
+#: includes/modules/gallery.php:350
+msgid "Image Source"
+msgstr ""
+
+#: includes/modules/gallery.php:379
+msgid "Images Count"
+msgstr ""
+
+#: includes/modules/gallery.php:233 includes/modules/justified_gallery.php:138
+msgid "Images have either not been selected or couldn't be found"
+msgstr ""
+
+#: includes/modules/contact_form.php:170
+msgid "Input Background Color"
+msgstr ""
+
+#: includes/modules/contact_form.php:214
+msgid "Input Border Color"
+msgstr ""
+
+#: includes/modules/contact_form.php:200
+msgid "Input Border Width"
+msgstr ""
+
+#: includes/modules/contact_form.php:231
+msgid "Input Box Height"
+msgstr ""
+
+#: includes/modules/contact_form.php:246
+msgid "Input Box Style"
+msgstr ""
+
+#: includes/modules/contact_form.php:183
+msgid "Input Text Color"
+msgstr ""
+
+#: includes/functions/helpers.php:457
+msgid "Instagram Error :"
+msgstr ""
+
+#: includes/functions/helpers.php:455
+msgid "Instagram Error : "
+msgstr ""
+
+#: includes/functions/helpers.php:471
+msgid ""
+"Instagram Error : Access Token is not entered under OSHINE OPTIONS > GLOBAL "
+"SITE LAYOUT AND SETTINGS. Access Token for your account can be generated "
+"from https://developers.facebook.com/docs/instagram-basic-display-"
+"api/getting-started/"
+msgstr ""
+
+#: includes/modules/gallery.php:452 includes/modules/justified_gallery.php:235
+msgid "Items Per Load"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:150
+msgid "Justified Gallery"
+msgstr ""
+
+#: includes/functions/helpers.php:286
+msgid "Last"
+msgstr ""
+
+#: includes/modules/portfolio.php:653
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/gallery.php:406
+msgid "Lightbox Style"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:211
+msgid "Link URL"
+msgstr ""
+
+#: includes/modules/gallery.php:224 includes/modules/portfolio.php:585
+msgid "Load More"
+msgstr ""
+
+#: includes/modules/portfolio.php:665
+msgid "Loading"
+msgstr ""
+
+#: includes/modules/newsletter.php:148
+msgid "Mailchimp.com Api key"
+msgstr ""
+
+#: includes/modules/newsletter.php:156
+msgid "Mailchimp.com List ID"
+msgstr ""
+
+#: includes/modules/gallery.php:496 includes/modules/portfolio.php:773
+msgid "Maintain Order"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:188
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/modules/menu_card.php:199
+msgid "Mark item with a Star"
+msgstr ""
+
+#: includes/modules/portfolio.php:766
+msgid "Masonry Layout"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:168
+msgid "Maximum Width"
+msgstr ""
+
+#: includes/modules/contact_form.php:51
+msgid "Message"
+msgstr ""
+
+#: includes/modules/portfolio.php:799
+msgid "Meta To Show"
+msgstr ""
+
+#: includes/modules/contact_form.php:40
+msgid "Name"
+msgstr ""
+
+#: includes/modules/newsletter.php:65
+msgid "Newsletter"
+msgstr ""
+
+#: includes/functions/helpers.php:283
+msgid "Next"
+msgstr ""
+
+#: includes/modules/gallery.php:392 includes/modules/portfolio.php:730
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/modules/recent_posts.php:152
+msgid "Number of Items"
+msgstr ""
+
+#: includes/modules/portfolio.php:860
+msgid "Number of Items Per Load"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:394
+msgid "Number of Items Per Page"
+msgstr ""
+
+#: includes/modules/blog.php:214
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/modules/tweets.php:141
+msgid "Number of tweets"
+msgstr ""
+
+#: includes/modules/gallery.php:544
+msgid "On Image Hover"
+msgstr ""
+
+#: includes/modules/clients.php:235
+msgid "Open Link in New tab"
+msgstr ""
+
+#: includes/icons/oshine-icons.php:854
+msgid "Oshine Icon Set"
+msgstr ""
+
+#. Name of the plugin
+msgid "Oshine Modules"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:269
+msgid "Overlay Background Color"
+msgstr ""
+
+#: includes/modules/testimonials.php:195
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/portfolio.php:844
+msgid "Pagination Style"
+msgstr ""
+
+#: includes/modules/portfolio.php:885
+msgid "Parallax Portfolio"
+msgstr ""
+
+#: includes/modules/chart.php:138
+msgid "Percentage"
+msgstr ""
+
+#: includes/modules/chart.php:187
+msgid "Percentage / Icon - Color"
+msgstr ""
+
+#: includes/modules/chart.php:158
+msgid "Percentage / Icon - Font Size"
+msgstr ""
+
+#: includes/modules/chart.php:250
+msgid "Percentage Bar Color"
+msgstr ""
+
+#: includes/modules/chart.php:264
+msgid "Percentage Scale Color"
+msgstr ""
+
+#: includes/modules/chart.php:257
+msgid "Percentage Track Color"
+msgstr ""
+
+#: includes/modules/newsletter.php:41 includes/modules/contact_form.php:37
+msgid "Please check the consent box, in order for us to process this form"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:24
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: includes/modules/portfolio.php:617
+msgid "Portfolio"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:303
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:385
+#: includes/modules/portfolio.php:811
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:546
+#: includes/modules/portfolio.php:973
+msgid "Portfolio Categories Animation"
+msgstr ""
+
+#: includes/modules/project_details.php:88
+msgid "Portfolio Details"
+msgstr ""
+
+#: includes/modules/portfolio_navigation_module.php:93
+msgid "Portfolio Navigation"
+msgstr ""
+
+#: includes/modules/portfolio.php:817
+msgid "Portfolio Tags"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:538
+#: includes/modules/portfolio.php:960
+msgid "Portfolio Title Animation"
+msgstr ""
+
+#: includes/modules/recent_posts_style_2.php:46
+msgid "Posted By :"
+msgstr ""
+
+#: includes/modules/portfolio.php:899
+msgid "Prebuilt Hover Styles"
+msgstr ""
+
+#: includes/modules/portfolio.php:768
+msgid "Preserves Aspect Ratio"
+msgstr ""
+
+#: includes/functions/helpers.php:275
+msgid "Prev"
+msgstr ""
+
+#: includes/modules/pricing_column.php:263 includes/modules/menu_card.php:131
+msgid "Price"
+msgstr ""
+
+#: includes/modules/menu_card.php:164
+msgid "Price Text Color"
+msgstr ""
+
+#: includes/modules/pricing_column.php:391
+msgid "Pricing Feature"
+msgstr ""
+
+#: includes/modules/pricing_column.php:91
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/modules/process_style1.php:82
+msgid "Process"
+msgstr ""
+
+#: includes/modules/process_style1.php:230
+msgid "Process Item"
+msgstr ""
+
+#: includes/modules/project_details.php:46
+msgid "Project Date"
+msgstr ""
+
+#: includes/modules/testimonials.php:294
+msgid "Quote Icon Color"
+msgstr ""
+
+#: includes/modules/recent_posts.php:117
+msgid "Recent - Blog Posts Masonry Style"
+msgstr ""
+
+#: includes/modules/services.php:136
+msgid "Service"
+msgstr ""
+
+#: includes/modules/services.php:203
+msgid "Service Icon"
+msgstr ""
+
+#: includes/modules/services.php:222
+msgid "Service Icon Background Color"
+msgstr ""
+
+#: includes/modules/services.php:235
+msgid "Service Icon Color"
+msgstr ""
+
+#: includes/modules/services.php:248
+msgid "Service Icon Hover Background Color"
+msgstr ""
+
+#: includes/modules/services.php:261
+msgid "Service Icon Hover Color"
+msgstr ""
+
+#: includes/modules/services.php:210
+msgid "Service Icon Size"
+msgstr ""
+
+#: includes/modules/services.php:69
+msgid "Services"
+msgstr ""
+
+#: includes/modules/services.php:281
+msgid "Services content BG color"
+msgstr ""
+
+#: includes/modules/services.php:274
+msgid "Servies Content"
+msgstr ""
+
+#: includes/functions/helpers.php:667
+msgid "Share"
+msgstr ""
+
+#: includes/modules/project_details.php:56
+msgid "Share This"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Shortcode Modules that come along with the OSHINE Theme, integrated with "
+"TATSU Page Builder plugin"
+msgstr ""
+
+#: includes/modules/icon_card.php:146 includes/modules/svg_icon.php:76
+msgid "Size"
+msgstr ""
+
+#: includes/modules/skills.php:166
+msgid "Skill"
+msgstr ""
+
+#: includes/modules/skills.php:220
+msgid "Skill Name"
+msgstr ""
+
+#: includes/modules/skills.php:243
+msgid "Skill Score"
+msgstr ""
+
+#: includes/modules/skills.php:80
+msgid "Skills"
+msgstr ""
+
+#: includes/modules/flex_slider.php:167
+msgid "Slide"
+msgstr ""
+
+#: includes/modules/flex_slider.php:139
+msgid "Slide Interval"
+msgstr ""
+
+#: includes/modules/testimonials.php:202
+msgid "Slide Show"
+msgstr ""
+
+#: includes/modules/content_slides.php:106 includes/modules/clients.php:148
+#: includes/modules/testimonials.php:209 includes/modules/tweets.php:221
+msgid "Slide Show Speed"
+msgstr ""
+
+#: includes/modules/be_slider.php:210
+msgid "Slider Height"
+msgstr ""
+
+#: includes/modules/be_slider.php:221
+msgid "Slider Height in Mobile Devices"
+msgstr ""
+
+#: includes/modules/be_slider.php:297 includes/modules/flex_slider.php:176
+msgid "Slider image"
+msgstr ""
+
+#: includes/modules/be_slider.php:185
+msgid "Slider Transition"
+msgstr ""
+
+#: includes/modules/team.php:177
+msgid "Social Icons"
+msgstr ""
+
+#: includes/modules/team.php:502
+msgid "Social Media Icons Position"
+msgstr ""
+
+#: includes/modules/justified_gallery.php:245
+msgid "Spacing between images"
+msgstr ""
+
+#: includes/modules/menu_card.php:206
+msgid "Star Color"
+msgstr ""
+
+#: includes/modules/icon_card.php:158 includes/modules/project_details.php:130
+#: includes/modules/portfolio_navigation_module.php:155
+#: includes/modules/flex_slider.php:112
+msgid "Style"
+msgstr ""
+
+#: includes/modules/pricing_column.php:194
+msgid "Style Options"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:51
+msgid "Sub Title Module"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:112
+msgid "Sub Title Text"
+msgstr ""
+
+#: includes/modules/newsletter.php:47 includes/modules/contact_form.php:47
+#: includes/modules/contact_form.php:55
+msgid "Subject"
+msgstr ""
+
+#: includes/modules/newsletter.php:191 includes/modules/contact_form.php:62
+msgid "Submit"
+msgstr ""
+
+#: includes/modules/svg_icon.php:112
+msgid "SVG Color"
+msgstr ""
+
+#: includes/modules/tabs.php:107
+msgid "Tab"
+msgstr ""
+
+#: includes/modules/tabs.php:129
+msgid "Tab Content"
+msgstr ""
+
+#: includes/modules/tabs.php:115
+msgid "Tab Title"
+msgstr ""
+
+#: includes/modules/tabs.php:73
+msgid "Tabs"
+msgstr ""
+
+#: includes/modules/team.php:279
+msgid "Tag for Title"
+msgstr ""
+
+#: includes/modules/team.php:153
+msgid "Team"
+msgstr ""
+
+#: includes/modules/testimonials.php:242
+msgid "Testimonial"
+msgstr ""
+
+#: includes/modules/testimonials.php:307
+msgid "Testimonial Author"
+msgstr ""
+
+#: includes/modules/testimonials.php:288
+msgid "Testimonial Author Image"
+msgstr ""
+
+#: includes/modules/testimonials.php:327
+msgid "Testimonial Author Role"
+msgstr ""
+
+#: includes/modules/testimonials.php:334
+msgid "Testimonial Author Role Color"
+msgstr ""
+
+#: includes/modules/testimonials.php:314
+msgid "Testimonial Author Text Color"
+msgstr ""
+
+#: includes/modules/testimonials.php:278
+msgid "Testimonial Content"
+msgstr ""
+
+#: includes/modules/testimonials.php:151
+msgid "Testimonial Font Size"
+msgstr ""
+
+#: includes/modules/testimonials.php:114
+msgid "Testimonials"
+msgstr ""
+
+#: includes/modules/newsletter.php:223
+msgid "Text"
+msgstr ""
+
+#: includes/modules/be_countdown.php:103 includes/modules/tweets.php:189
+msgid "Text Color"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:723
+msgid "Thank you, you have been added to our mailing list."
+msgstr ""
+
+#: plugin-update-checker/github-checker.php:119
+msgid "There is no changelog available."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:820
+msgid "This plugin is up to date."
+msgstr ""
+
+#: includes/modules/blog.php:204
+msgid "Three"
+msgstr ""
+
+#: includes/modules/gallery.php:601 includes/modules/portfolio_carousel.php:475
+#: includes/modules/portfolio.php:1029
+#: includes/modules/justified_gallery.php:361
+msgid "Thumbnail Overlay Color / Gradient Start Color"
+msgstr ""
+
+#: includes/modules/gallery.php:618 includes/modules/portfolio_carousel.php:489
+#: includes/modules/portfolio.php:1050
+#: includes/modules/justified_gallery.php:380
+msgid "Thumbnail Overlay Gradient End Color"
+msgstr ""
+
+#: includes/modules/services.php:106
+msgid "Timeline Color"
+msgstr ""
+
+#: includes/modules/icon_card.php:215 includes/modules/icon_card.php:237
+#: includes/modules/pricing_column.php:240
+#: includes/modules/animate_icons_style1.php:335
+#: includes/modules/menu_card.php:117
+#: includes/modules/animate_icons_style2.php:258
+msgid "Title"
+msgstr ""
+
+#: includes/modules/team.php:491
+msgid "Title & Meta"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:154
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/modules/team.php:515
+msgid "Title alignment"
+msgstr ""
+
+#: includes/modules/portfolio.php:1012
+msgid "Title alignment - for Title Below Thumbnail styles"
+msgstr ""
+
+#: includes/modules/accordion.php:188
+msgid "Title Background Color"
+msgstr ""
+
+#: includes/modules/special_sub_title.php:141 includes/modules/tabs.php:136
+#: includes/modules/skills.php:230 includes/modules/accordion.php:174
+#: includes/modules/portfolio_carousel.php:510
+#: includes/modules/portfolio.php:1071
+#: includes/modules/animate_icons_style2.php:280
+msgid "Title Color"
+msgstr ""
+
+#: includes/modules/animate_icons_style2.php:293
+msgid "Title Color - Hover State"
+msgstr ""
+
+#: includes/modules/pricing_column.php:247
+msgid "Title Heading Tag"
+msgstr ""
+
+#: includes/modules/portfolio_carousel.php:418
+#: includes/modules/portfolio.php:939
+msgid "Title Style"
+msgstr ""
+
+#: includes/modules/animate_icons_style1.php:342
+msgid "Title Tag"
+msgstr ""
+
+#: includes/modules/menu_card.php:138
+msgid "Title Text Color"
+msgstr ""
+
+#: includes/modules/accordion.php:116
+msgid "Toggle"
+msgstr ""
+
+#: includes/functions/helpers.php:669
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: includes/modules/tweets.php:173
+msgid "Tweet Bird Icon Color"
+msgstr ""
+
+#: includes/modules/tweets.php:153
+msgid "Tweet Font Size"
+msgstr ""
+
+#: includes/modules/tweets.php:57
+msgid "Tweets"
+msgstr ""
+
+#: includes/modules/tweets.php:133
+msgid "Twitter Account Name"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:42
+msgid "Unable to send the message. Please try again later"
+msgstr ""
+
+#: includes/modules/recent_posts_style_2.php:48
+msgid "Under :"
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:824
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/modules/gallery.php:364 includes/modules/justified_gallery.php:222
+msgid "Upload / Select Gallery Images"
+msgstr ""
+
+#: includes/modules/clients.php:227
+msgid "URL to be linked to Client Website"
+msgstr ""
+
+#: includes/modules/pricing_column.php:291
+msgid "Url to be linked to the button"
+msgstr ""
+
+#: includes/modules/gallery.php:646 includes/modules/justified_gallery.php:434
+#: includes/modules/recent_posts.php:198 includes/modules/flex_slider.php:153
+msgid "Use Adaptive Image sizes"
+msgstr ""
+
+#: includes/modules/portfolio.php:892
+msgid "Use Prebuilt Hover Styles"
+msgstr ""
+
+#: includes/modules/animate_icons_style2.php:69
+msgid "Variable Height Animated Module"
+msgstr ""
+
+#: includes/functions/helpers.php:78 includes/functions/helpers.php:80
+msgid "View all posts in"
+msgstr ""
+
+#: includes/modules/project_details.php:65
+msgid "View Project"
+msgstr ""
+
+#: includes/modules/newsletter.php:164 includes/modules/svg_icon.php:90
+msgid "Width"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:39
+msgid "Your message was sent successfully"
+msgstr ""
+
+#: includes/modules/flex_slider.php:182
+msgid "Youtube/ Vimeo url"
+msgstr ""
+
+#: includes/functions/helpers.php:671
+msgid "Zoom in/out"
+msgstr ""

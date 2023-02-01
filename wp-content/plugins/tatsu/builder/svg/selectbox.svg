@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>downarrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-261.000000, -437.000000)" fill-opacity="0.8">
+        <g id="Background" transform="translate(0.000000, 142.000000)" fill="#18191A" fill-rule="nonzero">
+            <g id="Select-Box" transform="translate(21.000000, 282.000000)">
+                <g id="Group-2" transform="translate(96.000000, 0.000000)">
+                    <g id="downarrow" transform="translate(144.000000, 13.000000)">
+                        <path d="M0.221982479,0.221788177 C0.0798580504,0.364395175 0,0.557907646 0,0.759697352 C0,0.961487057 0.0798580504,1.15499953 0.221982479,1.29760653 L3.49026398,4.58787781 C3.62511277,4.72367887 3.80821197,4.8 3.99915848,4.8 C4.19010498,4.8 4.37320418,4.72367887 4.50805298,4.58787781 L7.77849081,1.2968845 C8.0738364,1.00020423 8.0738364,0.519190473 7.77849081,0.222510203 C7.48314522,-0.0741700676 7.00429541,-0.0741700676 6.70894982,0.222510203 L3.99915848,2.94887939 L1.29080469,0.222510203 C1.14911382,0.0800522434 0.956863996,9.52869805e-06 0.756393583,9.52869805e-06 C0.555923171,9.52869805e-06 0.363673346,0.0800522434 0.221982479,0.222510203 L0.221982479,0.221788177 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

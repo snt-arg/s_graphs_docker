@@ -1,0 +1,245 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.tatsu_edit_button {
+	padding: 12px 35px 12px 35px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 11px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	position: relative;	
+}
+#edit_with_tatsu_button {
+	color: #e8fcfd;
+    background: rgb(0, 180, 255)
+}
+#edit_with_wordpress_editor  {
+	background-color: #24a1ce;
+	color: #fff;
+	border: 2px solid #1d7fa2;
+	padding-left: 35px;
+}
+.tatsu_edit_button svg {
+	fill: #136a6f;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	margin-top: -0.5em;
+}
+#tatsu-buttons {
+	margin-top: 15px;
+}
+#tatsu_edit_post_wrap {
+	box-sizing: border-box;
+	height: 300px; 
+	position: relative;
+	background: #32373d;
+	margin-top: 15px;
+	transition: all 0.6s ease;
+}
+#tatsu_edit_post_wrap:hover {
+	background: #202327;
+}
+#tatsu_edit_post_wrap a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#tatsu_edit_dragon_wrap {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	text-align: center;
+}
+#tatsu_edit_dragon_wrap span {
+	display: block;
+    text-transform: uppercase;
+    color : rgb(0, 180, 255);
+	letter-spacing: 2px;
+	font-size: 11px;
+	text-decoration: none;
+	margin-top: 15px;
+	padding: 10px 35px;
+	border-radius: 50px;
+    transition: all 0.6s ease;	
+    border : 1px solid rgb(0, 180, 255);
+}
+#tatsu_edit_post_wrap:hover #tatsu_edit_dragon_wrap span {
+    color: #fff;
+    background: rgb(0, 180, 255);
+}
+#tatsu_edit_post_wrap svg {
+    fill : #fff;
+	display: inline-block;
+}
+body.edited_with_tatsu #postdivrich,
+body.edited_with_tatsu #edit_with_tatsu_button,
+body.edited_with_editor #edit_with_wordpress_editor,
+body.edited_with_editor #tatsu_edit_post_wrap {
+	display: none;
+}
+.be-settings-page-option{
+	display: flex;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #f1f1f1;
+	position: relative;
+}
+.be-settings-page-option-label{
+	width:320px;
+	display: inline-block;
+}
+.be-settings-page-option-checkbox{
+	margin-right: 20px;
+}
+/***** chosen select  custom styles*********/
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{
+	background-position: -42px 1px !important;
+}
+/* global section settings CSS */
+.tatsu_myselectclass{
+	width:250px !important;
+}
+.tatsu_settings_panel,
+.tatsu_global-section-panel {
+	border-radius:5px;
+	border: 1px solid #DDD;
+	padding: 20px;
+	margin-bottom:5px;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+.tatsu_active_headers_footers_settings, .tatsu_global-section-settings{
+	display:inline-block;
+	width: 600px;
+	max-width: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+.tatsu_active_headers_footers_settings h3, .tatsu_global-section-settings h3{
+    margin: 0 0 20px;
+}
+.tatsu_global-section-settings h1{
+	margin-left:20px;
+}
+.tatsu_settings_wrap {
+	margin: 10px;
+}
+#tatsu_add-new-ruleset{
+	background: #eee;
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:5px;
+	box-sizing:border-box;
+	box-shadow: 0 0 5px 0px #aaa;
+}
+.tatsu_remove-ruleset{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+	color: #00000070;
+	font-weight: 600;
+}
+.tatsu_global-section-settings .global-section-btn-wrap{
+	margin: 20px;
+}
+.tatsu_global-section-empty-warn {
+    position: absolute;
+    font-size: 10px;
+    bottom: -2px;
+    right: 0;
+    color: red;
+}
+.global-section-btn-wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tatsu-global-section-export{
+	cursor: pointer;
+	color: inherit;	
+}
+.global-section-exclude-box {
+	transition: height 300ms ease,padding 300ms ease, opacity 50ms ease;
+}
+.global-section-hide-exclusion{
+	height: 0;
+	opacity: 0;
+	padding: 0;
+}
+body:not(.edited_with_tatsu) .tatsu-switch-builder-gutenburg {
+    display: none;
+}
+.edited_with_tatsu .tatsu-switch-builder-tatsu {
+	display: none;
+}
+.edited_with_tatsu .block-editor-block-list__layout {
+	display: none;
+}
+.edited_with_tatsu .edit-post-visual-editor .block-editor-writing-flow__click-redirect{
+	min-height: 0px;
+}
+#tatsu-switch-to-gutenberg-modal .notification-dialog {
+	padding : 25px;
+}
+
+/***TATSU FORM CSS****/
+.form-details-heading{
+	font-size: 21px;
+}
+.form-details-field-name{
+	font-size: 15px;
+	padding: 10px;
+	font-weight: 500;
+}
+.form-details-field-value{
+	font-size: 14px;
+}
+
+/***TATSU ADMIN AREA ***/
+.tatsu-col-6{
+	max-width: 45%;
+}
+.tatsu-admin-card{
+   background: white;
+   padding: 15px;
+   margin: 10px;
+}
+.tatsu-admin-card .be-heading{
+	font-weight: bolder;
+	font-size: 17px;
+}
+.tatsu-admin-card .form-fields{
+	padding-bottom: 15px;
+}
+.tatsu-admin-card .be-forms label{
+	margin-right: 15px;
+	font-size: 14px;
+}
+.tatsu-admin-card .be-forms .form-fields legend{
+	font-size: 15px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.tatsu-admin-card .be-forms .required-field{
+	color: red;
+}
+.tatsu-admin-card .be-forms .form-fields input[type="text"]{
+	min-width: 390px;
+}

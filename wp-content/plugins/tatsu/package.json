@@ -1,0 +1,37 @@
+{
+  "name": "tatsu",
+  "version": "2.7.1",
+  "description": "=== Plugin Name === Contributors: (this should be a list of wordpress.org userid's) Donate link: http://www.brandexponents.com Tags: comments, spam Requires at least: 3.0.1 Tested up to: 3.4 Stable tag: 4.3 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-git": "^2.8.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-order": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-prompt": "^1.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-zip": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vikasprogrammer@bitbucket.org/brandexponents-et/tatsu-free.git"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "author": "Swami",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/brandexponents-et/tatsu-free.git#readme"
+}

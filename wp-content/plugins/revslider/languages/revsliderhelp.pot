@@ -1,0 +1,6214 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Slider Revolution Help\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-28 07:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.2"
+
+#: admin/includes/help.class.php:6007
+msgid ""
+"'Default' will use the Slider's Lazy Load setting, 'Force' will LazyLoad the "
+"image regardless of the Slider's settings, and 'Ignore' will set LazyLoad to "
+"off regardless of the Slider's settings."
+msgstr ""
+
+#: admin/includes/help.class.php:1803
+msgid ""
+"'wait' to initialize the Slider when its inside the viewport, or 'pause' the "
+"Slider's progress until its inside the viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7319
+msgid ""
+"'Wrapper Container' is the Layer's outer-most HTML wrapper div, and 'Layer "
+"Container' is the content's main div"
+msgstr ""
+
+#: admin/includes/help.class.php:7867 admin/includes/help.class.php:8410
+#: admin/includes/help.class.php:9864
+msgid "2D Rotation"
+msgstr ""
+
+#: admin/includes/help.class.php:2544
+msgid "3D Crop Fix"
+msgstr ""
+
+#: admin/includes/help.class.php:2480
+msgid "3D Shadow"
+msgstr ""
+
+#: admin/includes/help.class.php:178
+msgid "60+ pre-built animations, animation duration, easing"
+msgstr ""
+
+#: admin/includes/help.class.php:3213
+msgid "A delay in milliseconds before the Arrows animate into view"
+msgstr ""
+
+#: admin/includes/help.class.php:3528
+msgid "A delay in milliseconds before the Bullets animate into view"
+msgstr ""
+
+#: admin/includes/help.class.php:4009
+msgid "A delay in milliseconds before the Tabs animate into view"
+msgstr ""
+
+#: admin/includes/help.class.php:4490
+msgid "A delay in milliseconds before the Thumbs animate into view"
+msgstr ""
+
+#: admin/includes/help.class.php:275
+msgid "A single-slide Slider with no navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:5838
+msgid "A Slide description for certain navigation types"
+msgstr ""
+
+#: admin/includes/help.class.php:267
+msgid "A Slider that can have multiple slides with navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:2992
+msgid ""
+"A special shortcode for the Module when loading it as a Modal in the page "
+"with <a href='#'>custom JavaScript</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:1256
+msgid "Access Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:1243
+msgid "Access Token"
+msgstr ""
+
+#: admin/includes/help.class.php:10195
+msgid "Action Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:10181
+msgid "Action Type"
+msgstr ""
+
+#: admin/includes/help.class.php:9654
+msgid "Activate mouse hover styles/transitions"
+msgstr ""
+
+#: admin/includes/help.class.php:57
+msgid "Activate Responsive Viewports"
+msgstr ""
+
+#: admin/includes/help.class.php:352
+msgid "Activates a responsive height for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:216
+msgid "Active/Enable Addons"
+msgstr ""
+
+#: admin/includes/help.class.php:7252
+msgid ""
+"Add a <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-"
+"function/rotateX' target='_blank'>rotateX</a> transform to the currently "
+"selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7265
+msgid ""
+"Add a <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-"
+"function/rotateY' target='_blank'>rotateY</a> transform to the currently "
+"selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7278
+msgid ""
+"Add a <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-"
+"function/rotateZ' target='_blank'>rotateZ</a> transform to the currently "
+"selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7306
+msgid ""
+"Add a <a href='https://www.w3schools.com/cssref/css3_pr_box-shadow.asp' "
+"target='_blank'>CSS box-shadow</a> to the currently selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7399
+msgid ""
+"Add a <a href='https://www.w3schools.com/CSSref/css3_pr_text-shadow.asp' "
+"target='_blank'>CSS text-shadow</a> to the currently selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:9035
+msgid "Add a Bezier Curve"
+msgstr ""
+
+#: admin/includes/help.class.php:6956
+msgid "Add a border to the Layer's HTML element"
+msgstr ""
+
+#: admin/includes/help.class.php:8805
+msgid "Add a continuously looping animation to the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:2130
+msgid "Add a CSS border-radius to the carousel items (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:6558
+msgid ""
+"Add a linebreak after the currently selected Layer.  Useful when floats are "
+"used."
+msgstr ""
+
+#: admin/includes/help.class.php:6551
+msgid ""
+"Add a linebreak before the currently selected Layer.  Useful when floats are "
+"used."
+msgstr ""
+
+#: admin/includes/help.class.php:5494
+msgid "Add a link to the entire Slide area"
+msgstr ""
+
+#: admin/includes/help.class.php:7928
+msgid "Add a mask to the Layer which is useful for wipe/reveal type animations"
+msgstr ""
+
+#: admin/includes/help.class.php:5079 admin/includes/help.class.php:6180
+msgid "Add a mesh-style overlay to the video for extra styling"
+msgstr ""
+
+#: admin/includes/help.class.php:3005
+msgid ""
+"Add a progress bar to the Slider to display a visual representation of each "
+"Slide's timeline"
+msgstr ""
+
+#: admin/includes/help.class.php:160
+msgid "Add a variety of content to your Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:633
+msgid "Add an mesh-style overlay to the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:2984
+msgid ""
+"Add an optional class name to the page's body element when the Module is "
+"loaded as a Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:10198
+msgid "Add an optional delay before the Action occurs (in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:1542
+msgid "Add an optional delay before the Slider officially loads"
+msgstr ""
+
+#: admin/includes/help.class.php:1510 admin/includes/help.class.php:1518
+#: admin/includes/help.class.php:1526
+msgid ""
+"Add an optional ID for the Slider.  Will be applied to the Slider's outer "
+"HTML wrapper element"
+msgstr ""
+
+#: admin/includes/help.class.php:5467
+msgid ""
+"Add an optional ID to the Slide to target the Slide with custom CSS or "
+"JavaScript"
+msgstr ""
+
+#: admin/includes/help.class.php:6673
+msgid "Add an text underline to the currently selected Layer's text"
+msgstr ""
+
+#: admin/includes/help.class.php:10831
+msgid ""
+"Add class names to the Layer to target it with custom CSS/JavaScript "
+"(separate multiple class names with spaces)"
+msgstr ""
+
+#: admin/includes/help.class.php:10896
+msgid ""
+"Add class names to the Layer's outer-most wrapper to target it with custom "
+"CSS/JavaScript (separate multiple class names with spaces)"
+msgstr ""
+
+#: admin/includes/help.class.php:7508
+msgid "Add creative edges and corners to the left side of your content"
+msgstr ""
+
+#: admin/includes/help.class.php:7540
+msgid "Add creative edges and corners to the right side of your content"
+msgstr ""
+
+#: admin/includes/help.class.php:7495
+msgid "Add creative edges and corners to your content"
+msgstr ""
+
+#: admin/includes/help.class.php:649
+msgid "Add extra spacing around the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:6660
+msgid "Add italics to the currently selected Layer's text"
+msgstr ""
+
+#: admin/includes/help.class.php:6555
+msgid "Add Linebreak After"
+msgstr ""
+
+#: admin/includes/help.class.php:6548
+msgid "Add Linebreak Before"
+msgstr ""
+
+#: admin/includes/help.class.php:8802
+msgid "Add Loop Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:157
+msgid "Add New Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:107
+msgid "Add New Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:5455
+msgid ""
+"Add optional class names to the Slide to target the Slide with custom CSS or "
+"JavaScript"
+msgstr ""
+
+#: admin/includes/help.class.php:2920
+msgid "Add your own custom CSS to the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:2928
+msgid "Add your own custom JavaScript to the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:661
+msgid "Add your own custom text/images/video to the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:110
+msgid "add/duplicate/delete Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:168
+msgid "Add/Edit content that's meant to always be visible"
+msgstr ""
+
+#: admin/includes/help.class.php:206
+msgid "Add/Remove Links"
+msgstr ""
+
+#: admin/includes/help.class.php:209
+msgid ""
+"Add/Remove links to additional slides, other web pages/posts or external "
+"websites"
+msgstr ""
+
+#: admin/includes/help.class.php:227
+msgid ""
+"AddOn Settings will be located in the Slider, Slide or Layer settings "
+"depending on the AddOns functionality"
+msgstr ""
+
+#: admin/includes/help.class.php:9038
+msgid ""
+"Adds a middle point to the movement between the starting and ending points"
+msgstr ""
+
+#: admin/includes/help.class.php:3018
+msgid "Adjust the color for the progress bar"
+msgstr ""
+
+#: admin/includes/help.class.php:9722
+msgid "Adjust the Layer's background color on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7291
+msgid "Adjust the opacity/transparency for the currently selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:3665
+msgid "Adjust the size colors and other styles for the bullets"
+msgstr ""
+
+#: admin/includes/help.class.php:4146
+msgid "Adjust the size colors and other styles for the tabs"
+msgstr ""
+
+#: admin/includes/help.class.php:100
+msgid "Adjust the size of text and images for each reponsive viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:1324
+msgid "Album"
+msgstr ""
+
+#: admin/includes/help.class.php:3096 admin/includes/help.class.php:3411
+#: admin/includes/help.class.php:3744 admin/includes/help.class.php:4225
+#: admin/includes/help.class.php:7179
+msgid "Align By Slider/Content"
+msgstr ""
+
+#: admin/includes/help.class.php:7091
+msgid "Align the Layer horizontally to the Slider content or the entire Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:7104
+msgid "Align the Layer vertically to the Slider content or the entire Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:386
+msgid ""
+"Align the Slider to the left, center or right inside its parent container"
+msgstr ""
+
+#: admin/includes/help.class.php:3112 admin/includes/help.class.php:3427
+#: admin/includes/help.class.php:3776 admin/includes/help.class.php:4257
+msgid "Alignment"
+msgstr ""
+
+#: admin/includes/help.class.php:1829
+msgid ""
+"Allocate space on the page for the Slider to prevent page content jumps when "
+"the Slider loads"
+msgstr ""
+
+#: admin/includes/help.class.php:368
+msgid "Allow for content to be visible outside the Slider's bounding box"
+msgstr ""
+
+#: admin/includes/help.class.php:6272
+msgid "Allow Fullscreen"
+msgstr ""
+
+#: admin/includes/help.class.php:6275
+msgid "Allow the video to be taken fullscreen by the user"
+msgstr ""
+
+#: admin/includes/help.class.php:4907
+msgid "Alt Attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:1984
+msgid "Alternate First Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:2862
+msgid "Alternative Image"
+msgstr ""
+
+#: admin/includes/help.class.php:2870
+msgid "Alternative Image URL"
+msgstr ""
+
+#: admin/includes/help.class.php:5131
+msgid "Always play the video from the beginning each time the Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:6301
+msgid ""
+"Always play the video/audio from the beginning each time the Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:7629
+msgid ""
+"An additional animation to add to the Layer after its already animated into "
+"view"
+msgstr ""
+
+#: admin/includes/help.class.php:4816
+msgid "An image url to be used as the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:5338
+msgid "An Instagram-type filter to apply to the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:5324
+msgid "An optional rotation to apply to the Slide's transition"
+msgstr ""
+
+#: admin/includes/help.class.php:7626
+msgid "Animate Again To..."
+msgstr ""
+
+#: admin/includes/help.class.php:8138
+msgid "Animate Background Color"
+msgstr ""
+
+#: admin/includes/help.class.php:8174
+msgid "Animate characters, words or lines of text"
+msgstr ""
+
+#: admin/includes/help.class.php:2627
+msgid "Animate Layers on Scroll"
+msgstr ""
+
+#: admin/includes/help.class.php:8107
+msgid "Animate Text Color"
+msgstr ""
+
+#: admin/includes/help.class.php:8486
+msgid "Animate the Char animation's blur, grayscale or brightness filter"
+msgstr ""
+
+#: admin/includes/help.class.php:8786
+msgid ""
+"Animate the Layer back to its starting values in the loop once the last "
+"frame is reached.  Useful for creating a more natural looping visual."
+msgstr ""
+
+#: admin/includes/help.class.php:8951
+msgid ""
+"Animate the Layer to this 'x' (left) position.  Accepts positive and "
+"negative numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:8985
+msgid ""
+"Animate the Layer to this 'y' (top) position.  Accepts positive and negative "
+"numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:9019
+msgid ""
+"Animate the Layer's <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/transform-function/translateZ' target=_'blank'>CSS "
+"translateZ</a> property to this value.  This adds/removes 3D depth to the "
+"Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:8141
+msgid "Animate the Layer's background color"
+msgstr ""
+
+#: admin/includes/help.class.php:8043
+msgid "Animate the Layer's blur, grayscale or brightness filter"
+msgstr ""
+
+#: admin/includes/help.class.php:2630
+msgid ""
+"Animate the Layer's by default on Scroll (can then be turned off per Layer "
+"in the Layer settings)"
+msgstr ""
+
+#: admin/includes/help.class.php:8110
+msgid "Animate the Layer's text color"
+msgstr ""
+
+#: admin/includes/help.class.php:8634
+msgid "Animate the line animation's blur, grayscale or brightness filter"
+msgstr ""
+
+#: admin/includes/help.class.php:8560
+msgid "Animate the word animation's blur, grayscale or brightness filter"
+msgstr ""
+
+#: admin/includes/help.class.php:8783
+msgid "Animate to Start"
+msgstr ""
+
+#: admin/includes/help.class.php:5285
+msgid "Animation 'In' Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:5297
+msgid "Animation 'Out' Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:8831
+msgid "Animation Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:2601 admin/includes/help.class.php:7692
+#: admin/includes/help.class.php:8218 admin/includes/help.class.php:8847
+msgid "Animation Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:7666
+msgid "Animation Name"
+msgstr ""
+
+#: admin/includes/help.class.php:2614 admin/includes/help.class.php:7679
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:10508
+msgid "Animation Timing"
+msgstr ""
+
+#: admin/includes/help.class.php:979 admin/includes/help.class.php:1098
+#: admin/includes/help.class.php:1152 admin/includes/help.class.php:1284
+#: admin/includes/help.class.php:1381 admin/includes/help.class.php:1465
+msgid "API Cache"
+msgstr ""
+
+#: admin/includes/help.class.php:992 admin/includes/help.class.php:1394
+msgid "API Key"
+msgstr ""
+
+#: admin/includes/help.class.php:1006 admin/includes/help.class.php:1111
+msgid "API Source"
+msgstr ""
+
+#: admin/includes/help.class.php:5926
+msgid ""
+"Aply a grayscale filter to Layers as the page scrolls into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:1340
+msgid "App ID"
+msgstr ""
+
+#: admin/includes/help.class.php:1353
+msgid "App Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:2547
+msgid "Applies a translateZ to the 3D elements to help avoid overlapping"
+msgstr ""
+
+#: admin/includes/help.class.php:2269
+msgid "Apply a 3D rotation to the non-active items"
+msgstr ""
+
+#: admin/includes/help.class.php:2667
+msgid ""
+"Apply a black and white filter to the Slider when it scrolls into and out of "
+"view"
+msgstr ""
+
+#: admin/includes/help.class.php:2681
+msgid "Apply a blur filter to the Slider when it scrolls into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:402
+msgid "Apply a bottom margin to the Slider (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:2483
+msgid "Apply a box-shadow to the 3D element to enhance the effect"
+msgstr ""
+
+#: admin/includes/help.class.php:10128
+msgid ""
+"Apply a mask to the Layer as the Parallax Effect takes place.  When applied, "
+"the content will never bleed outside this mask."
+msgstr ""
+
+#: admin/includes/help.class.php:394
+msgid "Apply a top margin to the Slider (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:7976
+msgid ""
+"Apply and animate a CSS clip-path to the Layer.  Useful for creating 'wipe' "
+"animations"
+msgstr ""
+
+#: admin/includes/help.class.php:2239
+msgid "Apply opacity to the non-activate Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:7316
+msgid "Apply Shadow to"
+msgstr ""
+
+#: admin/includes/help.class.php:2646
+msgid "Apply special effects to your content when the page is scrolled"
+msgstr ""
+
+#: admin/includes/help.class.php:2711
+msgid "Apply the effect(s) to all Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2724
+msgid "Apply the effect(s) to all Parallax Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2737
+msgid "Apply the effect(s) to the Slide's main background"
+msgstr ""
+
+#: admin/includes/help.class.php:2750
+msgid "Apply the effect(s) to the Slide's Static/Global Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2763
+msgid "Apply the effect(s) to the Slide's Static/Global Parallax Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2778
+msgid ""
+"Apply the effect(s) when the page is scrolled from the top, bottom, or both "
+"directions"
+msgstr ""
+
+#: admin/includes/help.class.php:2252
+msgid "Apply varying opacity to the non-activate Slides in staggered order"
+msgstr ""
+
+#: admin/includes/help.class.php:2298
+msgid "Apply varying rotations to the non-activate Slides in staggered order"
+msgstr ""
+
+#: admin/includes/help.class.php:2344
+msgid "Apply varying scale/zooms to the non-activate Slides in staggered order"
+msgstr ""
+
+#: admin/includes/help.class.php:1813
+msgid "Area %"
+msgstr ""
+
+#: admin/includes/help.class.php:3160
+msgid "Arrows Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:3194
+msgid "Arrows Animation Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:3210
+msgid "Arrows Show Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:3079
+msgid "Arrows Type/Style"
+msgstr ""
+
+#: admin/includes/help.class.php:5063 admin/includes/help.class.php:6138
+msgid "Aspect Ratio"
+msgstr ""
+
+#: admin/includes/help.class.php:291
+msgid "Auto"
+msgstr ""
+
+#: admin/includes/help.class.php:9052
+msgid "Auto Rotate Bezier"
+msgstr ""
+
+#: admin/includes/help.class.php:1842
+msgid "Auto Rotate Slideshow"
+msgstr ""
+
+#: admin/includes/help.class.php:3230
+msgid ""
+"Auto-hide the arrows after a set amount of time (will be shown again when "
+"the user hovers/taps the Slider)"
+msgstr ""
+
+#: admin/includes/help.class.php:3545
+msgid ""
+"Auto-hide the bullets after a set amount of time (will be shown again when "
+"the user hovers/taps the Slider)"
+msgstr ""
+
+#: admin/includes/help.class.php:4026
+msgid ""
+"Auto-hide the tabs after a set amount of time (will be shown again when the "
+"user hovers/taps the Slider)"
+msgstr ""
+
+#: admin/includes/help.class.php:4507
+msgid ""
+"Auto-hide the thumbs after a set amount of time (will be shown again when "
+"the user hovers/taps the Slider)"
+msgstr ""
+
+#: admin/includes/help.class.php:5144 admin/includes/help.class.php:6374
+msgid "Auto-mute the video each time the Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:1625 admin/includes/help.class.php:10709
+msgid ""
+"Automatically adjust the positioning for Layers for each responsive device "
+"viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:1617 admin/includes/help.class.php:10696
+msgid "Automatically resize Layers for each responsive device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:10670
+msgid ""
+"Automatically resize/reposition all Layers for each device viewport inside "
+"the editor"
+msgstr ""
+
+#: admin/includes/help.class.php:1609 admin/includes/help.class.php:10657
+msgid ""
+"Automatically resize/reposition new Layers for each device viewport inside "
+"the editor"
+msgstr ""
+
+#: admin/includes/help.class.php:9055
+msgid ""
+"Automatically rotate the Layer according to its position along the Bezier "
+"path"
+msgstr ""
+
+#: admin/includes/help.class.php:6151
+msgid "Autoplay"
+msgstr ""
+
+#: admin/includes/help.class.php:6778
+msgid "Background Color"
+msgstr ""
+
+#: admin/includes/help.class.php:8151
+msgid "Background Color Value"
+msgstr ""
+
+#: admin/includes/help.class.php:2496
+msgid "Background Enabled"
+msgstr ""
+
+#: admin/includes/help.class.php:4853
+msgid "Background Fit"
+msgstr ""
+
+#: admin/includes/help.class.php:6791
+msgid "Background Image"
+msgstr ""
+
+#: admin/includes/help.class.php:5335
+msgid "Background Image Filter"
+msgstr ""
+
+#: admin/includes/help.class.php:2452
+msgid "Background Image Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:4879 admin/includes/help.class.php:5595
+msgid "Background Position"
+msgstr ""
+
+#: admin/includes/help.class.php:4866
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/includes/help.class.php:9070
+msgid "Bezier Curve Angle"
+msgstr ""
+
+#: admin/includes/help.class.php:9088
+msgid "Bezier Curve Tension"
+msgstr ""
+
+#: admin/includes/help.class.php:9124
+msgid "Bezier End Point X"
+msgstr ""
+
+#: admin/includes/help.class.php:9160
+msgid "Bezier End Point Y"
+msgstr ""
+
+#: admin/includes/help.class.php:9196
+msgid "Bezier End Point Z"
+msgstr ""
+
+#: admin/includes/help.class.php:9106
+msgid "Bezier Start Point X"
+msgstr ""
+
+#: admin/includes/help.class.php:9142
+msgid "Bezier Start Point Y"
+msgstr ""
+
+#: admin/includes/help.class.php:9178
+msgid "Bezier Start Point Z"
+msgstr ""
+
+#: admin/includes/help.class.php:2560
+msgid "BG 3D Depth"
+msgstr ""
+
+#: admin/includes/help.class.php:6817
+msgid "BG Image Fit"
+msgstr ""
+
+#: admin/includes/help.class.php:6804
+msgid "BG Image Position"
+msgstr ""
+
+#: admin/includes/help.class.php:6830
+msgid "BG Image Repeat"
+msgstr ""
+
+#: admin/includes/help.class.php:580
+msgid "BG Position"
+msgstr ""
+
+#: admin/includes/help.class.php:606
+msgid "BG Repeat"
+msgstr ""
+
+#: admin/includes/help.class.php:2814
+msgid "BG Strength"
+msgstr ""
+
+#: admin/includes/help.class.php:7463
+msgid "Blend Mode Filter"
+msgstr ""
+
+#: admin/includes/help.class.php:2678
+msgid "Blur"
+msgstr ""
+
+#: admin/includes/help.class.php:5915
+msgid "Blur Effect"
+msgstr ""
+
+#: admin/includes/help.class.php:1775 admin/includes/help.class.php:5760
+#: admin/includes/help.class.php:9561
+msgid "Blur End"
+msgstr ""
+
+#: admin/includes/help.class.php:8053 admin/includes/help.class.php:8500
+#: admin/includes/help.class.php:8574 admin/includes/help.class.php:8648
+#: admin/includes/help.class.php:10070
+msgid "Blur Filter"
+msgstr ""
+
+#: admin/includes/help.class.php:5918
+msgid "Blur Layers in and out as the page scrolls into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:7355 admin/includes/help.class.php:7435
+msgid "Blur Radius"
+msgstr ""
+
+#: admin/includes/help.class.php:1764 admin/includes/help.class.php:5744
+#: admin/includes/help.class.php:9544
+msgid "Blur Start"
+msgstr ""
+
+#: admin/includes/help.class.php:2691
+msgid "Blur Value"
+msgstr ""
+
+#: admin/includes/help.class.php:2981
+msgid "Body Class"
+msgstr ""
+
+#: admin/includes/help.class.php:7005
+msgid "Border Bottom Size"
+msgstr ""
+
+#: admin/includes/help.class.php:9987
+msgid "Border Bottom Width"
+msgstr ""
+
+#: admin/includes/help.class.php:6953 admin/includes/help.class.php:9934
+msgid "Border Color"
+msgstr ""
+
+#: admin/includes/help.class.php:7018
+msgid "Border Left Size"
+msgstr ""
+
+#: admin/includes/help.class.php:10000
+msgid "Border Left Width"
+msgstr ""
+
+#: admin/includes/help.class.php:2127
+msgid "Border Radius"
+msgstr ""
+
+#: admin/includes/help.class.php:7059 admin/includes/help.class.php:10041
+msgid "Border Radius Bottom Left"
+msgstr ""
+
+#: admin/includes/help.class.php:7072 admin/includes/help.class.php:10054
+msgid "Border Radius Bottom Right"
+msgstr ""
+
+#: admin/includes/help.class.php:7033 admin/includes/help.class.php:10015
+msgid "Border Radius Top Left"
+msgstr ""
+
+#: admin/includes/help.class.php:7046 admin/includes/help.class.php:10028
+msgid "Border Radius Top Right"
+msgstr ""
+
+#: admin/includes/help.class.php:6992
+msgid "Border Right Size"
+msgstr ""
+
+#: admin/includes/help.class.php:9974
+msgid "Border Right Width"
+msgstr ""
+
+#: admin/includes/help.class.php:6966 admin/includes/help.class.php:9947
+msgid "Border Style"
+msgstr ""
+
+#: admin/includes/help.class.php:6979
+msgid "Border Top Size"
+msgstr ""
+
+#: admin/includes/help.class.php:9961
+msgid "Border Top Width"
+msgstr ""
+
+#: admin/includes/help.class.php:6471
+msgid "Break At"
+msgstr ""
+
+#: admin/includes/help.class.php:8087 admin/includes/help.class.php:8536
+#: admin/includes/help.class.php:8610 admin/includes/help.class.php:8684
+#: admin/includes/help.class.php:10083
+msgid "Brightness"
+msgstr ""
+
+#: admin/includes/help.class.php:9629
+msgid "Brightness End"
+msgstr ""
+
+#: admin/includes/help.class.php:9612
+msgid "Brightness Start"
+msgstr ""
+
+#: admin/includes/help.class.php:3493
+msgid "Bullets Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:3509
+msgid "Bullets Animation Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:3525
+msgid "Bullets Show Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:3362
+msgid "Bullets Type/Style"
+msgstr ""
+
+#: admin/includes/help.class.php:1287
+msgid "Cache the Facebook API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:982
+msgid "Cache the Flickr API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:1101
+msgid "Cache the Instagram API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:1155
+msgid "Cache the Twitter API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:1468
+msgid "Cache the Vimeo API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:1384
+msgid "Cache the YouTube API results for faster loading"
+msgstr ""
+
+#: admin/includes/help.class.php:10283
+msgid "Call an external JavaScript function on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10280
+msgid "Call Back Function"
+msgstr ""
+
+#: admin/includes/help.class.php:2886
+msgid ""
+"Call jQuery.noConflict() to help avoid conflicts with other themes/plugins"
+msgstr ""
+
+#: admin/includes/help.class.php:281
+msgid "Carousel"
+msgstr ""
+
+#: admin/includes/help.class.php:115
+msgid "Change Slide Order"
+msgstr ""
+
+#: admin/includes/help.class.php:2058
+msgid ""
+"Change slides when the user navigates to a new window or tab and then "
+"returns to the page"
+msgstr ""
+
+#: admin/includes/help.class.php:9775
+msgid "Change the Layer's transparency on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:118
+msgid "Change the order in which the Slides appear"
+msgstr ""
+
+#: admin/includes/help.class.php:10372
+msgid "Change to the next or previous Slide on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:5118
+msgid "Change to the next Slide when the video ends"
+msgstr ""
+
+#: admin/includes/help.class.php:6288
+msgid "Change to the next Slide when the video/audio ends"
+msgstr ""
+
+#: admin/includes/help.class.php:1407
+msgid "Channel ID"
+msgstr ""
+
+#: admin/includes/help.class.php:2848
+msgid ""
+"Choose 'All' to LazyLoad all images in the Slider when the Slider first "
+"lpads, 'Smart' to only LazyLoad the prev/next Slide's images, and 'Single' "
+"to only LazyLoad the current Slide's images."
+msgstr ""
+
+#: admin/includes/help.class.php:10265
+msgid ""
+"Choose 'No Follow' to discourage search engines from indexing index the link"
+msgstr ""
+
+#: admin/includes/help.class.php:9696
+msgid ""
+"Choose 'none' to disable user-interaction.  Useful for enabling clicks on "
+"content placed beneath the Layer."
+msgstr ""
+
+#: admin/includes/help.class.php:744
+msgid ""
+"Choose 'Post' to pull in a range of posts, 'Specific Post' to pull in posts "
+"by ID, or 'Current Post' to populate the Slider with the current post's "
+"content"
+msgstr ""
+
+#: admin/includes/help.class.php:7989
+msgid ""
+"Choose 'Rectangle' or 'Circle' for traditional wipes from the sides, center "
+"or corners, and 'Inverts' for curtain-type reveals"
+msgstr ""
+
+#: admin/includes/help.class.php:3099 admin/includes/help.class.php:3414
+#: admin/includes/help.class.php:3747 admin/includes/help.class.php:4228
+#: admin/includes/help.class.php:7182
+msgid ""
+"Choose 'Slider' to align based on the Slider's full display, or 'Content' to "
+"align against the Slider's grid area"
+msgstr ""
+
+#: admin/includes/help.class.php:8708
+msgid "Choose a predefined special effect to use as the Layer's animation"
+msgstr ""
+
+#: admin/includes/help.class.php:3082
+msgid "Choose a predefined style for the Arrows navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:3365
+msgid "Choose a predefined style for the Bullets navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:3714
+msgid "Choose a predefined style for the Tabs navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:4195
+msgid "Choose a predefined style for the Thumbnails navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:5507
+msgid ""
+"Choose a traditional link to the Slide to navigate to a new web page or "
+"another Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:2017
+msgid "Choose an alternate transition for the first Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:641
+msgid "Choose an optional shadow to add to the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1274
+msgid "Choose how many Slides should be created from the Facebook source"
+msgstr ""
+
+#: admin/includes/help.class.php:969
+msgid "Choose how many Slides should be created from the Flickr source"
+msgstr ""
+
+#: admin/includes/help.class.php:1088
+msgid "Choose how many Slides should be created from the Instagram source"
+msgstr ""
+
+#: admin/includes/help.class.php:1142
+msgid "Choose how many Slides should be created from the Twitter source"
+msgstr ""
+
+#: admin/includes/help.class.php:1455
+msgid "Choose how many Slides should be created from the Vimeo source"
+msgstr ""
+
+#: admin/includes/help.class.php:1371
+msgid "Choose how many Slides should be created from the YouTube source"
+msgstr ""
+
+#: admin/includes/help.class.php:5966
+msgid "Choose how text should wrap/break onto lines lines"
+msgstr ""
+
+#: admin/includes/help.class.php:2946
+msgid ""
+"Choose how the Module should be horizontally aligned to the page when loaded "
+"as a Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:2954
+msgid ""
+"Choose how the Module should be vertically aligned to the page when loaded "
+"as a Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:1550
+msgid "Choose if Layers should be user-selectable by default"
+msgstr ""
+
+#: admin/includes/help.class.php:2531
+msgid ""
+"Choose if Slide Layers can bleed outside the Slider's bounding box when "
+"skewed in 3D space"
+msgstr ""
+
+#: admin/includes/help.class.php:10169
+msgid ""
+"Choose if the Action should occur on user-click, mouse-over or mouse-out"
+msgstr ""
+
+#: admin/includes/help.class.php:5981
+msgid ""
+"Choose if the Image source should be populated by the Slide's social stream "
+"content"
+msgstr ""
+
+#: admin/includes/help.class.php:10528
+msgid ""
+"Choose if the Layer's animation behavior should reset or not when the Slide "
+"replays again"
+msgstr ""
+
+#: admin/includes/help.class.php:10231
+msgid ""
+"Choose if the link should be opened in the same window or in a new window"
+msgstr ""
+
+#: admin/includes/help.class.php:2434
+msgid ""
+"Choose if the origin point for the effect should be the Layer's center, or "
+"based on where the user first hovered their mouse over the element"
+msgstr ""
+
+#: admin/includes/help.class.php:4682
+msgid ""
+"Choose if the page and its contents should be scrolled when swiping "
+"vertically"
+msgstr ""
+
+#: admin/includes/help.class.php:2426
+msgid ""
+"Choose if the Parallax/3D effects should happen on mouse move, page scroll "
+"or both"
+msgstr ""
+
+#: admin/includes/help.class.php:3034
+msgid ""
+"Choose if the progress bar should appear at the top or bottom of the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:2499
+msgid ""
+"Choose if the Slide's main background image should be included for the 3D "
+"effect"
+msgstr ""
+
+#: admin/includes/help.class.php:2515
+msgid ""
+"Choose if the Slider's main background can bleed outside the Slider's "
+"bounding box when skewed in 3D space"
+msgstr ""
+
+#: admin/includes/help.class.php:3763
+msgid ""
+"Choose if the tabs should appear inside or outside the Slider's main content "
+"area"
+msgstr ""
+
+#: admin/includes/help.class.php:4244
+msgid ""
+"Choose if the thumbs should appear inside or outside the Slider's main "
+"content area"
+msgstr ""
+
+#: admin/includes/help.class.php:6050
+msgid ""
+"Choose if the video should be loaded from YouTube, Vimeo or locally (HTML5)"
+msgstr ""
+
+#: admin/includes/help.class.php:3943 admin/includes/help.class.php:4424
+msgid "Choose if the wrapper should be displayed as a block or an inline-block"
+msgstr ""
+
+#: admin/includes/help.class.php:5568
+msgid ""
+"Choose of the Slide link should be placed behind or above the Slide's Layer "
+"content"
+msgstr ""
+
+#: admin/includes/help.class.php:1327
+msgid "Choose the Facebook Album to be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:10511
+msgid ""
+"Choose the Layer's default animation behavior in relation to the selected "
+"Action"
+msgstr ""
+
+#: admin/includes/help.class.php:854
+msgid ""
+"Choose the maximum number of Posts that should be included in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:6461
+msgid ""
+"Choose the number of columns and their <a href='https://www.w3schools."
+"com/tags/att_td_colspan.asp' target='_blank'>colspan</a> for the selected row"
+msgstr ""
+
+#: admin/includes/help.class.php:822
+msgid "Choose the order in which the posts should appear in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1437
+msgid "Choose the playlist to pull in from the YouTube account"
+msgstr ""
+
+#: admin/includes/help.class.php:5416
+msgid ""
+"Choose the published state of the Slide.  Choose 'Unpublished' to work on "
+"the Slide in a draft status."
+msgstr ""
+
+#: admin/includes/help.class.php:10141
+msgid ""
+"Choose to animate the Layer's animation timeline as the Module scrolls into "
+"and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:1424
+msgid "Choose to include videos from a YouTube Playlist or Channel"
+msgstr ""
+
+#: admin/includes/help.class.php:1633 admin/includes/help.class.php:10722
+msgid ""
+"Choose to resize the Layer's inner HTML elements if the Layer includes "
+"custom HTML"
+msgstr ""
+
+#: admin/includes/help.class.php:7169
+msgid ""
+"Choose to set the Layer's width/height as full-width, full-height.  "
+"'Stretch' will be 100% width/height, 'Cover' will maintain aspect ratio."
+msgstr ""
+
+#: admin/includes/help.class.php:4749
+msgid "Choose to use left/right keys or up/down keys to change Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:10184
+msgid "Choose which Action should occur when the user interacts with the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:8187
+msgid "Choose which direction the chars/words/lines should be animated in"
+msgstr ""
+
+#: admin/includes/help.class.php:8006
+msgid "Choose which direction the Clip Path should move to"
+msgstr ""
+
+#: admin/includes/help.class.php:4777
+msgid ""
+"Choose which direction the mouse wheel should be scrolled to change Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:6566
+msgid ""
+"Choose which HTML tag should be used for the Layer.  Useful for SEO purposes"
+msgstr ""
+
+#: admin/includes/help.class.php:10494
+msgid "Choose which Layer to target for the Layer Action"
+msgstr ""
+
+#: admin/includes/help.class.php:8738
+msgid ""
+"Choose which point in the Layer's timeline it should begin from for the loop "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8754
+msgid ""
+"Choose which point in the Layer's timeline it should play to before it "
+"animates again"
+msgstr ""
+
+#: admin/includes/help.class.php:789
+msgid "Choose which Post Categories to include in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:773
+msgid "Choose which Post Types to include in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1314
+msgid "Choose which type of Facebook content should be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1009
+msgid "Choose which type of Flickr content should be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1114
+msgid "Choose which type of Instagram content should be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:757
+msgid "Choose which type of posts should be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1481
+msgid "Choose which type of Vimeo content should be pulled into the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:6474
+msgid "Choose which viewport the rows should collapse into single columns"
+msgstr ""
+
+#: admin/includes/help.class.php:1880
+msgid "Chose when the Slider's progress should stop/pause"
+msgstr ""
+
+#: admin/includes/help.class.php:8003
+msgid "Clip Path Origin"
+msgstr ""
+
+#: admin/includes/help.class.php:7986
+msgid "Clip Path Type"
+msgstr ""
+
+#: admin/includes/help.class.php:8020
+msgid "Clip Percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:3908
+msgid "Color"
+msgstr ""
+
+#: admin/includes/help.class.php:6458
+msgid "Column Structure"
+msgstr ""
+
+#: admin/includes/help.class.php:1217
+msgid "Consumer Key"
+msgstr ""
+
+#: admin/includes/help.class.php:1230
+msgid "Consumer Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:73
+msgid "Content Size/Position"
+msgstr ""
+
+#: admin/includes/help.class.php:1866
+msgid ""
+"Continuously loop a Slide's animations when the Slider contains only one "
+"slide"
+msgstr ""
+
+#: admin/includes/help.class.php:6325
+msgid "Controls"
+msgstr ""
+
+#: admin/includes/help.class.php:6541
+msgid "CSS Clear"
+msgstr ""
+
+#: admin/includes/help.class.php:6527
+msgid "CSS Display"
+msgstr ""
+
+#: admin/includes/help.class.php:6534
+msgid "CSS Float"
+msgstr ""
+
+#: admin/includes/help.class.php:3662 admin/includes/help.class.php:4143
+msgid "CSS Styling"
+msgstr ""
+
+#: admin/includes/help.class.php:9680
+msgid "Cursor Type"
+msgstr ""
+
+#: admin/includes/help.class.php:4920
+msgid "Custom Alt Attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:658
+msgid "Custom Content"
+msgstr ""
+
+#: admin/includes/help.class.php:2917
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/includes/help.class.php:2925
+msgid "Custom JavaScript"
+msgstr ""
+
+#: admin/includes/help.class.php:4950
+msgid "Custom Title Attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:6750
+msgid "Dash-Array"
+msgstr ""
+
+#: admin/includes/help.class.php:6763
+msgid "Dash-Array Offset"
+msgstr ""
+
+#: admin/includes/help.class.php:5476
+msgid "Data Attributes"
+msgstr ""
+
+#: admin/includes/help.class.php:2907
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/includes/help.class.php:2182
+msgid ""
+"Decide how the items should be aligned horizontally inside the Slide "
+"container"
+msgstr ""
+
+#: admin/includes/help.class.php:2195
+msgid ""
+"Decide how the items should be aligned vertically inside the Slide container"
+msgstr ""
+
+#: admin/includes/help.class.php:1580
+msgid "Default BG Position"
+msgstr ""
+
+#: admin/includes/help.class.php:1596
+msgid "Default BG Repeat"
+msgstr ""
+
+#: admin/includes/help.class.php:1588
+msgid "Default Image Fit"
+msgstr ""
+
+#: admin/includes/help.class.php:1572
+msgid "Default Image Size"
+msgstr ""
+
+#: admin/includes/help.class.php:4984
+msgid "Define a custom height attribute for external image urls"
+msgstr ""
+
+#: admin/includes/help.class.php:4971
+msgid "Define a custom width attribute for external image urls"
+msgstr ""
+
+#: admin/includes/help.class.php:2580
+msgid ""
+"Define a depth for each of the 15 options, which can then be assigned to any "
+"given Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:10818
+msgid ""
+"Define an optional ID for the Layer to target it with custom CSS/JavaScript"
+msgstr ""
+
+#: admin/includes/help.class.php:10883
+msgid ""
+"Define an optional ID for the Layer's outer-most wrapper to target it with "
+"custom CSS/JavaScript."
+msgstr ""
+
+#: admin/includes/help.class.php:68
+msgid "Define custom grid widths and heights per device/viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:4910
+msgid ""
+"Define the 'alt' attribute for the Slide's main background image.  Useful "
+"for SEO purposes."
+msgstr ""
+
+#: admin/includes/help.class.php:4940
+msgid ""
+"Define the 'title' attribute for the Slide's main background image.  Useful "
+"for screen readers."
+msgstr ""
+
+#: admin/includes/help.class.php:2169
+msgid "Define the CSS padding-bottom for the carousel items (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:2156
+msgid "Define the CSS padding-top for the carousel items (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:10857
+msgid "Define the Layer's 'rel' attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:10870
+msgid "Define the Layer's tab-index.  Useful for defining focus on elements."
+msgstr ""
+
+#: admin/includes/help.class.php:10844
+msgid "Define the Layer's title attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:2143
+msgid "Define the spacing between the carousel items (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:8818
+msgid "Define when the loop animation should begin after the Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:5835
+msgid "Description"
+msgstr ""
+
+#: admin/includes/help.class.php:468
+msgid "Desktop Height"
+msgstr ""
+
+#: admin/includes/help.class.php:452
+msgid "Desktop Viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:460
+msgid "Desktop Width"
+msgstr ""
+
+#: admin/includes/help.class.php:5247
+msgid "Dimension"
+msgstr ""
+
+#: admin/includes/help.class.php:6315
+msgid "Disable all possible user-interaction with the video"
+msgstr ""
+
+#: admin/includes/help.class.php:2063
+msgid "Disable Blur/Focus behavior"
+msgstr ""
+
+#: admin/includes/help.class.php:2788
+msgid "Disable on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:1947
+msgid "Disable PanZoom on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:2408
+msgid "Disable Parallax/3D on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:1939
+msgid "Disable Slider on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:92
+msgid "Disable slider on mobile, hide layer content below screen size"
+msgstr ""
+
+#: admin/includes/help.class.php:2066
+msgid ""
+"Disable Slider resizing when the user navigates away from the tab/window and "
+"returns to the page"
+msgstr ""
+
+#: admin/includes/help.class.php:2791
+msgid "Disable the effects on mobile devices"
+msgstr ""
+
+#: admin/includes/help.class.php:1950
+msgid "Disable the PanZoom effect for mobile devices"
+msgstr ""
+
+#: admin/includes/help.class.php:2411
+msgid "Disable the Parallax/3D effects for mobile devices"
+msgstr ""
+
+#: admin/includes/help.class.php:2364
+msgid "Display a spinner animation when the Module first loads"
+msgstr ""
+
+#: admin/includes/help.class.php:6328
+msgid "Display controls in the video/audio player"
+msgstr ""
+
+#: admin/includes/help.class.php:2910
+msgid ""
+"Display debug information on the Slider to help show issues during "
+"development"
+msgstr ""
+
+#: admin/includes/help.class.php:3398
+msgid ""
+"Display the bullets next to one another (horizontal) or on top of one "
+"another (vertical)"
+msgstr ""
+
+#: admin/includes/help.class.php:302
+msgid "Display the Slider 100% width across the page"
+msgstr ""
+
+#: admin/includes/help.class.php:284
+msgid "Display the Slider as a traditional Carousel"
+msgstr ""
+
+#: admin/includes/help.class.php:311
+msgid "Display the Slider at 100% width and height"
+msgstr ""
+
+#: admin/includes/help.class.php:3731
+msgid ""
+"Display the tabs next to one another (horizontal) or on top of one another "
+"(vertical)"
+msgstr ""
+
+#: admin/includes/help.class.php:4212
+msgid ""
+"Display the thumbs next to one another (horizontal) or on top of one another "
+"(vertical)"
+msgstr ""
+
+#: admin/includes/help.class.php:12
+msgid "Docs"
+msgstr ""
+
+#: admin/includes/help.class.php:25
+msgid "Documentation"
+msgstr ""
+
+#: admin/includes/help.class.php:435
+msgid "Don't Force Fullwidth"
+msgstr ""
+
+#: admin/includes/help.class.php:5076 admin/includes/help.class.php:6177
+msgid "Dotted Overlay"
+msgstr ""
+
+#: admin/includes/help.class.php:4679
+msgid "Drag Block Vertical"
+msgstr ""
+
+#: admin/includes/help.class.php:1660 admin/includes/help.class.php:5793
+msgid "Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:1649 admin/includes/help.class.php:2207
+#: admin/includes/help.class.php:5777
+msgid "Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:149
+msgid "Edit Content Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:152
+msgid "Edit text, images, videos, styles, position and size for your content"
+msgstr ""
+
+#: admin/includes/help.class.php:2395
+msgid "Enable 3D Effects"
+msgstr ""
+
+#: admin/includes/help.class.php:2266
+msgid "Enable 3D Rotation"
+msgstr ""
+
+#: admin/includes/help.class.php:3066
+msgid "Enable Arrows"
+msgstr ""
+
+#: admin/includes/help.class.php:1845
+msgid "Enable autoplay for the Slider to automatically change between slides"
+msgstr ""
+
+#: admin/includes/help.class.php:7303
+msgid "Enable Box Shadow"
+msgstr ""
+
+#: admin/includes/help.class.php:3349
+msgid "Enable Bullets"
+msgstr ""
+
+#: admin/includes/help.class.php:3352
+msgid "Enable Bullets for the Slider's navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:7973
+msgid "Enable Clip Path"
+msgstr ""
+
+#: admin/includes/help.class.php:3681
+msgid "Enable custom styling overrides for the bullets"
+msgstr ""
+
+#: admin/includes/help.class.php:4162
+msgid "Enable custom styling overrides for the tabs"
+msgstr ""
+
+#: admin/includes/help.class.php:8040 admin/includes/help.class.php:8483
+#: admin/includes/help.class.php:8557 admin/includes/help.class.php:8631
+msgid "Enable Filter Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:4733
+msgid "Enable Keyboard Navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:7925
+msgid "Enable Layer Mask"
+msgstr ""
+
+#: admin/includes/help.class.php:3069
+msgid "Enable left/right Arrows for the Slider's navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:4736
+msgid "Enable left/right/up/down keys to control the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:4761
+msgid "Enable Mouse Scroll"
+msgstr ""
+
+#: admin/includes/help.class.php:4764
+msgid "Enable mouse scrolling to control Slide changes"
+msgstr ""
+
+#: admin/includes/help.class.php:60
+msgid "Enable multiple stage sizes for custom set responsive content"
+msgstr ""
+
+#: admin/includes/help.class.php:1641 admin/includes/help.class.php:5582
+msgid "Enable PanZoom"
+msgstr ""
+
+#: admin/includes/help.class.php:2386
+msgid "Enable Parallax/3D Effects"
+msgstr ""
+
+#: admin/includes/help.class.php:3002
+msgid "Enable Progress Bar"
+msgstr ""
+
+#: admin/includes/help.class.php:2312
+msgid "Enable Scaling"
+msgstr ""
+
+#: admin/includes/help.class.php:5491
+msgid "Enable Slide Link"
+msgstr ""
+
+#: admin/includes/help.class.php:7492 admin/includes/help.class.php:7537
+msgid "Enable Spike Masks"
+msgstr ""
+
+#: admin/includes/help.class.php:3698
+msgid "Enable Tabs"
+msgstr ""
+
+#: admin/includes/help.class.php:3701
+msgid "Enable Tabs for the Slider's navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:7396
+msgid "Enable Text Shadow"
+msgstr ""
+
+#: admin/includes/help.class.php:8171
+msgid "Enable Text-Split Animations"
+msgstr ""
+
+#: admin/includes/help.class.php:481
+msgid "Enable the Laptop responsive viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:1644
+msgid "Enable the PanZoom effect by default for newly created Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:5585
+msgid "Enable the PanZoom effect by default for this Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:2398
+msgid "Enable the Parallax/3D effect engine for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:533
+msgid "Enable the Phone responsive viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:2389
+msgid "Enable the special effects engine for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:507
+msgid "Enable the Tablet responsive viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:4179
+msgid "Enable Thumbnails"
+msgstr ""
+
+#: admin/includes/help.class.php:4182
+msgid "Enable Thumbnails for the Slider's navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:4653
+msgid "Enable Touch Swipe"
+msgstr ""
+
+#: admin/includes/help.class.php:4666
+msgid "Enable Touch Swipe for Desktop"
+msgstr ""
+
+#: admin/includes/help.class.php:4669
+msgid ""
+"Enable touch swiping on Desktop computers to navigate to the previous/next "
+"slides"
+msgstr ""
+
+#: admin/includes/help.class.php:4656
+msgid "Enable touch swiping to navigate to the previous/next slides"
+msgstr ""
+
+#: admin/includes/help.class.php:1792
+msgid "Enable Viewport Stop"
+msgstr ""
+
+#: admin/includes/help.class.php:10154
+msgid ""
+"Enable/Disable filter effects for the Layer as the Module scrolls into and "
+"out of view.  Filter effects applied via the <a href='http://docs.themepunch."
+"com/slider-revolution/scroll-effects/' target='_blank'>Module Settings</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:193
+msgid "Enable/Disable Navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:1707 admin/includes/help.class.php:5662
+msgid "End Position X"
+msgstr ""
+
+#: admin/includes/help.class.php:1729 admin/includes/help.class.php:5694
+msgid "End Position Y"
+msgstr ""
+
+#: admin/includes/help.class.php:9474
+msgid "End rotate2D"
+msgstr ""
+
+#: admin/includes/help.class.php:9406
+msgid "End rotateX"
+msgstr ""
+
+#: admin/includes/help.class.php:9440
+msgid "End rotateY"
+msgstr ""
+
+#: admin/includes/help.class.php:9251
+msgid "End scaleX"
+msgstr ""
+
+#: admin/includes/help.class.php:9285
+msgid "End scaleY"
+msgstr ""
+
+#: admin/includes/help.class.php:9319
+msgid "End skewX"
+msgstr ""
+
+#: admin/includes/help.class.php:9353
+msgid "End skewY"
+msgstr ""
+
+#: admin/includes/help.class.php:5196 admin/includes/help.class.php:6429
+msgid "End the video at this time (minutes:seconds, such as 01:30)"
+msgstr ""
+
+#: admin/includes/help.class.php:5193 admin/includes/help.class.php:6426
+msgid "End Time"
+msgstr ""
+
+#: admin/includes/help.class.php:8948
+msgid "End X Position"
+msgstr ""
+
+#: admin/includes/help.class.php:8982
+msgid "End Y Position"
+msgstr ""
+
+#: admin/includes/help.class.php:9016
+msgid "End Z Position"
+msgstr ""
+
+#: admin/includes/help.class.php:7639
+msgid "End/Out Animation: To"
+msgstr ""
+
+#: admin/includes/help.class.php:5105
+msgid ""
+"Ensures that the video will be displayed full-width and full-height "
+"regardless of its aspect ratio"
+msgstr ""
+
+#: admin/includes/help.class.php:4953
+msgid ""
+"Enter a custom title for the Slide's main background image.  Useful for "
+"screen readers."
+msgstr ""
+
+#: admin/includes/help.class.php:805
+msgid ""
+"Enter a list of Post ID's to include in the Slider, or select "
+"'Popular/Recent' to populate the list automatically"
+msgstr ""
+
+#: admin/includes/help.class.php:5861
+msgid ""
+"Enter a specific amount of times the Slide's timeeline should loop or use "
+"'unlimited' to loop continusously until the Slide changes"
+msgstr ""
+
+#: admin/includes/help.class.php:570
+msgid ""
+"Enter an image url or select/upload an image from the Media or Object "
+"Library to be used as the Slider's global background image"
+msgstr ""
+
+#: admin/includes/help.class.php:4923
+msgid ""
+"Enter custom alternative text for the Slide's main background image.  Useful "
+"for SEO purposes."
+msgstr ""
+
+#: admin/includes/help.class.php:1054
+msgid "Enter the absolute URL of the flickr gallery you wish to include"
+msgstr ""
+
+#: admin/includes/help.class.php:1070
+msgid "Enter the absolute URL of the flickr group irl you wish to include"
+msgstr ""
+
+#: admin/includes/help.class.php:1410
+msgid "Enter the channel ID of the YouTube account"
+msgstr ""
+
+#: admin/includes/help.class.php:1494
+msgid ""
+"Enter the username, album ID, group name or channel name of the Vimeo "
+"account to use as the stream"
+msgstr ""
+
+#: admin/includes/help.class.php:1300
+msgid "Enter your Facebook Page URL for the API query"
+msgstr ""
+
+#: admin/includes/help.class.php:995
+msgid ""
+"Enter your Flickr API key.  <a href='http://weblizar.com/get-flickr-api-"
+"key/' target='_blank'>Learn more</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:1022
+msgid "Enter your Flickr user URL for the API query"
+msgstr ""
+
+#: admin/includes/help.class.php:1127
+msgid "Enter your Instagram User Name for the API query"
+msgstr ""
+
+#: admin/includes/help.class.php:1168
+msgid "Enter your Twitter User Name/Handle for the API query"
+msgstr ""
+
+#: admin/includes/help.class.php:1397
+msgid ""
+"Enter your YouTube API key.  <a href='https://developers.google."
+"com/youtube/v3/getting-started#before-you-start' target='_blank'>Learn "
+"more</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:10615
+msgid "Enter/Exit Fullscreen"
+msgstr ""
+
+#: admin/includes/help.class.php:4981
+msgid "External Image Height"
+msgstr ""
+
+#: admin/includes/help.class.php:4813
+msgid "External Image URL"
+msgstr ""
+
+#: admin/includes/help.class.php:4968
+msgid "External Image Width"
+msgstr ""
+
+#: admin/includes/help.class.php:712
+msgid "Facebook"
+msgstr ""
+
+#: admin/includes/help.class.php:2651
+msgid "Fade"
+msgstr ""
+
+#: admin/includes/help.class.php:5907
+msgid "Fade Effect"
+msgstr ""
+
+#: admin/includes/help.class.php:2236
+msgid "Fade Items"
+msgstr ""
+
+#: admin/includes/help.class.php:5910
+msgid "Fade Layers in and out as the page scrolls into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:2654
+msgid "Fade the Slider out when  it scrolls into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:29
+msgid "FAQs"
+msgstr ""
+
+#: admin/includes/help.class.php:951
+msgid "Featured Only"
+msgstr ""
+
+#: admin/includes/help.class.php:754
+msgid "Fetch By"
+msgstr ""
+
+#: admin/includes/help.class.php:10151
+msgid "Filter Effect Scroll Based"
+msgstr ""
+
+#: admin/includes/help.class.php:2006
+msgid "First Slide Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:2027
+msgid "First Slide Transition Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:2014
+msgid "First Slide Transition Type"
+msgstr ""
+
+#: admin/includes/help.class.php:373
+msgid "Fixed on Top"
+msgstr ""
+
+#: admin/includes/help.class.php:685
+msgid "Flickr"
+msgstr ""
+
+#: admin/includes/help.class.php:10262
+msgid "Follow"
+msgstr ""
+
+#: admin/includes/help.class.php:6631
+msgid "Font Family"
+msgstr ""
+
+#: admin/includes/help.class.php:6579
+msgid "Font Size"
+msgstr ""
+
+#: admin/includes/help.class.php:6605
+msgid "Font Weight"
+msgstr ""
+
+#: admin/includes/help.class.php:6657
+msgid "Font-Style: Italic"
+msgstr ""
+
+#: admin/includes/help.class.php:5102
+msgid "Force Cover"
+msgstr ""
+
+#: admin/includes/help.class.php:365
+msgid "Force Overflow"
+msgstr ""
+
+#: admin/includes/help.class.php:308
+msgid "Full Screen"
+msgstr ""
+
+#: admin/includes/help.class.php:299
+msgid "Full Width"
+msgstr ""
+
+#: admin/includes/help.class.php:1051
+msgid "Gallery URL"
+msgstr ""
+
+#: admin/includes/help.class.php:646
+msgid "Gap (Border)"
+msgstr ""
+
+#: admin/includes/help.class.php:3379
+msgid "Gap/Spacing"
+msgstr ""
+
+#: admin/includes/help.class.php:7669
+msgid "Give the animation a name for editing purposes"
+msgstr ""
+
+#: admin/includes/help.class.php:165
+msgid "Global Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2664
+msgid "GrayScale"
+msgstr ""
+
+#: admin/includes/help.class.php:8070 admin/includes/help.class.php:8518
+#: admin/includes/help.class.php:8592 admin/includes/help.class.php:8666
+#: admin/includes/help.class.php:10096
+msgid "Grayscale"
+msgstr ""
+
+#: admin/includes/help.class.php:5923
+msgid "Grayscale Effect"
+msgstr ""
+
+#: admin/includes/help.class.php:9595
+msgid "Grayscale End"
+msgstr ""
+
+#: admin/includes/help.class.php:9578
+msgid "Grayscale Start"
+msgstr ""
+
+#: admin/includes/help.class.php:357
+msgid "Grid = Module"
+msgstr ""
+
+#: admin/includes/help.class.php:1067
+msgid "Group URL"
+msgstr ""
+
+#: admin/includes/help.class.php:3890 admin/includes/help.class.php:4371
+msgid "Height"
+msgstr ""
+
+#: admin/includes/help.class.php:14
+msgid "Help Directory"
+msgstr ""
+
+#: admin/includes/help.class.php:23
+msgid "Help Mode"
+msgstr ""
+
+#: admin/includes/help.class.php:272
+msgid "Hero Scene"
+msgstr ""
+
+#: admin/includes/help.class.php:3227 admin/includes/help.class.php:3542
+#: admin/includes/help.class.php:4023 admin/includes/help.class.php:4504
+msgid "Hide After"
+msgstr ""
+
+#: admin/includes/help.class.php:5386
+msgid "Hide After Loop"
+msgstr ""
+
+#: admin/includes/help.class.php:3243 admin/includes/help.class.php:3558
+#: admin/includes/help.class.php:4039 admin/includes/help.class.php:4520
+msgid "Hide After: Desktop"
+msgstr ""
+
+#: admin/includes/help.class.php:3260 admin/includes/help.class.php:3575
+#: admin/includes/help.class.php:4056 admin/includes/help.class.php:4537
+msgid "Hide After: Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:1973
+msgid "Hide All Layers Under"
+msgstr ""
+
+#: admin/includes/help.class.php:1976
+msgid "Hide all Layers under when the window is below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:1965
+msgid "Hide Marked Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:5398
+msgid "Hide on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:3312 admin/includes/help.class.php:3627
+#: admin/includes/help.class.php:4108 admin/includes/help.class.php:4589
+msgid "Hide Over"
+msgstr ""
+
+#: admin/includes/help.class.php:3328 admin/includes/help.class.php:3643
+#: admin/includes/help.class.php:4124 admin/includes/help.class.php:4605
+msgid "Hide Over Limit"
+msgstr ""
+
+#: admin/includes/help.class.php:1957
+msgid "Hide Slider Under Width"
+msgstr ""
+
+#: admin/includes/help.class.php:3315
+msgid ""
+"Hide the Arrows when the browser window is equal to or above a certain number"
+msgstr ""
+
+#: admin/includes/help.class.php:3331
+msgid ""
+"Hide the Arrows when the browser window is equal to or above this number"
+msgstr ""
+
+#: admin/includes/help.class.php:3281
+msgid ""
+"Hide the Arrows when the browser window is equal to or below a certain number"
+msgstr ""
+
+#: admin/includes/help.class.php:3297
+msgid ""
+"Hide the Arrows when the browser window is equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:3630
+msgid ""
+"Hide the Bullets when the browser window is equal to or above a certain "
+"number"
+msgstr ""
+
+#: admin/includes/help.class.php:3646
+msgid ""
+"Hide the Bullets when the browser window is equal to or above this number"
+msgstr ""
+
+#: admin/includes/help.class.php:3596
+msgid ""
+"Hide the Bullets when the browser window is equal to or below a certain "
+"number"
+msgstr ""
+
+#: admin/includes/help.class.php:3612
+msgid ""
+"Hide the Bullets when the browser window is equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:10789
+msgid ""
+"Hide the Layer when the browser window is equal to or below the value set in "
+"the Slider Settings"
+msgstr ""
+
+#: admin/includes/help.class.php:1960
+msgid "Hide the Slider under a certain window width"
+msgstr ""
+
+#: admin/includes/help.class.php:4111
+msgid ""
+"Hide the Tabs when the browser window is equal to or above a certain number"
+msgstr ""
+
+#: admin/includes/help.class.php:4127
+msgid "Hide the Tabs when the browser window is equal to or above this number"
+msgstr ""
+
+#: admin/includes/help.class.php:4077
+msgid ""
+"Hide the Tabs when the browser window is equal to or below a certain number"
+msgstr ""
+
+#: admin/includes/help.class.php:4093
+msgid "Hide the Tabs when the browser window is equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:4592
+msgid ""
+"Hide the Thumbnails when the browser window is equal to or above a certain "
+"number"
+msgstr ""
+
+#: admin/includes/help.class.php:4608
+msgid ""
+"Hide the Thumbnails when the browser window is equal to or above this number"
+msgstr ""
+
+#: admin/includes/help.class.php:4558
+msgid ""
+"Hide the Thumbnails when the browser window is equal to or below a certain "
+"number"
+msgstr ""
+
+#: admin/includes/help.class.php:4574
+msgid ""
+"Hide the Thumbnails when the browser window is equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:3278 admin/includes/help.class.php:3593
+#: admin/includes/help.class.php:4074 admin/includes/help.class.php:4555
+msgid "Hide Under"
+msgstr ""
+
+#: admin/includes/help.class.php:3294 admin/includes/help.class.php:3609
+#: admin/includes/help.class.php:4090 admin/includes/help.class.php:4571
+msgid "Hide Under Limit"
+msgstr ""
+
+#: admin/includes/help.class.php:10786
+msgid "Hide Under Width"
+msgstr ""
+
+#: admin/includes/help.class.php:2179 admin/includes/help.class.php:6499
+#: admin/includes/help.class.php:7088
+msgid "Horizontal Align"
+msgstr ""
+
+#: admin/includes/help.class.php:9719
+msgid "Hover Background Color"
+msgstr ""
+
+#: admin/includes/help.class.php:32
+msgid "Hover over any option to learn more"
+msgstr ""
+
+#: admin/includes/help.class.php:24
+msgid "Hover your mouse over any option to learn more."
+msgstr ""
+
+#: admin/includes/help.class.php:224
+msgid "How To Use"
+msgstr ""
+
+#: admin/includes/help.class.php:5023
+msgid "HTML Video URL"
+msgstr ""
+
+#: admin/includes/help.class.php:6093
+msgid "HTML5 Audio URL"
+msgstr ""
+
+#: admin/includes/help.class.php:6077
+msgid "HTML5 Video URL"
+msgstr ""
+
+#: admin/includes/help.class.php:344
+msgid ""
+"If enabled the Slider's height will always equal the viewport's breakpoint "
+"height"
+msgstr ""
+
+#: admin/includes/help.class.php:438
+msgid ""
+"If enabled, the Module's width will remain the same as its immediate parent "
+"container"
+msgstr ""
+
+#: admin/includes/help.class.php:593
+msgid "Image Fit"
+msgstr ""
+
+#: admin/includes/help.class.php:4827 admin/includes/help.class.php:5978
+msgid "Image from Stream"
+msgstr ""
+
+#: admin/includes/help.class.php:6017
+msgid "Image Source Size"
+msgstr ""
+
+#: admin/includes/help.class.php:567 admin/includes/help.class.php:5991
+msgid "Image URL"
+msgstr ""
+
+#: admin/includes/help.class.php:5036
+msgid "Image/Poster from Stream"
+msgstr ""
+
+#: admin/includes/help.class.php:938
+msgid "In Stock Only"
+msgstr ""
+
+#: admin/includes/help.class.php:6361
+msgid ""
+"Include a 'playsline' attribute with the video element.  This will prevent "
+"the video from being taken fullscreen when it initially plays on mobile "
+"devices."
+msgstr ""
+
+#: admin/includes/help.class.php:2963
+msgid "Include a background cover when the Module is loaded as a Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:1194
+msgid "Include both tweets and re-tweets in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1207
+msgid "Include both tweets and replies in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:6344
+msgid "Include large controls for HTML5 Video Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:1181
+msgid "Include text-only Tweets (tweets that do not contain an image)"
+msgstr ""
+
+#: admin/includes/help.class.php:1968
+msgid ""
+"Individual Layers that are selected to be hidden under a width will be "
+"hidden under this number"
+msgstr ""
+
+#: admin/includes/help.class.php:2075
+msgid "Infinity Scroll"
+msgstr ""
+
+#: admin/includes/help.class.php:10667
+msgid "Inherit from Desktop"
+msgstr ""
+
+#: admin/includes/help.class.php:1539
+msgid "Initialization Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:1816
+msgid ""
+"Initialize/Pause the Slider when its inside this percentage of the page's "
+"viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6358
+msgid "Inline Mode"
+msgstr ""
+
+#: admin/includes/help.class.php:3760 admin/includes/help.class.php:4241
+msgid "Inner/Outer"
+msgstr ""
+
+#: admin/includes/help.class.php:694
+msgid "Instagram"
+msgstr ""
+
+#: admin/includes/help.class.php:1606 admin/includes/help.class.php:10654
+msgid "Intelligent Inheriting"
+msgstr ""
+
+#: admin/includes/help.class.php:10166
+msgid "Interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:2140
+msgid "Item Spacing"
+msgstr ""
+
+#: admin/includes/help.class.php:2883
+msgid "jQuery No Conflict Mode"
+msgstr ""
+
+#: admin/includes/help.class.php:10352
+msgid "Jump to Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:341
+msgid "Keep Breakpoint Heights"
+msgstr ""
+
+#: admin/includes/help.class.php:4746
+msgid "Key Arrow Direction"
+msgstr ""
+
+#: admin/includes/help.class.php:494
+msgid "Laptop Height"
+msgstr ""
+
+#: admin/includes/help.class.php:478
+msgid "Laptop Viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:486
+msgid "Laptop Width"
+msgstr ""
+
+#: admin/includes/help.class.php:6341
+msgid "Large Controls"
+msgstr ""
+
+#: admin/includes/help.class.php:21
+msgid "Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:183
+msgid "Layer Animations"
+msgstr ""
+
+#: admin/includes/help.class.php:10828
+msgid "Layer Classes"
+msgstr ""
+
+#: admin/includes/help.class.php:7153
+msgid "Layer Height"
+msgstr ""
+
+#: admin/includes/help.class.php:6563
+msgid "Layer HTML Tag"
+msgstr ""
+
+#: admin/includes/help.class.php:10815
+msgid "Layer ID"
+msgstr ""
+
+#: admin/includes/help.class.php:6696
+msgid "Layer is Selectable"
+msgstr ""
+
+#: admin/includes/help.class.php:10854
+msgid "Layer Rel"
+msgstr ""
+
+#: admin/includes/help.class.php:5937
+msgid "Layer Text"
+msgstr ""
+
+#: admin/includes/help.class.php:10841
+msgid "Layer Title"
+msgstr ""
+
+#: admin/includes/help.class.php:7140
+msgid "Layer Width"
+msgstr ""
+
+#: admin/includes/help.class.php:2708
+msgid "Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2091
+msgid ""
+"Layers from Slides that are visible in the carousel will always be visible "
+"by default (Layer animations will be disabled)"
+msgstr ""
+
+#: admin/includes/help.class.php:89
+msgid "Layers Mobile Visibility"
+msgstr ""
+
+#: admin/includes/help.class.php:2528
+msgid "Layers Overflow Hidden"
+msgstr ""
+
+#: admin/includes/help.class.php:81
+msgid "Layers Responsive Behavior"
+msgstr ""
+
+#: admin/includes/help.class.php:1547
+msgid "Layers Selectable"
+msgstr ""
+
+#: admin/includes/help.class.php:2465
+msgid "Layers Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:2827
+msgid "Layers Strength"
+msgstr ""
+
+#: admin/includes/help.class.php:2088
+msgid "Layers Visible"
+msgstr ""
+
+#: admin/includes/help.class.php:2845 admin/includes/help.class.php:6004
+msgid "Lazy Loading"
+msgstr ""
+
+#: admin/includes/help.class.php:219
+msgid "Learn how to activate an AddOn for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:196
+msgid "Learn how to add/remove navigation elements to control the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:7571
+msgid "Left Corner"
+msgstr ""
+
+#: admin/includes/help.class.php:7505
+msgid "Left Spike"
+msgstr ""
+
+#: admin/includes/help.class.php:7521
+msgid "Left Spike Width"
+msgstr ""
+
+#: admin/includes/help.class.php:6618
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/includes/help.class.php:867
+msgid "Limit Excerpt"
+msgstr ""
+
+#: admin/includes/help.class.php:5963
+msgid "Line Break Behavior"
+msgstr ""
+
+#: admin/includes/help.class.php:6592
+msgid "Line Height"
+msgstr ""
+
+#: admin/includes/help.class.php:5565
+msgid "Link Sensibility"
+msgstr ""
+
+#: admin/includes/help.class.php:5533 admin/includes/help.class.php:10228
+msgid "Link Target"
+msgstr ""
+
+#: admin/includes/help.class.php:10355
+msgid "Link the Layer to a specific Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:5552
+msgid "Link to another Slide in the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:5549
+msgid "Link to Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:5504 admin/includes/help.class.php:10245
+msgid "Link Type"
+msgstr ""
+
+#: admin/includes/help.class.php:5517 admin/includes/help.class.php:10211
+msgid "Link URL"
+msgstr ""
+
+#: admin/includes/help.class.php:5250
+msgid ""
+"Load the images in their original size or in the size defined in the Slider "
+"Settings"
+msgstr ""
+
+#: admin/includes/help.class.php:2894
+msgid "Load the Slider's JS files in the page's body to help resolve conflicts"
+msgstr ""
+
+#: admin/includes/help.class.php:5853
+msgid "Loop all or part of the current Slide's timeline"
+msgstr ""
+
+#: admin/includes/help.class.php:8725
+msgid "Loop all or part of the Layer's timeline animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8751
+msgid "Loop End Frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8722
+msgid "Loop Layer's Timeline"
+msgstr ""
+
+#: admin/includes/help.class.php:1863
+msgid "Loop Single Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:8735
+msgid "Loop Start Frame"
+msgstr ""
+
+#: admin/includes/help.class.php:5089
+msgid "Loop Video"
+msgstr ""
+
+#: admin/includes/help.class.php:6164
+msgid "Loop Video/Audio"
+msgstr ""
+
+#: admin/includes/help.class.php:9091
+msgid ""
+"Magnify the curve by this value.  1 = no magnification.  2 = twice the curve,"
+" etc."
+msgstr ""
+
+#: admin/includes/help.class.php:4792
+msgid "Main Slide Background"
+msgstr ""
+
+#: admin/includes/help.class.php:399 admin/includes/help.class.php:6871
+msgid "Margin Bottom"
+msgstr ""
+
+#: admin/includes/help.class.php:6884
+msgid "Margin Left"
+msgstr ""
+
+#: admin/includes/help.class.php:6858
+msgid "Margin Right"
+msgstr ""
+
+#: admin/includes/help.class.php:391 admin/includes/help.class.php:6845
+msgid "Margin Top"
+msgstr ""
+
+#: admin/includes/help.class.php:9709
+msgid ""
+"Mask the current Layer before applying hover styles/effects.  Useful for "
+"movements and scale/zooms."
+msgstr ""
+
+#: admin/includes/help.class.php:7938
+msgid "Mask X Position"
+msgstr ""
+
+#: admin/includes/help.class.php:7955
+msgid "Mask Y Position"
+msgstr ""
+
+#: admin/includes/help.class.php:7574
+msgid "Mask your content with diagonal slice from the left side"
+msgstr ""
+
+#: admin/includes/help.class.php:7587
+msgid "Mask your content with diagonal slice from the right side"
+msgstr ""
+
+#: admin/includes/help.class.php:9706
+msgid "Masking"
+msgstr ""
+
+#: admin/includes/help.class.php:5823
+msgid "Max Characters"
+msgstr ""
+
+#: admin/includes/help.class.php:333
+msgid "Max Height"
+msgstr ""
+
+#: admin/includes/help.class.php:851
+msgid "Max Posts"
+msgstr ""
+
+#: admin/includes/help.class.php:2101
+msgid "Max Visible Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:317
+msgid "Max Width"
+msgstr ""
+
+#: admin/includes/help.class.php:7232
+msgid "Maximum Height"
+msgstr ""
+
+#: admin/includes/help.class.php:7206
+msgid "Maximum Width"
+msgstr ""
+
+#: admin/includes/help.class.php:325
+msgid "Min Height"
+msgstr ""
+
+#: admin/includes/help.class.php:4705
+msgid "Min. Fingers"
+msgstr ""
+
+#: admin/includes/help.class.php:7219
+msgid "Minimum Height"
+msgstr ""
+
+#: admin/includes/help.class.php:3874 admin/includes/help.class.php:4355
+#: admin/includes/help.class.php:7193
+msgid "Minimum Width"
+msgstr ""
+
+#: admin/includes/help.class.php:2943
+msgid "Modal Horizontal Alignment"
+msgstr ""
+
+#: admin/includes/help.class.php:2951
+msgid "Modal Vertical Alignment"
+msgstr ""
+
+#: admin/includes/help.class.php:76
+msgid "Modify font size and layer position per device"
+msgstr ""
+
+#: admin/includes/help.class.php:5223
+msgid "Module Admin Thumbnail"
+msgstr ""
+
+#: admin/includes/help.class.php:620
+msgid "Module BG Color"
+msgstr ""
+
+#: admin/includes/help.class.php:2989
+msgid "Module Shortcode"
+msgstr ""
+
+#: admin/includes/help.class.php:9651
+msgid "Mouse Hover"
+msgstr ""
+
+#: admin/includes/help.class.php:2439
+msgid "Mouse Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:5141 admin/includes/help.class.php:6371
+msgid "Mute at Start"
+msgstr ""
+
+#: admin/includes/help.class.php:10582
+msgid ""
+"Mute or Unmute the sound from a video or audio Layer on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10579
+msgid "Mute/Unmute Media"
+msgstr ""
+
+#: admin/includes/help.class.php:19
+msgid "Navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:5235
+msgid "Navigation Thumbnail"
+msgstr ""
+
+#: admin/includes/help.class.php:5115 admin/includes/help.class.php:6285
+msgid "Next Slide at End"
+msgstr ""
+
+#: admin/includes/help.class.php:2055
+msgid "Next Slide on Focus"
+msgstr ""
+
+#: admin/includes/help.class.php:10369
+msgid "Next/Previous Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:6312
+msgid "No Interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:6231
+msgid "No Poster on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:8767
+msgid "Num Loops"
+msgstr ""
+
+#: admin/includes/help.class.php:3824
+msgid "Num. Tabs"
+msgstr ""
+
+#: admin/includes/help.class.php:4305
+msgid "Num. Thumbs"
+msgstr ""
+
+#: admin/includes/help.class.php:409
+msgid "Offset Container"
+msgstr ""
+
+#: admin/includes/help.class.php:422
+msgid "Offset px/%"
+msgstr ""
+
+#: admin/includes/help.class.php:3131
+msgid ""
+"Offset the Arrow's horizontal position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:3147
+msgid ""
+"Offset the Arrow's vertical position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:3446
+msgid ""
+"Offset the Bullet's horizontal position by this amount.  Accepts positive "
+"and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:3462
+msgid ""
+"Offset the Bullet's vertical position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7117
+msgid ""
+"Offset the Layer's horizontal position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7130
+msgid ""
+"Offset the Layer's vertical position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:3795
+msgid ""
+"Offset the Tab's horizontal position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:3811
+msgid ""
+"Offset the Tab's vertical position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:4276
+msgid ""
+"Offset the Thumb's horizontal position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:4292
+msgid ""
+"Offset the Thumb's vertical position by this amount.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:2801
+msgid "Offset Tilt"
+msgstr ""
+
+#: admin/includes/help.class.php:3128 admin/includes/help.class.php:3443
+#: admin/includes/help.class.php:3792 admin/includes/help.class.php:4273
+#: admin/includes/help.class.php:7114 admin/includes/help.class.php:7329
+#: admin/includes/help.class.php:7409
+msgid "Offset X"
+msgstr ""
+
+#: admin/includes/help.class.php:3144 admin/includes/help.class.php:3459
+#: admin/includes/help.class.php:3808 admin/includes/help.class.php:4289
+#: admin/includes/help.class.php:7127 admin/includes/help.class.php:7342
+#: admin/includes/help.class.php:7422
+msgid "Offset Y"
+msgstr ""
+
+#: admin/includes/help.class.php:1795
+msgid "Only initialize the Slider when the Slider is inside the page's view"
+msgstr ""
+
+#: admin/includes/help.class.php:6244
+msgid "Only Poster on Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:954
+msgid "Only pull in products that are marked as 'Featured'"
+msgstr ""
+
+#: admin/includes/help.class.php:941
+msgid "Only pull in products that are marked as 'In Stock'"
+msgstr ""
+
+#: admin/includes/help.class.php:6234
+msgid "Only show a video preview image on desktop computers"
+msgstr ""
+
+#: admin/includes/help.class.php:6247
+msgid "Only show a video preview image on mobile devices"
+msgstr ""
+
+#: admin/includes/help.class.php:10802
+msgid "Only show the Layer when the user hovers their mouse over the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:1932
+msgid ""
+"Only start the Slider when the JavaScript API's 'revstart()' method is called"
+msgstr ""
+
+#: admin/includes/help.class.php:7288 admin/includes/help.class.php:7721
+#: admin/includes/help.class.php:8235 admin/includes/help.class.php:9772
+msgid "Opacity"
+msgstr ""
+
+#: admin/includes/help.class.php:9527
+msgid "Opacity End"
+msgstr ""
+
+#: admin/includes/help.class.php:9510
+msgid "Opacity Start"
+msgstr ""
+
+#: admin/includes/help.class.php:27
+msgid "Option"
+msgstr ""
+
+#: admin/includes/help.class.php:5479
+msgid ""
+"Optional data-attributes that can be added to the Slide to target it with "
+"custom CSS or JavaScript"
+msgstr ""
+
+#: admin/includes/help.class.php:5209 admin/includes/help.class.php:6443
+msgid ""
+"Optional iFrame arguments for <a href='https://developers.google."
+"com/youtube/player_parameters' target='_blank'>YouTube</a> and <a "
+"href='https://help.vimeo.com/hc/en-us/articles/360001494447-Using-Player-"
+"Parameters' target='_blank'>Vimeo</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:336
+msgid "Optional maximum height for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:320
+msgid "Optional maximum width for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:328
+msgid "Optional minimum height for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:5953
+msgid "Optional placeholder attribute for the Layer's wrapper"
+msgstr ""
+
+#: admin/includes/help.class.php:5170 admin/includes/help.class.php:6400
+msgid "Optional playback speed for the video"
+msgstr ""
+
+#: admin/includes/help.class.php:3163
+msgid ""
+"Optionally animate the arrows into and out of view when the slider first "
+"loads and on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:3496
+msgid ""
+"Optionally animate the bullets into and out of view when the slider first "
+"loads and on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:3977
+msgid ""
+"Optionally animate the tabs into and out of view when the slider first loads "
+"and on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:4458
+msgid ""
+"Optionally animate the thumbs into and out of view when the slider first "
+"loads and on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:28 admin/includes/help.class.php:30
+msgid "Options"
+msgstr ""
+
+#: admin/includes/help.class.php:3395 admin/includes/help.class.php:3728
+#: admin/includes/help.class.php:4209
+msgid "Orientation"
+msgstr ""
+
+#: admin/includes/help.class.php:2899
+msgid "Output Filter Protection"
+msgstr ""
+
+#: admin/includes/help.class.php:630
+msgid "Overlay"
+msgstr ""
+
+#: admin/includes/help.class.php:3924 admin/includes/help.class.php:4405
+msgid "Padding"
+msgstr ""
+
+#: admin/includes/help.class.php:2166 admin/includes/help.class.php:6925
+msgid "Padding Bottom"
+msgstr ""
+
+#: admin/includes/help.class.php:6938
+msgid "Padding Left"
+msgstr ""
+
+#: admin/includes/help.class.php:6912
+msgid "Padding Right"
+msgstr ""
+
+#: admin/includes/help.class.php:2153 admin/includes/help.class.php:6899
+msgid "Padding Top"
+msgstr ""
+
+#: admin/includes/help.class.php:1297 admin/includes/help.class.php:1478
+msgid "Page URL"
+msgstr ""
+
+#: admin/includes/help.class.php:2577
+msgid "Parallax Depths"
+msgstr ""
+
+#: admin/includes/help.class.php:2721
+msgid "Parallax Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:4892 admin/includes/help.class.php:5899
+#: admin/includes/help.class.php:10112
+msgid "Parallax Level"
+msgstr ""
+
+#: admin/includes/help.class.php:10125
+msgid "Parallax Masking"
+msgstr ""
+
+#: admin/includes/help.class.php:2431
+msgid "Parallax Origin"
+msgstr ""
+
+#: admin/includes/help.class.php:5811
+msgid "Parameter Value"
+msgstr ""
+
+#: admin/includes/help.class.php:10389
+msgid "Pause or Resume the Slider's progress on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:5361
+msgid "Pause Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:5364
+msgid "Pause the Slider from changing Slides when this Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:1853
+msgid "Pause the Slider's progress when the user hover's their mouse over it"
+msgstr ""
+
+#: admin/includes/help.class.php:10386
+msgid "Pause/Play Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:530
+msgid "Phone Viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:1035
+msgid "Photoset"
+msgstr ""
+
+#: admin/includes/help.class.php:255
+msgid ""
+"Place the shortcode on the page or post where you want to show this module"
+msgstr ""
+
+#: admin/includes/help.class.php:5950
+msgid "Placeholder"
+msgstr ""
+
+#: admin/includes/help.class.php:10425
+msgid "Play a Layer's animation on-demand to show or hide the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:10548
+msgid "Play or pause Video or Audio on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10545
+msgid "Play/Pause Media"
+msgstr ""
+
+#: admin/includes/help.class.php:10406
+msgid "Play/Pause the Slider on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:1434
+msgid "Playlist"
+msgstr ""
+
+#: admin/includes/help.class.php:9693
+msgid "Pointer Events"
+msgstr ""
+
+#: admin/includes/help.class.php:715
+msgid "Populate the Slider from a Facebook album or timeline"
+msgstr ""
+
+#: admin/includes/help.class.php:706
+msgid "Populate the Slider from a Twitter account"
+msgstr ""
+
+#: admin/includes/help.class.php:733
+msgid "Populate the Slider with a Vimeo account's content"
+msgstr ""
+
+#: admin/includes/help.class.php:724
+msgid "Populate the Slider with a YouTube Channel or Playlist"
+msgstr ""
+
+#: admin/includes/help.class.php:697
+msgid "Populate the Slider with Instagram Images"
+msgstr ""
+
+#: admin/includes/help.class.php:688
+msgid "Populate the Slider with your Flickr Content"
+msgstr ""
+
+#: admin/includes/help.class.php:679
+msgid "Populate the Slider with your WooCommerce Products"
+msgstr ""
+
+#: admin/includes/help.class.php:670
+msgid "Populate the Slider with your WordPress post content"
+msgstr ""
+
+#: admin/includes/help.class.php:7941
+msgid "Position the mask horizontally.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7958
+msgid "Position the mask vertically.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:667
+msgid "Post Based"
+msgstr ""
+
+#: admin/includes/help.class.php:786
+msgid "Post Categories"
+msgstr ""
+
+#: admin/includes/help.class.php:741
+msgid "Post Options Type"
+msgstr ""
+
+#: admin/includes/help.class.php:770
+msgid "Post Types"
+msgstr ""
+
+#: admin/includes/help.class.php:6192
+msgid "Poster from Stream"
+msgstr ""
+
+#: admin/includes/help.class.php:6205
+msgid "Poster URL"
+msgstr ""
+
+#: admin/includes/help.class.php:6108
+msgid "Preload"
+msgstr ""
+
+#: admin/includes/help.class.php:6124
+msgid "Preload Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:1826
+msgid "Preset Slider Height"
+msgstr ""
+
+#: admin/includes/help.class.php:4638
+msgid "Preview Image Height"
+msgstr ""
+
+#: admin/includes/help.class.php:4625
+msgid "Preview Image Width"
+msgstr ""
+
+#: admin/includes/help.class.php:3015
+msgid "Progress Bar Color"
+msgstr ""
+
+#: admin/includes/help.class.php:3047
+msgid "Progress Bar Height"
+msgstr ""
+
+#: admin/includes/help.class.php:3031
+msgid "Progress Bar Position"
+msgstr ""
+
+#: admin/includes/help.class.php:5437
+msgid "Publish End Date"
+msgstr ""
+
+#: admin/includes/help.class.php:5425
+msgid "Publish Start Date"
+msgstr ""
+
+#: admin/includes/help.class.php:5413
+msgid "Published Status"
+msgstr ""
+
+#: admin/includes/help.class.php:902
+msgid "Pull in products with a regular price equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:928
+msgid "Pull in products with a sale price equal to or below this number"
+msgstr ""
+
+#: admin/includes/help.class.php:889
+msgid "Pull in products with this minimum price"
+msgstr ""
+
+#: admin/includes/help.class.php:915
+msgid "Pull in products with this minimum sale price"
+msgstr ""
+
+#: admin/includes/help.class.php:2891
+msgid "Put JS to Body"
+msgstr ""
+
+#: admin/includes/help.class.php:1916
+msgid "Random Order"
+msgstr ""
+
+#: admin/includes/help.class.php:1919
+msgid "Randomize the Slide order each time the Slider is viewed"
+msgstr ""
+
+#: admin/includes/help.class.php:1191
+msgid "Re-Tweets"
+msgstr ""
+
+#: admin/includes/help.class.php:886
+msgid "Reg. Price From"
+msgstr ""
+
+#: admin/includes/help.class.php:899
+msgid "Reg. Price To"
+msgstr ""
+
+#: admin/includes/help.class.php:5389
+msgid "Remove the Slide from the Slide stack after a set amount of loops"
+msgstr ""
+
+#: admin/includes/help.class.php:1204
+msgid "Replies"
+msgstr ""
+
+#: admin/includes/help.class.php:5264
+msgid ""
+"Represents a transition for the current Slide's main background when the "
+"Slides change"
+msgstr ""
+
+#: admin/includes/help.class.php:9073
+msgid ""
+"Represents the curve's placement in the animation.  Lower degrees will place "
+"the curve toward the beginning, and higher degrees toward the end."
+msgstr ""
+
+#: admin/includes/help.class.php:9127
+msgid "Represents the ending 'x' (left) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9163
+msgid "Represents the ending 'y' (top) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9199
+msgid "Represents the ending 'z' (3D depth) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9109
+msgid "Represents the starting 'x' (left) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9145
+msgid "Represents the starting 'y' (top) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9181
+msgid "Represents the starting 'z' (3D depth) position for the bezier curve"
+msgstr ""
+
+#: admin/includes/help.class.php:9667
+msgid "Reset all hover styles to the Layer's default idle/static styles"
+msgstr ""
+
+#: admin/includes/help.class.php:10680
+msgid "Reset from Desktop"
+msgstr ""
+
+#: admin/includes/help.class.php:9664
+msgid "Reset Styles"
+msgstr ""
+
+#: admin/includes/help.class.php:10683
+msgid ""
+"Reset the size/position of all Layers to their desktop values for each "
+"viewport inside the editor"
+msgstr ""
+
+#: admin/includes/help.class.php:10693
+msgid "Resize Between Devices"
+msgstr ""
+
+#: admin/includes/help.class.php:349
+msgid "Respect Aspect Ratio"
+msgstr ""
+
+#: admin/includes/help.class.php:84
+msgid "Responsive alignment and positioning"
+msgstr ""
+
+#: admin/includes/help.class.php:1614
+msgid "Responsive Between Devices"
+msgstr ""
+
+#: admin/includes/help.class.php:1630 admin/includes/help.class.php:10719
+msgid "Responsive Children"
+msgstr ""
+
+#: admin/includes/help.class.php:65
+msgid "Responsive Grid Sizes"
+msgstr ""
+
+#: admin/includes/help.class.php:1622 admin/includes/help.class.php:10706
+msgid "Responsive Offsets"
+msgstr ""
+
+#: admin/includes/help.class.php:97
+msgid "Responsive Text/Images"
+msgstr ""
+
+#: admin/includes/help.class.php:5092
+msgid "Restart the video every time it ends"
+msgstr ""
+
+#: admin/includes/help.class.php:6167
+msgid "Restart the video/audio every time it ends"
+msgstr ""
+
+#: admin/includes/help.class.php:4774
+msgid "Reverse Scroll"
+msgstr ""
+
+#: admin/includes/help.class.php:9496
+msgid ""
+"Reverse the animated filters as soon as the animation ends and vice versa"
+msgstr ""
+
+#: admin/includes/help.class.php:8917
+msgid "Reverse the position as soon as the animation ends and vice versa"
+msgstr ""
+
+#: admin/includes/help.class.php:9375
+msgid "Reverse the rotation as soon as the animation ends and vice versa"
+msgstr ""
+
+#: admin/includes/help.class.php:9220
+msgid "Reverse the scaling as soon as the animation ends and vice versa"
+msgstr ""
+
+#: admin/includes/help.class.php:5128 admin/includes/help.class.php:6298
+msgid "Rewind at Start"
+msgstr ""
+
+#: admin/includes/help.class.php:7584
+msgid "Right Corner"
+msgstr ""
+
+#: admin/includes/help.class.php:7553
+msgid "Right Spike Width"
+msgstr ""
+
+#: admin/includes/help.class.php:3178 admin/includes/help.class.php:3477
+#: admin/includes/help.class.php:3958 admin/includes/help.class.php:4439
+msgid "Right to Left"
+msgstr ""
+
+#: admin/includes/help.class.php:1753 admin/includes/help.class.php:5728
+msgid "Rotate End"
+msgstr ""
+
+#: admin/includes/help.class.php:1742 admin/includes/help.class.php:5712
+msgid "Rotate Start"
+msgstr ""
+
+#: admin/includes/help.class.php:7844 admin/includes/help.class.php:8379
+msgid ""
+"Rotate the Layer on its 'x' axis by this amount for the selected animation "
+"frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9841
+msgid ""
+"Rotate the Layer on its 'x' axis by this amount on mouse hover.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7857 admin/includes/help.class.php:8396
+msgid ""
+"Rotate the Layer on its 'y' axis by this amount for the selected animation "
+"frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9854
+msgid ""
+"Rotate the Layer on its 'y' axis by this amount on mouse hover.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7841 admin/includes/help.class.php:8376
+#: admin/includes/help.class.php:9838
+msgid "rotateX"
+msgstr ""
+
+#: admin/includes/help.class.php:7854 admin/includes/help.class.php:8393
+#: admin/includes/help.class.php:9851
+msgid "rotateY"
+msgstr ""
+
+#: admin/includes/help.class.php:5321
+msgid "Rotation"
+msgstr ""
+
+#: admin/includes/help.class.php:2279
+msgid "Rotation Degrees"
+msgstr ""
+
+#: admin/includes/help.class.php:7249
+msgid "Rotation X"
+msgstr ""
+
+#: admin/includes/help.class.php:7262
+msgid "Rotation Y"
+msgstr ""
+
+#: admin/includes/help.class.php:7275
+msgid "Rotation Z"
+msgstr ""
+
+#: admin/includes/help.class.php:6484
+msgid "Row Position"
+msgstr ""
+
+#: admin/includes/help.class.php:912
+msgid "Sale Price From"
+msgstr ""
+
+#: admin/includes/help.class.php:925
+msgid "Sale Price To"
+msgstr ""
+
+#: admin/includes/help.class.php:2325
+msgid "Scale Percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:8326
+msgid ""
+"Scale the char/word/line height by this amount for the selected animation "
+"frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8309
+msgid ""
+"Scale the char/word/line width by this amount for the selected animation "
+"frame"
+msgstr ""
+
+#: admin/includes/help.class.php:7805
+msgid ""
+"Scale the Layer's height by this amount for the selected animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:9802
+msgid "Scale the Layer's height by this amount on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7792
+msgid "Scale the Layer's width by this amount for the selected animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:9789
+msgid "Scale the Layer's width by this amount on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7789 admin/includes/help.class.php:8306
+#: admin/includes/help.class.php:9786
+msgid "scaleX"
+msgstr ""
+
+#: admin/includes/help.class.php:7802 admin/includes/help.class.php:8323
+#: admin/includes/help.class.php:9799
+msgid "scaleY"
+msgstr ""
+
+#: admin/includes/help.class.php:2775
+msgid "Scroll Direction"
+msgstr ""
+
+#: admin/includes/help.class.php:10332
+msgid "Scroll Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:10315
+msgid "Scroll Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:2643
+msgid "Scroll Effects"
+msgstr ""
+
+#: admin/includes/help.class.php:10298
+msgid "Scroll Offset"
+msgstr ""
+
+#: admin/includes/help.class.php:870
+msgid "Se a character limit  if the post's excerpt is included in the Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:16
+msgid "Search for an Option"
+msgstr ""
+
+#: admin/includes/help.class.php:31
+msgid "Search Keywords, e.g. \"Background\""
+msgstr ""
+
+#: admin/includes/help.class.php:1038
+msgid "Select the photo album you wish to include from the Flickr account"
+msgstr ""
+
+#: admin/includes/help.class.php:6781
+msgid "Set a background color for the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6794
+msgid "Set a background image for the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:623
+msgid "Set a global background color for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:562
+msgid "Set a global background image for the Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:144
+msgid "Set a Layer's Main background to a color, image or video"
+msgstr ""
+
+#: admin/includes/help.class.php:5226
+msgid "Set a special thumbnail for editor admin purposes only"
+msgstr ""
+
+#: admin/includes/help.class.php:5428
+msgid ""
+"Set a starting date for when the Slide should officially be included in the "
+"Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:5440
+msgid ""
+"Set an end date for when the Slide should officially be excluded from the "
+"Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:7652
+msgid "Set as Editor View"
+msgstr ""
+
+#: admin/includes/help.class.php:5157
+msgid "Set the default volume for the video"
+msgstr ""
+
+#: admin/includes/help.class.php:136
+msgid "Set the Module's Main background to a color, image or video"
+msgstr ""
+
+#: admin/includes/help.class.php:7655
+msgid ""
+"Set the selected animation point as the default view when editing your "
+"content"
+msgstr ""
+
+#: admin/includes/help.class.php:128 admin/includes/help.class.php:4795
+#: admin/includes/help.class.php:4803
+msgid "Set the Slide's Main background to a color, image or video"
+msgstr ""
+
+#: admin/includes/help.class.php:239
+msgid "Set the title of the Slider for admin/editing purposes"
+msgstr ""
+
+#: admin/includes/help.class.php:141
+msgid "Set/Change Layer Background"
+msgstr ""
+
+#: admin/includes/help.class.php:133
+msgid "Set/Change Module Background"
+msgstr ""
+
+#: admin/includes/help.class.php:125
+msgid "Set/Change Slide Background"
+msgstr ""
+
+#: admin/includes/help.class.php:5994
+msgid "Set/change the image for the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6208
+msgid "Set/remove the video's preview image for the video"
+msgstr ""
+
+#: admin/includes/help.class.php:22
+msgid "Settings"
+msgstr ""
+
+#: admin/includes/help.class.php:638
+msgid "Shadow"
+msgstr ""
+
+#: admin/includes/help.class.php:7381 admin/includes/help.class.php:7448
+msgid "Shadow Color"
+msgstr ""
+
+#: admin/includes/help.class.php:2865
+msgid "Show a simple image instead of the Slider on mobile, IE8 or both"
+msgstr ""
+
+#: admin/includes/help.class.php:1987
+msgid "Show a specific Slide first when the Slider first loads"
+msgstr ""
+
+#: admin/includes/help.class.php:7476
+msgid "Show in Editor Preview"
+msgstr ""
+
+#: admin/includes/help.class.php:10799
+msgid "Show on Mouse Over"
+msgstr ""
+
+#: admin/includes/help.class.php:26
+msgid "Show Option"
+msgstr ""
+
+#: admin/includes/help.class.php:10737
+msgid "Show or hide the Layer for the desktop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:10750
+msgid "Show or hide the Layer for the laptop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:10776
+msgid "Show or hide the Layer for the phone viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:10763
+msgid "Show or hide the Layer for the tablet viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6218
+msgid "Show Poster on Video Pause"
+msgstr ""
+
+#: admin/includes/help.class.php:1995
+msgid "Show slide number 'x' first when the Slider first loads"
+msgstr ""
+
+#: admin/includes/help.class.php:7479
+msgid ""
+"Show the blend-mode both live in the Slider and also in the admin editing "
+"stage"
+msgstr ""
+
+#: admin/includes/help.class.php:5377
+msgid ""
+"Show the Slide in the Slider's main navigation, or make the Slide 'hidden' "
+"so it can only be shown from a Layer Action click"
+msgstr ""
+
+#: admin/includes/help.class.php:6221
+msgid ""
+"Show the video's preview image whenever the video is paused by the user or "
+"on a Slide change"
+msgstr ""
+
+#: admin/includes/help.class.php:10734
+msgid "Show/Hide on Desktop"
+msgstr ""
+
+#: admin/includes/help.class.php:10747
+msgid "Show/Hide on Laptop"
+msgstr ""
+
+#: admin/includes/help.class.php:10773
+msgid "Show/Hide on Phone"
+msgstr ""
+
+#: admin/includes/help.class.php:10760
+msgid "Show/Hide on Tablet"
+msgstr ""
+
+#: admin/includes/help.class.php:2856
+msgid "Simplify Animations for better compatibility with IOS4/IE8"
+msgstr ""
+
+#: admin/includes/help.class.php:2853
+msgid "Simplify on IOS4/IE8"
+msgstr ""
+
+#: admin/includes/help.class.php:10456
+msgid "Simulate Click"
+msgstr ""
+
+#: admin/includes/help.class.php:7166
+msgid "Size Presets"
+msgstr ""
+
+#: admin/includes/help.class.php:294
+msgid "Size will adapt to the same size as the web page's content"
+msgstr ""
+
+#: admin/includes/help.class.php:7818 admin/includes/help.class.php:8343
+msgid ""
+"Skew/distort the Layer horizontally by this amount for the selected "
+"animation frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9815
+msgid ""
+"Skew/distort the Layer horizontally by this amount on mouse hover.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7831 admin/includes/help.class.php:8360
+msgid ""
+"Skew/distort the Layer vertically by this amount for the selected animation "
+"frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9828
+msgid ""
+"Skew/distort the Layer vertically by this amount on mouse hover.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:7815 admin/includes/help.class.php:8340
+#: admin/includes/help.class.php:9812
+msgid "skewX"
+msgstr ""
+
+#: admin/includes/help.class.php:7828 admin/includes/help.class.php:8357
+#: admin/includes/help.class.php:9825
+msgid "skewY"
+msgstr ""
+
+#: admin/includes/help.class.php:6127
+msgid "Skip the preloading of HTML5 Audio by a set amount of seconds"
+msgstr ""
+
+#: admin/includes/help.class.php:20
+msgid "Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:175
+msgid "Slide Animations"
+msgstr ""
+
+#: admin/includes/help.class.php:2734
+msgid "Slide Background"
+msgstr ""
+
+#: admin/includes/help.class.php:4800
+msgid "Slide Background Color"
+msgstr ""
+
+#: admin/includes/help.class.php:2512
+msgid "Slide BG Overflow Hidden"
+msgstr ""
+
+#: admin/includes/help.class.php:5452
+msgid "Slide Classes"
+msgstr ""
+
+#: admin/includes/help.class.php:5814
+msgid "Slide data that can be used for navigation text/data"
+msgstr ""
+
+#: admin/includes/help.class.php:1531
+msgid "Slide Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:5464
+msgid "Slide ID"
+msgstr ""
+
+#: admin/includes/help.class.php:5884
+msgid "Slide Loop End"
+msgstr ""
+
+#: admin/includes/help.class.php:5858
+msgid "Slide Loop Repeat"
+msgstr ""
+
+#: admin/includes/help.class.php:5871
+msgid "Slide Loop Start"
+msgstr ""
+
+#: admin/includes/help.class.php:5850
+msgid "Slide Looping"
+msgstr ""
+
+#: admin/includes/help.class.php:5349
+msgid "Slide Time/Length"
+msgstr ""
+
+#: admin/includes/help.class.php:1992
+msgid "Slide to Show First"
+msgstr ""
+
+#: admin/includes/help.class.php:5261
+msgid "Slide Transition"
+msgstr ""
+
+#: admin/includes/help.class.php:18
+msgid "Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:244
+msgid "Slider Alias"
+msgstr ""
+
+#: admin/includes/help.class.php:383
+msgid "Slider Alignment"
+msgstr ""
+
+#: admin/includes/help.class.php:2933
+msgid "Slider API"
+msgstr ""
+
+#: admin/includes/help.class.php:1515
+msgid "Slider Classes"
+msgstr ""
+
+#: admin/includes/help.class.php:1507
+msgid "Slider ID"
+msgstr ""
+
+#: admin/includes/help.class.php:2936
+msgid "Slider Revolution API methods and events"
+msgstr ""
+
+#: admin/includes/help.class.php:252
+msgid "Slider Shortcode"
+msgstr ""
+
+#: admin/includes/help.class.php:236
+msgid "Slider Title"
+msgstr ""
+
+#: admin/includes/help.class.php:2117
+msgid ""
+"Slides will always appear as full width, resulting in one Slide being "
+"visible at a time"
+msgstr ""
+
+#: admin/includes/help.class.php:2078
+msgid "Slides will continuously appear from either side when the Slides change"
+msgstr ""
+
+#: admin/includes/help.class.php:2040
+msgid "Slot Amount"
+msgstr ""
+
+#: admin/includes/help.class.php:5309
+msgid "Slots/Boxes"
+msgstr ""
+
+#: admin/includes/help.class.php:835
+msgid "Sort Direction"
+msgstr ""
+
+#: admin/includes/help.class.php:819
+msgid "Sort Posts By"
+msgstr ""
+
+#: admin/includes/help.class.php:838
+msgid "Sort the posts in ascending or descending order"
+msgstr ""
+
+#: admin/includes/help.class.php:1311 admin/includes/help.class.php:1421
+msgid "Source"
+msgstr ""
+
+#: admin/includes/help.class.php:4840
+msgid "Source Size"
+msgstr ""
+
+#: admin/includes/help.class.php:3842 admin/includes/help.class.php:4323
+msgid "Spacing"
+msgstr ""
+
+#: admin/includes/help.class.php:3940 admin/includes/help.class.php:4421
+msgid "Span/Full-Width"
+msgstr ""
+
+#: admin/includes/help.class.php:8705
+msgid "Special Effects"
+msgstr ""
+
+#: admin/includes/help.class.php:802
+msgid "Specific Posts"
+msgstr ""
+
+#: admin/includes/help.class.php:2220
+msgid "Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:2361
+msgid "Spinner / Preloader"
+msgstr ""
+
+#: admin/includes/help.class.php:2369
+msgid "Spinner Color"
+msgstr ""
+
+#: admin/includes/help.class.php:8201
+msgid "Split Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:8184
+msgid "Split Direction"
+msgstr ""
+
+#: admin/includes/help.class.php:7368
+msgid "Spread"
+msgstr ""
+
+#: admin/includes/help.class.php:264
+msgid "Standard Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:10422
+msgid "Start Layer In/Out Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:1696 admin/includes/help.class.php:5646
+msgid "Start Position X"
+msgstr ""
+
+#: admin/includes/help.class.php:1718 admin/includes/help.class.php:5678
+msgid "Start Position Y"
+msgstr ""
+
+#: admin/includes/help.class.php:9457
+msgid "Start rotate2D"
+msgstr ""
+
+#: admin/includes/help.class.php:9389
+msgid "Start rotateX"
+msgstr ""
+
+#: admin/includes/help.class.php:9423
+msgid "Start rotateY"
+msgstr ""
+
+#: admin/includes/help.class.php:9234
+msgid "Start scaleX"
+msgstr ""
+
+#: admin/includes/help.class.php:9268
+msgid "Start scaleY"
+msgstr ""
+
+#: admin/includes/help.class.php:9302
+msgid "Start skewX"
+msgstr ""
+
+#: admin/includes/help.class.php:9336
+msgid "Start skewY"
+msgstr ""
+
+#: admin/includes/help.class.php:5183 admin/includes/help.class.php:6416
+msgid "Start the video at this time (minutes:seconds, such as 01:30)"
+msgstr ""
+
+#: admin/includes/help.class.php:5180 admin/includes/help.class.php:6413
+#: admin/includes/help.class.php:8815
+msgid "Start Time"
+msgstr ""
+
+#: admin/includes/help.class.php:8931
+msgid "Start X Position"
+msgstr ""
+
+#: admin/includes/help.class.php:8965
+msgid "Start Y Position"
+msgstr ""
+
+#: admin/includes/help.class.php:8999
+msgid "Start Z Position"
+msgstr ""
+
+#: admin/includes/help.class.php:186
+msgid "Start/End animation timing and easing"
+msgstr ""
+
+#: admin/includes/help.class.php:7600
+msgid "Start/In Animation: From"
+msgstr ""
+
+#: admin/includes/help.class.php:7613
+msgid "Start/In Animation: To"
+msgstr ""
+
+#: admin/includes/help.class.php:2747
+msgid "Static/Global Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2760
+msgid "Static/Global Parallax Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:1890
+msgid "Stop After Loops"
+msgstr ""
+
+#: admin/includes/help.class.php:1903
+msgid "Stop at Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:1850
+msgid "Stop on Hover"
+msgstr ""
+
+#: admin/includes/help.class.php:6259
+msgid "Stop Other Media"
+msgstr ""
+
+#: admin/includes/help.class.php:1877
+msgid "Stop Slider Progress"
+msgstr ""
+
+#: admin/includes/help.class.php:1893
+msgid "Stop the slider's progress after a set amount of loops"
+msgstr ""
+
+#: admin/includes/help.class.php:1906
+msgid "Stop the slider's progress when a certain Slide is viewed"
+msgstr ""
+
+#: admin/includes/help.class.php:6262
+msgid ""
+"Stop/pause other video/audio in the Slide when the currently selected Video "
+"Layer begins to play"
+msgstr ""
+
+#: admin/includes/help.class.php:2114
+msgid "Stretch Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:6724
+msgid "Stroke/Border Color"
+msgstr ""
+
+#: admin/includes/help.class.php:6737
+msgid "Stroke/Border Width/Size"
+msgstr ""
+
+#: admin/includes/help.class.php:15
+msgid "Support Center"
+msgstr ""
+
+#: admin/includes/help.class.php:6711
+msgid "SVG Color"
+msgstr ""
+
+#: admin/includes/help.class.php:4718
+msgid "Swipe Orientation"
+msgstr ""
+
+#: admin/includes/help.class.php:4692
+msgid "Swipe Velocity"
+msgstr ""
+
+#: admin/includes/help.class.php:10867
+msgid "Tab Index"
+msgstr ""
+
+#: admin/includes/help.class.php:520 admin/includes/help.class.php:546
+msgid "Tablet Height"
+msgstr ""
+
+#: admin/includes/help.class.php:504
+msgid "Tablet Viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:512 admin/includes/help.class.php:538
+msgid "Tablet Width"
+msgstr ""
+
+#: admin/includes/help.class.php:3974
+msgid "Tabs Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:3990
+msgid "Tabs Animation Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:4006
+msgid "Tabs Show Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:3711
+msgid "Tabs Type/Style"
+msgstr ""
+
+#: admin/includes/help.class.php:10618
+msgid "Take the Slider fullscreen or exit fullscreen on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10491
+msgid "Target Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6644
+msgid "Text Color"
+msgstr ""
+
+#: admin/includes/help.class.php:8120
+msgid "Text Color Value"
+msgstr ""
+
+#: admin/includes/help.class.php:6670
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/includes/help.class.php:6683
+msgid "Text Transform"
+msgstr ""
+
+#: admin/includes/help.class.php:1178
+msgid "Text Tweets"
+msgstr ""
+
+#: admin/includes/help.class.php:8934
+msgid ""
+"The 'x' (left) position to apply at the start of the loop animation.  "
+"Accepts positive and negative numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:7738 admin/includes/help.class.php:8256
+msgid ""
+"The 'x' (left) position to apply to the currently selected animation frame.  "
+"Accepts positive and negative numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:8432
+msgid ""
+"The 'x' axis for the char/word/line <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:8867
+msgid ""
+"The 'x' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the loop animation."
+msgstr ""
+
+#: admin/includes/help.class.php:7885
+msgid ""
+"The 'x' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:9882
+msgid ""
+"The 'x' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" on mouse hover."
+msgstr ""
+
+#: admin/includes/help.class.php:8968
+msgid ""
+"The 'y' (top) position to apply at the start of the loop animation.  Accepts "
+"positive and negative numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:7751 admin/includes/help.class.php:8273
+msgid ""
+"The 'y' (top) position to apply to the currently selected animation frame.  "
+"Accepts positive and negative numbers."
+msgstr ""
+
+#: admin/includes/help.class.php:8449
+msgid ""
+"The 'y' axis for the char/word/line <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:8883
+msgid ""
+"The 'y' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the loop animation."
+msgstr ""
+
+#: admin/includes/help.class.php:7898
+msgid ""
+"The 'y' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:9895
+msgid ""
+"The 'y' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" on mouse hover."
+msgstr ""
+
+#: admin/includes/help.class.php:8466
+msgid ""
+"The 'z' axis for the char/word/line <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:8899
+msgid ""
+"The 'z' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the loop animation."
+msgstr ""
+
+#: admin/includes/help.class.php:7911
+msgid ""
+"The 'z' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" applied to the selected animation frame."
+msgstr ""
+
+#: admin/includes/help.class.php:9908
+msgid ""
+"The 'z' axis for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_transform-origin.asp' target='_blank'>transform-origin</a>"
+" on mouse hover."
+msgstr ""
+
+#: admin/includes/help.class.php:2563
+msgid "The 3D depth level for the Slide's main background"
+msgstr ""
+
+#: admin/includes/help.class.php:5902
+msgid ""
+"The <a href='http://docs.themepunch.com/slider-revolution/parallax-3d-"
+"effect/#depths' target='_blank'>parallax level</a> to apply to the Slide's "
+"main background"
+msgstr ""
+
+#: admin/includes/help.class.php:6544
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/clear' "
+"target='_blank'>CSS clear property</a> for the Layer as it fits inside the "
+"Column"
+msgstr ""
+
+#: admin/includes/help.class.php:9683
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/cursor' "
+"target='_blank'>CSS cursor</a> property for the Layer.  Choose 'pointer' for "
+"a traditional hand cursor when hovering the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6530
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' "
+"target='_blank'>CSS display property</a> for the Layer as it fits inside the "
+"Column"
+msgstr ""
+
+#: admin/includes/help.class.php:8503
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the Chars animation"
+msgstr ""
+
+#: admin/includes/help.class.php:10073
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the Layer on mouse "
+"hover"
+msgstr ""
+
+#: admin/includes/help.class.php:8651
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the lines animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8056
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the selected "
+"Animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8577
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the words animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8539
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/brightness' target='_blank'>brightness filter</a> value for the "
+"Chars animation"
+msgstr ""
+
+#: admin/includes/help.class.php:10086
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/brightness' target='_blank'>brightness filter</a> value for the "
+"Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:8687
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/brightness' target='_blank'>brightness filter</a> value for the "
+"lines animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8090
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/brightness' target='_blank'>brightness filter</a> value for the "
+"selected Animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8613
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/brightness' target='_blank'>brightness filter</a> value for the "
+"words animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8521
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the Chars "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:10099
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the Layer "
+"on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:8669
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the lines "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:8073
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the "
+"selected Animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8595
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the words "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:6537
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/float' "
+"target='_blank'>CSS float property</a> for the Layer as it fits inside the "
+"Column"
+msgstr ""
+
+#: admin/includes/help.class.php:9921
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/perspective' "
+"target=_'blank'>CSS perspective</a> for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7777
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/perspective' "
+"target=_'blank'>CSS perspective</a> to apply to the selected animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:9002
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-"
+"function/translateZ' target=_'blank'>CSS translateZ</a> at the start of the "
+"loop animation.  This adds/removes 3D depth to the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7764 admin/includes/help.class.php:8290
+msgid ""
+"The <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/transform-"
+"function/translateZ' target=_'blank'>CSS translateZ</a> to apply to the "
+"selected animation frame.  This adds/removes 3D depth to the Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6753
+msgid ""
+"The <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/SVG/Attribute/stroke-dasharray' target='_blank'>dash-array</a> "
+"for the currently selected SVG.  Displays the SVG stroke/border as dashes."
+msgstr ""
+
+#: admin/includes/help.class.php:6766
+msgid ""
+"The <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/SVG/Attribute/stroke-dashoffset' target='_blank'>stroke-dash-"
+"offset</a> for the currently selected SVG"
+msgstr ""
+
+#: admin/includes/help.class.php:5013
+msgid ""
+"The <a href='https://docs.joeworkman.net/rapidweaver/stacks/vimeo/video-id' "
+"target=_'blank'>Vimeo Video ID</a> for the background video"
+msgstr ""
+
+#: admin/includes/help.class.php:6064
+msgid ""
+"The <a href='https://www.quora.com/What-is-a-YouTube-video-ID' "
+"target=_'blank'>YouTube ID</a> or <a href='https://docs.joeworkman."
+"net/rapidweaver/stacks/vimeo/video-id' target='_blank'>Vimeo ID</a> for the "
+"video's source"
+msgstr ""
+
+#: admin/includes/help.class.php:5000
+msgid ""
+"The <a href='https://www.quora.com/What-is-a-YouTube-video-ID' "
+"target=_'blank'>YouTube Video ID</a> for the background video"
+msgstr ""
+
+#: admin/includes/help.class.php:4856
+msgid ""
+"The <a href='https://www.w3schools.com/cssref/css3_pr_background-size.asp' "
+"target='_blank'>CSS background-size</a> for the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:4882 admin/includes/help.class.php:5598
+msgid ""
+"The <a href='https://www.w3schools.com/cssref/pr_background-position.asp' "
+"target='_blank'>CSS background-position</a> for the Slide's main background "
+"image"
+msgstr ""
+
+#: admin/includes/help.class.php:4869
+msgid ""
+"The <a href='https://www.w3schools.com/cssref/pr_background-repeat.asp' "
+"target='_blank'>CSS background-fit</a> for the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:9950
+msgid ""
+"The <a href='https://www.w3schools.com/cssref/pr_border-style.asp' "
+"target='_blank'>CSS border-style</a> for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:6969
+msgid ""
+"The <a href='https://www.w3schools.com/cssref/pr_border-style.asp' "
+"target='_blank'>CSS border-style</a> to use for the Layer's border"
+msgstr ""
+
+#: admin/includes/help.class.php:5536
+msgid ""
+"The <a href='https://www.w3schools.com/tags/att_link_target.asp' "
+"target='_blank'>target attribute</a> for the Slide link"
+msgstr ""
+
+#: admin/includes/help.class.php:4695
+msgid ""
+"The amount of pixels that need to be swiped before a Slide change occurs"
+msgstr ""
+
+#: admin/includes/help.class.php:2043
+msgid ""
+"The amount of slots to be used for the alternate first Slide transition.  "
+"Applicable to slot-based transitions."
+msgstr ""
+
+#: admin/includes/help.class.php:3246
+msgid ""
+"The amount of the time before the Arrows are hidden on Desktop computers (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:3263
+msgid ""
+"The amount of the time before the Arrows are hidden on mobile devices (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:3561
+msgid ""
+"The amount of the time before the Bullets are hidden on Desktop computers "
+"(in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:3578
+msgid ""
+"The amount of the time before the Bullets are hidden on mobile devices (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:4042
+msgid ""
+"The amount of the time before the Tabs are hidden on Desktop computers (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:4059
+msgid ""
+"The amount of the time before the Tabs are hidden on mobile devices (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:4523
+msgid ""
+"The amount of the time before the Thumbnails are hidden on Desktop computers "
+"(in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:4540
+msgid ""
+"The amount of the time before the Thumbnails are hidden on mobile devices "
+"(in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:8834
+msgid ""
+"The amount of time each loop animation should occur before it begins again"
+msgstr ""
+
+#: admin/includes/help.class.php:3197
+msgid "The animation speed for when the Arrows animate into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:3512
+msgid "The animation speed for when the Bullets animate into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:3993
+msgid "The animation speed for when the Tabs animate into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:4474
+msgid "The animation speed for when the Thumbs animate into and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:3115
+msgid ""
+"The Arrow's alignment position in the Slider before any offset(s) are applied"
+msgstr ""
+
+#: admin/includes/help.class.php:6154
+msgid "The autoplay behavior for the currently selected Video Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:3911
+msgid "The background color for the tabs main wrapper"
+msgstr ""
+
+#: admin/includes/help.class.php:4392
+msgid "The background color for the thumbs main wrapper"
+msgstr ""
+
+#: admin/includes/help.class.php:2971
+msgid "The background color to be applied when the Module loads as a Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:2694
+msgid "The blur filter strength for the Blur scroll effect (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:7358
+msgid ""
+"The blur-radius value for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_box-shadow.asp' target='_blank'>box-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:7438
+msgid ""
+"The blur-radius value for the Layer's <a href='https://www.w3schools."
+"com/CSSref/css3_pr_text-shadow.asp' target='_blank'>text-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:9937
+msgid "The border color for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7008
+msgid "The border's bottom size (border-bottom-width)"
+msgstr ""
+
+#: admin/includes/help.class.php:9990
+msgid ""
+"The border's bottom size (border-bottom-width) for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:7021
+msgid "The border's left size (border-left-width)"
+msgstr ""
+
+#: admin/includes/help.class.php:10003
+msgid "The border's left size (border-left-width) for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:6995
+msgid "The border's right size (border-right-width)"
+msgstr ""
+
+#: admin/includes/help.class.php:9977
+msgid ""
+"The border's right size (border-right-width) for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:6982
+msgid "The border's top size (border-top-width)"
+msgstr ""
+
+#: admin/includes/help.class.php:9964
+msgid "The border's top size (border-top-width) for the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:6727
+msgid "The border/stroke color of the currently selected SVG Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6740
+msgid "The border/stroke width/size of the currently selected SVG Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6874
+msgid ""
+"The bottom margin for the currently Selected Layer.  Useful for rows/columns."
+msgstr ""
+
+#: admin/includes/help.class.php:6928
+msgid "The bottom padding for the currently Selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7062
+msgid "The bottom-left corner border-radius (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:10044
+msgid ""
+"The bottom-left corner border-radius for the Layer on mouse hover (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:7075
+msgid "The bottom-right corner border-radius (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:10057
+msgid ""
+"The bottom-right corner border-radius for the Layer on mouse hover (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:3430
+msgid ""
+"The Bullet's alignment position in the Slider before any offset(s) are "
+"applied"
+msgstr ""
+
+#: admin/includes/help.class.php:8413
+msgid ""
+"The char/word/line <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/transform-function/rotate' target='_blank'>2D Rotation</a> "
+"for the selected animation frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:8238
+msgid ""
+"The char/word/line opacity to apply to the currently selected animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:6714
+msgid "The color of the currently selected SVG Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:2372
+msgid ""
+"The color of the spinner/preloader that shows before the Module first loads"
+msgstr ""
+
+#: admin/includes/help.class.php:6699
+msgid ""
+"The CSS <a href='https://www.w3schools.com/cssref/css3_pr_user-select.asp' "
+"target='_blank'>user-select</a> value for the text"
+msgstr ""
+
+#: admin/includes/help.class.php:7466
+msgid ""
+"The CSS <a href='https://www.w3schools.com/cssref/pr_background-blend-mode."
+"asp' target='_blank'>background-blend-mode</a> filter for the currently "
+"selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6686
+msgid ""
+"The CSS <a href='https://www.w3schools.com/cssref/pr_text_text-transform."
+"asp' target='_blank'>text-transform</a> value for the text"
+msgstr ""
+
+#: admin/includes/help.class.php:6807
+msgid "The CSS background-position for the Layer's background image"
+msgstr ""
+
+#: admin/includes/help.class.php:583
+msgid "The CSS background-position for the Slider's global background image"
+msgstr ""
+
+#: admin/includes/help.class.php:6833
+msgid "The css background-repeat value for the Layer's background image"
+msgstr ""
+
+#: admin/includes/help.class.php:609
+msgid ""
+"The css background-repeat value for the Slider's global background image"
+msgstr ""
+
+#: admin/includes/help.class.php:6820
+msgid "The css background-size value for the Layer's background image"
+msgstr ""
+
+#: admin/includes/help.class.php:596
+msgid "The css background-size value for the Slider's global background image"
+msgstr ""
+
+#: admin/includes/help.class.php:3927
+msgid "The CSS padding that will be applied to the tabs outer wrapper div"
+msgstr ""
+
+#: admin/includes/help.class.php:4408
+msgid "The CSS padding that will be applied to the thumbs outer wrapper div"
+msgstr ""
+
+#: admin/includes/help.class.php:6502
+msgid ""
+"The CSS text-align for the Layer's text.  Also useful for aligning content "
+"inside rows/colums"
+msgstr ""
+
+#: admin/includes/help.class.php:9762
+msgid "The CSS z-index to apply to the Layer on mouse hover"
+msgstr ""
+
+#: admin/includes/help.class.php:360
+msgid ""
+"The default align behavior for Layers.  If enabled, Layers will be aligned "
+"to the entire Module and if disabled Layers will align to the device "
+"breakpoint grid area."
+msgstr ""
+
+#: admin/includes/help.class.php:1583
+msgid ""
+"The default CSS background-position for the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:1599
+msgid ""
+"The default css background-repeat value for the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:1591
+msgid ""
+"The default css background-size value for the Slide's main background image"
+msgstr ""
+
+#: admin/includes/help.class.php:1534
+msgid "The default duration to apply for each Slide before they change"
+msgstr ""
+
+#: admin/includes/help.class.php:1663
+msgid "The default easing duration in milliseconds"
+msgstr ""
+
+#: admin/includes/help.class.php:1652
+msgid ""
+"The default easing equation.  <a href='https://greensock.com/ease-"
+"visualizer' target=_'blank'>View visualization</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:1710
+msgid "The default end x position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:1778
+msgid "The default ending image blur for the PanZoom effect (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:1756
+msgid "The default ending rotation for the PanZoom effect (deg)"
+msgstr ""
+
+#: admin/includes/help.class.php:1732
+msgid "The default ending y position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:1686
+msgid "The default ending zoom percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:3893
+msgid "The default height for each individual tab"
+msgstr ""
+
+#: admin/includes/help.class.php:4374
+msgid "The default height for each individual thumb"
+msgstr ""
+
+#: admin/includes/help.class.php:1767
+msgid "The default starting image blur for the PanZoom effect (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:1745
+msgid "The default starting rotation for the PanZoom effect (deg)"
+msgstr ""
+
+#: admin/includes/help.class.php:1699
+msgid "The default starting x position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:1721
+msgid "The default starting y position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:1675
+msgid "The default starting zoom percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:1566
+msgid "The default transition duration to be applied to newly created Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:1558
+msgid "The default transition to be applied to newly created Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:455
+msgid "The default viewport.  This option will always be enabled"
+msgstr ""
+
+#: admin/includes/help.class.php:3861
+msgid "The default width for each individual tab"
+msgstr ""
+
+#: admin/includes/help.class.php:4342
+msgid "The default width for each individual thumb"
+msgstr ""
+
+#: admin/includes/help.class.php:1575
+msgid ""
+"The default WordPress Image size to be used for the Slide's main  background "
+"images"
+msgstr ""
+
+#: admin/includes/help.class.php:6020
+msgid "The default WordPress Image size to be used when the image is loaded"
+msgstr ""
+
+#: admin/includes/help.class.php:2282
+msgid "The degree value for the 3D rotation applied to the non-active items"
+msgstr ""
+
+#: admin/includes/help.class.php:8204
+msgid ""
+"The delay time between each animation for the individual "
+"characters/words/lines"
+msgstr ""
+
+#: admin/includes/help.class.php:2030
+msgid "The duration to be used for the alternate first Slide transition"
+msgstr ""
+
+#: admin/includes/help.class.php:10335
+msgid "The easing duration for the Scroll Action in milliseconds"
+msgstr ""
+
+#: admin/includes/help.class.php:5796
+msgid "The easing duration in milliseconds"
+msgstr ""
+
+#: admin/includes/help.class.php:5288
+msgid "The easing equation for the 'IN' animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5300
+msgid "The easing equation for the 'OUT' animation"
+msgstr ""
+
+#: admin/includes/help.class.php:10318
+msgid ""
+"The easing equation for the Scroll Action.  <a href='https://greensock."
+"com/ease-visualizer' target=_'blank'>View visualization</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:2210
+msgid ""
+"The easing equation for when the carousel changes from one Slide to the next"
+msgstr ""
+
+#: admin/includes/help.class.php:8221
+msgid "The easing equation to be applied for each animation"
+msgstr ""
+
+#: admin/includes/help.class.php:2604
+msgid ""
+"The easing equation to be applied to the animated content as the page scrolls"
+msgstr ""
+
+#: admin/includes/help.class.php:8850
+msgid "The easing equation to be used for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9749
+msgid "The easing equation to use for the hover transition"
+msgstr ""
+
+#: admin/includes/help.class.php:7695
+msgid "The easing equation to use for the selected animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5780
+msgid ""
+"The easing equation.  <a href='https://greensock.com/ease-visualizer' "
+"target=_'blank'>View visualization</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:5665
+msgid "The end x position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:9564
+msgid ""
+"The ending <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/blur' target='_blank'>blur filter</a> value for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9632
+msgid ""
+"The ending <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>brightness filter</a> value for the loop "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9598
+msgid ""
+"The ending <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/filter-"
+"function/grayscale' target='_blank'>grayscale filter</a> value for the loop "
+"animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5763
+msgid "The ending image blur for the PanZoom effect (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:9409
+msgid ""
+"The ending rotateX value (horizontal plane) for the loop animation.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9443
+msgid ""
+"The ending rotateY value (horizontal plane) for the loop animation.  Accepts "
+"positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:5731
+msgid "The ending rotation for the PanZoom effect (deg)"
+msgstr ""
+
+#: admin/includes/help.class.php:9477
+msgid ""
+"The ending rotation value (2D) for the loop animation.  Accepts positive and "
+"negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9254
+msgid "The ending scaleX value (width) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9288
+msgid "The ending scaleY value (height) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9322
+msgid "The ending skewX value (horizontal plane) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9356
+msgid "The ending skewY value (vertical plane) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9530
+msgid "The ending transparency for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:7616
+msgid "The ending values for the Layer's very first animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5697
+msgid "The ending y position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:5631
+msgid "The ending zoom percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:6634
+msgid "The Google Font for the currently selected Layer's text"
+msgstr ""
+
+#: admin/includes/help.class.php:4641
+msgid "The height of the navigation preview image"
+msgstr ""
+
+#: admin/includes/help.class.php:3050
+msgid "The height of the progress bar in pixels"
+msgstr ""
+
+#: admin/includes/help.class.php:7332
+msgid ""
+"The horizontal offset for the <a href='https://www.w3schools."
+"com/cssref/css3_pr_box-shadow.asp' target='_blank'>box-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:7412
+msgid ""
+"The horizontal offset for the <a href='https://www.w3schools."
+"com/CSSref/css3_pr_text-shadow.asp' target='_blank'>text-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:5940
+msgid ""
+"The html/text for the selected Layer's content.  'Idle' is the default text. "
+" And 'Toggle' is alternative text to show when the Layer is clicked."
+msgstr ""
+
+#: admin/includes/help.class.php:6111
+msgid ""
+"The HTML5 Video/Audio <a href='https://www.w3schools."
+"com/tags/att_video_preload.asp' target=_'blank'>preload behavior</a> for the "
+"currently selected Video Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:6387
+msgid "The initial volume for the video/audio.  Choose a number between 0-100"
+msgstr ""
+
+#: admin/includes/help.class.php:7603
+msgid ""
+"The Layer animation's starting point values before it first animates into "
+"view"
+msgstr ""
+
+#: admin/includes/help.class.php:7870
+msgid ""
+"The Layer's <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/transform-function/rotate' target='_blank'>2D Rotation</a> "
+"for the selected animation frame.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9867
+msgid ""
+"The Layer's <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/transform-function/rotate' target='_blank'>2D Rotation</a> "
+"on mouse hover.  Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:6595
+msgid ""
+"The Layer's <a href='https://www.w3schools.com/cssref/pr_dim_line-height."
+"asp' target=_'blank'>CSS line-height</a> value for the currently selected "
+"viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7235
+msgid ""
+"The Layer's <a href='https://www.w3schools.com/cssref/pr_dim_max-height.asp' "
+"target='_blank'>CSS max-height</a> for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7209
+msgid ""
+"The Layer's <a href='https://www.w3schools.com/cssref/pr_dim_max-width.asp' "
+"target='_blank'>CSS max-width</a> for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7222
+msgid ""
+"The Layer's <a href='https://www.w3schools.com/cssref/pr_dim_min-height.asp' "
+"target='_blank'>CSS min-height</a> for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7196
+msgid ""
+"The Layer's <a href='https://www.w3schools.com/cssref/pr_dim_min-width.asp' "
+"target='_blank'>CSS min-width</a> for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6608
+msgid ""
+"The Layer's <a href=https://www.w3schools.com/cssref/pr_font_weight.asp' "
+"target=_'blank'>CSS font-weight</a> value for the currently selected viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6621
+msgid ""
+"The Layer's <a href=https://www.w3schools.com/cssref/pr_text_letter-spacing."
+"asp' target=_'blank'>CSS letter-spacing</a> value for the currently selected "
+"viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:8154
+msgid "The Layer's background color for the selected Animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:7642
+msgid ""
+"The Layer's final animation when it's meant to be hidden or when the Slide "
+"changes"
+msgstr ""
+
+#: admin/includes/help.class.php:6582
+msgid "The Layer's font-size for the currently selected viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7156
+msgid "The Layer's height for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6036
+msgid ""
+"The Layer's image will be populated automatically from the Slider's Video-"
+"Stream source"
+msgstr ""
+
+#: admin/includes/help.class.php:7724
+msgid "The Layer's opacity to apply to the currently selected animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:8123
+msgid "The Layer's text color for the selected Animation frame"
+msgstr ""
+
+#: admin/includes/help.class.php:7143
+msgid "The Layer's width for the current device viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:6887
+msgid ""
+"The left margin for the currently Selected Layer.  Useful for rows/columns."
+msgstr ""
+
+#: admin/includes/help.class.php:6941
+msgid "The left padding for the currently Selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:5826
+msgid "The maximum characters/letters to display for the paramater"
+msgstr ""
+
+#: admin/includes/help.class.php:2104
+msgid ""
+"The maximum number of Slides that will be visible at any given time.  View "
+"the documentation below to learn how to set a minimum."
+msgstr ""
+
+#: admin/includes/help.class.php:3827
+msgid ""
+"The maximum number of tabs that should be visible regardless of the screen "
+"size"
+msgstr ""
+
+#: admin/includes/help.class.php:4308
+msgid ""
+"The maximum number of thumbs that should be visible regardless of the screen "
+"size"
+msgstr ""
+
+#: admin/includes/help.class.php:3877
+msgid "The minimum width for each individual tab"
+msgstr ""
+
+#: admin/includes/help.class.php:4358
+msgid "The minimum width for each individual thumb"
+msgstr ""
+
+#: admin/includes/help.class.php:376
+msgid ""
+"The module will be positioned at the top of the screen at all times.  Useful "
+"for creating sticky menus."
+msgstr ""
+
+#: admin/includes/help.class.php:2468
+msgid "The movement speed for the Slide's Layers when the effect(s) occur"
+msgstr ""
+
+#: admin/includes/help.class.php:2455
+msgid ""
+"The movement speed for the Slide's main background when the effect(s) occur"
+msgstr ""
+
+#: admin/includes/help.class.php:4895
+msgid ""
+"The movement strength that will be applied to the Slide's main background "
+"image"
+msgstr ""
+
+#: admin/includes/help.class.php:4708
+msgid ""
+"The number of fingers needed in the swipe action for a Slide change to occur"
+msgstr ""
+
+#: admin/includes/help.class.php:5312
+msgid "The number of slots/boxes to use for slot-based transitions"
+msgstr ""
+
+#: admin/includes/help.class.php:8770
+msgid ""
+"The number of times the Layer's selected timeline should loop.  Enter '-1' "
+"to loop continously throughout the life-cycle of the current Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:10301
+msgid ""
+"The page will scroll to content below the Slider, and this offset will add "
+"or subtract pixels to the total amount scrolled."
+msgstr ""
+
+#: admin/includes/help.class.php:10115
+msgid ""
+"The parallax depth level to use for the Layer.  Level values are defined in "
+"the Slider Settings."
+msgstr ""
+
+#: admin/includes/help.class.php:8023
+msgid ""
+"The percentage of the Layer to apply the clip-path mask to.  The number '0' "
+"would represent completely hidden and '100' represent completely visible."
+msgstr ""
+
+#: admin/includes/help.class.php:7524
+msgid ""
+"The percentage of your content's width to use when the spike(s) are drawn on "
+"the left side"
+msgstr ""
+
+#: admin/includes/help.class.php:7556
+msgid ""
+"The percentage of your content's width to use when the spike(s) are drawn on "
+"the right side"
+msgstr ""
+
+#: admin/includes/help.class.php:2804
+msgid ""
+"The percentage the Slider is in the page's viewport before the effect(s) are "
+"applied"
+msgstr ""
+
+#: admin/includes/help.class.php:5874 admin/includes/help.class.php:5887
+msgid "The point in the timeline where the looping should begin"
+msgstr ""
+
+#: admin/includes/help.class.php:471
+msgid "The responsive grid height (in pixels) for the Desktop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:497
+msgid "The responsive grid height (in pixels) for the Laptop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:523 admin/includes/help.class.php:549
+msgid "The responsive grid height (in pixels) for the Tablet viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:463
+msgid "The responsive grid width (in pixels) for the Desktop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:489
+msgid "The responsive grid width (in pixels) for the Laptop viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:515 admin/includes/help.class.php:541
+msgid "The responsive grid width (in pixels) for the Tablet viewport"
+msgstr ""
+
+#: admin/includes/help.class.php:7384
+msgid ""
+"The rgba color for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_box-shadow.asp' target='_blank'>box-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:7451
+msgid ""
+"The rgba color for the Layer's <a href='https://www.w3schools."
+"com/CSSref/css3_pr_text-shadow.asp' target='_blank'>text-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:6861
+msgid ""
+"The right margin for the currently Selected Layer.  Useful for rows/columns."
+msgstr ""
+
+#: admin/includes/help.class.php:6915
+msgid "The right padding for the currently Selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7708
+msgid ""
+"The selected animation will only start when it's called from a <a href='http:"
+"//docs.themepunch.com/slider-revolution/layer-actions/' target=_'blank'>"
+"Layer Action</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:2442
+msgid "The sensitivity speed for the Parallax effect(s) on mouse-move"
+msgstr ""
+
+#: admin/includes/help.class.php:4843
+msgid ""
+"The size of the image that will be loaded, defined by WP Main Menu -> "
+"Settings -> Media -> Image Sizes"
+msgstr ""
+
+#: admin/includes/help.class.php:5276
+msgid "The Slide animation's total time for the selected transition"
+msgstr ""
+
+#: admin/includes/help.class.php:2596
+msgid ""
+"The Slide's content will animate into and out of view as the user scrolls "
+"the page."
+msgstr ""
+
+#: admin/includes/help.class.php:5052
+msgid ""
+"The Slide's main background will be populated automatically for Video-Stream "
+"Sliders"
+msgstr ""
+
+#: admin/includes/help.class.php:4830 admin/includes/help.class.php:5039
+msgid ""
+"The Slide's main background will be populated automatically for Video/Social-"
+"Stream Sliders"
+msgstr ""
+
+#: admin/includes/help.class.php:5352
+msgid "The Slide's total duration before the next Slide is shown"
+msgstr ""
+
+#: admin/includes/help.class.php:247
+msgid "The slider's alias is used to define a unique shortcode"
+msgstr ""
+
+#: admin/includes/help.class.php:3845
+msgid "The space between each individual tab (in pixels)"
+msgstr ""
+
+#: admin/includes/help.class.php:4326
+msgid "The space between each individual thumb (in pixels)"
+msgstr ""
+
+#: admin/includes/help.class.php:3382
+msgid "The spacing between the bullets (in pixels)"
+msgstr ""
+
+#: admin/includes/help.class.php:2617
+msgid ""
+"The speed at which the content will animate as the page scrolls (in "
+"milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:2223
+msgid ""
+"The speed the items will change form one Slide to the next (in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:7371
+msgid ""
+"The spread value for the Layer's <a href='https://www.w3schools."
+"com/cssref/css3_pr_box-shadow.asp' target='_blank'>box-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:9547
+msgid ""
+"The starting <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/filter-function/blur' target='_blank'>blur filter</a> value "
+"for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9615
+msgid ""
+"The starting <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/filter-function/grayscale' target='_blank'>brightness "
+"filter</a> value for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9581
+msgid ""
+"The starting <a href='https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/filter-function/grayscale' target='_blank'>grayscale "
+"filter</a> value for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5747
+msgid "The starting image blur for the PanZoom effect (px)"
+msgstr ""
+
+#: admin/includes/help.class.php:9392
+msgid ""
+"The starting rotateX value (horizontal plane) for the loop animation.  "
+"Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9426
+msgid ""
+"The starting rotateY value (horizontal plane) for the loop animation.  "
+"Accepts positive and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:5715
+msgid "The starting rotation for the PanZoom effect (deg)"
+msgstr ""
+
+#: admin/includes/help.class.php:9460
+msgid ""
+"The starting rotation value (2D) for the loop animation.  Accepts positive "
+"and negative values."
+msgstr ""
+
+#: admin/includes/help.class.php:9237
+msgid "The starting scaleX value (width) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9271
+msgid "The starting scaleY value (height) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9305
+msgid "The starting skewX value (horizontal plane) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9339
+msgid "The starting skewY value (vertical plane) for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9513
+msgid "The starting transparency for the loop animation"
+msgstr ""
+
+#: admin/includes/help.class.php:5649
+msgid "The starting x position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:5681
+msgid "The starting y position for the PanZoom movement"
+msgstr ""
+
+#: admin/includes/help.class.php:5615
+msgid "The starting zoom percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:2830
+msgid ""
+"The strength of the opacity, blur or grayscale filter for the effect(s) for "
+"the Slide's Layers"
+msgstr ""
+
+#: admin/includes/help.class.php:2817
+msgid ""
+"The strength of the opacity, blur or grayscale filter for the effect(s) for "
+"the Slide's main background"
+msgstr ""
+
+#: admin/includes/help.class.php:4721
+msgid "The swipe direction that will trigger a Slide change"
+msgstr ""
+
+#: admin/includes/help.class.php:3779
+msgid ""
+"The Tab's alignment position in the Slider before any offset(s) are applied"
+msgstr ""
+
+#: admin/includes/help.class.php:6647
+msgid "The text color for the currently selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:4260
+msgid ""
+"The Thumb's alignment position in the Slider before any offset(s) are applied"
+msgstr ""
+
+#: admin/includes/help.class.php:5238
+msgid ""
+"The thumbnail image that will be used for the Slider's thumbnail navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:6848
+msgid ""
+"The top margin for the currently Selected Layer.  Useful for rows/columns."
+msgstr ""
+
+#: admin/includes/help.class.php:6902
+msgid "The top padding for the currently Selected Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:7036
+msgid "The top-left corner border-radius (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:10018
+msgid ""
+"The top-left corner border-radius for the Layer on mouse hover (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:7049
+msgid "The top-right corner border-radius (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:10031
+msgid ""
+"The top-right corner border-radius for the Layer on mouse hover (px or %)"
+msgstr ""
+
+#: admin/includes/help.class.php:7682
+msgid "The total duration for the selected animation"
+msgstr ""
+
+#: admin/includes/help.class.php:9736
+msgid ""
+"The transition duration for the currently selected Layer (in milliseconds)"
+msgstr ""
+
+#: admin/includes/help.class.php:2873
+msgid "The url for the fallback image if a fallback is used for IE8/Mobile"
+msgstr ""
+
+#: admin/includes/help.class.php:6096
+msgid "The url for the locally loaded HTML5 Audio"
+msgstr ""
+
+#: admin/includes/help.class.php:6080
+msgid "The url for the locally loaded HTML5 Video"
+msgstr ""
+
+#: admin/includes/help.class.php:5520
+msgid "The url to go to when the Slide is clicked"
+msgstr ""
+
+#: admin/includes/help.class.php:10214
+msgid "The url to navigate to for the 'Simple Link' Action"
+msgstr ""
+
+#: admin/includes/help.class.php:6515
+msgid "The vertical alignment for content inside a row/column"
+msgstr ""
+
+#: admin/includes/help.class.php:7345
+msgid ""
+"The vertical offset for the <a href='https://www.w3schools."
+"com/cssref/css3_pr_box-shadow.asp' target='_blank'>box-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:7425
+msgid ""
+"The vertical offset for the <a href='https://www.w3schools."
+"com/CSSref/css3_pr_text-shadow.asp' target='_blank'>text-shadow</a>"
+msgstr ""
+
+#: admin/includes/help.class.php:6487
+msgid ""
+"The vertical-align value for the row in relation to the Module's height (top,"
+" middle or bottom)"
+msgstr ""
+
+#: admin/includes/help.class.php:5026
+msgid "The video url to be used as the Slide's main background"
+msgstr ""
+
+#: admin/includes/help.class.php:6195
+msgid ""
+"The video's poster image will be populated automatically from the Slider's "
+"Video-Stream source"
+msgstr ""
+
+#: admin/includes/help.class.php:4628
+msgid "The width of the navigation preview image"
+msgstr ""
+
+#: admin/includes/help.class.php:5066 admin/includes/help.class.php:6141
+msgid "This value should match the video's original aspect ratio"
+msgstr ""
+
+#: admin/includes/help.class.php:4192
+msgid "Thumbnails Type/Style"
+msgstr ""
+
+#: admin/includes/help.class.php:4455
+msgid "Thumbs Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:4471
+msgid "Thumbs Animation Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:4487
+msgid "Thumbs Show Delay"
+msgstr ""
+
+#: admin/includes/help.class.php:10138
+msgid "Timeline Scroll Based"
+msgstr ""
+
+#: admin/includes/help.class.php:2593
+msgid "Timeline Scroll Effects"
+msgstr ""
+
+#: admin/includes/help.class.php:4937
+msgid "Title Attribute"
+msgstr ""
+
+#: admin/includes/help.class.php:10476
+msgid "Toggle (add/remove) a Layer's class name on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10565
+msgid "Toggle a video or audio's play state on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:10442
+msgid "Toggle any given Layer's animation in and out of view"
+msgstr ""
+
+#: admin/includes/help.class.php:10473
+msgid "Toggle Class"
+msgstr ""
+
+#: admin/includes/help.class.php:10632
+msgid "Toggle Fullscreen"
+msgstr ""
+
+#: admin/includes/help.class.php:10439
+msgid "Toggle Layer Animation"
+msgstr ""
+
+#: admin/includes/help.class.php:10562
+msgid "Toggle Media Play/Pause"
+msgstr ""
+
+#: admin/includes/help.class.php:10596
+msgid "Toggle Mute (All) Media"
+msgstr ""
+
+#: admin/includes/help.class.php:10403
+msgid "Toggle Slider"
+msgstr ""
+
+#: admin/includes/help.class.php:10599
+msgid ""
+"Toggle sound from a single video or audio Layer, or toggle all video/audio "
+"sound that exists in the Slide"
+msgstr ""
+
+#: admin/includes/help.class.php:10635
+msgid "Toggle the Slider fullscreen and non-fullscreen on user-interaction"
+msgstr ""
+
+#: admin/includes/help.class.php:966 admin/includes/help.class.php:1085
+#: admin/includes/help.class.php:1139 admin/includes/help.class.php:1271
+#: admin/includes/help.class.php:1368 admin/includes/help.class.php:1452
+msgid "Total Slides"
+msgstr ""
+
+#: admin/includes/help.class.php:7882 admin/includes/help.class.php:8429
+#: admin/includes/help.class.php:8864 admin/includes/help.class.php:9879
+msgid "Transform Origin X"
+msgstr ""
+
+#: admin/includes/help.class.php:7895 admin/includes/help.class.php:8446
+#: admin/includes/help.class.php:8880 admin/includes/help.class.php:9892
+msgid "Transform Origin Y"
+msgstr ""
+
+#: admin/includes/help.class.php:7908 admin/includes/help.class.php:8463
+#: admin/includes/help.class.php:8896 admin/includes/help.class.php:9905
+msgid "Transform Origin Z"
+msgstr ""
+
+#: admin/includes/help.class.php:7774 admin/includes/help.class.php:9918
+msgid "Transform Perspective"
+msgstr ""
+
+#: admin/includes/help.class.php:1555
+msgid "Transition"
+msgstr ""
+
+#: admin/includes/help.class.php:1563 admin/includes/help.class.php:5273
+msgid "Transition Duration"
+msgstr ""
+
+#: admin/includes/help.class.php:9746
+msgid "Transition Easing"
+msgstr ""
+
+#: admin/includes/help.class.php:9733
+msgid "Transition Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:7735 admin/includes/help.class.php:8253
+msgid "TranslateX"
+msgstr ""
+
+#: admin/includes/help.class.php:7748 admin/includes/help.class.php:8270
+msgid "TranslateY"
+msgstr ""
+
+#: admin/includes/help.class.php:7761 admin/includes/help.class.php:8287
+msgid "TranslateZ"
+msgstr ""
+
+#: admin/includes/help.class.php:10459
+msgid "Trigger a jQuery click event on any given Layer"
+msgstr ""
+
+#: admin/includes/help.class.php:10525
+msgid "Trigger Memory"
+msgstr ""
+
+#: admin/includes/help.class.php:2423
+msgid "Triggered By"
+msgstr ""
+
+#: admin/includes/help.class.php:13
+msgid "Tutorial"
+msgstr ""
+
+#: admin/includes/help.class.php:17
+msgid "Tutorials"
+msgstr ""
+
+#: admin/includes/help.class.php:703
+msgid "Twitter"
+msgstr ""
+
+#: admin/includes/help.class.php:10248
+msgid ""
+"Use a traditional HTML hyperlink tag or trigger the Action via a jQuery event"
+msgstr ""
+
+#: admin/includes/help.class.php:2009
+msgid ""
+"Use an alternate transition when for the first slide when the Slider firsts "
+"loads"
+msgstr ""
+
+#: admin/includes/help.class.php:2960 admin/includes/help.class.php:2968
+msgid "Use Cover as Modal"
+msgstr ""
+
+#: admin/includes/help.class.php:3678 admin/includes/help.class.php:4159
+msgid "Use Custom Style"
+msgstr ""
+
+#: admin/includes/help.class.php:559
+msgid "Use Image"
+msgstr ""
+
+#: admin/includes/help.class.php:3181 admin/includes/help.class.php:3480
+#: admin/includes/help.class.php:3961 admin/includes/help.class.php:4442
+msgid "Use RTL language alignment for the Arrow positioning"
+msgstr ""
+
+#: admin/includes/help.class.php:412
+msgid ""
+"Useful for allocating space for a page's menu or footer.  Accepts a jQuery "
+"selector such as '.menu' or 'footer'."
+msgstr ""
+
+#: admin/includes/help.class.php:425
+msgid ""
+"Useful for allocating space for a page's menu or footer.  Enter a px or % "
+"value."
+msgstr ""
+
+#: admin/includes/help.class.php:2902
+msgid ""
+"Useful for solving a conflict when the current theme runs filters over the "
+"page's main content"
+msgstr ""
+
+#: admin/includes/help.class.php:1165
+msgid "User Handle"
+msgstr ""
+
+#: admin/includes/help.class.php:1124
+msgid "User Name"
+msgstr ""
+
+#: admin/includes/help.class.php:1019
+msgid "User URL"
+msgstr ""
+
+#: admin/includes/help.class.php:1491
+msgid "User/Album/Group/Channel"
+msgstr ""
+
+#: admin/includes/help.class.php:2341
+msgid "Varing Scale"
+msgstr ""
+
+#: admin/includes/help.class.php:2249
+msgid "Varying Fade"
+msgstr ""
+
+#: admin/includes/help.class.php:2295
+msgid "Varying Rotation"
+msgstr ""
+
+#: admin/includes/help.class.php:2192 admin/includes/help.class.php:6512
+#: admin/includes/help.class.php:7101
+msgid "Vertical Align"
+msgstr ""
+
+#: admin/includes/help.class.php:5049 admin/includes/help.class.php:6033
+msgid "Video from Stream"
+msgstr ""
+
+#: admin/includes/help.class.php:5167 admin/includes/help.class.php:6397
+msgid "Video Speed"
+msgstr ""
+
+#: admin/includes/help.class.php:6047
+msgid "Video Type"
+msgstr ""
+
+#: admin/includes/help.class.php:5154
+msgid "Video Volume"
+msgstr ""
+
+#: admin/includes/help.class.php:6384
+msgid "Video/Audio Volume"
+msgstr ""
+
+#: admin/includes/help.class.php:730
+msgid "Vimeo"
+msgstr ""
+
+#: admin/includes/help.class.php:5010
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: admin/includes/help.class.php:5374
+msgid "Visible in Navigation"
+msgstr ""
+
+#: admin/includes/help.class.php:7705
+msgid "Wait for Action"
+msgstr ""
+
+#: admin/includes/help.class.php:1929
+msgid "Wait for API"
+msgstr ""
+
+#: admin/includes/help.class.php:1800
+msgid "Wait/Pause"
+msgstr ""
+
+#: admin/includes/help.class.php:1942
+msgid ""
+"When the Slider is disabled on mobile it will only be loaded on desktop-"
+"based devices"
+msgstr ""
+
+#: admin/includes/help.class.php:3858 admin/includes/help.class.php:4339
+msgid "Width"
+msgstr ""
+
+#: admin/includes/help.class.php:676
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/includes/help.class.php:1523 admin/includes/help.class.php:10893
+msgid "Wrapper Classes"
+msgstr ""
+
+#: admin/includes/help.class.php:4389
+msgid "Wrapper Color"
+msgstr ""
+
+#: admin/includes/help.class.php:10880
+msgid "Wrapper ID"
+msgstr ""
+
+#: admin/includes/help.class.php:1259
+msgid ""
+"Your <a href='https://dev.twitter.com/apps' target='_blank'>Twitter App's</a>"
+" Access Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:1246
+msgid ""
+"Your <a href='https://dev.twitter.com/apps' target='_blank'>Twitter App's</a>"
+" Access Token"
+msgstr ""
+
+#: admin/includes/help.class.php:1220
+msgid ""
+"Your <a href='https://dev.twitter.com/apps' target='_blank'>Twitter App's</a>"
+" Consumer Key"
+msgstr ""
+
+#: admin/includes/help.class.php:1233
+msgid ""
+"Your <a href='https://dev.twitter.com/apps' target='_blank'>Twitter App's</a>"
+" Consumer Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:1356
+msgid ""
+"Your <a href='https://developers.facebook.com/docs/apps/register' "
+"target='_blank'>Facebook App's</a> App Secret"
+msgstr ""
+
+#: admin/includes/help.class.php:1343
+msgid ""
+"Your <a href='https://developers.facebook.com/docs/apps/register' "
+"target='_blank'>Facebook App's</a> ID"
+msgstr ""
+
+#: admin/includes/help.class.php:721
+msgid "YouTube"
+msgstr ""
+
+#: admin/includes/help.class.php:4997
+msgid "YouTube Video ID"
+msgstr ""
+
+#: admin/includes/help.class.php:5206 admin/includes/help.class.php:6440
+msgid "YouTube/Vimeo Arguments"
+msgstr ""
+
+#: admin/includes/help.class.php:6061
+msgid "YouTube/Vimeo ID"
+msgstr ""
+
+#: admin/includes/help.class.php:9493
+msgid "Yoyo Filters"
+msgstr ""
+
+#: admin/includes/help.class.php:8914
+msgid "Yoyo Movement"
+msgstr ""
+
+#: admin/includes/help.class.php:9372
+msgid "Yoyo Rotation"
+msgstr ""
+
+#: admin/includes/help.class.php:9217
+msgid "Yoyo Scaling"
+msgstr ""
+
+#: admin/includes/help.class.php:9759
+msgid "zIndex"
+msgstr ""
+
+#: admin/includes/help.class.php:1683 admin/includes/help.class.php:5628
+msgid "Zoom End Percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:1672 admin/includes/help.class.php:5612
+msgid "Zoom Start Percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:2315
+msgid "Zoom the non-active items by a certain percentage"
+msgstr ""
+
+#: admin/includes/help.class.php:2328
+msgid "Zoom the non-active items by this percentage"
+msgstr ""

@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home- Single-new -v14",
+	"sliders": {
+		"revslider": "home_v14.zip"
+	},
+	"menus": {
+		"main_nav": "V14 Main Menu"
+	},
+	"content_plugins": {
+		"revslider": "Slider Revolution",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

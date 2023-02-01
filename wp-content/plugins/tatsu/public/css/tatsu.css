@@ -1,0 +1,799 @@
+/* Version 2.1  */
+body {
+    overflow-x:hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.tatsu-bg-lazyload {
+    opacity: 0;
+    transition : 0.3s;
+}
+.tatsu-bg-lazyloaded {
+    opacity: 1;
+}
+
+.tatsu-bg-blur {
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    filter: blur(20px);
+    transform: scale(1.1); /** to prevent blurry edges at the corners */
+}
+
+.tatsu-prevent-overflow {
+    overflow: hidden;
+}
+
+/**
+ * Section
+ */
+.tatsu-section {
+    position: relative;
+    width:100%;
+	border-color: transparent;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.tatsu-section-background {
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+}
+.tatsu-section-background-wrap {
+    position: absolute;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.tatsu-section-pad {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.tatsu-frame .tatsu-section {
+    border-style: solid !important;
+}
+
+.tatsu-section.tatsu-parallax, 
+.tatsu-section.tatsu-video-section,
+.tatsu-section.tatsu-bg-overlay {
+    overflow: hidden;
+}
+
+.tatsu-section.tatsu-fullscreen {
+    height: 100vh;
+}
+
+
+.tatsu-section-offset-wrap {
+    position: relative;
+    z-index: 2;
+}
+
+.tatsu-parallax-element,
+.tatsu-bg-video,
+.tatsu-overlay,
+.tatsu-col-overlay-link {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.tatsu-parallax-element {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.tatsu-parallax-element-wrap {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.tatsu-fullscreen {
+    height : 100vh;
+}
+
+.tatsu-fullscreen-wrap {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+.tatsu-custom-height-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tatsu-bg-video {
+  object-fit: cover;
+}
+
+/**
+    Shape Dividers
+ */
+
+.tatsu-shape-divider {
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.tatsu-shape-divider svg {
+    width:  100%;
+    height:  100%;
+    fill : currentColor;
+}
+
+.tatsu-invert-divider svg {
+    transform: rotateX(180deg);
+}
+.tatsu-flip-divider svg {
+    transform: rotateY(180deg);
+}
+
+.tatsu-invert-divider.tatsu-flip-divider svg {
+    transform: rotate(180deg);
+}
+
+.tatsu-shape-over {
+    position : absolute;
+    width : 100%;
+    left : 0;
+}
+
+.tatsu-top-divider {
+    top : 0;
+}
+
+.tatsu-bottom-divider {
+    bottom : 0;
+}
+
+.tatsu-left-divider{
+    position: absolute;
+    height: 100% ;
+    left: 0;
+    top: 0;
+}
+
+.tatsu-right-divider{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.tatsu-fullscreen .tatsu-shape-divider,
+.tatsu-section-custom-height .tatsu-shape-divider {
+    position: absolute;
+    width : 100%;
+    left: 0;
+}
+.tatsu-shape-divider.tatsu-right-divider {
+    left: auto;
+}
+
+.tatsu-row-wrap:not(.tatsu-wrap) .tatsu-shape-over:not(.tatsu-shape-over) .tatsu-column:first-child .tatsu-left-divider {
+    width : 0 !important;
+}
+
+.tatsu-row-wrap:not(.tatsu-wrap) .tatsu-shape-over:not(.tatsu-shape-over) .tatsu-column:last-child .tatsu-right-divider {
+    width : 0 !important;
+}
+
+/* Row */
+
+.tatsu-row-wrap {
+	border-color: transparent;
+    border-style: solid;
+}
+
+.tatsu-wrap {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.tatsu-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -25px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:relative;
+    z-index:2;
+}
+
+.tatsu-eq-cols > .tatsu-row {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-items: stretch;
+}
+
+.tatsu-fullscreen-cols > .tatsu-row{
+    height : 100vh;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-items: stretch;
+}
+
+.tatsu-no-gutter > .tatsu-row{
+     margin: 0;
+}
+.tatsu-tiny-gutter > .tatsu-row{
+     margin: 0 -5px;
+}
+.tatsu-small-gutter > .tatsu-row{
+     margin: 0 -10px;
+}
+.tatsu-medium-gutter > .tatsu-row{
+     margin: 0 -25px;
+}
+.tatsu-large-gutter > .tatsu-row{
+     margin: 0 -35px;
+}
+
+.tatsu-row-one-col > .tatsu-row {
+    margin: 0;
+}
+
+/* Columns */
+
+.tatsu-column {
+    padding: 0 25px;
+    margin:0 0 50px 0;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.tatsu-video-section > .tatsu-column-inner {
+    overflow: hidden;
+}
+
+.tatsu-zero-margin > .tatsu-row > .tatsu-column {
+    margin-bottom: 0;
+}
+
+.tatsu-reg-cols > .tatsu-row > .tatsu-column-align-top {   
+    -ms-flex-item-align: start;   
+        align-self: flex-start;
+}
+.tatsu-reg-cols > .tatsu-row > .tatsu-column-align-bottom {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.tatsu-reg-cols > .tatsu-row > .tatsu-column-align-middle {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.tatsu-eq-cols > .tatsu-row > .tatsu-column {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.tatsu-column-inner {
+    width: 100%;
+    position: relative;
+    border-style: solid;
+    border-color: transparent;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.tatsu-column-inner.is_stuck {
+    z-index: 9999;
+}
+
+.tatsu-column-pad-wrap {
+    width: 100%;
+}
+
+.tatsu-eq-cols > .tatsu-row > .tatsu-column > .tatsu-column-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;    
+    display: flex;
+}
+
+.tatsu-eq-cols > .tatsu-row > .tatsu-column-align-middle > .tatsu-column-inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.tatsu-eq-cols > .tatsu-row > .tatsu-column-align-top > .tatsu-column-inner {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.tatsu-eq-cols > .tatsu-row > .tatsu-column-align-bottom > .tatsu-column-inner {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.tatsu-no-gutter > .tatsu-row > .tatsu-column {
+    padding: 0;
+}
+.tatsu-tiny-gutter > .tatsu-row > .tatsu-column {
+    padding: 0 5px;
+}
+.tatsu-small-gutter > .tatsu-row > .tatsu-column {
+    padding: 0 10px;
+}
+.tatsu-medium-gutter > .tatsu-row > .tatsu-column {
+    padding: 0 25px;
+}
+.tatsu-large-gutter > .tatsu-row > .tatsu-column {
+    padding: 0 35px;
+}
+
+
+.tatsu-row-one-col > .tatsu-column {
+    padding: 0;
+}
+
+.tatsu-one-col {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.tatsu-one-third { 
+    width:33.33%; 
+}
+
+.tatsu-one-fourth { 
+    width:25%; 
+}
+
+.tatsu-one-fifth { 
+    width:20%; 
+}
+
+.tatsu-one-half { 
+    width: 50%;
+}
+
+.tatsu-two-third { 
+    width:66.67%; 
+}
+
+.tatsu-three-fourth { 
+    width:75%; 
+}
+
+.tatsu-col-overlay-link {
+    z-index: 2;
+    cursor: pointer;
+}
+
+.tatsu-column-parallax{
+    overflow: initial;
+}
+
+.tatsu-column-pad-wrap {
+    position: relative;
+    z-index: 2;
+}
+
+.tatsu-column-bg-image-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;  
+    overflow: hidden;
+}
+.tatsu-column-bg-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*.tatsu-column *:last-child {
+    margin-bottom: 0 !important;
+}*/
+
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column {
+    margin-bottom: 0;
+}
+
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h1:last-child,
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h2:last-child,
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h3:last-child,
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h4:last-child,
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h5:last-child,
+.tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h6:last-child {
+    margin-bottom: 0;
+} 
+
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h1:last-child,
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h2:last-child,
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h3:last-child,
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h4:last-child,
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h5:last-child,
+.tatsu-section .tatsu-row-wrap:not(:last-child) > .tatsu-row > .tatsu-column > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad > h6:last-child {
+    margin-bottom: 20px;
+}
+
+.tatsu-column .tatsu-overlay {
+    transition: opacity 0.4s ease;
+}
+
+.tatsu-bg-overlay > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad,
+.tatsu-video-section > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad {
+    z-index: 1;
+    position: relative;
+}
+
+.tatsu-column.tatsu-bg-overlay > .tatsu-column-inner > .tatsu-overlay,
+.tatsu-column.tatsu-video-section > .tatsu-column-inner > .tatsu-bg-video {
+    z-index: 0;
+}
+
+.tatsu-overlay.tatsu-animate-hide,
+.tatsu-column-inner:hover > .tatsu-overlay.tatsu-animate-show {
+    opacity: 0;
+}
+
+.tatsu-column-inner:hover > .tatsu-overlay.tatsu-animate-hide,
+.tatsu-overlay.tatsu-animate-show {
+    opacity: 1;
+}
+
+.tatsu-column-pad {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tatsu-eq-cols > .tatsu-row > .tatsu-column-empty > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad {
+    width: 100%;
+}
+
+/* Testing Changes */
+
+.tatsu-module {
+    margin-bottom: 60px;
+}
+
+.tatsu-text-inner,
+.tatsu-inline-text-inner{
+    box-sizing: border-box;
+}
+
+.be-text-inner,
+.special-heading-wrap,
+.tatsu-text-inner {
+    margin-bottom: 30px;
+}
+
+.tatsu-column-pad > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.tatsu-module *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.be-button-wrap:last-child, .be-button-wrap *:last-child,
+.carousel-wrap:last-child {
+    margin-bottom: 0 !important;
+}
+
+.tatsu-column-pad .be-preview:last-child > .be-text-inner {
+    margin-bottom: 0;
+}
+
+
+.tatsu-empty-space {
+    width: 100%;
+}
+
+/** 
+ * Global Css
+ */
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+/* =========================================================================
+                                    LARGE LAPTOPS AND DESKTOPS
+   ========================================================================= */
+
+
+@media only screen and (min-width: 1367px) {
+    .tatsu-hide-desktop {
+        display: none !important;
+    }    
+}
+
+/* =========================================================================
+                                    LAPTOP
+   ========================================================================= */
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    .tatsu-hide-laptop {
+        display: none !important;
+    }    
+}
+
+@media only screen and (max-width:1280px) {
+    .tatsu-row-wrap.tatsu-wrap > .tatsu-row > .tatsu-column:not(.tatsu-one-col) .tatsu-row,
+    .tatsu-row-wrap.tatsu-row-full-width > .tatsu-row > .tatsu-column:not(.tatsu-one-half):not(.tatsu-one-col) .tatsu-row,
+    .tatsu-row-wrap.tatsu-row-full-width  > .tatsu-row > .tatsu-column.tatsu-one-half .tatsu-row-wrap:not(.tatsu-row-has-one-half) .tatsu-row,
+    .tatsu-row-wrap.tatsu-row-full-width  > .tatsu-row > .tatsu-column.tatsu-one-half .tatsu-row-wrap.tatsu-row-has-one-half:not(.tatsu-row-has-two-cols) .tatsu-row  {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .tatsu-column:not(.tatsu-one-col) .tatsu-row {
+        flex-direction: row;
+    }
+}
+/* =========================================================================
+                                    Laptop, Tablet and Mobile
+   ========================================================================= */ 
+
+@media only screen and (max-width: 1366px) {
+    .tatsu-row {
+        flex-wrap: wrap;
+    }
+}
+
+/* =========================================================================
+                                    Small Desktops & Tablet Landscape
+   ========================================================================= */ 
+
+@media only screen and (min-width : 1025px) and (max-width : 1220px) {
+    .tatsu-wrap {
+        max-width : calc(100% - 60px);
+        margin : 0 auto;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+    .tatsu-wrap {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+
+/* =========================================================================
+                                    TABLET - PORTRAIT & LANDSCAPE
+   ========================================================================= */
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .tatsu-hide-tablet {
+        display: none !important;
+    }    
+}
+
+
+/* =========================================================================
+                                    TABLET - PORTRAIT
+   ========================================================================= */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .tatsu-wrap {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+} 
+
+/* =========================================================================
+                                    TABLET & MOBILE
+   ========================================================================= */
+
+@media only screen and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .touch .tatsu-section {
+        background-attachment: scroll !important;
+    }
+    .touch .tatsu-section-background {
+        background-attachment: scroll !important;
+    }    
+}
+
+/* =========================================================================
+                                    MOBILE - PORTRAIT & LANDSCAPE
+   ========================================================================= */
+
+
+@media only screen and (max-width: 767px) {
+
+    .tatsu-fullscreen-wrap {
+        height: auto;
+        display: block;
+    }
+
+    .tatsu-section.tatsu-fullscreen {
+        height: auto;
+    }    
+
+    .tatsu-wrap {
+        max-width: 300px;
+        margin: 0 auto;
+    } 
+
+    .tatsu-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        /* -ms-flex-direction: row; */
+        /* flex-direction: column; */
+        margin:0;
+    }
+    
+    .tatsu-tiny-gutter .tatsu-row,
+    .tatsu-large-gutter .tatsu-row,
+    .tatsu-small-gutter .tatsu-row,
+    .tatsu-medium-gutter .tatsu-row {
+         margin: 0px;
+    }
+
+    .tatsu-swap-cols > .tatsu-row > .tatsu-column:last-child{
+        order : 1;
+    }   
+    .tatsu-swap-cols > .tatsu-row > .tatsu-column:first-child {
+        order : 2;
+    }
+    .tatsu-column,
+    .tatsu-row > .tatsu-column.tatsu-one-col,
+    .tatsu-row > .tatsu-column.tatsu-one-half,
+    .tatsu-row > .tatsu-column.tatsu-one-third,
+    .tatsu-row > .tatsu-column.tatsu-one-fourth,
+    .tatsu-row > .tatsu-column.tatsu-one-fifth,
+    .tatsu-row > .tatsu-column.tatsu-two-third,
+    .tatsu-row > .tatsu-column.tatsu-three-fourth {
+        width: 100%;
+        /* padding: 0 !important; */
+        padding: 0;
+    }
+
+    .tatsu-eq-cols > .tatsu-row > .tatsu-column.tatsu-column-empty:not(.tatsu-column-no-bg) {
+         min-height: 350px;
+    } 
+
+    .tatsu-column-no-bg.tatsu-column-empty > .tatsu-column-inner > .tatsu-column-pad-wrap > .tatsu-column-pad {
+        padding: 0 !important;
+    }
+       
+    .tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column {
+        margin-bottom: 50px;
+    } 
+
+    .tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column > .tatsu-column-inner {
+        margin-bottom: 0px;
+    }
+
+    .tatsu-eq-cols > .tatsu-row > .tatsu-column,
+    .tatsu-section .tatsu-eq-cols:last-child > .tatsu-row > .tatsu-column,
+    .tatsu-section .tatsu-zero-margin:last-child > .tatsu-row > .tatsu-column:last-child,
+    .tatsu-section .tatsu-row-wrap:last-child > .tatsu-row > .tatsu-column:last-child {
+        margin-bottom: 0;
+    }
+
+    .tatsu-fullscreen-cols > .tatsu-row {
+        height: auto;
+    }
+
+    .tatsu-hide-mobile {
+        display: none !important;
+    }
+
+}
+
+/* =========================================================================
+                                    MOBILE LANDSCAPE
+   ========================================================================= */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .tatsu-wrap {
+        max-width: 440px;
+        margin: 0 auto;
+    } 
+} 
+
+/* =========================================================================
+                                   UTILITY
+   ========================================================================= */
+
+.tatsu-clearfix:before,
+.tatsu-clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.tatsu-clearfix:after {
+    clear: both;
+}
+
+
+/* =========================================================================
+                                   Border Radius
+   ========================================================================= */
+
+.tatsu-single-image-inner{
+    overflow: hidden;
+    /* border-style: solid; */
+} 
+
+
+.entry-content {
+    width: 100% !important;
+}
+
+/***** TATSU FORMS *************/
+.tatsu-forms-save .tatsu-form-status{
+    margin: 15px 0px;
+}
+.tatsu-forms-save .tatsu-form-status .tatsu-notification{
+    padding-left: 15px;
+    color: white;
+}

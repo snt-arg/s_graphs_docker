@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Home - v44",
+	"blog_page_title": "Blog - v44",
+	"menus": {
+		"main_nav": "Home - v44"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

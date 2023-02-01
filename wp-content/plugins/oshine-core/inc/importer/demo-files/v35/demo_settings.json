@@ -1,0 +1,10 @@
+{
+	"home_page_title": "V35 Home",
+	"blog_page_title": "V35 News",
+	"menus": {
+		"main_nav": "V35 Main Menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

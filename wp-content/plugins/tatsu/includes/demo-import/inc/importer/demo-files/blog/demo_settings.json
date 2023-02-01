@@ -1,0 +1,8 @@
+{
+	"home_page_title": "Home – Blog Demo",
+	"blog_page_title": "Blog - Blog Demo",
+	"content_plugins": {
+		"tatsu": "Tatsu"
+	},
+	"nav_menus":{"24":"Main Menu - Blog Demo","25":"Terms Menu - Blog Demo"}
+}

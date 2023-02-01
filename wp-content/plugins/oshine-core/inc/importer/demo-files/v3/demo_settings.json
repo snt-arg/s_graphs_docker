@@ -1,0 +1,16 @@
+{
+	"home_page_title": "Home - Fullscreen Slider-v3",
+	"blog_page_title": "Blog-v3",
+	"sliders": {
+		"masterslider": "v3.json",
+		"revslider": "v3-home.zip"
+	},
+	"menus": {
+		"main_nav": "V3 Main Menu"
+	},
+	"content_plugins": {
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post",
+		"revslider": "Slider Revolution"		
+	}
+}

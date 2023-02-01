@@ -1,0 +1,14 @@
+{
+	"home_page_title": "Home-v8",
+	"blog_page_title": "Blog-v8",
+	"sliders": {
+		"masterslider": "v8.json"
+	},
+	"menus": {
+		"main_nav": "V8 Main Menu"
+	},
+	"content_plugins": {
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

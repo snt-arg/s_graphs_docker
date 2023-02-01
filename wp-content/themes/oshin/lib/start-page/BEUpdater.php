@@ -1,0 +1,1 @@
+Direct script access denied.

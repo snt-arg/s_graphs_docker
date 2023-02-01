@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home - v22",
+	"sliders": {
+		"revslider": "home_v22.zip"
+	},
+	"menus": {
+		"main_nav": "V22 Main Menu"
+	},
+	"content_plugins": {
+		"revslider": "Slider Revolution",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

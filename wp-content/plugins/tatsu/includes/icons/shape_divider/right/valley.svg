@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" width="120px" height="1080px" viewBox="0 0 120 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g transform="translate(60.000000, 540.000000) scale(-1, 1) translate(-60.000000, -540.000000) " fill-rule="nonzero">
+            <polygon id="Shape" transform="translate(60.000000, 540.000000) scale(-1, 1) rotate(90.000000) translate(-60.000000, -540.000000) " points="-480 480 600 480 600 600 532.5 540 465 600 397.5 540 330 600 262.5 540 195 600 127.5 540 60 600 -7.5 540 -75 600 -142.5 540 -210 600 -277.5 540 -345 600 -412.5 540 -480 600"></polygon>
+        </g>
+    </g>
+</svg>

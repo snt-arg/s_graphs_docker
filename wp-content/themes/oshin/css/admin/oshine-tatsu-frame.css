@@ -1,0 +1,38 @@
+body.tatsu-frame.section-scroll {
+	overflow: auto !important;
+	height: auto !important;
+}
+
+html.csstransforms body.tatsu-frame.section-scroll #content {
+	opacity: 1;
+}
+
+body.tatsu-frame .single-page-nav-wrap {
+	display: none !important;
+}
+
+body.tatsu-frame .simplebar, body.tatsu-frame [data-simplebar-direction] {
+	overflow: auto;
+}
+
+.tatsu-frame .title-module-wrap {
+	display: none;
+}
+
+/*.tatsu-frame .left-sidebar-page,
+.tatsu-frame .right-sidebar-page,*/
+.tatsu-frame .page-template-page-940-php #content,
+.tatsu-frame .no-sidebar-page #content-wrap,
+.tatsu-frame .portfolio-archives.no-sidebar-page #content-wrap,
+.tatsu-frame .no-page-builder {
+	padding: 0;
+}
+
+.tatsu-frame .no-sidebar-page #content-wrap.be-wrap {
+	max-width: 100%;
+}
+
+.tatsu-frame .oshine-portfolio-module .element p,
+.tatsu-frame .oshine-gallery-module .element p {
+	display: none;
+}

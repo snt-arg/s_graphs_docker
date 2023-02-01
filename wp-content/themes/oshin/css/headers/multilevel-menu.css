@@ -1,0 +1,425 @@
+/*MultiLevel Menu*/
+.menu-container {
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	left : 50px;
+	width: calc( 100% - 100px );
+}
+.be-page-stack-right .menu-container {
+    left: 50px;
+}
+.overlay-left-align-menu .menu-container{
+	left: 0px;
+	width: 100%;
+}
+
+.special-header-menu .menu-item{
+	text-align: center;
+}
+
+.overlay-left-align-menu .special-header-menu .menu-item,
+.overlay-left-align-menu .special-header-bottom-text{
+	text-align: left;
+}
+
+.menu__level--current {
+	visibility: visible;
+}
+
+.special-header-menu .menu-item {
+	display: block;
+	position: relative;
+}
+
+body:not(.page-stack-top):not(.overlay-horizontal-menu) .special-header-menu .menu-item{
+	width: 100%;
+}
+
+.special-header-menu .menu-item > a {
+	position: relative;
+	z-index: 1;
+	color: inherit;
+}
+
+.special-header-menu .mobile-sub-menu-controller i {
+	transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+}
+.special-header-menu .mobile-sub-menu-controller.isClicked{
+	z-index: 0;
+}
+
+/*body:not(.page-stack-top) .special-header-menu .sub-menu,
+body:not(.page-stack-top) .special-header-menu .sub-menu .menu-item:last-child{
+	margin-bottom: 0px;
+}*/
+
+.page-stack-top .special-header-menu .menu-item > a,
+.overlay-horizontal-menu .special-header-menu .menu-item > a{
+	padding: 1em;
+}
+
+/* .special-header-menu .menu-iem > a[data-submenu]::after {
+	content: '\e904';
+	font-family: 'feather';
+	position: absolute;
+	right: 0;
+	padding: 0.25em 1.25em;
+	color: #2a2b30;
+} */
+
+.menu__link:hover,
+.menu__link[data-submenu]:hover::after {
+	color: #5c5edc;
+}
+
+[class^='animate-'],
+[class*=' animate-'] {
+	visibility: visible;
+}
+
+/*Animation of Special header bottom text and Special header logo*/
+
+.animate-outToRight.special-header-bottom-text,
+.animate-outToRight.special-header-logo{
+	animation: bottomTextOutToRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextOutToRight {
+	to {
+		opacity: 0;
+		transform: translate3d(5%, 0, 0);
+	}
+}
+
+.animate-outToLeft.special-header-bottom-text,
+.animate-outToLeft.special-header-logo {
+	animation: bottomTextOutToLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextOutToLeft {
+	to {
+		opacity: 0;
+		transform: translate3d(-5%, 0, 0);
+	}
+}
+
+
+.animate-outToTop.special-header-bottom-text,
+.animate-outToTop.special-header-logo{
+	animation: bottomTextOutToTop 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextOutToTop {
+	to {
+		opacity: 0;
+		transform: translate3d(0, -5%, 0);
+	}
+}
+
+
+.animate-outToBottom.special-header-bottom-text,
+.animate-outToBottom.special-header-logo {
+	animation: bottomTextOutToBottom 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextOutToBottom {
+	to {
+		opacity: 0;
+		transform: translate3d(0, 5%, 0);
+	}
+}
+
+.animate-inFromLeft.special-header-bottom-text,
+.animate-inFromLeft.special-header-logo {
+	animation: bottomTextInFromLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextInFromLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-5%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.animate-inFromRight.special-header-bottom-text,
+.animate-inFromRight.special-header-logo {
+	animation: bottomTextInFromRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextInFromRight {
+	from {
+		opacity: 0;
+		transform: translate3d(5%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.animate-inFromTop.special-header-bottom-text,
+.animate-inFromTop.special-header-logo {
+	animation: bottomTextInFromTop 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextInFromTop {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -5%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.animate-inFromBottom.special-header-bottom-text,
+.animate-inFromBottom.special-header-logo {
+	animation: bottomTextInFromBottom 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes bottomTextInFromBottom {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 5%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.overlay-center-align-menu .animate-outToRight .menu-item,
+.overlay-left-align-menu .animate-outToRight .menu-item,
+.overlay-horizontal-menu .animate-outToRight .menu-item {
+	animation: overlayItemOutToRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animate-outToRight .menu-item {
+	animation: outToRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes overlayItemOutToRight {
+	to {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+	50%{
+		opacity: 0;
+	}
+}
+
+@keyframes outToRight {
+	to {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+.overlay-center-align-menu .animate-outToLeft .menu-item,
+.overlay-left-align-menu .animate-outToLeft .menu-item,
+.overlay-horizontal-menu .animate-outToLeft .menu-item {
+	animation: overlayItemOutToLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animate-outToLeft .menu-item {
+	animation: outToLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes overlayItemOutToLeft {
+	to {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+	50%{
+		opacity: 0;
+	}
+}
+
+@keyframes outToLeft {
+	to {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+
+.animate-outToTop .menu-item {
+	animation: outToTop 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes outToTop {
+	to {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.animate-outToBottom .menu-item {
+	animation: outToBottom 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes outToBottom {
+	to {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+}
+
+.overlay-center-align-menu .animate-inFromLeft .menu-item,
+.overlay-left-align-menu .animate-inFromLeft .menu-item,
+.overlay-horizontal-menu .animate-inFromLeft .menu-item {
+	animation: overlayItemInFromLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animate-inFromLeft .menu-item {
+	animation: inFromLeft 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes overlayItemInFromLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+	50%{
+		opacity: 0;
+	}	
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes inFromLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.overlay-center-align-menu .animate-inFromRight .menu-item,
+.overlay-left-align-menu .animate-inFromRight .menu-item, 
+.overlay-horizontal-menu .animate-inFromRight .menu-item {
+	animation: overlayItemInFromRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.animate-inFromRight .menu-item {
+	animation: inFromRight 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes overlayItemInFromRight {
+	from {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+	50%{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes inFromRight {
+	from {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.animate-inFromTop .menu-item {
+	animation: inFromTop 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes inFromTop {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.animate-inFromBottom .menu-item {
+	animation: inFromBottom 700ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes inFromBottom {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 100%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+body:not(.overlay-center-align-menu):not(.overlay-left-align-menu):not(.overlay-horizontal-menu) .animate-closemenu.special-header-bottom-text,
+body:not(.overlay-center-align-menu):not(.overlay-left-align-menu):not(.overlay-horizontal-menu) .animate-closemenu.special-header-logo{
+	animation: closemenu 500ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+body:not(.overlay-center-align-menu):not(.overlay-left-align-menu):not(.overlay-horizontal-menu) .animate-closemenu .menu-item{
+	animation: closemenu 500ms both cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes closemenu {
+	to {
+		opacity: 0;	
+	}
+}
+
+.menu__back {
+	position: relative;
+	min-width: 80px;
+    display: inline-block;
+	cursor: pointer;
+}
+
+.menu__back--hidden {
+	pointer-events: none;
+	opacity: 0;
+}
+
+.special-header-menu .icon-multi-menu:before {
+	content: "\e806";
+ }
+
+ .special-header-menu .icon--arrow-left:before{
+	content: "\e744";
+	font-size: 20px;
+ }
+
+.special-header-menu .sub-menu-controller{
+	width: 30px;
+	line-height: 30px;
+	display: inline-block;
+	cursor: pointer;
+}

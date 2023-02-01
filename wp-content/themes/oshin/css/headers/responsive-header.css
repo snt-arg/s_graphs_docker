@@ -1,0 +1,81 @@
+	/* =========================================================================
+                                    TABLET
+   ========================================================================= */
+/*START HERE*/
+@media only screen and (max-width: 1279px) {
+	#navigation .menu > ul > li.mega > ul.sub-menu {
+		width: 974px;	
+		margin-left: -487px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+    .left-header #left-header-mobile{
+		display: block;
+	}
+	.left-header .layout-box-left{
+		display: block;
+	}
+	.left-header .left-strip-wrapper,
+	.left-header .sb-left{
+		display: none;
+	}
+	.left-header #main-wrapper{
+		margin-left: 0px !important;
+	}
+	#navigation,
+	#navigation-left-side,
+	#navigation-right-side {
+		display: none !important;
+	}
+    .style6 .logo{
+		/*display: block;*/
+		float: left;
+		margin-left: 30px;
+	}
+	.style2 .logo {
+		text-align: left;
+		margin-left: 30px;
+	}
+	.style2 #header-controls-left{
+		display: none;
+	}
+	.style3 .logo {
+		float: left !important;
+		position:static;
+		margin-left:30px;
+	}
+	.style5 .logo,
+	.style8 .logo,
+	.style11 .logo {
+		position: static;
+		float: left;
+		left: auto;
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+		margin-left:30px;
+	}
+	.style1 #header-controls-right{
+		padding-left: 0px;
+	}
+
+	/*Style for newly added header styles*/
+	.hamburger-nav-controller-wrap,
+	.be-left-strip-wrapper,
+	.be-sidemenu,
+	#header-controls-left{
+		display: none;
+	}
+	.style9 #header-wrap,
+	.style12 #header-wrap{
+		display: block;
+	}
+	.style9 .logo,
+	.style12 .logo{
+		float: left;
+	}
+	.style9 #header-controls-right,
+	.style12 #header-controls-right{
+		float: right;
+	}
+}

@@ -1,0 +1,2929 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-26 17:50+0530\n"
+"PO-Revision-Date: 2020-11-26 17:51+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-tatsu-admin.php:129 admin/class-tatsu-admin.php:158
+#: includes/class-tatsu-integrations.php:59 includes/class-tatsu.php:669
+msgid "Edit with Tatsu"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:130
+msgid "Switch To Wordpress Editor"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:138 builder/tatsu-index.php:96
+#: includes/class-tatsu-integrations.php:69
+msgid "Created with Sketch."
+msgstr ""
+
+#: admin/class-tatsu-admin.php:146 includes/class-tatsu-integrations.php:77
+msgid "Edit With Tatsu"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:239
+msgid "Tatsu Global Sections"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:240
+msgid "Tatsu Global Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:241
+msgctxt "Tatsu Global Section"
+msgid "Add Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:242
+msgid "All Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:243
+msgid "Add New Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:244
+msgid "Edit Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:245
+msgid "New Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:246
+msgid "View Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:247
+msgid "Search Section"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:248
+msgid "No Sections Found"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:249
+msgid "No Section Found In Trash"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:250
+msgid "Parent Section:"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:278
+msgid "Tatsu Headers"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:279
+msgid "Tatsu Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:280
+msgctxt "Tatsu Header"
+msgid "Add Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:281
+msgid "All Headers"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:282
+msgid "Add New Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:283
+msgid "Edit Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:284
+msgid "New Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:285
+msgid "View Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:286
+msgid "Search Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:287
+msgid "No Headers Found In Trash"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:314
+msgid "Tatsu Footers"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:315
+msgid "Tatsu Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:316
+msgctxt "Tatsu Footer"
+msgid "Add Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:317
+msgid "All Footers"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:318
+msgid "Add New Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:319
+msgid "Edit Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:320
+msgid "New Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:321
+msgid "View Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:322
+msgid "Search Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:323
+msgid "No Footers Found In Trash"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:414
+msgid "Global Tatsu Settings"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:427
+msgid "Google Map API Key"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:428
+msgid "Please enter your Google Maps API Key"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:438
+msgid "Lazy Load Section and Column Background Images"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:458
+msgid "Provide Access to"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:459
+msgid ""
+"The selected user roles will have access to Tatsu. Administrator and Editor "
+"has access by default"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:462
+msgid "Please select the roles"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:475
+msgid "Lazy Load Section/Column Placeholder Color"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:484 admin/class-tatsu-admin.php:505
+#: admin/partials/tatsu-admin-display.php:20
+#: admin/partials/tatsu-admin-display.php:24
+msgid "None"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:492 admin/partials/tatsu-admin-display.php:40
+msgid "Active Header"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:515 admin/partials/tatsu-admin-display.php:48
+msgid "Active Footer"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:534
+msgid "Tatsu UI Theme"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:545
+msgid "Admin Side Loading"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:546
+msgid "Debug/Plugin Compatibility Mode"
+msgstr ""
+
+#: admin/class-tatsu-admin.php:653
+msgid "Inherit from Customizer"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:32
+msgid "Tatsu Settings"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:36
+msgid "Headers & Footers Settings"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:67
+msgid "Global Section Settings"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:69
+msgid "Add New Ruleset"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:71
+msgid "Save"
+msgstr ""
+
+#: admin/partials/tatsu-admin-display.php:72
+msgid "Export"
+msgstr ""
+
+#: builder/class-tatsu-frame.php:133
+msgid "Click on a module to add it"
+msgstr ""
+
+#: builder/class-tatsu-frame.php:136
+msgid "or click anywhere here to close"
+msgstr ""
+
+#: builder/tatsu-index.php:9
+msgid "Tatsu Page Builder"
+msgstr ""
+
+#: includes/class-tatsu-colors.php:25
+msgid "Accent Color"
+msgstr ""
+
+#: includes/class-tatsu-colors.php:26
+msgid "Accent's Complimentary Color"
+msgstr ""
+
+#: includes/class-tatsu-config.php:69 includes/modules/icon_group.php:48
+#: includes/modules/text.php:77
+msgid "Hide in"
+msgstr ""
+
+#: includes/class-tatsu-config.php:77
+#: includes/header-builder/modules/header-column.php:206
+#: includes/header-builder/modules/header-row.php:268
+#: includes/header-builder/modules/logo.php:211 includes/modules/code.php:98
+#: includes/modules/column.php:1123 includes/modules/column.php:1999
+#: includes/modules/row.php:418 includes/modules/row.php:770
+#: includes/modules/section.php:975
+msgid "CSS ID"
+msgstr ""
+
+#: includes/class-tatsu-config.php:85
+#: includes/header-builder/modules/header-column.php:213
+#: includes/header-builder/modules/header-row.php:275
+#: includes/header-builder/modules/logo.php:218 includes/modules/code.php:105
+#: includes/modules/column.php:1130 includes/modules/column.php:2006
+#: includes/modules/row.php:425 includes/modules/row.php:777
+#: includes/modules/section.php:982
+msgid "CSS Classes"
+msgstr ""
+
+#: includes/class-tatsu-config.php:94
+msgid "Enable Css Animations"
+msgstr ""
+
+#: includes/class-tatsu-config.php:102 includes/modules/gradient_icon.php:681
+#: includes/modules/icon.php:856 includes/modules/svg_icon.php:439
+msgid "Animation Type"
+msgstr ""
+
+#: includes/class-tatsu-config.php:117 includes/modules/gradient_icon.php:697
+#: includes/modules/icon.php:872 includes/modules/svg_icon.php:454
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/class-tatsu-config.php:132 includes/modules/svg_icon.php:415
+#: includes/modules/svg_icon.php:430
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/class-tatsu-config.php:140
+#: includes/header-builder/modules/header-row.php:196
+#: includes/modules/column.php:755 includes/modules/column.php:1726
+#: includes/modules/inline_text.php:306 includes/modules/row.php:378
+#: includes/modules/row.php:755 includes/modules/section.php:627
+#: includes/modules/text.php:402
+msgid "Padding"
+msgstr ""
+
+#: includes/class-tatsu-config.php:156
+#: includes/header-builder/modules/hamburger-menu.php:205
+#: includes/header-builder/modules/header-divider.php:138
+#: includes/header-builder/modules/header-links.php:175
+#: includes/header-builder/modules/header-row.php:181
+#: includes/header-builder/modules/header-search.php:100
+#: includes/header-builder/modules/language-switcher.php:153
+#: includes/header-builder/modules/logo.php:197
+#: includes/header-builder/modules/nav-menu.php:235
+#: includes/header-builder/modules/sidebar-nav-menu.php:178
+#: includes/modules/accordion.php:300 includes/modules/animated_link.php:325
+#: includes/modules/button.php:347 includes/modules/button.php:839
+#: includes/modules/button_group.php:94 includes/modules/column.php:770
+#: includes/modules/column.php:1741 includes/modules/divider.php:166
+#: includes/modules/gradient_button.php:333
+#: includes/modules/gradient_button.php:786
+#: includes/modules/gradient_icon.php:704
+#: includes/modules/gsection_meta.php:136
+#: includes/modules/gsection_title.php:77 includes/modules/icon.php:332
+#: includes/modules/icon.php:879 includes/modules/icon_card.php:134
+#: includes/modules/icon_card.php:557 includes/modules/icon_group.php:59
+#: includes/modules/icon_group.php:147 includes/modules/inline_text.php:69
+#: includes/modules/inline_text.php:246 includes/modules/lists.php:547
+#: includes/modules/nav_menu_widget.php:262
+#: includes/modules/notifications.php:133 includes/modules/row.php:393
+#: includes/modules/row.php:730 includes/modules/section.php:646
+#: includes/modules/single_image.php:222 includes/modules/skills.php:338
+#: includes/modules/special_heading.php:203
+#: includes/modules/star_rating.php:222 includes/modules/svg_icon.php:394
+#: includes/modules/text.php:120 includes/modules/text.php:373
+#: includes/modules/text_with_shortcodes.php:38
+#: includes/modules/typed_text.php:228
+msgid "Margin"
+msgstr ""
+
+#: includes/class-tatsu-config.php:171 includes/modules/accordion.php:242
+#: includes/modules/button.php:894 includes/modules/column.php:786
+#: includes/modules/column.php:1779 includes/modules/gradient_button.php:813
+#: includes/modules/gradient_icon.php:491 includes/modules/icon.php:641
+#: includes/modules/image_carousel.php:412
+#: includes/modules/inline_text.php:321
+#: includes/modules/interactive_box.php:536 includes/modules/lists.php:345
+#: includes/modules/lists.php:566 includes/modules/row.php:250
+#: includes/modules/row.php:625 includes/modules/special_heading.php:281
+#: includes/modules/tabs.php:270 includes/modules/text.php:417
+#: includes/modules/wp_forms.php:331
+msgid "Border Style"
+msgstr ""
+
+#: includes/class-tatsu-config.php:200 includes/modules/accordion.php:269
+#: includes/modules/button.php:921 includes/modules/column.php:814
+#: includes/modules/column.php:1807 includes/modules/gradient_button.php:841
+#: includes/modules/gradient_icon.php:519
+#: includes/modules/gradient_icon.php:551 includes/modules/icon.php:670
+#: includes/modules/icon.php:726 includes/modules/image_carousel.php:453
+#: includes/modules/inline_text.php:348
+#: includes/modules/interactive_box.php:585 includes/modules/lists.php:372
+#: includes/modules/lists.php:592 includes/modules/row.php:278
+#: includes/modules/row.php:653 includes/modules/special_heading.php:309
+#: includes/modules/tabs.php:297 includes/modules/text.php:444
+#: includes/modules/wp_forms.php:356
+msgid "Border Width"
+msgstr ""
+
+#: includes/class-tatsu-config.php:222 includes/modules/accordion.php:211
+#: includes/modules/accordion.php:227 includes/modules/button.php:210
+#: includes/modules/button.php:292 includes/modules/button.php:741
+#: includes/modules/button.php:937 includes/modules/call_to_action.php:407
+#: includes/modules/call_to_action.php:429
+#: includes/modules/call_to_action.php:485 includes/modules/column.php:838
+#: includes/modules/column.php:1828 includes/modules/gradient_button.php:187
+#: includes/modules/gradient_button.php:275
+#: includes/modules/gradient_button.php:719
+#: includes/modules/gradient_button.php:857
+#: includes/modules/gradient_icon.php:535
+#: includes/modules/gradient_icon.php:573 includes/modules/icon.php:168
+#: includes/modules/icon.php:266 includes/modules/icon.php:689
+#: includes/modules/icon.php:741 includes/modules/image_carousel.php:473
+#: includes/modules/inline_text.php:363
+#: includes/modules/interactive_box.php:624 includes/modules/lists.php:387
+#: includes/modules/lists.php:607 includes/modules/row.php:302
+#: includes/modules/row.php:677 includes/modules/single_image.php:414
+#: includes/modules/special_heading.php:325 includes/modules/tabs.php:236
+#: includes/modules/tabs.php:255 includes/modules/text.php:459
+#: includes/modules/wp_forms.php:370
+msgid "Border Color"
+msgstr ""
+
+#: includes/class-tatsu-config.php:246 includes/modules/column.php:859
+#: includes/modules/column.php:1757 includes/modules/image_carousel.php:492
+#: includes/modules/inline_text.php:377
+#: includes/modules/interactive_box.php:662 includes/modules/row.php:447
+#: includes/modules/row.php:698 includes/modules/single_image.php:579
+#: includes/modules/text.php:473 includes/modules/wp_forms.php:387
+msgid "Border Radius"
+msgstr ""
+
+#: includes/class-tatsu-config.php:262 includes/modules/column.php:881
+#: includes/modules/column.php:2014 includes/modules/gradient_icon.php:719
+#: includes/modules/icon.php:894 includes/modules/icon_card.php:586
+#: includes/modules/image_carousel.php:439
+#: includes/modules/interactive_box.php:941
+#: includes/modules/multi_layer_image.php:301 includes/modules/row.php:432
+#: includes/modules/row.php:716 includes/modules/title_icon.php:222
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/class-tatsu-config.php:282
+#: includes/header-builder/modules/header-links.php:52
+#: includes/header-builder/modules/nav-menu.php:132
+#: includes/header-builder/modules/sidebar-nav-menu.php:86
+#: includes/modules/accordion.php:346 includes/modules/animated_heading.php:78
+#: includes/modules/animated_link.php:86
+#: includes/modules/animated_numbers.php:79 includes/modules/button.php:391
+#: includes/modules/call_to_action.php:125 includes/modules/code.php:56
+#: includes/modules/dropcap.php:61 includes/modules/dropcap2.php:78
+#: includes/modules/gallery.php:283 includes/modules/gmaps.php:143
+#: includes/modules/gradient_button.php:379
+#: includes/modules/gradient_icon.php:132 includes/modules/icon.php:370
+#: includes/modules/icon_card.php:171 includes/modules/image_carousel.php:225
+#: includes/modules/interactive_box.php:208
+#: includes/modules/interactive_box.php:891
+#: includes/modules/interactive_box.php:898
+#: includes/modules/interactive_box.php:911 includes/modules/lists.php:422
+#: includes/modules/lists.php:527 includes/modules/multi_layer_image.php:233
+#: includes/modules/nav_menu_widget.php:97
+#: includes/modules/notifications.php:48 includes/modules/process.php:433
+#: includes/modules/sidebar.php:66 includes/modules/single_image.php:291
+#: includes/modules/star_rating.php:101 includes/modules/svg_icon.php:109
+#: includes/modules/tabs.php:357 includes/modules/team.php:173
+#: includes/modules/testimonial.php:84 includes/modules/testimonial.php:152
+#: includes/modules/testimonial_carousel.php:431
+#: includes/modules/testimonial_carousel.php:453 includes/modules/text.php:160
+#: includes/modules/text.php:279 includes/modules/text_with_shortcodes.php:78
+#: includes/modules/title_icon.php:63 includes/modules/title_icon.php:251
+#: includes/modules/typed_text.php:77 includes/modules/video.php:129
+#: includes/modules/wp_forms.php:148
+msgid "Content"
+msgstr ""
+
+#: includes/class-tatsu-config.php:288
+#: includes/header-builder/modules/hamburger-menu.php:57
+#: includes/header-builder/modules/header-column.php:51
+#: includes/header-builder/modules/header-divider.php:47
+#: includes/header-builder/modules/header-links.php:61
+#: includes/header-builder/modules/header-row.php:68
+#: includes/header-builder/modules/header-search.php:56
+#: includes/header-builder/modules/language-switcher.php:71
+#: includes/header-builder/modules/logo.php:73
+#: includes/header-builder/modules/nav-menu.php:140
+#: includes/header-builder/modules/sidebar-nav-menu.php:93
+#: includes/modules/accordion.php:88 includes/modules/accordion.php:154
+#: includes/modules/animated_heading.php:86
+#: includes/modules/animated_link.php:97
+#: includes/modules/animated_link.php:176
+#: includes/modules/animated_numbers.php:95
+#: includes/modules/boilerplate.php:48 includes/modules/button.php:405
+#: includes/modules/button_group.php:50
+#: includes/modules/call_to_action.php:138 includes/modules/column.php:392
+#: includes/modules/column.php:1468 includes/modules/divider.php:56
+#: includes/modules/dropcap.php:72 includes/modules/dropcap.php:120
+#: includes/modules/dropcap2.php:88 includes/modules/gallery.php:296
+#: includes/modules/gmaps.php:153 includes/modules/gmaps.php:234
+#: includes/modules/gradient_button.php:392
+#: includes/modules/gradient_icon.php:144
+#: includes/modules/gradient_icon.php:412 includes/modules/icon.php:382
+#: includes/modules/icon.php:572 includes/modules/icon_card.php:185
+#: includes/modules/icon_card.php:267 includes/modules/icon_group.php:96
+#: includes/modules/image_carousel.php:240
+#: includes/modules/inline_text.php:106
+#: includes/modules/interactive_box.php:220
+#: includes/modules/interactive_box.php:316 includes/modules/lists.php:133
+#: includes/modules/lists.php:429 includes/modules/multi_layer_image.php:164
+#: includes/modules/multi_layer_image.php:241
+#: includes/modules/nav_menu_widget.php:113
+#: includes/modules/notifications.php:57 includes/modules/process.php:150
+#: includes/modules/process.php:368 includes/modules/row.php:151
+#: includes/modules/row.php:487 includes/modules/section.php:317
+#: includes/modules/single_image.php:307 includes/modules/skills.php:97
+#: includes/modules/skills.php:133 includes/modules/skills.php:238
+#: includes/modules/special_heading.php:71
+#: includes/modules/special_heading.php:150
+#: includes/modules/star_rating.php:111 includes/modules/svg_icon.php:118
+#: includes/modules/svg_icon.php:217 includes/modules/tabs.php:88
+#: includes/modules/tabs.php:157 includes/modules/team.php:202
+#: includes/modules/team.php:279 includes/modules/testimonial.php:102
+#: includes/modules/testimonial_carousel.php:167
+#: includes/modules/testimonial_carousel.php:229 includes/modules/text.php:173
+#: includes/modules/title_icon.php:72 includes/modules/typed_text.php:86
+#: includes/modules/wp_forms.php:155
+msgid "Style"
+msgstr ""
+
+#: includes/class-tatsu-config.php:294
+#: includes/header-builder/modules/hamburger-menu.php:88
+#: includes/header-builder/modules/header-column.php:74
+#: includes/header-builder/modules/header-divider.php:56
+#: includes/header-builder/modules/header-links.php:88
+#: includes/header-builder/modules/header-row.php:99
+#: includes/header-builder/modules/header-search.php:63
+#: includes/header-builder/modules/language-switcher.php:81
+#: includes/header-builder/modules/logo.php:102
+#: includes/header-builder/modules/nav-menu.php:203
+#: includes/header-builder/modules/sidebar-nav-menu.php:131
+#: includes/modules/accordion.php:120 includes/modules/animated_heading.php:98
+#: includes/modules/animated_link.php:142
+#: includes/modules/animated_numbers.php:135
+#: includes/modules/boilerplate.php:55 includes/modules/button.php:519
+#: includes/modules/button_group.php:57
+#: includes/modules/call_to_action.php:192 includes/modules/code.php:64
+#: includes/modules/column.php:536 includes/modules/column.php:1553
+#: includes/modules/divider.php:67 includes/modules/dropcap.php:84
+#: includes/modules/dropcap2.php:117 includes/modules/gallery.php:338
+#: includes/modules/gmaps.php:164 includes/modules/gradient_button.php:505
+#: includes/modules/gradient_icon.php:258 includes/modules/icon.php:495
+#: includes/modules/icon_card.php:235 includes/modules/icon_group.php:103
+#: includes/modules/image_carousel.php:259
+#: includes/modules/inline_text.php:141
+#: includes/modules/interactive_box.php:280 includes/modules/lists.php:151
+#: includes/modules/lists.php:441 includes/modules/multi_layer_image.php:172
+#: includes/modules/multi_layer_image.php:255
+#: includes/modules/nav_menu_widget.php:158
+#: includes/modules/notifications.php:67 includes/modules/process.php:203
+#: includes/modules/process.php:380 includes/modules/row.php:177
+#: includes/modules/row.php:511 includes/modules/section.php:436
+#: includes/modules/sidebar.php:73 includes/modules/single_image.php:321
+#: includes/modules/skills.php:109 includes/modules/skills.php:249
+#: includes/modules/special_heading.php:105
+#: includes/modules/star_rating.php:142 includes/modules/svg_icon.php:154
+#: includes/modules/tabs.php:130 includes/modules/team.php:261
+#: includes/modules/testimonial.php:127
+#: includes/modules/testimonial_carousel.php:217
+#: includes/modules/testimonial_carousel.php:441 includes/modules/text.php:235
+#: includes/modules/text_with_shortcodes.php:85
+#: includes/modules/title_icon.php:104 includes/modules/typed_text.php:99
+#: includes/modules/video.php:153 includes/modules/wp_forms.php:181
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-tatsu-config.php:302
+#: includes/header-builder/modules/hamburger-menu.php:96
+#: includes/header-builder/modules/header-divider.php:64
+#: includes/header-builder/modules/header-links.php:96
+#: includes/header-builder/modules/header-row.php:107
+#: includes/header-builder/modules/header-search.php:71
+#: includes/header-builder/modules/language-switcher.php:89
+#: includes/header-builder/modules/logo.php:110
+#: includes/header-builder/modules/nav-menu.php:211
+#: includes/header-builder/modules/sidebar-nav-menu.php:139
+#: includes/modules/accordion.php:128 includes/modules/animated_link.php:149
+#: includes/modules/button.php:527 includes/modules/button_group.php:65
+#: includes/modules/column.php:544 includes/modules/column.php:1561
+#: includes/modules/divider.php:75 includes/modules/gradient_button.php:513
+#: includes/modules/gradient_icon.php:266 includes/modules/icon.php:503
+#: includes/modules/icon_card.php:243 includes/modules/icon_group.php:111
+#: includes/modules/inline_text.php:149 includes/modules/lists.php:449
+#: includes/modules/nav_menu_widget.php:166
+#: includes/modules/notifications.php:75 includes/modules/row.php:185
+#: includes/modules/row.php:519 includes/modules/section.php:444
+#: includes/modules/single_image.php:329 includes/modules/skills.php:257
+#: includes/modules/special_heading.php:114
+#: includes/modules/star_rating.php:150 includes/modules/svg_icon.php:162
+#: includes/modules/text.php:243 includes/modules/text_with_shortcodes.php:93
+#: includes/modules/typed_text.php:106
+msgid "Spacing"
+msgstr ""
+
+#: includes/class-tatsu-config.php:310 includes/modules/accordion.php:135
+#: includes/modules/button.php:534 includes/modules/call_to_action.php:199
+#: includes/modules/call_to_action.php:470 includes/modules/column.php:552
+#: includes/modules/column.php:1569 includes/modules/gradient_button.php:520
+#: includes/modules/gradient_icon.php:281 includes/modules/icon.php:518
+#: includes/modules/image_carousel.php:267
+#: includes/modules/inline_text.php:157
+#: includes/modules/interactive_box.php:288 includes/modules/lists.php:159
+#: includes/modules/lists.php:456 includes/modules/row.php:193
+#: includes/modules/row.php:527 includes/modules/single_image.php:345
+#: includes/modules/special_heading.php:121 includes/modules/tabs.php:138
+#: includes/modules/text.php:251 includes/modules/wp_forms.php:189
+#: includes/modules/wp_forms.php:316
+msgid "Border"
+msgstr ""
+
+#: includes/class-tatsu-config.php:320 includes/modules/button.php:551
+#: includes/modules/button.php:866 includes/modules/column.php:562
+#: includes/modules/column.php:1579 includes/modules/gradient_button.php:529
+#: includes/modules/gradient_button.php:871
+#: includes/modules/gradient_icon.php:273 includes/modules/icon.php:510
+#: includes/modules/icon_card.php:250 includes/modules/image_carousel.php:277
+#: includes/modules/inline_text.php:167
+#: includes/modules/interactive_box.php:298
+#: includes/modules/multi_layer_image.php:263 includes/modules/row.php:203
+#: includes/modules/row.php:537 includes/modules/single_image.php:336
+#: includes/modules/testimonial.php:264 includes/modules/text.php:261
+#: includes/modules/text.php:388 includes/modules/title_icon.php:112
+msgid "Shadow"
+msgstr ""
+
+#: includes/class-tatsu-config.php:327 includes/modules/button.php:543
+#: includes/modules/column.php:596 includes/modules/column.php:1595
+#: includes/modules/gradient_button.php:556
+#: includes/modules/gradient_icon.php:290 includes/modules/icon.php:527
+#: includes/modules/section.php:613 includes/modules/svg_icon.php:169
+msgid "Animation"
+msgstr ""
+
+#: includes/class-tatsu-config.php:336
+#: includes/header-builder/modules/header-column.php:82
+#: includes/header-builder/modules/header-row.php:116
+#: includes/header-builder/modules/logo.php:117 includes/modules/code.php:72
+#: includes/modules/column.php:588 includes/modules/column.php:1587
+#: includes/modules/row.php:210 includes/modules/row.php:544
+#: includes/modules/section.php:452
+msgid "Identifiers"
+msgstr ""
+
+#: includes/class-tatsu-config.php:344
+#: includes/header-builder/modules/header-row.php:78
+#: includes/modules/column.php:604 includes/modules/section.php:462
+msgid "Visibility"
+msgstr ""
+
+#: includes/class-tatsu-integrations.php:58
+msgid "Edit with Gutenberg"
+msgstr ""
+
+#: includes/class-tatsu-integrations.php:88
+msgid ""
+"This post was previously edited in Tatsu. You can continue in Gutenberg, but "
+"you may lose data and formatting."
+msgstr ""
+
+#: includes/class-tatsu-integrations.php:92
+msgid "Continue with Tatsu"
+msgstr ""
+
+#: includes/class-tatsu-integrations.php:95
+msgid "Edit in Gutenberg"
+msgstr ""
+
+#: includes/class-tatsu-post-templates.php:25
+#: includes/class-tatsu-post-templates.php:28
+msgid "Tatsu Template"
+msgstr ""
+
+#: includes/class-tatsu-theme-support.php:57
+msgid "Tatsu Blank Page"
+msgstr ""
+
+#: includes/class-tatsu-theme-support.php:58
+msgid "Tatsu Page with Headers & Footers"
+msgstr ""
+
+#: includes/class-tatsu.php:677
+msgid "Tatsu Header Builder"
+msgstr ""
+
+#: includes/class-tatsu.php:685
+msgid "Tatsu Footer Builder"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:6
+msgid "Title And Video Icon"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:17
+msgid "v25 Agency Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:29
+msgid "Bright & Bold Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:41
+msgid "Jane Creative Professional Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:53
+msgid "John Photographer Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:66
+msgid "v23 Business Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:78
+#: includes/concepts/section-concepts.php:91
+msgid "Multi Purpose Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:104
+msgid "Left Text Right Image"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:116
+msgid "Right Text Left Image"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:128
+msgid "Left Text Right Image No Space Columns"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:140
+msgid "Right Text Left Image No Space Columns"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:152
+msgid "iPhone in the Middle"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:174
+msgid "iPhone Left"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:190
+msgid "Green About Intro"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:202
+msgid "Icons & Text Center Aligned"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:218
+msgid "Icon & Text Group No space between columns"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:234
+msgid "Icons & Text Left Aligned"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:250
+msgid "Client Carousel"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:260 includes/modules/team.php:161
+msgid "Team"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:272
+#: includes/modules/testimonial_carousel.php:418
+msgid "Testimonial"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:284
+msgid "Callout 1"
+msgstr ""
+
+#: includes/concepts/section-concepts.php:294
+msgid "Callout 2"
+msgstr ""
+
+#: includes/footer-builder/concepts/footer-concepts.php:5
+#: includes/header-builder/concepts/header-concepts.php:7
+msgid "Simple"
+msgstr ""
+
+#: includes/footer-builder/concepts/footer-concepts.php:15
+msgid "Shop"
+msgstr ""
+
+#: includes/footer-builder/concepts/footer-concepts.php:26
+msgid "Minimal"
+msgstr ""
+
+#: includes/footer-builder/concepts/footer-concepts.php:36
+msgid "With Subscription Box"
+msgstr ""
+
+#: includes/footer-builder/concepts/footer-concepts.php:46
+msgid "Professional"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:17
+msgid "Detailed"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:28
+msgid "Full Width Center Menu"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:38
+msgid "Center Logo"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:48
+msgid "Full Width with Social Icons"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:58
+msgid "Standard with CTA"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:68
+msgid "Sliding Menu"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:78
+msgid "Navigation below Logo"
+msgstr ""
+
+#: includes/header-builder/concepts/header-concepts.php:88
+msgid "Logo & Navigation to the left"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:42
+msgid "Hamburger Menu"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:65
+msgid "Hamburger"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:76
+#: includes/header-builder/modules/nav-menu.php:178
+msgid "Panel"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:116
+#: includes/header-builder/modules/header-search.php:87
+#: includes/modules/gradient_icon.php:462 includes/modules/icon.php:136
+#: includes/modules/icon.php:234 includes/modules/icon.php:615
+#: includes/modules/icon_card.php:444 includes/modules/icon_card.php:459
+#: includes/modules/process.php:269 includes/modules/title_icon.php:194
+msgid "Icon Color"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:132
+#: includes/modules/process.php:282
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:145
+msgid "Line Width"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:165
+msgid "Line Thickness"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:185
+msgid "Line Spacing"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:219
+msgid "Panel Width"
+msgstr ""
+
+#: includes/header-builder/modules/hamburger-menu.php:243
+msgid "Panel Background Color"
+msgstr ""
+
+#: includes/header-builder/modules/header-column.php:37
+#: includes/modules/column.php:378
+msgid "Column"
+msgstr ""
+
+#: includes/header-builder/modules/header-column.php:60
+#: includes/modules/animated_numbers.php:300
+#: includes/modules/gsection_meta.php:116
+#: includes/modules/gsection_title.php:57 includes/modules/icon_card.php:215
+#: includes/modules/interactive_box.php:328
+#: includes/modules/nav_menu_widget.php:203
+#: includes/modules/special_heading.php:263 includes/modules/team.php:249
+#: includes/modules/testimonial.php:252
+#: includes/modules/testimonial_carousel.php:335
+#: includes/modules/typed_text.php:241
+msgid "Alignment"
+msgstr ""
+
+#: includes/header-builder/modules/header-column.php:99
+#: includes/header-builder/modules/nav-menu.php:489
+#: includes/modules/column.php:1028 includes/modules/column.php:1289
+#: includes/modules/column.php:1361 includes/modules/column.php:1965
+#: includes/modules/divider.php:112 includes/modules/multi_layer_image.php:349
+#: includes/modules/single_image.php:457 includes/modules/svg_icon.php:244
+msgid "Width"
+msgstr ""
+
+#: includes/header-builder/modules/header-column.php:122
+#: includes/header-builder/modules/header-column.php:187
+#: includes/modules/icon_card.php:279 includes/modules/team.php:464
+msgid "Horizontal"
+msgstr ""
+
+#: includes/header-builder/modules/header-column.php:143
+#: includes/header-builder/modules/header-column.php:164
+#: includes/modules/icon_card.php:292 includes/modules/team.php:444
+msgid "Vertical"
+msgstr ""
+
+#: includes/header-builder/modules/header-divider.php:34
+#: includes/modules/column.php:1138 includes/modules/column.php:1209
+#: includes/modules/column.php:1281 includes/modules/column.php:1354
+#: includes/modules/section.php:785 includes/modules/section.php:826
+msgid "Separator"
+msgstr ""
+
+#: includes/header-builder/modules/header-divider.php:80
+#: includes/modules/lists.php:311
+msgid "Divider Width"
+msgstr ""
+
+#: includes/header-builder/modules/header-divider.php:101
+msgid "Divider Height"
+msgstr ""
+
+#: includes/header-builder/modules/header-divider.php:125
+#: includes/modules/divider.php:153 includes/modules/lists.php:330
+#: includes/modules/process.php:228
+msgid "Divider Color"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:39
+#: includes/header-builder/modules/nav-menu.php:169
+msgid "Links"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:69
+#: includes/header-builder/modules/sidebar-nav-menu.php:102
+#: includes/modules/accordion.php:98 includes/modules/animated_link.php:107
+#: includes/modules/animated_numbers.php:117 includes/modules/button.php:424
+#: includes/modules/gallery.php:325 includes/modules/gradient_button.php:410
+#: includes/modules/gradient_icon.php:164 includes/modules/icon.php:400
+#: includes/modules/icon_card.php:203 includes/modules/inline_text.php:123
+#: includes/modules/interactive_box.php:245
+#: includes/modules/nav_menu_widget.php:121 includes/modules/process.php:159
+#: includes/modules/star_rating.php:119 includes/modules/tabs.php:97
+#: includes/modules/team.php:211 includes/modules/testimonial.php:111
+#: includes/modules/testimonial_carousel.php:193 includes/modules/text.php:202
+#: includes/modules/title_icon.php:89 includes/modules/wp_forms.php:165
+msgid "Colors"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:77
+#: includes/header-builder/modules/language-switcher.php:135
+#: includes/header-builder/modules/nav-menu.php:191
+#: includes/header-builder/modules/sidebar-nav-menu.php:119
+#: includes/modules/accordion.php:108
+#: includes/modules/animated_heading.php:217
+#: includes/modules/icon_card.php:223 includes/modules/inline_text.php:130
+#: includes/modules/inline_text.php:277 includes/modules/process.php:191
+#: includes/modules/team.php:241 includes/modules/testimonial_carousel.php:184
+#: includes/modules/text.php:224 includes/modules/text.php:491
+msgid "Typography"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:112
+msgid "Link Typography"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:127
+#: includes/modules/animated_link.php:167
+msgid "Link Text"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:134
+#: includes/modules/animated_link.php:189 includes/modules/button.php:598
+#: includes/modules/call_to_action.php:279
+#: includes/modules/gradient_button.php:583
+#: includes/modules/gradient_icon.php:624 includes/modules/icon.php:806
+#: includes/modules/interactive_box.php:340
+#: includes/modules/single_image.php:648
+msgid "Link URL"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:141
+#: includes/modules/animated_link.php:197 includes/modules/button.php:605
+#: includes/modules/gradient_button.php:590
+msgid "Open in a new tab"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:149
+#: includes/header-builder/modules/nav-menu.php:423
+#: includes/header-builder/modules/sidebar-nav-menu.php:259
+msgid "Link Color"
+msgstr ""
+
+#: includes/header-builder/modules/header-links.php:162
+#: includes/header-builder/modules/nav-menu.php:442
+#: includes/header-builder/modules/sidebar-nav-menu.php:278
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:53
+#: includes/modules/row.php:136
+msgid "Row"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:86
+msgid "Transparency Settings"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:134
+msgid "Full Width Header ?"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:144
+#: includes/modules/button.php:196 includes/modules/button.php:278
+#: includes/modules/button.php:655 includes/modules/call_to_action.php:220
+#: includes/modules/column.php:623 includes/modules/column.php:1612
+#: includes/modules/gradient_button.php:172
+#: includes/modules/gradient_button.php:260
+#: includes/modules/gradient_button.php:630
+#: includes/modules/gradient_icon.php:426 includes/modules/icon.php:149
+#: includes/modules/icon.php:247 includes/modules/icon.php:585
+#: includes/modules/inline_text.php:264 includes/modules/notifications.php:95
+#: includes/modules/row.php:237 includes/modules/row.php:612
+#: includes/modules/skills.php:195 includes/modules/skills.php:325
+#: includes/modules/tabs.php:183 includes/modules/testimonial.php:176
+#: includes/modules/text.php:289
+msgid "Background Color"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:158
+msgid "Default"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:170
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:210
+msgid "Sticky Padding"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:227
+msgid "Background Color when Header is Transparent"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:240
+msgid "Border Color when Header is Transparent"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:254
+msgid "Do Not Apply Color Scheme"
+msgstr ""
+
+#: includes/header-builder/modules/header-row.php:261
+msgid "Row Title"
+msgstr ""
+
+#: includes/header-builder/modules/header-search.php:27
+msgid "Search ..."
+msgstr ""
+
+#: includes/header-builder/modules/header-search.php:43
+#: includes/modules/gsection_title.php:22
+msgid "Search"
+msgstr ""
+
+#: includes/header-builder/modules/language-switcher.php:58
+msgid "WPML Language Switcher"
+msgstr ""
+
+#: includes/header-builder/modules/language-switcher.php:105
+msgid "Current Language Color"
+msgstr ""
+
+#: includes/header-builder/modules/language-switcher.php:121
+msgid "Flag"
+msgstr ""
+
+#: includes/header-builder/modules/language-switcher.php:128
+msgid "Language name in current language"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:60
+msgid "Logo"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:81
+#: includes/modules/image_carousel.php:307
+msgid "Images"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:90
+#: includes/modules/column.php:1145 includes/modules/column.php:1216
+#: includes/modules/empty_space.php:48 includes/modules/gmaps.php:203
+#: includes/modules/image_carousel.php:364
+#: includes/modules/interactive_box.php:691 includes/modules/section.php:719
+#: includes/modules/section.php:833 includes/modules/section.php:873
+#: includes/modules/svg_icon.php:274
+msgid "Height"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:134
+msgid "Logo Height"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:155
+msgid "Sticky Header - Logo Height"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:176
+msgid "Default Logo"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:183
+msgid "Dark Logo"
+msgstr ""
+
+#: includes/header-builder/modules/logo.php:190
+msgid "Light Logo"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:74
+#: includes/header-builder/modules/sidebar-nav-menu.php:47
+#: includes/modules/nav_menu_widget.php:54
+msgid "CREATE OR SET A MENU"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:119
+msgid "Horizontal Menu"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:148
+msgid "Main Menu"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:159
+#: includes/header-builder/modules/nav-menu.php:572
+#: includes/header-builder/modules/sidebar-nav-menu.php:110
+#: includes/header-builder/modules/sidebar-nav-menu.php:322
+msgid "Sub Menu"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:227
+#: includes/header-builder/modules/sidebar-nav-menu.php:156
+#: includes/modules/nav_menu_widget.php:183
+msgid "Menu Name"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:252
+#: includes/header-builder/modules/sidebar-nav-menu.php:164
+msgid "Spacing between Links"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:267
+#: includes/header-builder/modules/sidebar-nav-menu.php:193
+#: includes/modules/nav_menu_widget.php:222
+msgid "Menu Color"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:283
+#: includes/header-builder/modules/sidebar-nav-menu.php:227
+#: includes/modules/nav_menu_widget.php:235
+msgid "Menu Hover Color"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:326
+msgid "Light Scheme Menu hover color"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:354
+msgid "Dark Scheme Menu hover color"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:382
+#: includes/header-builder/modules/sidebar-nav-menu.php:209
+msgid "Menu"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:403
+msgid "Panel Background"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:473
+#: includes/header-builder/modules/sidebar-nav-menu.php:309
+msgid "Link Hover BG Color"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:513
+msgid "Sub Menu Padding"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:536
+msgid "Panel Shadow"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:551
+msgid "Panel Border"
+msgstr ""
+
+#: includes/header-builder/modules/nav-menu.php:590
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/header-builder/modules/sidebar-nav-menu.php:73
+msgid "Vertical Menu"
+msgstr ""
+
+#: includes/helpers/api.php:48
+msgid "You cannot deregister core modules such as Section, Row or Columns"
+msgstr ""
+
+#: includes/helpers/api.php:55
+msgid ""
+"Unable to register icon kit, either the kit name is missing or the icons "
+"array and stylesheet url are not in the correct format"
+msgstr ""
+
+#: includes/helpers/api.php:66
+msgid ""
+"You cannot register a Section Concept without entering its shortcode content"
+msgstr ""
+
+#: includes/helpers/api.php:81
+msgid "Arguments for registering a template should be an array"
+msgstr ""
+
+#: includes/helpers/api.php:89
+msgid ""
+"Unable to register the color, either the slug is missing or the color is not "
+"in a valid hex or rgb or rgba format"
+msgstr ""
+
+#: includes/helpers/api.php:184
+msgid ""
+"Unable to register svgs, either the kit name is missing or the icons array "
+"is not in the correct format"
+msgstr ""
+
+#: includes/helpers/api.php:218 includes/helpers/api.php:244
+msgid "You cannot deregister core modules such as Rows and Columns"
+msgstr ""
+
+#: includes/helpers/api.php:225
+msgid ""
+"You cannot register a Header Concept without entering its shortcode content"
+msgstr ""
+
+#: includes/helpers/api.php:251
+msgid ""
+"You cannot register a Footer Concept without entering its shortcode content"
+msgstr ""
+
+#: includes/helpers/helpers.php:553
+msgid "Post Meta"
+msgstr ""
+
+#: includes/helpers/helpers.php:562
+msgid "Date Format"
+msgstr ""
+
+#: includes/helpers/helpers.php:649
+msgid "Incorrect Arguments to register a consent condition"
+msgstr ""
+
+#: includes/helpers/helpers.php:683
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/helpers/helpers.php:686
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/helpers/helpers.php:689
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: includes/helpers/helpers.php:713
+msgid "Instagram Error : "
+msgstr ""
+
+#: includes/helpers/helpers.php:722
+msgid ""
+"Instagram Error : Access Token is not entered under OSHINE OPTIONS > GLOBAL "
+"SITE LAYOUT AND SETTINGS. Access Token for your account can be generated "
+"from https://developers.facebook.com/docs/instagram-basic-display-api/"
+"getting-started/"
+msgstr ""
+
+#: includes/helpers/helpers.php:730
+msgid "Instagram Error :"
+msgstr ""
+
+#: includes/helpers/helpers.php:773 includes/helpers/helpers.php:778
+msgid "Flickr Error : "
+msgstr ""
+
+#: includes/helpers/helpers.php:773
+msgid "Unknown Error"
+msgstr ""
+
+#: includes/helpers/helpers.php:997
+msgid "Consent to display content from YouTube."
+msgstr ""
+
+#: includes/helpers/helpers.php:1002
+msgid "Consent to display content from Vimeo."
+msgstr ""
+
+#: includes/helpers/helpers.php:1007
+msgid "Consent to display content from Google Maps."
+msgstr ""
+
+#: includes/helpers/helpers.php:1044
+msgctxt "revision date short format"
+msgid "j M @ H:i"
+msgstr ""
+
+#: includes/icons/font-awesome.php:793
+msgid "Font Awesome Icons"
+msgstr ""
+
+#: includes/icons/linea.php:15
+msgid "Linea SVG Icons"
+msgstr ""
+
+#: includes/icons/tatsu-icons.php:713
+msgid "Tatsu Icons"
+msgstr ""
+
+#: includes/integrations/typehub.php:6
+msgid "WP Forms Label"
+msgstr ""
+
+#: includes/integrations/typehub.php:21
+msgid "WP Forms Entry"
+msgstr ""
+
+#: includes/integrations/typehub.php:36
+msgid "WP Forms Sublabel"
+msgstr ""
+
+#: includes/modules/accordion.php:74
+msgid "Accordion Toggles"
+msgstr ""
+
+#: includes/modules/accordion.php:165
+msgid "Collapse content"
+msgstr ""
+
+#: includes/modules/accordion.php:172 includes/modules/call_to_action.php:259
+#: includes/modules/dropcap2.php:225 includes/modules/gallery.php:530
+#: includes/modules/icon_card.php:527 includes/modules/process.php:295
+#: includes/modules/skills.php:166 includes/modules/skills.php:283
+#: includes/modules/special_heading.php:216 includes/modules/tabs.php:170
+msgid "Title Color"
+msgstr ""
+
+#: includes/modules/accordion.php:185 includes/modules/process.php:307
+#: includes/modules/special_heading.php:249
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/modules/accordion.php:198
+msgid "Content Background Color"
+msgstr ""
+
+#: includes/modules/accordion.php:284 includes/modules/dropcap2.php:206
+#: includes/modules/icon_card.php:520 includes/modules/interactive_box.php:856
+#: includes/modules/nav_menu_widget.php:255 includes/modules/process.php:215
+msgid "Title Font"
+msgstr ""
+
+#: includes/modules/accordion.php:292 includes/modules/process.php:222
+msgid "Content Font"
+msgstr ""
+
+#: includes/modules/accordion.php:330
+msgid "Toggle"
+msgstr ""
+
+#: includes/modules/accordion.php:339 includes/modules/call_to_action.php:146
+#: includes/modules/call_to_action.php:233 includes/modules/icon_card.php:506
+#: includes/modules/interactive_box.php:849
+#: includes/modules/interactive_box.php:863
+#: includes/modules/interactive_box.php:876 includes/modules/process.php:426
+#: includes/modules/skills.php:273 includes/modules/special_heading.php:142
+#: includes/modules/tabs.php:343
+msgid "Title"
+msgstr ""
+
+#: includes/modules/animated_heading.php:66
+msgid "Animated Heading"
+msgstr ""
+
+#: includes/modules/animated_heading.php:117
+#: includes/modules/typed_text.php:147
+msgid "Tag to use"
+msgstr ""
+
+#: includes/modules/animated_heading.php:135
+msgid "Effect"
+msgstr ""
+
+#: includes/modules/animated_heading.php:153
+#: includes/modules/animated_link.php:246 includes/modules/button.php:183
+#: includes/modules/button.php:265 includes/modules/button.php:695
+#: includes/modules/gradient_button.php:158
+#: includes/modules/gradient_button.php:246
+#: includes/modules/gradient_button.php:662
+#: includes/modules/notifications.php:112 includes/modules/text.php:302
+msgid "Text Color"
+msgstr ""
+
+#: includes/modules/animated_heading.php:166
+msgid "Line Color"
+msgstr ""
+
+#: includes/modules/animated_heading.php:188
+#: includes/modules/animated_link.php:233 includes/modules/boilerplate.php:68
+#: includes/modules/button.php:642 includes/modules/button_group.php:82
+#: includes/modules/column.php:970 includes/modules/column.php:1920
+#: includes/modules/divider.php:133 includes/modules/gradient_button.php:614
+#: includes/modules/gradient_icon.php:607 includes/modules/icon.php:756
+#: includes/modules/icon_group.php:128
+#: includes/modules/multi_layer_image.php:372
+#: includes/modules/single_image.php:381 includes/modules/star_rating.php:180
+#: includes/modules/svg_icon.php:344 includes/modules/title_icon.php:149
+msgid "Align"
+msgstr ""
+
+#: includes/modules/animated_heading.php:211
+msgid "Duration"
+msgstr ""
+
+#: includes/modules/animated_link.php:74
+msgid "Animated Link"
+msgstr ""
+
+#: includes/modules/animated_link.php:115 includes/modules/button.php:432
+#: includes/modules/button.php:462 includes/modules/button.php:492
+#: includes/modules/button.php:559 includes/modules/call_to_action.php:164
+#: includes/modules/column.php:570 includes/modules/gradient_button.php:418
+#: includes/modules/gradient_button.php:448
+#: includes/modules/gradient_button.php:478
+#: includes/modules/gradient_button.php:537
+#: includes/modules/gradient_icon.php:172
+#: includes/modules/gradient_icon.php:201
+#: includes/modules/gradient_icon.php:231 includes/modules/icon.php:408
+#: includes/modules/icon.php:438 includes/modules/icon.php:468
+#: includes/modules/interactive_box.php:253
+#: includes/modules/nav_menu_widget.php:130 includes/modules/process.php:168
+#: includes/modules/tabs.php:105 includes/modules/team.php:218
+msgid "Normal"
+msgstr ""
+
+#: includes/modules/animated_link.php:123 includes/modules/button.php:441
+#: includes/modules/button.php:471 includes/modules/button.php:501
+#: includes/modules/button.php:567 includes/modules/call_to_action.php:173
+#: includes/modules/column.php:577 includes/modules/gradient_button.php:427
+#: includes/modules/gradient_button.php:457
+#: includes/modules/gradient_button.php:487
+#: includes/modules/gradient_button.php:545
+#: includes/modules/gradient_icon.php:181
+#: includes/modules/gradient_icon.php:210
+#: includes/modules/gradient_icon.php:240 includes/modules/icon.php:417
+#: includes/modules/icon.php:447 includes/modules/icon.php:477
+#: includes/modules/interactive_box.php:263
+#: includes/modules/nav_menu_widget.php:137 includes/modules/process.php:178
+#: includes/modules/team.php:228
+msgid "Hover"
+msgstr ""
+
+#: includes/modules/animated_link.php:205
+msgid "Custom Font Size"
+msgstr ""
+
+#: includes/modules/animated_link.php:213
+#: includes/modules/special_heading.php:163
+msgid "Font Size"
+msgstr ""
+
+#: includes/modules/animated_link.php:259 includes/modules/button.php:224
+#: includes/modules/button.php:306 includes/modules/button.php:708
+#: includes/modules/gradient_button.php:202
+#: includes/modules/gradient_button.php:290
+#: includes/modules/gradient_button.php:678
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/modules/animated_link.php:281
+msgid "Line/Arrow Color"
+msgstr ""
+
+#: includes/modules/animated_link.php:299
+msgid "Line/Arrow Hover Color"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:63
+msgid "Animated Numbers"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:103
+msgid "Font Sizes"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:148
+#: includes/modules/animated_numbers.php:175
+#: includes/modules/animated_numbers.php:243
+msgid "Number"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:154
+#: includes/modules/animated_numbers.php:192
+#: includes/modules/animated_numbers.php:258
+#: includes/modules/icon_card.php:543
+msgid "Caption"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:160
+#: includes/modules/animated_numbers.php:209
+#: includes/modules/animated_numbers.php:273
+msgid "Prefix"
+msgstr ""
+
+#: includes/modules/animated_numbers.php:166
+#: includes/modules/animated_numbers.php:226
+#: includes/modules/animated_numbers.php:288
+msgid "Suffix"
+msgstr ""
+
+#: includes/modules/boilerplate.php:36
+msgid "Module Name"
+msgstr ""
+
+#: includes/modules/button.php:237 includes/modules/button.php:319
+#: includes/modules/button.php:675 includes/modules/gradient_button.php:216
+#: includes/modules/gradient_button.php:304
+#: includes/modules/gradient_button.php:646
+#: includes/modules/gradient_icon.php:444 includes/modules/icon.php:200
+#: includes/modules/icon.php:298 includes/modules/icon.php:600
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/modules/button.php:251 includes/modules/button.php:333
+#: includes/modules/button.php:755 includes/modules/gradient_button.php:231
+#: includes/modules/gradient_button.php:319
+#: includes/modules/gradient_button.php:736
+#: includes/modules/gradient_icon.php:591 includes/modules/icon.php:215
+#: includes/modules/icon.php:313 includes/modules/icon.php:708
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/modules/button.php:375 includes/modules/call_to_action.php:156
+#: includes/modules/wp_forms.php:290
+msgid "Button"
+msgstr ""
+
+#: includes/modules/button.php:413 includes/modules/gradient_button.php:401
+#: includes/modules/gradient_icon.php:152
+#: includes/modules/testimonial_carousel.php:175
+#: includes/modules/title_icon.php:80
+msgid "Style and Alignment"
+msgstr ""
+
+#: includes/modules/button.php:454 includes/modules/gradient_button.php:440
+#: includes/modules/gradient_icon.php:193 includes/modules/icon.php:430
+#: includes/modules/text.php:210
+msgid "Light Scheme Colors"
+msgstr ""
+
+#: includes/modules/button.php:484 includes/modules/gradient_button.php:470
+#: includes/modules/gradient_icon.php:223 includes/modules/icon.php:460
+#: includes/modules/text.php:217
+msgid "Dark Scheme Colors"
+msgstr ""
+
+#: includes/modules/button.php:587 includes/modules/gradient_button.php:572
+#: includes/modules/wp_forms.php:234
+msgid "Text"
+msgstr ""
+
+#: includes/modules/button.php:614 includes/modules/column.php:729
+#: includes/modules/column.php:1705 includes/modules/dropcap.php:133
+#: includes/modules/gradient_icon.php:319 includes/modules/icon.php:557
+#: includes/modules/section.php:587 includes/modules/svg_icon.php:229
+msgid "Size"
+msgstr ""
+
+#: includes/modules/button.php:629
+msgid "Shape"
+msgstr ""
+
+#: includes/modules/button.php:722 includes/modules/gradient_button.php:692
+#: includes/modules/single_image.php:394
+msgid "Border Size"
+msgstr ""
+
+#: includes/modules/button.php:769 includes/modules/gradient_icon.php:311
+#: includes/modules/icon.php:357 includes/modules/icon.php:549
+#: includes/modules/icon_card.php:319 includes/modules/icon_card.php:327
+#: includes/modules/interactive_box.php:763
+#: includes/modules/interactive_box.php:771
+#: includes/modules/interactive_box.php:816
+#: includes/modules/interactive_box.php:834 includes/modules/lists.php:474
+#: includes/modules/process.php:402 includes/modules/tabs.php:350
+#: includes/modules/team.php:415 includes/modules/team.php:429
+#: includes/modules/title_icon.php:128
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/button.php:777
+msgid "Icon Alignment"
+msgstr ""
+
+#: includes/modules/button.php:790 includes/modules/call_to_action.php:449
+#: includes/modules/gradient_button.php:751
+#: includes/modules/gradient_icon.php:640 includes/modules/icon.php:822
+msgid "Enable Lightbox Image / Video"
+msgstr ""
+
+#: includes/modules/button.php:796 includes/modules/column.php:636
+#: includes/modules/column.php:1625 includes/modules/gradient_button.php:757
+msgid "Background Image"
+msgstr ""
+
+#: includes/modules/button.php:804 includes/modules/call_to_action.php:462
+#: includes/modules/gradient_button.php:765
+#: includes/modules/gradient_icon.php:653 includes/modules/icon.php:835
+msgid "Youtube / Vimeo Url in lightbox"
+msgstr ""
+
+#: includes/modules/button.php:813 includes/modules/gradient_button.php:774
+#: includes/modules/gradient_icon.php:662 includes/modules/icon.php:844
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/modules/button.php:825
+msgid "Background Animation"
+msgstr ""
+
+#: includes/modules/button.php:880 includes/modules/gradient_button.php:885
+msgid "Shadow on hover"
+msgstr ""
+
+#: includes/modules/button_group.php:36
+msgid "Button Group"
+msgstr ""
+
+#: includes/modules/call_to_action.php:111
+msgid "Call to Action"
+msgstr ""
+
+#: includes/modules/call_to_action.php:241
+msgid "Tag"
+msgstr ""
+
+#: includes/modules/call_to_action.php:272
+msgid "Button Text"
+msgstr ""
+
+#: includes/modules/call_to_action.php:290
+msgid "Open Link in New Tab"
+msgstr ""
+
+#: includes/modules/call_to_action.php:301
+#: includes/modules/call_to_action.php:322
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/modules/call_to_action.php:343
+#: includes/modules/call_to_action.php:364
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/modules/call_to_action.php:382
+msgid "Button Border Size"
+msgstr ""
+
+#: includes/modules/call_to_action.php:455
+#: includes/modules/gradient_icon.php:646 includes/modules/icon.php:828
+msgid "Select Lightbox image / video"
+msgstr ""
+
+#: includes/modules/code.php:39
+msgid "Code"
+msgstr ""
+
+#: includes/modules/code.php:91
+msgid "Code Content"
+msgstr ""
+
+#: includes/modules/column.php:401 includes/modules/column.php:1477
+#: includes/modules/interactive_box.php:234 includes/modules/section.php:325
+#: includes/modules/wp_forms.php:217
+msgid "Background"
+msgstr ""
+
+#: includes/modules/column.php:409 includes/modules/column.php:1168
+#: includes/modules/column.php:1239 includes/modules/column.php:1312
+#: includes/modules/column.php:1384 includes/modules/column.php:1485
+#: includes/modules/interactive_box.php:454 includes/modules/section.php:333
+#: includes/modules/section.php:481 includes/modules/section.php:913
+#: includes/modules/section.php:928 includes/modules/text.php:84
+#: includes/modules/text.php:102
+msgid "Color"
+msgstr ""
+
+#: includes/modules/column.php:418 includes/modules/column.php:1493
+#: includes/modules/icon_card.php:335 includes/modules/interactive_box.php:351
+#: includes/modules/multi_layer_image.php:283 includes/modules/section.php:341
+#: includes/modules/single_image.php:204 includes/modules/single_image.php:365
+#: includes/modules/team.php:303
+msgid "Image"
+msgstr ""
+
+#: includes/modules/column.php:431 includes/modules/column.php:1505
+#: includes/modules/section.php:354 includes/modules/video.php:115
+msgid "Video"
+msgstr ""
+
+#: includes/modules/column.php:445 includes/modules/column.php:1519
+#: includes/modules/inline_text.php:114 includes/modules/text.php:181
+msgid "Width and Alignment"
+msgstr ""
+
+#: includes/modules/column.php:455 includes/modules/column.php:1528
+#: includes/modules/section.php:368 includes/modules/team.php:479
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/column.php:466
+msgid "Shape Divider"
+msgstr ""
+
+#: includes/modules/column.php:473 includes/modules/section.php:393
+msgid "Top"
+msgstr ""
+
+#: includes/modules/column.php:484 includes/modules/section.php:406
+msgid "Bottom"
+msgstr ""
+
+#: includes/modules/column.php:495
+msgid "Left"
+msgstr ""
+
+#: includes/modules/column.php:506
+msgid "Right"
+msgstr ""
+
+#: includes/modules/column.php:521 includes/modules/column.php:1538
+msgid "Column Enhancements"
+msgstr ""
+
+#: includes/modules/column.php:650 includes/modules/column.php:1639
+#: includes/modules/section.php:506
+msgid "Repeat"
+msgstr ""
+
+#: includes/modules/column.php:675 includes/modules/column.php:1660
+#: includes/modules/section.php:532
+msgid "Attachment"
+msgstr ""
+
+#: includes/modules/column.php:698 includes/modules/column.php:1679
+#: includes/modules/section.php:556 includes/modules/section.php:856
+#: includes/modules/section.php:896
+msgid "Position"
+msgstr ""
+
+#: includes/modules/column.php:895 includes/modules/column.php:1848
+#: includes/modules/section.php:665
+msgid ".MP4 Source"
+msgstr ""
+
+#: includes/modules/column.php:901 includes/modules/column.php:1854
+#: includes/modules/section.php:671
+msgid ".OGG Source"
+msgstr ""
+
+#: includes/modules/column.php:907 includes/modules/column.php:1860
+#: includes/modules/section.php:677
+msgid ".WEBM Source"
+msgstr ""
+
+#: includes/modules/column.php:916 includes/modules/column.php:1880
+#: includes/modules/interactive_box.php:426 includes/modules/section.php:686
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/modules/column.php:934 includes/modules/column.php:1866
+msgid "Overlay Type"
+msgstr ""
+
+#: includes/modules/column.php:949 includes/modules/column.php:1899
+msgid "Interaction"
+msgstr ""
+
+#: includes/modules/column.php:961
+msgid "Overlay Link"
+msgstr ""
+
+#: includes/modules/column.php:984
+msgid "Make Column Sticky"
+msgstr ""
+
+#: includes/modules/column.php:991 includes/modules/column.php:1933
+#: includes/modules/single_image.php:622
+msgid "Offset"
+msgstr ""
+
+#: includes/modules/column.php:1015 includes/modules/column.php:1952
+msgid "Parallax"
+msgstr ""
+
+#: includes/modules/column.php:1050 includes/modules/column.php:1986
+msgid "Column Spacing (In Mobile)"
+msgstr ""
+
+#: includes/modules/column.php:1063
+msgid "Image Hover Effect"
+msgstr ""
+
+#: includes/modules/column.php:1076
+msgid "Column Hover Effect"
+msgstr ""
+
+#: includes/modules/column.php:1089 includes/modules/gradient_icon.php:738
+#: includes/modules/icon.php:913
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: includes/modules/column.php:1103 includes/modules/column.php:2028
+#: includes/modules/section.php:1035
+msgid "Hide Section Overflow"
+msgstr ""
+
+#: includes/modules/column.php:1110
+msgid "Column Parallax"
+msgstr ""
+
+#: includes/modules/column.php:1184 includes/modules/column.php:1255
+#: includes/modules/section.php:959 includes/modules/section.php:967
+msgid "Flip"
+msgstr ""
+
+#: includes/modules/column.php:1194 includes/modules/column.php:1265
+#: includes/modules/column.php:1338 includes/modules/column.php:1410
+#: includes/modules/multi_layer_image.php:439 includes/modules/section.php:793
+#: includes/modules/section.php:810
+msgid "Stack Order"
+msgstr ""
+
+#: includes/modules/column.php:1327 includes/modules/column.php:1399
+#: includes/modules/section.php:943 includes/modules/section.php:951
+msgid "Invert"
+msgstr ""
+
+#: includes/modules/column.php:1425 includes/modules/section.php:1043
+msgid "Z Index"
+msgstr ""
+
+#: includes/modules/column.php:1454
+msgid "Inner Column"
+msgstr ""
+
+#: includes/modules/column.php:1911
+msgid "Link Overlay"
+msgstr ""
+
+#: includes/modules/divider.php:43
+msgid "Divider"
+msgstr ""
+
+#: includes/modules/divider.php:92
+msgid "Thickness"
+msgstr ""
+
+#: includes/modules/dropcap.php:47
+msgid "Dropcap"
+msgstr ""
+
+#: includes/modules/dropcap.php:104
+msgid "Letter to be Dropcapped"
+msgstr ""
+
+#: includes/modules/dropcap.php:112
+msgid "Icon to be Dropcapped"
+msgstr ""
+
+#: includes/modules/dropcap2.php:63
+msgid "Dropcap - 2"
+msgstr ""
+
+#: includes/modules/dropcap2.php:96
+msgid " Styling"
+msgstr ""
+
+#: includes/modules/dropcap2.php:104
+msgid " Color"
+msgstr ""
+
+#: includes/modules/dropcap2.php:136
+msgid "Letter"
+msgstr ""
+
+#: includes/modules/dropcap2.php:199
+msgid "Dropcap Title"
+msgstr ""
+
+#: includes/modules/empty_space.php:39
+msgid "Extra Spacing"
+msgstr ""
+
+#: includes/modules/gallery.php:249
+msgid "Gallery Notice : "
+msgstr ""
+
+#: includes/modules/gallery.php:249
+msgid "Images have either not been selected or couldn't be found"
+msgstr ""
+
+#: includes/modules/gallery.php:270
+msgid "Gallery"
+msgstr ""
+
+#: includes/modules/gallery.php:304
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/gallery.php:315
+msgid "Loading"
+msgstr ""
+
+#: includes/modules/gallery.php:350
+msgid "Image Source"
+msgstr ""
+
+#: includes/modules/gallery.php:363
+msgid "Upload / Select Gallery Images"
+msgstr ""
+
+#: includes/modules/gallery.php:370
+msgid "Account Name"
+msgstr ""
+
+#: includes/modules/gallery.php:378
+msgid "Images Count"
+msgstr ""
+
+#: includes/modules/gallery.php:391
+msgid "Columns"
+msgstr ""
+
+#: includes/modules/gallery.php:404
+msgid "2 Column Grid in Mobile"
+msgstr ""
+
+#: includes/modules/gallery.php:412 includes/modules/multi_layer_image.php:190
+msgid "Lazy Load Images"
+msgstr ""
+
+#: includes/modules/gallery.php:419
+msgid "Reveal images only on scroll"
+msgstr ""
+
+#: includes/modules/gallery.php:426 includes/modules/multi_layer_image.php:197
+#: includes/modules/multi_layer_image.php:426
+#: includes/modules/single_image.php:607 includes/modules/team.php:502
+msgid "Placeholder Background"
+msgstr ""
+
+#: includes/modules/gallery.php:439
+msgid "Items To Load"
+msgstr ""
+
+#: includes/modules/gallery.php:446
+msgid "Gutter Style"
+msgstr ""
+
+#: includes/modules/gallery.php:458 includes/modules/image_carousel.php:339
+msgid "Gutter Width"
+msgstr ""
+
+#: includes/modules/gallery.php:500
+msgid "Preserve Image Aspect Ratio"
+msgstr ""
+
+#: includes/modules/gallery.php:507
+msgid "Image Load Animation"
+msgstr ""
+
+#: includes/modules/gallery.php:523
+msgid "Show Title On Hover"
+msgstr ""
+
+#: includes/modules/gallery.php:544
+msgid "Image Overlay Color"
+msgstr ""
+
+#: includes/modules/gmaps.php:70
+msgid ""
+"Your Server is Unable to connect to the Google Geocoding API, kindly visit "
+"<a href=\"http://www.latlong.net/convert-address-to-lat-long.html\" target="
+"\"_blank\">THIS LINK </a>, find out the latitude and longitude of your "
+"address and enter it manually in the Google Maps Module of the Page Builder "
+msgstr ""
+
+#: includes/modules/gmaps.php:97
+msgid "Google Maps API KEY is missing"
+msgstr ""
+
+#: includes/modules/gmaps.php:131
+msgid "Google Maps"
+msgstr ""
+
+#: includes/modules/gmaps.php:181
+msgid "Address"
+msgstr ""
+
+#: includes/modules/gmaps.php:188
+msgid "Latitude"
+msgstr ""
+
+#: includes/modules/gmaps.php:195
+msgid "Longitude"
+msgstr ""
+
+#: includes/modules/gmaps.php:222
+msgid "Zoom"
+msgstr ""
+
+#: includes/modules/gmaps.php:251
+msgid "Custom Marker Pin"
+msgstr ""
+
+#: includes/modules/gradient_button.php:363
+msgid "Gradient Button"
+msgstr ""
+
+#: includes/modules/gradient_button.php:599
+msgid "Button Size"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:119
+msgid "Gradient Icon"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:334
+msgid "Icon Wrapper Size"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:368 includes/modules/icon_card.php:386
+#: includes/modules/interactive_box.php:779 includes/modules/process.php:241
+#: includes/modules/title_icon.php:136
+msgid "Icon Size"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:478 includes/modules/icon.php:187
+#: includes/modules/icon.php:285 includes/modules/icon.php:628
+msgid "Hover Icon Color"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:631 includes/modules/icon.php:813
+msgid "Open as new tab"
+msgstr ""
+
+#: includes/modules/gradient_icon.php:674 includes/modules/process.php:331
+msgid "Enable CSS Animation"
+msgstr ""
+
+#: includes/modules/gsection_meta.php:88
+msgid "Global Section Meta"
+msgstr ""
+
+#: includes/modules/gsection_meta.php:98
+msgid "Post Type"
+msgstr ""
+
+#: includes/modules/gsection_meta.php:109
+msgid "Meta Prefix"
+msgstr ""
+
+#: includes/modules/gsection_meta.php:128
+msgid "Font for Meta"
+msgstr ""
+
+#: includes/modules/gsection_title.php:24
+msgid "404"
+msgstr ""
+
+#: includes/modules/gsection_title.php:29
+msgid "BLOG"
+msgstr ""
+
+#: includes/modules/gsection_title.php:48
+msgid "Global Section Title"
+msgstr ""
+
+#: includes/modules/gsection_title.php:69
+msgid "Font for Title"
+msgstr ""
+
+#: includes/modules/icon.php:390 includes/modules/icon_card.php:193
+msgid "Shape and Size"
+msgstr ""
+
+#: includes/modules/icon.php:769
+msgid "Enable Ripple Effect"
+msgstr ""
+
+#: includes/modules/icon.php:777
+msgid "Ripple Color"
+msgstr ""
+
+#: includes/modules/icon_card.php:158
+msgid "Multi Purpose Card"
+msgstr ""
+
+#: includes/modules/icon_card.php:307 includes/modules/image_carousel.php:295
+msgid "Type"
+msgstr ""
+
+#: includes/modules/icon_card.php:355
+msgid "Background Size"
+msgstr ""
+
+#: includes/modules/icon_card.php:401 includes/modules/title_icon.php:162
+msgid "Icon Style"
+msgstr ""
+
+#: includes/modules/icon_card.php:422
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/modules/icon_card.php:474
+msgid "Enable Line Animation"
+msgstr ""
+
+#: includes/modules/icon_card.php:480 includes/modules/title_icon.php:207
+msgid "Icon Shadow"
+msgstr ""
+
+#: includes/modules/icon_card.php:513
+msgid "Title Link URL"
+msgstr ""
+
+#: includes/modules/icon_card.php:550
+msgid "Caption Font"
+msgstr ""
+
+#: includes/modules/icon_card.php:574
+msgid "Caption Color"
+msgstr ""
+
+#: includes/modules/icon_group.php:84
+msgid "Icon Group"
+msgstr ""
+
+#: includes/modules/image_carousel.php:210
+msgid "Image Carousel"
+msgstr ""
+
+#: includes/modules/image_carousel.php:317
+msgid "Center Scale Images"
+msgstr ""
+
+#: includes/modules/image_carousel.php:324
+#: includes/modules/single_image.php:597 includes/modules/team.php:492
+msgid "Lazy Load"
+msgstr ""
+
+#: includes/modules/image_carousel.php:330
+msgid "Adaptive Images"
+msgstr ""
+
+#: includes/modules/image_carousel.php:381
+msgid "Full Screen Slider"
+msgstr ""
+
+#: includes/modules/image_carousel.php:388
+msgid "Full Screen Offset"
+msgstr ""
+
+#: includes/modules/image_carousel.php:399
+msgid "Slides Per Row"
+msgstr ""
+
+#: includes/modules/image_carousel.php:508
+msgid "Slide Background Color"
+msgstr ""
+
+#: includes/modules/image_carousel.php:520
+msgid "Arrows"
+msgstr ""
+
+#: includes/modules/image_carousel.php:527
+msgid "Dots"
+msgstr ""
+
+#: includes/modules/image_carousel.php:534
+msgid "Dots Color"
+msgstr ""
+
+#: includes/modules/image_carousel.php:549
+msgid " Infinite Carousel"
+msgstr ""
+
+#: includes/modules/image_carousel.php:556
+msgid "Slide Show"
+msgstr ""
+
+#: includes/modules/image_carousel.php:564
+#: includes/modules/testimonial_carousel.php:385
+msgid "Slide Show Speed"
+msgstr ""
+
+#: includes/modules/image_carousel.php:577
+msgid "Free Scroll"
+msgstr ""
+
+#: includes/modules/image_carousel.php:584
+msgid "Stack Images in Mobile view"
+msgstr ""
+
+#: includes/modules/inline_text.php:93
+msgid "Inline Text"
+msgstr ""
+
+#: includes/modules/inline_text.php:184
+#: includes/modules/testimonial_carousel.php:259 includes/modules/text.php:318
+msgid "Content Width"
+msgstr ""
+
+#: includes/modules/inline_text.php:214 includes/modules/text.php:341
+msgid "Wrap Align"
+msgstr ""
+
+#: includes/modules/inline_text.php:227 includes/modules/text.php:354
+msgid "Text Align"
+msgstr ""
+
+#: includes/modules/inline_text.php:292
+msgid "Shadow Value"
+msgstr ""
+
+#: includes/modules/interactive_box.php:195
+msgid "Interactive Box"
+msgstr ""
+
+#: includes/modules/interactive_box.php:392
+msgid "Open in new tab"
+msgstr ""
+
+#: includes/modules/interactive_box.php:398 includes/modules/section.php:704
+msgid "Blend Mode"
+msgstr ""
+
+#: includes/modules/interactive_box.php:499
+msgid "Hover Color"
+msgstr ""
+
+#: includes/modules/interactive_box.php:722 includes/modules/section.php:755
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/modules/interactive_box.php:926
+msgid "Arrow"
+msgstr ""
+
+#: includes/modules/lists.php:119
+msgid "Lists"
+msgstr ""
+
+#: includes/modules/lists.php:175
+msgid "Lists Style"
+msgstr ""
+
+#: includes/modules/lists.php:188
+msgid "Circle the Icon/Number"
+msgstr ""
+
+#: includes/modules/lists.php:198 includes/modules/lists.php:491
+msgid "Background Color if circled"
+msgstr ""
+
+#: includes/modules/lists.php:216 includes/modules/lists.php:513
+msgid "Icon/Number Color"
+msgstr ""
+
+#: includes/modules/lists.php:228
+msgid "Enable Timeline"
+msgstr ""
+
+#: includes/modules/lists.php:241
+msgid "Timeline Color"
+msgstr ""
+
+#: includes/modules/lists.php:268
+msgid "List Item Bottom Margin"
+msgstr ""
+
+#: includes/modules/lists.php:292
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/modules/lists.php:305
+msgid "Show divider between list items"
+msgstr ""
+
+#: includes/modules/lists.php:409
+msgid "List"
+msgstr ""
+
+#: includes/modules/lists.php:481
+msgid "Circle the Icon"
+msgstr ""
+
+#: includes/modules/lists.php:534
+msgid "List Divider Color"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:148
+msgid "Multi Layer Images"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:221
+msgid "Multi Layer Image"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:290
+#: includes/modules/single_image.php:533
+msgid "Shadow Type"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:316
+msgid "Drop Shadow"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:331
+msgid "Image Offsets"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:385
+#: includes/modules/single_image.php:489
+msgid "Enable Image Overflow"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:392
+#: includes/modules/single_image.php:497
+msgid "Overflow Width"
+msgstr ""
+
+#: includes/modules/multi_layer_image.php:458
+#: includes/modules/single_image.php:429
+msgid "Id"
+msgstr ""
+
+#: includes/modules/nav_menu_widget.php:81
+msgid "Navigation Menu"
+msgstr ""
+
+#: includes/modules/nav_menu_widget.php:191
+msgid "Orientation"
+msgstr ""
+
+#: includes/modules/nav_menu_widget.php:249
+msgid "Show Arrow"
+msgstr ""
+
+#: includes/modules/notifications.php:35
+msgid "Notifications"
+msgstr ""
+
+#: includes/modules/notifications.php:126
+msgid "Notification Content"
+msgstr ""
+
+#: includes/modules/process.php:137
+msgid "Process"
+msgstr ""
+
+#: includes/modules/process.php:319
+msgid "Content Color"
+msgstr ""
+
+#: includes/modules/process.php:355
+msgid "Process Col"
+msgstr ""
+
+#: includes/modules/process.php:392
+msgid "Icon Type"
+msgstr ""
+
+#: includes/modules/process.php:410 includes/modules/svg_icon.php:188
+msgid "Svg Icon"
+msgstr ""
+
+#: includes/modules/process.php:418
+msgid "Enable Line Animate"
+msgstr ""
+
+#: includes/modules/rev_slider.php:50
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/modules/rev_slider.php:58
+msgid "Slider Name"
+msgstr ""
+
+#: includes/modules/row.php:161 includes/modules/row.php:496
+msgid "Column Structure"
+msgstr ""
+
+#: includes/modules/row.php:227
+msgid "Full Width Row"
+msgstr ""
+
+#: includes/modules/row.php:322
+msgid "Nullify default bottom margin of columns"
+msgstr ""
+
+#: includes/modules/row.php:329
+msgid "Equal height columns ?"
+msgstr ""
+
+#: includes/modules/row.php:336 includes/modules/row.php:575
+msgid "Column Spacing"
+msgstr ""
+
+#: includes/modules/row.php:352 includes/modules/row.php:590
+msgid "Custom Spacing"
+msgstr ""
+
+#: includes/modules/row.php:364
+msgid "Fullscreen Columns"
+msgstr ""
+
+#: includes/modules/row.php:371 includes/modules/row.php:602
+msgid "Swap Columns in Mobile"
+msgstr ""
+
+#: includes/modules/row.php:472
+msgid "Inner Row"
+msgstr ""
+
+#: includes/modules/row.php:561
+msgid "Nullify Default Bottom Margin Of Columns"
+msgstr ""
+
+#: includes/modules/row.php:568
+msgid "Equal Height Columns ?"
+msgstr ""
+
+#: includes/modules/section.php:303
+msgid "Section"
+msgstr ""
+
+#: includes/modules/section.php:376
+msgid "Section Height"
+msgstr ""
+
+#: includes/modules/section.php:385
+msgid "Shape Dividers"
+msgstr ""
+
+#: includes/modules/section.php:423
+#: includes/modules/testimonial_carousel.php:202
+msgid "Others"
+msgstr ""
+
+#: includes/modules/section.php:732
+msgid "Custom Height"
+msgstr ""
+
+#: includes/modules/section.php:989 includes/modules/team.php:289
+#: includes/modules/team.php:312 includes/modules/team.php:328
+#: includes/modules/team.php:518
+msgid "Name"
+msgstr ""
+
+#: includes/modules/section.php:1000
+msgid "Offset Top By"
+msgstr ""
+
+#: includes/modules/section.php:1024
+msgid "Header Color Scheme"
+msgstr ""
+
+#: includes/modules/sidebar.php:50 includes/modules/sidebar.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: includes/modules/single_image.php:211 includes/modules/single_image.php:436
+msgid "Image Size"
+msgstr ""
+
+#: includes/modules/single_image.php:277
+msgid "Single Image"
+msgstr ""
+
+#: includes/modules/single_image.php:450
+msgid "Use Adaptive Image sizes"
+msgstr ""
+
+#: includes/modules/single_image.php:548
+msgid "Custom Box Shadow"
+msgstr ""
+
+#: includes/modules/single_image.php:563
+msgid "Custom Drop Shadow"
+msgstr ""
+
+#: includes/modules/single_image.php:640
+msgid "Open In Lightbox"
+msgstr ""
+
+#: includes/modules/single_image.php:659
+msgid "Open in New tab"
+msgstr ""
+
+#: includes/modules/skills.php:84
+msgid "Skills"
+msgstr ""
+
+#: includes/modules/skills.php:121
+msgid "Direction"
+msgstr ""
+
+#: includes/modules/skills.php:144
+msgid "Skill Height"
+msgstr ""
+
+#: includes/modules/skills.php:182 includes/modules/skills.php:312
+#: includes/modules/star_rating.php:206
+msgid "Fill Color"
+msgstr ""
+
+#: includes/modules/skills.php:225
+msgid "Skill"
+msgstr ""
+
+#: includes/modules/skills.php:296
+msgid "Percentage"
+msgstr ""
+
+#: includes/modules/special_heading.php:59
+msgid "Special Title"
+msgstr ""
+
+#: includes/modules/special_heading.php:83
+msgid "Title Styling"
+msgstr ""
+
+#: includes/modules/special_heading.php:93
+msgid "Border Styling"
+msgstr ""
+
+#: includes/modules/special_heading.php:183
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/modules/special_heading.php:229
+msgid "Border/Label Color"
+msgstr ""
+
+#: includes/modules/special_heading.php:242
+msgid "Expand on Hover"
+msgstr ""
+
+#: includes/modules/special_heading.php:343
+msgid "HEADING"
+msgstr ""
+
+#: includes/modules/star_rating.php:87
+msgid "Star Rating"
+msgstr ""
+
+#: includes/modules/star_rating.php:128
+msgid "Alignments"
+msgstr ""
+
+#: includes/modules/star_rating.php:167
+msgid "Rating"
+msgstr ""
+
+#: includes/modules/star_rating.php:193
+msgid "Range Color"
+msgstr ""
+
+#: includes/modules/svg_icon.php:98
+msgid "SVG Icon"
+msgstr ""
+
+#: includes/modules/svg_icon.php:126
+msgid "Styling"
+msgstr ""
+
+#: includes/modules/svg_icon.php:139
+msgid "Line Animation"
+msgstr ""
+
+#: includes/modules/svg_icon.php:197
+msgid "Upload Custom Icon"
+msgstr ""
+
+#: includes/modules/svg_icon.php:294
+msgid "Stroke Width"
+msgstr ""
+
+#: includes/modules/svg_icon.php:313
+msgid "SVG Background Color"
+msgstr ""
+
+#: includes/modules/svg_icon.php:330
+msgid "SVG Color"
+msgstr ""
+
+#: includes/modules/svg_icon.php:357
+msgid "Enable SVG Line Animation"
+msgstr ""
+
+#: includes/modules/svg_icon.php:364
+msgid "Path Animation"
+msgstr ""
+
+#: includes/modules/svg_icon.php:379
+msgid "SVG Animation"
+msgstr ""
+
+#: includes/modules/tabs.php:75
+msgid "Tabs"
+msgstr ""
+
+#: includes/modules/tabs.php:114
+msgid "Active"
+msgstr ""
+
+#: includes/modules/tabs.php:208
+msgid "Active Title Color"
+msgstr ""
+
+#: includes/modules/tabs.php:221
+msgid "Active Background Color"
+msgstr ""
+
+#: includes/modules/tabs.php:334
+msgid "Tab"
+msgstr ""
+
+#: includes/modules/team.php:186
+msgid "Social Icons"
+msgstr ""
+
+#: includes/modules/team.php:296 includes/modules/team.php:344
+#: includes/modules/team.php:360 includes/modules/team.php:526
+#: includes/modules/testimonial.php:227
+#: includes/modules/testimonial_carousel.php:477
+msgid "Designation"
+msgstr ""
+
+#: includes/modules/team.php:373
+msgid "Facebook"
+msgstr ""
+
+#: includes/modules/team.php:380
+msgid "Twitter"
+msgstr ""
+
+#: includes/modules/team.php:387
+msgid "Google Plus"
+msgstr ""
+
+#: includes/modules/team.php:394
+msgid "Instagram"
+msgstr ""
+
+#: includes/modules/team.php:401
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/modules/team.php:408
+msgid "Email"
+msgstr ""
+
+#: includes/modules/testimonial.php:69
+msgid "Bubble Testimonial"
+msgstr ""
+
+#: includes/modules/testimonial.php:162
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/modules/testimonial.php:197
+#: includes/modules/testimonial_carousel.php:471
+msgid "Author Image"
+msgstr ""
+
+#: includes/modules/testimonial.php:203
+msgid "Author Name"
+msgstr ""
+
+#: includes/modules/testimonial.php:213
+msgid "Author Name Color"
+msgstr ""
+
+#: includes/modules/testimonial.php:237
+#: includes/modules/testimonial_carousel.php:292
+msgid "Designation Color"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:154
+msgid "Testimonials Slider"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:242
+msgid "Content Font Size"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:279
+msgid "Author Text Color"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:305
+msgid "Slider Dots Color"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:320
+msgid "Author Image Box Shadow"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:347
+msgid "Author Font"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:355
+msgid "Designation Font"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:363
+msgid " Enable Dots"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:370
+msgid "Enable Arrows"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:377
+msgid "Enable Slide Show"
+msgstr ""
+
+#: includes/modules/testimonial_carousel.php:460
+msgid "Author"
+msgstr ""
+
+#: includes/modules/text.php:145
+msgid "Text Block"
+msgstr ""
+
+#: includes/modules/text.php:186
+msgid "Wrap Alignment"
+msgstr ""
+
+#: includes/modules/text.php:193
+msgid "Text Alignment"
+msgstr ""
+
+#: includes/modules/text_with_shortcodes.php:63
+msgid "Shortcode Editor"
+msgstr ""
+
+#: includes/modules/text_with_shortcodes.php:111
+msgid "Shortcode"
+msgstr ""
+
+#: includes/modules/title_icon.php:49
+msgid "Title with Icon"
+msgstr ""
+
+#: includes/modules/title_icon.php:176
+msgid "Icon Background"
+msgstr ""
+
+#: includes/modules/title_icon.php:236
+msgid "Icon Border"
+msgstr ""
+
+#: includes/modules/typed_text.php:64
+msgid "Typed text"
+msgstr ""
+
+#: includes/modules/typed_text.php:122
+msgid "Prefix Text"
+msgstr ""
+
+#: includes/modules/typed_text.php:132
+msgid "Rotating Text"
+msgstr ""
+
+#: includes/modules/typed_text.php:139
+msgid "Suffix Text"
+msgstr ""
+
+#: includes/modules/typed_text.php:166
+msgid "Font"
+msgstr ""
+
+#: includes/modules/typed_text.php:176
+msgid "Rotated Text Color"
+msgstr ""
+
+#: includes/modules/typed_text.php:192
+msgid "Prefix and Suffix Color"
+msgstr ""
+
+#: includes/modules/typed_text.php:208
+msgid "Cursor Color"
+msgstr ""
+
+#: includes/modules/typed_text.php:221 includes/modules/video.php:198
+msgid "Loop"
+msgstr ""
+
+#: includes/modules/video.php:137
+msgid "Video Source"
+msgstr ""
+
+#: includes/modules/video.php:164
+msgid "Source"
+msgstr ""
+
+#: includes/modules/video.php:176
+msgid "Video URL"
+msgstr ""
+
+#: includes/modules/video.php:184
+msgid "Place Holder Image"
+msgstr ""
+
+#: includes/modules/video.php:191
+msgid "Autoplay"
+msgstr ""
+
+#: includes/modules/wp_forms.php:138
+msgid "WP Forms"
+msgstr ""
+
+#: includes/modules/wp_forms.php:208
+msgid "Forms"
+msgstr ""
+
+#: includes/modules/wp_forms.php:249
+msgid "Label"
+msgstr ""
+
+#: includes/modules/wp_forms.php:264
+msgid "Form Style"
+msgstr ""
+
+#: includes/modules/wp_forms.php:268
+msgid "Solid"
+msgstr ""
+
+#: includes/modules/wp_forms.php:269
+msgid "Line"
+msgstr ""
+
+#: includes/modules/wp_forms.php:270
+msgid "Rounded - Inner Shadow "
+msgstr ""
+
+#: includes/modules/wp_forms.php:271 includes/modules/wp_forms.php:282
+msgid "Pill"
+msgstr ""
+
+#: includes/modules/wp_forms.php:277
+msgid "Button Style"
+msgstr ""
+
+#: includes/modules/wp_forms.php:281
+msgid "Rounded"
+msgstr ""
+
+#: includes/modules/wp_forms.php:283
+msgid "Rounded Block"
+msgstr ""
+
+#: includes/modules/wp_forms.php:284
+msgid "Pill - Block"
+msgstr ""
+
+#: includes/modules/wp_forms.php:303
+msgid "Button Background"
+msgstr ""
+
+#: plugin-update-checker/github-checker.php:119
+msgid "There is no changelog available."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:773
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:817
+msgid "This plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:819
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:821
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""

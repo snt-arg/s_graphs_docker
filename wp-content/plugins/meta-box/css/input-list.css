@@ -1,0 +1,18 @@
+.rwmb-toggle-all-wrapper {
+	margin-top: 0;
+}
+.rwmb-input-list {
+	line-height: 1.8;
+}
+.rwmb-input-list .rwmb-input-list {
+	margin-left: 20px;
+}
+.rwmb-input-list > label {
+	display: block;
+}
+.rwmb-input-list.rwmb-inline {
+	line-height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}

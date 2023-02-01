@@ -1,0 +1,15 @@
+{
+	"home_page_title": "Home - v16",
+	"sliders": {
+		"revslider": "home_v16.zip",
+		"masterslider": "v16.json"
+	},
+	"menus": {
+		"main_nav": "V16 Main Menu"
+	},
+	"content_plugins": {
+		"revslider": "Slider Revolution",
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

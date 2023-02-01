@@ -1,0 +1,25 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_categories</taxonomy>
+		<taxonomy translate="1">portfolio_tags</taxonomy>
+	</taxonomies>
+    <admin-texts>
+        <key name="be_themes_data">
+            <key name="opt-phone-header"/>
+            <key name="opt-email-header"/>
+            <key name="opt-phone-topbar"/>
+            <key name="opt-email-topbar"/>
+            <key name="opt-header-social-media"/>
+            <key name="opt-smedia-topbar"/>
+            <key name="footer_text1"/>
+            <key name="footer_text2"/>
+            <key name="footer_text3"/>
+            <key name="single_blog_hero_section_content"/>
+            <key name="single_shop_hero_section_content"/>
+        </key>
+    </admin-texts>
+</wpml-config>

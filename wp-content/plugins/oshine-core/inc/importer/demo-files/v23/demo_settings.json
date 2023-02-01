@@ -1,0 +1,9 @@
+{
+	"home_page_title": "Home - V23",
+	"menus": {
+		"main_nav": "V23 Main Menu"
+	},	
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

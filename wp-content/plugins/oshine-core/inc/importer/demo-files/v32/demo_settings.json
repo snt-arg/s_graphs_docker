@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home - V32",
+	"sliders": {
+		"revslider": "Office Gallery.zip"
+	},	
+	"menus": {
+		"main_nav": "V32 Main Menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post",
+		"revslider": "Slider Revolution"
+	}
+}

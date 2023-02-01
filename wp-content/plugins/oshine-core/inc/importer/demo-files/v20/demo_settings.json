@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home v20",
+	"sliders": {
+		"masterslider": "v20.json"
+	},
+	"menus": {
+		"main_nav": "Oshine v20 Main Menu"
+	},
+	"content_plugins": {
+		"masterslider": "Master Slider",
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}

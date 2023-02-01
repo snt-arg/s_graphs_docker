@@ -1,0 +1,13 @@
+{
+	"home_page_title": "Home – v52",
+	"menus": {
+		"main_nav": "V52 Main Menu"
+	},
+	"sliders": {
+		"revslider": "home_v52.zip"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post",
+		"revslider": "Slider Revolution"
+	}
+}

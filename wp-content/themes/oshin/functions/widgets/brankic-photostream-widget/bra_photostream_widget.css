@@ -1,0 +1,32 @@
+/*--------------------------------------------------
+			BRANKIC PHOTOSTREAM
+---------------------------------------------------*/
+.photostream ul {
+	list-style-type: none!important;
+	padding: 0!important;
+	margin: 0!important;
+	margin-left: -10px!important;
+}
+.photostream ul li {
+	width: auto!important;
+	float: left!important;
+	margin: 0 0 10px 10px!important;
+	background-image:none!important;
+}
+.photostream a, .photostream img{
+	height: 69px!important;
+	width: 69px!important;
+	background-image:none!important;
+}
+.photostream a {
+	display: block!important;
+}
+.photostream img {
+	padding: 0px!important;
+	margin: 0px!important;
+	max-width: 100%!important;
+}
+.photostream a:hover img {
+	opacity:1;
+	filter:alpha(opacity=100)!important;
+}

@@ -1,0 +1,10 @@
+{
+	"home_page_title": "Home - v36",
+	"blog_page_title": "News - v36",
+	"menus": {
+		"main_nav": "v36 Main Menu"
+	},
+	"content_plugins": {
+		"be-portfolio-post": "BE Portfolio Post"
+	}
+}
