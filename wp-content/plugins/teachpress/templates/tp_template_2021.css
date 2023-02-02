@@ -1,0 +1,92 @@
+/**
+ * Template: teachpress 2021 template
+ * Version: 1.1
+ * Author: Michael Winkler
+*/
+/* publication box */
+div.tp_publication {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    /* border-bottom:1px solid silver; */ }
+div.tp_pub_image_left {
+    padding-top: 8px;
+    padding-bottom: 8px;}
+div.tp_pub_image_right {
+    padding-top: 8px;
+    padding-bottom: 8px;}
+div.tp_pub_info {
+    width: 100%;
+    padding: 8px;}
+div.tp_pub_number {
+    width: 40px;
+    font-size:1.0rem; 
+    padding-top: 8px;
+    flex-shrink: 0;}
+@media (max-width: 767.98px) {
+    div.tp_publication {
+        flex-flow: column; }
+    div.tp_pub_image_left, div.tp_pub_image_right {
+        padding-left: 8px; }
+    div.tp_pub_number {
+        padding-left: 8px; }
+}
+/* entry details */
+.tp_bibtex_entry {
+    font-size:0.8rem;}
+.tp_bibtex_entry pre {
+    white-space: normal;
+    word-wrap: break-word;}
+.tp_abstract_entry {
+    font-size: 1.0rem;}
+.tp_pub_author, #content p.tp_pub_author {
+    font-size:1.0rem; 
+    margin-bottom:1px; 
+    margin-top:1px;}
+.tp_pub_title, #content p.tp_pub_title {
+    font-size:1.0rem; 
+    font-weight:bold; 
+    margin-top:1px; 
+    margin-bottom:1px;}
+.tp_pub_additional, #content p.tp_pub_additional {
+    font-size:1.0rem; 
+    margin-top:1px; 
+    margin-bottom:1px;}
+.tp_pub_menu, #content p.tp_pub_menu  {
+    font-size:1.0rem; 
+    margin-top:1px; 
+    margin-bottom:1px; 
+    color:#AAAAAA;}
+.tp_pub_menu a {
+    color:#AAAAAA; 
+    text-decoration:underline; 
+    box-shadow: none;}
+.tp_pub_menu a:hover {
+    color:#AAAAAA; 
+    text-decoration:none;}
+.tp_pub_type {
+    background-color: #008bd2; 
+    color: #fff; 
+    display: inline-block; 
+    padding: 5px 5px; 
+    margin-left: 5px; 
+    font-size: 0.70rem; 
+    font-weight: bold; 
+    line-height: 1; 
+    border-radius: 2px; 
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);}
+.tp_pub_label_status {
+    background-color: orange; 
+    color: #fff; 
+    display: inline-block; 
+    padding: 5px 5px; 
+    margin-left: 5px; 
+    font-size: 0.70rem; 
+    font-weight: bold; 
+    line-height: 1; 
+    border-radius: 2px; 
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);}
+.tp_close {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.0rem; }

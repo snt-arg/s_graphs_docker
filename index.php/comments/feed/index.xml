@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments for s_graphs+	</title>
+	Comments for Situational Awareness	</title>
 	<atom:link href="https://snt-arg.github.io/s_graphs_docker/index.php/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://snt-arg.github.io/s_graphs_docker</link>
-	<description></description>
-	<lastBuildDate>Wed, 01 Feb 2023 19:33:12 +0000</lastBuildDate>
+	<description>Uni Lu</description>
+	<lastBuildDate>Thu, 02 Feb 2023 10:30:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>

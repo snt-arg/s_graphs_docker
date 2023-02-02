@@ -1,0 +1,55 @@
+/**
+ * Template: teachpress original
+ * Version: 1.3
+ * Author: Michael Winkler
+*/
+.tp_bibtex_entry {
+    font-size:0.8rem;}
+.tp_bibtex_entry pre {
+    white-space: normal;
+    word-wrap: break-word;}
+.tp_abstract_entry {
+    font-size: 0.9rem;}
+td.tp_pub_info {
+    border-bottom:1px solid silver; 
+    vertical-align:top; 
+    padding:8px;}
+.tp_pub_author, #content p.tp_pub_author {
+    font-size:small; 
+    margin-bottom:1px; 
+    margin-top:1px;}
+.tp_pub_title, #content p.tp_pub_title {
+    font-size:small; 
+    font-weight:bold; 
+    margin-top:1px; 
+    margin-bottom:1px;}
+.tp_pub_additional, #content p.tp_pub_additional {
+    font-size:small; 
+    margin-top:1px; 
+    margin-bottom:1px;}
+.tp_pub_menu, #content p.tp_pub_menu  {
+    font-size:small; 
+    margin-top:1px; 
+    margin-bottom:1px; 
+    color:#AAAAAA;}
+.tp_pub_menu a {
+    color:#AAAAAA; 
+    text-decoration:underline; 
+    box-shadow: none;}
+.tp_pub_menu a:hover {
+    color:#AAAAAA; 
+    text-decoration:none;}
+.tp_pub_menu i {
+    padding-left: 2px; 
+    padding-right: 2px; 
+    font-size: 120%; 
+    text-decoration: none;}
+.tp_pub_type {
+    font-weight:bold;}
+.tp_pub_link_image {
+    max-width: 2em; 
+    max-height: 2em;}
+.tp_close {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem; }

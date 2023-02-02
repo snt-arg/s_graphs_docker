@@ -1,0 +1,37 @@
+/**
+ * This file contains css styles for the teachpress document manager (tinyMCE plugin)
+ * @since 5.0.0
+*/
+body {color: #444; font-family: "Open Sans",sans-serif; font-size: 13px; line-height: 1.4em;}
+.wrap {padding: 10px; height: 520px; overflow-y: scroll; -webkit-font-smoothing: subpixel-antialiased; margin-bottom: 5px;}
+a {color: #0074a2;}
+ul {list-style: none;}
+ol, ul {padding: 0;}
+div#tp_select_course {padding: 0 0 15px 0;}
+.ui-state-highlight {margin-bottom: 4px;}
+.tp_file_label {cursor: pointer;}
+.tp_file_checkbox {margin:0 5px 0 5px;}
+#document_headline {font-size: 1.3em; margin: 1em 0;}
+
+/* drap and drop area */
+.ui-draggable, .ui-sortable {-ms-touch-action: none; touch-action: none;}
+.drag-drop #drag-drop-area {border: 4px dashed #bbb; height: 200px;}
+.drag-drop .drag-drop-inside {margin: 70px auto 0; width: 250px;}
+.drag-drop .drag-drop-inside p, .drag-drop-inside p.drag-drop-buttons {display: block;}
+.drag-drop-inside p.drag-drop-info {font-size: 20px;}
+.drag-drop .drag-drop-inside p {text-align: center;}
+.drag-drop-inside p {color: #aaa; font-size: 14px; margin: 5px 0; display: none;}
+
+/* form elements */
+input[type=checkbox], input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=radio], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    border: 1px solid #ddd; box-shadow: inset 0 1px 2px rgba(0,0,0,.07); background-color: #fff; color: #333; outline: 0; transition: .05s border-color ease-in-out;
+}
+
+input, select {margin: 1px; padding: 3px 5px;}
+input, select, textarea {font-size: 14px; border-radius: 0;}
+button, input, select, textarea {font-family: inherit; font-size: inherit; font-weight: inherit;}
+input, textarea {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.button:focus, .button:hover {background: #fafafa; border-color: #999; color: #222;}
+.button, .button-primary, .button-secondary {display: inline-block; text-decoration: none; font-size: 13px; line-height: 26px; height: 28px; margin: 0; padding: 0 10px 1px; cursor: pointer; border-width: 1px; border-style: solid; -webkit-appearance: none; -webkit-border-radius: 3px; border-radius: 3px; white-space: nowrap; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.button, .button-secondary {color: #555; border-color: #ccc; background: #f7f7f7;box-shadow: inset 0 1px 0 #fff,0 1px 0 rgba(0,0,0,.08); vertical-align: top;}
+.button-primary {background: #2ea2cc; border-color: #0074a2; -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15); box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15); color: #fff; text-decoration: none;}

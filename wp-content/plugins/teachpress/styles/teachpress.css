@@ -1,0 +1,80 @@
+/* container */
+.tp_postbody { padding-top: 10px; margin-right: 300px;}
+.tp_postcontent {width: 100%; min-width: 463px; float: left;}
+.tp_postcontent_right {float: right; margin-right: -300px; width: 280px;}
+
+/* Help section */
+a.teachpress_delete {color:#a00; text-decoration:none; font-size:12px; font-weight:bold;}
+a.teachpress_delete:hover {text-decoration:underline; color:red;}
+.tp_print th {border:1px solid black; padding:5px 5px 5px 5px;}
+.tp_print td {border:1px solid black; padding:5px 5px 5px 5px;}
+.teachpress_message {background-color: #fff; box-shadow: 0 1px 1px 0 rgba(0,0,0,.1); padding: 10px 12px; margin: 5px 0 15px 0;}
+.teachpress_message_green {border-left: 4px solid #7ad03a;}
+.teachpress_message_red {border-left: 4px solid red;}
+.teachpress_message_orange {border-left: 4px solid orange;}
+.teachpress_message_headline {font-weight:bold; font-size:1.1em;}
+.teachpress_message_text {padding-left:10px;}
+
+/* others */
+h3.tp_postbox {padding: 8px 12px; margin: 0; line-height: 1.4; cursor:default !important; font-size: 14px; border-bottom: 1px solid #eee;}
+.tp_mass_edit_right {width:67%; float:left; padding-left: 1%;}
+td.tp_course_child {padding-left:25px; background: url(https://snt-arg.github.io/s_graphs_docker/wp-content/plugins/teachpress/images/child.png) no-repeat 8px 6px;}
+.tp_checkbox {margin-left:8px; padding-left:7px; text-align:left;}
+.tp_actions {padding: 0 0 10px 0;}
+.tp_bookmarks_checked {color:#bbb;}
+.teachpress_cloud a {text-decoration: none; padding-left: 2px;}
+.tp_open_readme{cursor: pointer; font-weight: bold;}
+.options_for_number{display: none;}
+#tp_searchbox {float:right; padding-bottom: 5px;}
+a.tp_search_cancel {font-size:14px; font-weight:bold; text-decoration:none; padding-right:3px;}
+.tp_pub_label_status {background-color: orange; color: #fff; display: inline-block; padding: 3px 4px; margin-left: 5px; font-size: 10px; font-weight: bold; line-height: 1; border-radius: 2px; box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);}
+.slim-select select {display: none;}
+
+/* Action menus */
+.tp_row_actions {visibility: hidden;padding: 2px 0 0; color:#ddd;}
+.tp_row_actions a:hover {color:#ff6600;}
+tr:hover .tp_row_actions {visibility: visible;}
+.tp_row_actions-visible {padding: 2px 0 0;cursor: pointer;}
+a.tp_row_delete, a.tp_file_delete {color:#a00;}
+a.tp_row_delete:hover, a.tp_file_delete:hover {color:red;}
+.ss-main {padding-bottom: 5px;}
+
+/* cite screen */
+.tp_cite_text { cursor: pointer; }
+.tp_cite_bibtex { cursor: pointer; }
+
+/* assessments */
+.tp_assessment  { padding: 5px 7px; float: left; cursor: pointer; text-align: center; font-weight: bold; color:red; }
+.tp_assessment:hover { color: #d54e21; }
+.tp_assessment_comment { border-color: #999 !important; }
+.tp_assessment_passed { color:black;}
+.tp_assessment_delete {visibility: hidden;}
+.tp_assessment_selected {background-color: #0074a2; color: #fff;}
+.tp_assessment:hover .tp_assessment_delete {visibility: visible;}
+.tp_assessment_container {display: inline-block;}
+.tp_description {display: none;}
+
+/* filelists */
+.tp_filelist { padding-top: 5px; max-width: 680px;}
+.tp_filelist .tp_file { padding: 8px 8px 8px 25px; border: solid 1px #ccc; margin-bottom: 4px; z-index: 123; position: relative; background: no-repeat 4px 8px; background-size: 20px 20px;}
+.tp_file_headline { background-color: #eee !important;}
+.tp_file_headline .tp_file_name {font-weight: bold;}
+.tp_file_name i {width: 20px;}
+.tp_filelist .tp_fileprogress { background: #0074a2; height: 5px;}
+.tp_file_actions {margin-left: 0; visibility: hidden; position: absolute; right: 5px; top:10px; font-size: 12px; z-index: 1; color:#ddd;}
+.tp_file_size {margin-left: 0; visibility: visible; position: absolute; right: 5px; top:10px; font-size: 12px; z-index: 1; color:#aaa;}
+.tp_file:hover .tp_file_size{visibility:hidden;}
+.tp_file:hover .tp_file_actions{visibility:visible;}
+.tp_file a:hover {color: #ff6600;}
+a.tp_file_view {text-decoration: none;}
+
+/* jQuery UI */
+#tp_sortable>li {cursor: move; min-height: 20px; background-color: #fff;}
+.ui-state-highlight { height: 20px; padding: 8px 8px 8px 8px; border:1px dotted #ccc; }
+
+/* Responsive */
+@media only screen and (max-width: 850px) {
+    .tp_postbody { padding-top: 10px; margin-right: 0px;}
+    .tp_postcontent {width: 100%;}
+    .tp_postcontent_right {width: 100%; margin-right: 0;}
+}

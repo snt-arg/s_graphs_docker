@@ -8,16 +8,24 @@
 	>
 
 <channel>
-	<title>s_graphs+</title>
+	<title>Situational Awareness</title>
 	<atom:link href="https://snt-arg.github.io/s_graphs_docker/index.php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://snt-arg.github.io/s_graphs_docker</link>
-	<description></description>
-	<lastBuildDate>Wed, 01 Feb 2023 19:33:12 +0000</lastBuildDate>
+	<description>Uni Lu</description>
+	<lastBuildDate>Thu, 02 Feb 2023 10:30:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://snt-arg.github.io/s_graphs_docker/wp-content/uploads/2023/02/download-50x50.png</url>
+	<title>Situational Awareness</title>
+	<link>https://snt-arg.github.io/s_graphs_docker</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 </channel>
 </rss>

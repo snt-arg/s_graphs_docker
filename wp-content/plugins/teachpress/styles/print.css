@@ -1,0 +1,11 @@
+/* CSS for the print view of the WordPress backend */
+/* for WordPress 2.7+ */
+ul#adminmenu {display:none; width:0px;}
+div#wrap {position:absolute; left:0px; padding:0px; margin:0px;}	
+div#wpbody {margin:0px;}
+table#einzel_optionen, table#show_lvs_optionne, p#show_lvs_optionen_2, table#personensuche, table#teachpress_edit, table#filter, table#auswahllisten, div#einschreibungen p a, form#form1, form#einzel h2 small a, div#footer, div#wphead, div#screen-meta, a#daten_aendern_2, .button-secondary, .button-primary, .tp_break, .teachpress_select, #adminmenuwrap, #adminmenuback, .tp_actions, #wpfooter, #screen-meta-links {display:none !important;}		
+.teachpress_link {color:#000000; text-decoration:none; border:0;}	
+table.widefat *{border:1px solid silver;}
+.tp_print th {border:1px solid black;padding:5px 5px 5px 5px;}
+.tp_print td {border:1px solid black;padding:5px 5px 5px 5px;}
+div#wpcontent{margin-left:0px;}

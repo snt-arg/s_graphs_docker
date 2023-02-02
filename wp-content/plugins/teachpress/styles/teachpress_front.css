@@ -1,0 +1,118 @@
+/*****************************/
+/* shortcode: [tpcourseinfo] */
+/*****************************/
+.tp_courseinfo {width:100%; border:none;}
+.tp_courseinfo tr {}
+.tp_courseinfo td {border-bottom:1px dotted silver; padding:5px;}
+.tp_courseinfo td.tp_courseinfo_type {vertical-align:middle;}
+.tp_courseinfo td.tp_courseinfo_meta p {margin-top:3px; margin-bottom:3px;}
+.tp_courseinfo td.tp_courseinfo_lecturer {vertical-align:middle;}
+
+/******************************/
+/* shortcode: [tpenrollments] */
+/******************************/
+/* enrollment menu */
+#enrollments .tp_user_menu {padding:5px;}
+
+/* table for user's old enrollments / table fo results */ 
+#enrollments .teachpress_enr_old, #enrollments .teachpress_enr_results {border-collapse: collapse; border-bottom: 1px solid #ededed; font-size:11px; width: 100%}
+#enrollments .teachpress_enr_old th, #enrollments .teachpress_enr_results th{padding:5px; color:#333333; background-repeat:repeat-x; margin:5px; border-collapse: collapse; border-bottom: 1px solid #ededed; font-size:12px; font-weight:bold;}
+#enrollments .teachpress_enr_old tr, #enrollments .teachpress_enr_results tr {padding:5px; background-color:#FFFFFF; color:#000000; margin:5px; border-collapse: collapse; border-bottom: 1px solid #ededed; font-size:12px;}
+#enrollments .teachpress_enr_old td, #enrollments .teachpress_enr_results td {padding:5px; margin:5px; border-collapse: collapse; border-bottom: 1px solid #ededed;}
+
+/* table for current enrollments */
+#enrollments .teachpress_enr {font-size:13px; border:none;}
+#enrollments .teachpress_enr td {border:none; padding:5px; margin:5px;}
+#enrollments .teachpress_course_group {padding-bottom:10px;}
+#enrollments .teachpress_course_name {font-size:15px; font-weight:bold;}
+
+/* table for edit userdata */
+#enrollments .teachpress_enr_edit {border:1px solid silver;}
+#enrollments .teachpress_enr_edit td {padding:5px;}
+
+/* table for course results */
+tr.tp_course_result td {font-weight: bold;}
+
+/* misc */
+h3.tp_enrollments {color:#005A46;}
+.waitinglist {font-size:10px; color:#FF0000; padding-left:5px;}
+.einschreibefrist {font-size:10px; color:#FF0000;}
+.teachpress_active_tab{font-weight: bold}
+.teachpress_message {border:1px solid #f90; border-left-width:0.9em; font-weight:bold; margin:1em; padding:.5em 1em;}
+.teachpress_message_error {border:1px solid #FF0000; border-left-width:0.9em; font-weight:bold; margin:1em; padding:.5em 1em;}
+.teachpress_message_success {border:1px solid #00FF00; border-left-width:0.9em; font-weight:bold; margin:1em; padding:.5em 1em;}
+.teachpress_message_info {border:1px solid #f90; border-left-width:0.9em; font-weight:bold; margin:1em; padding:.5em 1em;}
+
+/********************************************************************************************/
+/* publication lists for the following shortcodes: [tpcloud] [tplist] [tpsinlge] [tpsearch] */
+/********************************************************************************************/
+
+/* container */
+.teachpress_publication_list {width:100%; border:none; border-spacing: 0;}
+.teachpress_publication_list td, .teachpress_course_list td {padding:5px;}
+
+/* filter and search field */
+.teachpress_filter {text-align:center; padding-top:5px;}
+.teachpress_filter select.block {display: block; width: 100%; margin-bottom:8px; margin-top:5px;}
+.teachpress_cloud {text-align:center;}
+input.tp_search_button {border: 1px solid silver; padding:6px 6px; font-size:0.9em; font-weight: bold; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background:transparent; margin:0 0 0 6px; cursor:pointer;  background: #008bd2; color: #FFFFFF;}
+input.tp_search_button:hover {background:#ECECEC; color:#333333;}
+a.tp_search_reset {background:transparent; cursor:pointer; border:none; font-weight: bold; padding:3px 6px; text-decoration: none; font-size:13px; color:#000;}
+a.tp_search_reset:hover {color:red;}
+#tp_search_input_field {width: 60%;}
+.teachpress_search_button {display:inline-block;}
+
+/* active tags */
+.teachpress_cloud a.teachpress_cloud_active {color:#008bd2; font-weight:bold;}
+.teachpress_cloud a.teachpress_cloud_active:hover {color:#008bd2; font-weight:bold; text-decoration:underline;}
+.teachpress_cloud a {color:#AAAAAA; text-decoration:none; box-shadow: none;}
+.teachpress_cloud a:hover {color:#AAAAAA; text-decoration:underline;}
+
+/* table nav */
+.tablenav {padding-top:5px; margin:6px 0 4px; height:30px; vertical-align:middle; width:100%;}
+.tablenav-pages {float:right;}
+.tablenav-pages span.inactive {border: 1px solid silver; padding:3px 6px; font-size:0.9em; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; color:#CCCCCC; font-size:12px; }
+.tablenav .tablenav-pages a {border: 1px solid; padding:3px 6px; font-size:0.9em; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size:12px; font-weight:bold;}
+.tablenav .tablenav-pages a, .tablenav .tablenav-pages a:visited {border-color:silver; color:#333333; text-decoration:none;}
+.tablenav .tablenav-pages a:hover , .tablenav .tablenav-pages a.disabled{background:#ECECEC; color:#333333;}
+.tablenav-pages .page-numbers {display: inline;}
+
+/* numbered style */
+td.tp_pub_number, td.tp_pub_number_simple {vertical-align: top; padding: 8px; border-bottom: 1px solid silver;}
+
+/* abstract, bibtex, link boxes */
+.tp_bibtex_entry, .tp_abstract_entry, .tp_links_entry{padding:8px 8px 8px 8px;}
+.tp_close_menu {margin-top:1px; margin-bottom:1px;}
+.tp_close {cursor:pointer; font-weight: bold;}
+.tp_pub_link img {margin: 0; width: 17px; height: 17px; padding: 0 1px 0 1px; display: inline;}
+ul.tp_pub_list li {padding: 3px 0 3px 0; list-style: none; margin-left:10px; font-size:0.9rem;}
+a.tp_pub_list {padding: 5px 0 5px 0px; background: no-repeat 0 3px; background-size: 18px 18px;}
+ul.tp_pub_list li i {width: 25px;}
+a.tp_show {color: inherit;}
+a.tp_show_block {font-weight: bold; text-decoration: none;}
+
+/* images */
+td.tp_pub_image_left, td.tp_pub_image_right{vertical-align: top; padding: 8px; border-bottom: 1px solid silver;}
+.tp_pub_image_bottom {text-align:center;}
+
+/*******************************************************/
+/* single publication, shortcode: [tpsingle], [tpcite] */
+/*******************************************************/
+span.tp_single_title {font-size:0.9rem;}
+span.tp_single_author {font-size:0.9rem;}
+span.tp_single_year {font-size:0.9rem;}
+span.tp_single_additional {font-size:0.9rem; font-style:italic;}
+div.tp_single_image_left{float:left; padding: 0 5px 5px 0;}
+div.tp_single_image_right{float:right; padding: 0 0 5px 5px;}
+li.tp_cite_entry {font-size:0.9rem;}
+
+/**********************************************/
+/* course overview, shortcode: [tpcourselist] */
+/**********************************************/
+#tpcourselist h3 {}
+#tpcourselist table.teachpress_course_list {border:none; width:100%;}
+.tp_course_headline{font-weight: bold; font-size: 1.2em;}
+.tp_auswahl {margin:3px; padding:3px;}
+.tp_lvs_name {font-size:14px;}
+td.tp_lvs_container {margin:5px; border-bottom:1px solid silver; border-right:1px solid silver; padding:7px 5px 7px 5px;}
+.tp_lvs_comments {padding-top:5px; margin:0; min-height:17px;}
