@@ -182,7 +182,7 @@ rosbag PATH_TO_THIS_REPO/real_dataset --clock
 
 **Command to be executed inside the docker container!**
 ```bash
-roslaunch s_graphs s_graphs.launch env:=virtual use_free_space_graph:=true 2>/dev/null
+roslaunch s_graphs s_graphs.launch env:=virtual compute_odom:=true use_free_space_graph:=true 2>/dev/null
 ```
 
 ```bash
