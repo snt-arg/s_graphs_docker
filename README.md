@@ -1,4 +1,3 @@
-[![HitCount](https://hits.dwyl.com/snt-arg/s_graphs_docker.svg?style=flat-square&show=unique)](http://hits.dwyl.com/snt-arg/s_graphs_docker)
 <p align="center">
   <h1 align="center">S-Graphs+: Real-time Localization and Mapping leveraging Hierarchical Representations</h1>
     <p align="center">
@@ -15,6 +14,10 @@
 
   <h3 align="center"><a href="https://arxiv.org/pdf/2212.11770.pdf">Paper</a> | <a href="https://www.youtube.com/watch?v=p8vLZqaV_70">Video</a></h3>
   
+</p>
+
+<p align="center">
+<h3 align="center">Depricated: Please use this link: https://github.com/snt-arg/lidar_s_graphs/ </h1>
 </p>
 
 <br>
